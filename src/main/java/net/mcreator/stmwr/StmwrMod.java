@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.stmwr.init.StmwrModTabs;
+import net.mcreator.stmwr.init.StmwrModPaintings;
 import net.mcreator.stmwr.init.StmwrModMenus;
 import net.mcreator.stmwr.init.StmwrModItems;
 import net.mcreator.stmwr.init.StmwrModEntities;
@@ -50,6 +51,8 @@ public class StmwrMod {
 		StmwrModEntities.REGISTRY.register(bus);
 
 		StmwrModTabs.REGISTRY.register(bus);
+
+		StmwrModPaintings.REGISTRY.register(bus);
 
 		StmwrModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
