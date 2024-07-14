@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:shredded_beef"
+    },
+    {
+      "item": "stmwr:tortilla"
+    },
+    {
+      "item": "stmwr:cheese"
+    }
+  ],
+  "result": {
+    "item": "stmwr:taco",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:rabbit_foot"
+    },
+    {
+      "item": "stmwr:raw_totem"
+    },
+    {
+      "item": "stmwr:ultrite"
+    }
+  ],
+  "result": {
+    "item": "stmwr:jumpboost_totem_t_1",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "item": "stmwr:godlium_ingot"
+    },
+    "d": {
+      "item": "stmwr:speed_totem_t_2"
+    }
+  },
+  "result": {
+    "item": "stmwr:speed_totem_t_3",
+    "count": 1
+  }
+}

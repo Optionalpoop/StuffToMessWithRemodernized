@@ -1,0 +1,104 @@
+{
+  "_fv": 66,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "blazed_head",
+    "enableBody": true,
+    "textureBody": "blazed_body",
+    "enableLeggings": true,
+    "textureLeggings": "blazed_leggings",
+    "enableBoots": true,
+    "textureBoots": "blazed_boots",
+    "onHelmetTick": {
+      "name": "Fireproof"
+    },
+    "onBodyTick": {
+      "name": "Fireproof"
+    },
+    "onLeggingsTick": {
+      "name": "Fireproof"
+    },
+    "onBootsTick": {
+      "name": "Fireproof"
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:STMW5"
+      }
+    ],
+    "armorTextureFile": "blazed",
+    "helmetName": "Blazed Helmet",
+    "bodyName": "Blazed Chestplate",
+    "leggingsName": "Blazed Leggings",
+    "bootsName": "Blazed Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 15,
+    "damageValueHelmet": 5,
+    "damageValueBody": 8,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 5,
+    "enchantability": 9,
+    "toughness": 2.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:BlazedIngot"
+      }
+    ]
+  }
+}

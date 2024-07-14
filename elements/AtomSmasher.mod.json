@@ -1,0 +1,39 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "atomsmasher",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Atom Smasher",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:STMW5"
+      }
+    ],
+    "efficiency": 99999.0,
+    "attackSpeed": 100.0,
+    "enchantability": 99999,
+    "damageVsEntity": 99999.0,
+    "usageCount": 99999,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.DIRT"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
+  }
+}

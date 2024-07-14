@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:advanced_material"
+    },
+    "b": {
+      "item": "stmwr:godlium_block"
+    },
+    "c": {
+      "item": "stmwr:ultrite"
+    },
+    "d": {
+      "item": "stmwr:strength_totem_t_2"
+    }
+  },
+  "result": {
+    "item": "stmwr:strength_totem_t_3",
+    "count": 1
+  }
+}

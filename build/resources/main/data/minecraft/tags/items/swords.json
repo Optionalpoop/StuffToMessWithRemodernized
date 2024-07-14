@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:steel_sword",
+    "stmwr:knife",
+    "stmwr:blazed_sword",
+    "stmwr:godlium_sword",
+    "stmwr:atom_smasher"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    },
+    "c": {
+      "item": "stmwr:raw_totem"
+    },
+    "d": {
+      "item": "stmwr:ultrite"
+    }
+  },
+  "result": {
+    "item": "stmwr:speed_totem_t_1",
+    "count": 1
+  }
+}

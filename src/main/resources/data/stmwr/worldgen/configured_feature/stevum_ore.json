@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 6,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        "state": {
+          "Name": "stmwr:stevum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:snow_block"
+          }
+        },
+        "state": {
+          "Name": "stmwr:stevum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "stmwr:stevum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "stmwr:plasticilia"
+          }
+        },
+        "state": {
+          "Name": "stmwr:stevum_ore"
+        }
+      }
+    ]
+  }
+}

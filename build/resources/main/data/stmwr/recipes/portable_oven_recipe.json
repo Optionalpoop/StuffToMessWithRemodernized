@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    },
+    "c": {
+      "item": "minecraft:flint_and_steel"
+    }
+  },
+  "result": {
+    "item": "stmwr:portable_oven",
+    "count": 1
+  }
+}

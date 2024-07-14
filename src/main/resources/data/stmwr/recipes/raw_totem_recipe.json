@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bab",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:plastika"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    }
+  },
+  "result": {
+    "item": "stmwr:raw_totem",
+    "count": 1
+  }
+}

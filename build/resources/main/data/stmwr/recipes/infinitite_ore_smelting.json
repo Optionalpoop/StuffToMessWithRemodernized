@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "stmwr:infinitite_ore"
+  },
+  "result": "stmwr:infinitite_ingot"
+}

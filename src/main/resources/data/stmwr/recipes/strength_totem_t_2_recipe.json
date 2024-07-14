@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "cga"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:blazed_sword"
+    },
+    "c": {
+      "item": "stmwr:magicite_block"
+    },
+    "d": {
+      "item": "stmwr:steel_sword"
+    },
+    "e": {
+      "item": "stmwr:strength_totem_t_1"
+    },
+    "f": {
+      "item": "minecraft:netherite_sword"
+    },
+    "g": {
+      "item": "stmwr:godlium_sword"
+    }
+  },
+  "result": {
+    "item": "stmwr:strength_totem_t_2",
+    "count": 1
+  }
+}

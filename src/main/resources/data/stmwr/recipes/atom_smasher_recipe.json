@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "stmwr:godlium_pickaxe"
+  },
+  "addition": {
+    "item": "stmwr:infinitite_ingot"
+  },
+  "result": {
+    "item": "stmwr:atom_smasher"
+  }
+}

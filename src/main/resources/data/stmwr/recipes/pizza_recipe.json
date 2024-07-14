@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:cheese"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "stmwr:tortilla"
+    },
+    {
+      "item": "stmwr:knife"
+    }
+  ],
+  "result": {
+    "item": "stmwr:pizza",
+    "count": 1
+  }
+}

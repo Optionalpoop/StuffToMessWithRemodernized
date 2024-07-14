@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:SpeedTotemT1"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpeedTotemT2"
+    },
+    "name": "speed_totem_t_2_recipe",
+    "namespace": "mod"
+  }
+}

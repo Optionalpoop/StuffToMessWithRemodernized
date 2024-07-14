@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "stmwr:animal_strap"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_horse_armor",
+    "count": 1
+  }
+}

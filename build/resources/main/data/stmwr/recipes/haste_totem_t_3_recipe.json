@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "item": "minecraft:beacon"
+    },
+    "d": {
+      "item": "stmwr:haste_totem_t_2"
+    }
+  },
+  "result": {
+    "item": "stmwr:haste_totem_t_3",
+    "count": 1
+  }
+}

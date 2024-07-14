@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:milk_bucket"
+    },
+    "b": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "result": {
+    "item": "stmwr:cheese",
+    "count": 8
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "knife",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Knife",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:STMW5"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 2,
+    "damageVsEntity": 5.0,
+    "usageCount": 200,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true
+  }
+}

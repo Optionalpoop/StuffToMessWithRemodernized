@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MysteriousScrap"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:AdvancedMaterial"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:SteelBlock"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:AdvancedMaterial"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:MysteriousScrap"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MutantWhistle"
+    },
+    "name": "mutant_whistle_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:steel_pickaxe",
+    "stmwr:fireproof_totem",
+    "stmwr:blazed_pickaxe",
+    "stmwr:coal_wand",
+    "stmwr:iron_wand",
+    "stmwr:haste_totem_t_3",
+    "stmwr:haste_totem_t_2",
+    "stmwr:haste_totem_t_1",
+    "stmwr:jumpboost_totem_t_3",
+    "stmwr:jumpboost_totem_t_2",
+    "stmwr:jumpboost_totem_t_1",
+    "stmwr:nightvision_totem",
+    "stmwr:speed_totem_t_3",
+    "stmwr:speed_totem_t_2",
+    "stmwr:speed_totem_t_1",
+    "stmwr:health_totem_t_3",
+    "stmwr:healing_totem_t_2",
+    "stmwr:builders_wand",
+    "stmwr:healing_totem",
+    "stmwr:godlium_pickaxe",
+    "stmwr:atom_smasher"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    "c c"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "minecraft:lead"
+    },
+    "c": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "stmwr:animal_strap",
+    "count": 3
+  }
+}

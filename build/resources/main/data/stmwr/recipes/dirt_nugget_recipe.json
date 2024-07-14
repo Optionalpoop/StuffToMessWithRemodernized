@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magic_carrot"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    },
+    "c": {
+      "tag": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "stmwr:dirt_nugget",
+    "count": 4
+  }
+}

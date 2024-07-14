@@ -1,0 +1,87 @@
+{
+  "has_precipitation": true,
+  "temperature": 0,
+  "downfall": 0.8,
+  "effects": {
+    "music": {
+      "sound": "music.nether.nether_wastes",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
+    "foliage_color": -16711834,
+    "grass_color": -16737895,
+    "sky_color": -3342388,
+    "fog_color": -3342388,
+    "water_color": -16724788,
+    "water_fog_color": -6684673
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "stmwr:pikachu",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "stmwr:steve_cow",
+        "weight": 25,
+        "minCount": 2,
+        "maxCount": 12
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "stmwr:steve_cow_land_tree"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

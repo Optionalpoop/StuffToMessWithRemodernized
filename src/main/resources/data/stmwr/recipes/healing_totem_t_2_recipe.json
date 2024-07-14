@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    },
+    "c": {
+      "item": "stmwr:healing_totem"
+    }
+  },
+  "result": {
+    "item": "stmwr:healing_totem_t_2",
+    "count": 1
+  }
+}

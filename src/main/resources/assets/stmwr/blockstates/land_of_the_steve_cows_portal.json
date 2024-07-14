@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "stmwr:block/land_of_the_steve_cows_portal_ew"
+    },
+    "axis=x": {
+      "model": "stmwr:block/land_of_the_steve_cows_portal_ns"
+    }
+  }
+}

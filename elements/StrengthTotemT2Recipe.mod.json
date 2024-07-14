@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:BlazedSword"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:SteelSword"
+      },
+      {
+        "value": "CUSTOM:StrengthTotemT1"
+      },
+      {
+        "value": "Items.NETHERITE_SWORD"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:GodliumSword"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrengthTotemT2"
+    },
+    "name": "strength_totem_t_2_recipe",
+    "namespace": "mod"
+  }
+}

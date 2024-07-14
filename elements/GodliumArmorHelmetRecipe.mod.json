@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GodliumArmor.helmet"
+    },
+    "name": "godlium_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

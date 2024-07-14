@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:plastika"
+    },
+    {
+      "item": "stmwr:plastika"
+    },
+    {
+      "item": "stmwr:plastika"
+    },
+    {
+      "item": "stmwr:plastika"
+    }
+  ],
+  "result": {
+    "item": "stmwr:plasticilia",
+    "count": 1
+  }
+}

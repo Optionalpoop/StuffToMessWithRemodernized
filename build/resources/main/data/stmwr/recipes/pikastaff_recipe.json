@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:stevum_block"
+    },
+    "b": {
+      "item": "stmwr:advanced_wand_stick"
+    }
+  },
+  "result": {
+    "item": "stmwr:pikastaff",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:mysterious_scrap"
+    },
+    "b": {
+      "item": "stmwr:goop"
+    },
+    "c": {
+      "item": "stmwr:advanced_material"
+    },
+    "d": {
+      "item": "stmwr:steel_block"
+    }
+  },
+  "result": {
+    "item": "stmwr:mutant_whistle",
+    "count": 1
+  }
+}

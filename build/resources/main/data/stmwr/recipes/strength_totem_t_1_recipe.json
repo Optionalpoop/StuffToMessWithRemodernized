@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:godlium_ingot"
+    },
+    "b": {
+      "item": "stmwr:blazed_sword"
+    },
+    "c": {
+      "item": "stmwr:magicite_dust"
+    },
+    "d": {
+      "item": "stmwr:raw_totem"
+    }
+  },
+  "result": {
+    "item": "stmwr:strength_totem_t_1",
+    "count": 1
+  }
+}

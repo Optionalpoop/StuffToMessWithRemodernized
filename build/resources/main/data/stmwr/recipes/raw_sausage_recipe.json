@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "stmwr:knife"
+    }
+  ],
+  "result": {
+    "item": "stmwr:raw_sausage",
+    "count": 3
+  }
+}

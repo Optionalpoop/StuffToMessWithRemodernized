@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:steve_cow_land",
+  "features": "stmwr:stevum_ore",
+  "step": "underground_ores"
+}

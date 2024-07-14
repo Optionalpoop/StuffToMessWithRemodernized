@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AdvancedMaterial"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:StrengthTotemT2"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:AdvancedMaterial"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrengthTotemT3"
+    },
+    "name": "strength_totem_t_3_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:suggestium"
+    }
+  },
+  "result": {
+    "item": "stmwr:suggestium_block",
+    "count": 1
+  }
+}

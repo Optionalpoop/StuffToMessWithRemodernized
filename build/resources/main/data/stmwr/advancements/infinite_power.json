@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:infinitite_ore"
+    },
+    "title": {
+      "translate": "advancements.infinite_power.title"
+    },
+    "description": {
+      "translate": "advancements.infinite_power.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "infinite_power_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:infinitite_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:stuff_to_mess_with_remodernized"
+}

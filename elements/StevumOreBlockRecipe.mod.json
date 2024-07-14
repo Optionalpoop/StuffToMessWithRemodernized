@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Stevum"
+      },
+      {
+        "value": "CUSTOM:Stevum"
+      },
+      {
+        "value": "CUSTOM:Stevum"
+      },
+      {
+        "value": "CUSTOM:Stevum"
+      },
+      {
+        "value": "CUSTOM:Stevum"
+      },
+      {
+        "value": "CUSTOM:Stevum"
+      },
+      {
+        "value": "CUSTOM:Stevum"
+      },
+      {
+        "value": "CUSTOM:Stevum"
+      },
+      {
+        "value": "CUSTOM:Stevum"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StevumBlock"
+    },
+    "name": "stevum_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

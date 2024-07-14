@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "stmwr:advanced_wand_stick"
+    }
+  },
+  "result": {
+    "item": "stmwr:iron_wand",
+    "count": 1
+  }
+}

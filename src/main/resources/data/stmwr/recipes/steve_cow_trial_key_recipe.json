@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    },
+    "c": {
+      "item": "stmwr:blazed_ingot"
+    },
+    "d": {
+      "item": "stmwr:key_piece"
+    }
+  },
+  "result": {
+    "item": "stmwr:land_of_the_steve_cows",
+    "count": 1
+  }
+}

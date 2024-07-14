@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:JumpboostTotemT1"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:GodliumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:JumpboostTotemT2"
+    },
+    "name": "jumpboost_totem_t_2_recipe",
+    "namespace": "mod"
+  }
+}

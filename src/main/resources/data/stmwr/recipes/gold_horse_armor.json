@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "stmwr:animal_strap"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_horse_armor",
+    "count": 1
+  }
+}

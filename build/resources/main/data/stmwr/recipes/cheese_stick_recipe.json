@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:knife"
+    },
+    {
+      "item": "stmwr:cheese"
+    }
+  ],
+  "result": {
+    "item": "stmwr:cheese_stick",
+    "count": 5
+  }
+}

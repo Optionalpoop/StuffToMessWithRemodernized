@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "stmwr:raw_totem"
+    }
+  ],
+  "result": {
+    "item": "stmwr:nightvision_totem",
+    "count": 1
+  }
+}

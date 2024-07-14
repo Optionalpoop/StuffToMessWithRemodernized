@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:planks"
+    },
+    "b": {
+      "item": "stmwr:wand_stick"
+    },
+    "c": {
+      "item": "stmwr:ultrite"
+    }
+  },
+  "result": {
+    "item": "stmwr:builders_wand",
+    "count": 1
+  }
+}

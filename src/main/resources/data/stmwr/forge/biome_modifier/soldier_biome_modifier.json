@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stmwr:militaria_land",
+  "spawners": {
+    "type": "stmwr:soldier",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

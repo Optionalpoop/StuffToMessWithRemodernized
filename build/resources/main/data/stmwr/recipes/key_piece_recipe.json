@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:plasticilia"
+    }
+  },
+  "result": {
+    "item": "stmwr:key_piece",
+    "count": 1
+  }
+}

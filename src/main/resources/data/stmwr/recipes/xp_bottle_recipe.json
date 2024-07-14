@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass_bottle"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:experience_bottle",
+    "count": 5
+  }
+}

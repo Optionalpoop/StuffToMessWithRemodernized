@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:giant_steve_cow_heart"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    },
+    "c": {
+      "item": "stmwr:key_piece"
+    },
+    "d": {
+      "item": "stmwr:ultrite"
+    }
+  },
+  "result": {
+    "item": "stmwr:militaria",
+    "count": 1
+  }
+}

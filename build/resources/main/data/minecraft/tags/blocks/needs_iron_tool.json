@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:trial_brick",
+    "stmwr:blazed_block",
+    "stmwr:blazed_ore"
+  ]
+}

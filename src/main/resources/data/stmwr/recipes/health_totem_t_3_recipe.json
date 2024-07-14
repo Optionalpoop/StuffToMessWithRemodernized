@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:godlium_block"
+    },
+    "b": {
+      "item": "stmwr:magicite_block"
+    },
+    "c": {
+      "item": "stmwr:ultrite"
+    },
+    "d": {
+      "item": "stmwr:healing_totem_t_2"
+    },
+    "e": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:health_totem_t_3",
+    "count": 1
+  }
+}

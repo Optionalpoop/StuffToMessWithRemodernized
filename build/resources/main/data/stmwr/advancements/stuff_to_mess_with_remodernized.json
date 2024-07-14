@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "stmwr:atom_smasher"
+    },
+    "title": {
+      "translate": "advancements.stuff_to_mess_with_remodernized.title"
+    },
+    "description": {
+      "translate": "advancements.stuff_to_mess_with_remodernized.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stuff_to_mess_with_remodernized_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:godlium_pickaxe"
+    },
+    {
+      "item": "stmwr:haste_totem_t_1"
+    },
+    {
+      "item": "stmwr:ultrite"
+    }
+  ],
+  "result": {
+    "item": "stmwr:haste_totem_t_2",
+    "count": 1
+  }
+}

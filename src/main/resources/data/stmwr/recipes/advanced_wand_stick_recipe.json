@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:ultrite"
+    },
+    {
+      "item": "stmwr:wand_stick"
+    },
+    {
+      "item": "stmwr:advanced_wand_stick"
+    }
+  ],
+  "result": {
+    "item": "stmwr:advanced_wand_stick",
+    "count": 1
+  }
+}

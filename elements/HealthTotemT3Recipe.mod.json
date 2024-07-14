@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:HealingTotemT2"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HealthTotemT3"
+    },
+    "name": "health_totem_t_3_recipe",
+    "namespace": "mod"
+  }
+}

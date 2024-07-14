@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_horse_armor"
+    },
+    "title": {
+      "translate": "advancements.shine_bright_like_a_diamond.title"
+    },
+    "description": {
+      "translate": "advancements.shine_bright_like_a_diamond.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shine_bright_like_a_diamond_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_horse_armor"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:pets"
+}

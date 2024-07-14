@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "nether_wastes",
+    "basalt_deltas",
+    "crimson_forest",
+    "warped_forest",
+    "soul_sand_valley"
+  ],
+  "features": "stmwr:blazed_ore",
+  "step": "underground_ores"
+}

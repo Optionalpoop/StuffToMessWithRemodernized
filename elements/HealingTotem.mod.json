@@ -1,0 +1,41 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "healingtotem",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Healing Totem Tier One",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:STMW5"
+      }
+    ],
+    "efficiency": 0.0,
+    "attackSpeed": 0.0,
+    "enchantability": 20,
+    "damageVsEntity": 0.0,
+    "usageCount": 10,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "STONE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HealingTotemRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "HealingTotemRightclicked"
+    }
+  }
+}

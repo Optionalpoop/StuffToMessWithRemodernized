@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:godlium_ingot"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "item": "stmwr:magicite_dust"
+    },
+    "d": {
+      "item": "stmwr:jumpboost_totem_t_1"
+    }
+  },
+  "result": {
+    "item": "stmwr:jumpboost_totem_t_2",
+    "count": 1
+  }
+}

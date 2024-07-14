@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "stmwr:portable_oven"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_beef",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    },
+    "c": {
+      "item": "stmwr:speed_totem_t_1"
+    }
+  },
+  "result": {
+    "item": "stmwr:speed_totem_t_2",
+    "count": 1
+  }
+}

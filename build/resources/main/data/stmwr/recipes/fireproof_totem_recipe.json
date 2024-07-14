@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "minecraft:blaze_rod"
+    },
+    "c": {
+      "item": "stmwr:blazed_ingot"
+    },
+    "d": {
+      "item": "stmwr:raw_totem"
+    }
+  },
+  "result": {
+    "item": "stmwr:fireproof_totem",
+    "count": 1
+  }
+}

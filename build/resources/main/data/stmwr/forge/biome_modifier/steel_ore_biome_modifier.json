@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:militaria_land",
+  "features": "stmwr:steel_ore",
+  "step": "underground_ores"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/plasticilia",
+    "up": "stmwr:block/plasticilia",
+    "north": "stmwr:block/plasticilia",
+    "east": "stmwr:block/plasticilia",
+    "south": "stmwr:block/plasticilia",
+    "west": "stmwr:block/plasticilia",
+    "particle": "stmwr:block/plasticilia"
+  },
+  "render_type": "solid"
+}
