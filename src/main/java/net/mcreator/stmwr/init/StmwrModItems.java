@@ -220,6 +220,7 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> STRENGTH_TOTEM_T_1 = REGISTRY.register("strength_totem_t_1", () -> new StrengthTotemT1Item());
 	public static final RegistryObject<Item> STRENGTH_TOTEM_T_2 = REGISTRY.register("strength_totem_t_2", () -> new StrengthTotemT2Item());
 	public static final RegistryObject<Item> STRENGTH_TOTEM_T_3 = REGISTRY.register("strength_totem_t_3", () -> new StrengthTotemT3Item());
+	public static final RegistryObject<Item> MODIFIER_TABLE = block(StmwrModBlocks.MODIFIER_TABLE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

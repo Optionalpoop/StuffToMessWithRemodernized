@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.stmwr.client.gui.ModifiersTableScreen;
 import net.mcreator.stmwr.client.gui.CubbyCubeGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class StmwrModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(StmwrModMenus.CUBBY_CUBE_GUI.get(), CubbyCubeGUIScreen::new);
+			MenuScreens.register(StmwrModMenus.MODIFIERS_TABLE.get(), ModifiersTableScreen::new);
 		});
 	}
 }

@@ -137,6 +137,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.STRENGTH_TOTEM_T_1.get());
 				tabData.accept(StmwrModItems.STRENGTH_TOTEM_T_2.get());
 				tabData.accept(StmwrModItems.STRENGTH_TOTEM_T_3.get());
+				tabData.accept(StmwrModBlocks.MODIFIER_TABLE.get().asItem());
 			})
 
 					.build());
