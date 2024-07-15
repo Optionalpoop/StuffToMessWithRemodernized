@@ -4700,8 +4700,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/stmwr/network/ModifiersTableButtonMessage.java",
-          "src/main/java/net/mcreator/stmwr/world/inventory/ModifiersTableMenu.java",
-          "src/main/java/net/mcreator/stmwr/client/gui/ModifiersTableScreen.java"
+          "src/main/java/net/mcreator/stmwr/client/gui/ModifiersTableScreen.java",
+          "src/main/java/net/mcreator/stmwr/world/inventory/ModifiersTableMenu.java"
         ]
       }
     },
@@ -4713,12 +4713,12 @@
       "registry_name": "modifier_table",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/block/entity/ModifierTableBlockEntity.java",
-          "src/main/resources/assets/stmwr/blockstates/modifier_table.json",
           "src/main/resources/assets/stmwr/models/block/modifier_table.json",
+          "src/main/java/net/mcreator/stmwr/block/entity/ModifierTableBlockEntity.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/modifier_table.json",
-          "src/main/java/net/mcreator/stmwr/block/ModifierTableBlock.java",
-          "src/main/resources/assets/stmwr/models/item/modifier_table.json"
+          "src/main/resources/assets/stmwr/models/item/modifier_table.json",
+          "src/main/resources/assets/stmwr/blockstates/modifier_table.json",
+          "src/main/java/net/mcreator/stmwr/block/ModifierTableBlock.java"
         ]
       }
     },
@@ -4733,42 +4733,6 @@
           "src/main/java/net/mcreator/stmwr/procedures/ConfirmModifierPressProcedure.java"
         ],
         "dependencies": []
-      }
-    },
-    {
-      "name": "STMWRTech",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stmwr_tech",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/stmwr_tech.json"
-        ]
-      }
-    },
-    {
-      "name": "ModificationStation",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "modification_station",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/modification_station.json"
-        ]
-      }
-    },
-    {
-      "name": "ModifierTableRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "modifier_table_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/modifier_table_recipe.json"
-        ]
       }
     }
   ],
@@ -4915,12 +4879,10 @@
       "advancements.mystical_agriculture.descr": "Craft a magic carrot",
       "block.stmwr.stevum_ore": "Stevum Ore",
       "item.stmwr.goop": "Goop",
-      "advancements.modification_station.title": "Modification Station",
       "advancements.named.descr": "You can craft name tags now!",
       "item.stmwr.chocolate": "Chocolate",
       "advancements.stringy.descr": "Craft up some delicious cheese sticks!",
       "item.stmwr.steel_armor_chestplate": "Steel Chestplate",
-      "advancements.stmwr_tech.descr": "Welcome to the history of the Triangles and their advanced technology",
       "item.stmwr.steel_armor_boots": "Steel Boots",
       "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
       "item.stmwr.steel_pickaxe": "Steel Pickaxe",
@@ -4994,7 +4956,6 @@
       "advancements.steel_heart.title": "Steel Heart",
       "item.stmwr.blazed_pickaxe": "Blazed Pickaxe",
       "gui.stmwr.modifiers_table.label_modifier": "modifier",
-      "advancements.modification_station.descr": "Obtain a Modier Table",
       "item.stmwr.sausage": "Sausage",
       "item.stmwr.godlium_armor_leggings": "Godlium Leggings",
       "item.stmwr.cheese_stick": "Cheese Stick",
@@ -5042,7 +5003,6 @@
       "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
       "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
       "advancements.oh_the_irony.descr": "You can craft iron horse armor!",
-      "advancements.stmwr_tech.title": "STMWR: Tech",
       "item.stmwr.jumpboost_totem_t_3": "Jumpboost Totem Tier 3",
       "item.stmwr.jumpboost_totem_t_2": "Jumpboost Totem Tier 2",
       "item.stmwr.mutant_goop": "Mutant Goop",
@@ -5197,7 +5157,7 @@
       "item.stmwr.portable_oven": "Portable Oven",
       "item.stmwr.land_of_the_steve_cows": "SteveCow Trial Key",
       "item.stmwr.godlium_pickaxe": "Godlium Pickaxe",
-      "gui.stmwr.modifiers_table.label_modifiers": "Modifier Table",
+      "gui.stmwr.modifiers_table.label_modifiers": "modifiers",
       "block.stmwr.godlium_block": "Block of Godlium",
       "item.stmwr.stevum": "Stevum",
       "advancements.experienced.descr": "You can craft experience bottles!",
