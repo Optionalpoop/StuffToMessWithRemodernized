@@ -1,0 +1,82 @@
+{
+  "stmwr:kachow": {
+    "criteria": {
+      "kachow_0": "2024-07-14 21:12:14 -0400"
+    },
+    "done": true
+  },
+  "stmwr:maximum_health": {
+    "criteria": {
+      "maximum_health_0": "2024-07-14 21:12:14 -0400"
+    },
+    "done": true
+  },
+  "stmwr:dirty": {
+    "criteria": {
+      "dirty_0": "2024-07-14 21:12:14 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_trials": {
+    "criteria": {
+      "stmw_trials_0": "2024-07-14 21:12:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-14 21:12:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-07-14 21:12:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-07-14 21:13:50 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_foods": {
+    "criteria": {
+      "stmw_foods_0": "2024-07-14 21:12:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:stony_shore": "2024-07-14 21:12:27 -0400",
+      "minecraft:jungle": "2024-07-14 21:12:08 -0400"
+    },
+    "done": false
+  },
+  "stmwr:steve_cows": {
+    "criteria": {
+      "steve_cows_0": "2024-07-14 21:12:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-07-14 21:14:08 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_vanilla_plus": {
+    "criteria": {
+      "stmw_vanilla_plus_0": "2024-07-14 21:12:07 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stuff_to_mess_with_remodernized": {
+    "criteria": {
+      "stuff_to_mess_with_remodernized_0": "2024-07-14 21:12:07 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

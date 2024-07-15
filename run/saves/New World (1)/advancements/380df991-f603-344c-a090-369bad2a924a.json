@@ -1,0 +1,51 @@
+{
+  "stmwr:stmw_trials": {
+    "criteria": {
+      "stmw_trials_0": "2024-07-14 20:22:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-14 20:22:00 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_foods": {
+    "criteria": {
+      "stmw_foods_0": "2024-07-14 20:22:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-07-14 20:22:01 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2024-07-14 20:23:06 -0400"
+    },
+    "done": true
+  },
+  "stmwr:steve_cows": {
+    "criteria": {
+      "steve_cows_0": "2024-07-14 20:22:14 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_vanilla_plus": {
+    "criteria": {
+      "stmw_vanilla_plus_0": "2024-07-14 20:22:00 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stuff_to_mess_with_remodernized": {
+    "criteria": {
+      "stuff_to_mess_with_remodernized_0": "2024-07-14 20:22:00 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
