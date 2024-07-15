@@ -4809,6 +4809,16 @@
           "src/main/resources/data/stmwr/recipes/basic_spellbook_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Chargogga",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chargogga",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -4972,16 +4982,16 @@
       "advancements.saddle_up.descr": "You can craft saddles!",
       "advancements.defeat.descr": "Slay the Giant Steve Cow and grab its heart",
       "advancements.mystical_agriculture.descr": "Craft a magic carrot",
-      "block.stmwr.stevum_ore": "Stevum Ore",
       "item.stmwr.goop": "Goop",
+      "block.stmwr.stevum_ore": "Stevum Ore",
       "biome.stmwr.cold_oasis": "Cold Oasis",
-      "advancements.named.descr": "You can craft name tags now!",
       "item.stmwr.chocolate": "Chocolate",
+      "advancements.named.descr": "You can craft name tags now!",
       "advancements.stringy.descr": "Craft up some delicious cheese sticks!",
       "item.stmwr.steel_armor_chestplate": "Steel Chestplate",
       "item.stmwr.steel_armor_boots": "Steel Boots",
-      "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
       "item.stmwr.steel_pickaxe": "Steel Pickaxe",
+      "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
       "advancements.master_miner.descr": "Get a tier 3 haste totem",
       "advancements.leg_day.title": "Leg Day",
       "painting.stmwr.the_blurb.title": "The Blurb",
@@ -4989,11 +4999,11 @@
       "advancements.stuff_to_mess_with_remodernized.descr": "Welcome to the mod! These advancements will guide you through this mod!",
       "item.stmwr.shredded_beef": "Shredded Beef",
       "block.stmwr.suggestium_block": "Block of Suggestium",
-      "advancements.ironman.title": "Ironman",
       "item.stmwr.blazed_armor_leggings": "Blazed Leggings",
+      "advancements.ironman.title": "Ironman",
       "advancements.goopy.title": "Goopy?!",
-      "item.stmwr.godlium_armor_helmet": "Godlium Helmet",
       "item.stmwr.magic_carrot": "Magic Carrot",
+      "item.stmwr.godlium_armor_helmet": "Godlium Helmet",
       "advancements.free_magicite.title": "Free Magicite",
       "advancements.flame_on.title": "Flame On!",
       "item.stmwr.advanced_wand_stick": "Advanced Wand Stick",
@@ -5039,6 +5049,7 @@
       "item.stmwr.mysterious_scrap": "Mysterious Scrap",
       "advancements.fast_hands.descr": "Get a haste totem tier 1",
       "advancements.infinite_power.descr": "The most powerful ore in the game... chances are, you won\u0027t find any any time soon.",
+      "painting.stmwr.chargogga.title": "Chargogga",
       "item.stmwr.blazed_axe": "Blazed Axe",
       "block.stmwr.storum_block": "Block of Storum",
       "advancements.healthy.title": "Healthy!",
@@ -5081,6 +5092,7 @@
       "advancements.dirty.title": "Dirty!",
       "item.stmwr.blazed_sword": "Blazed Sword",
       "advancements.building_time.descr": "Craft a builders wand, allowing you to transform ANY block into oak planks.",
+      "painting.stmwr.chargogga.author": "Supreme Leader",
       "item.stmwr.plastika": "Plastika",
       "item.stmwr.taco": "Taco",
       "biome.stmwr.steve_cow_land": "Steve Cow Land",
