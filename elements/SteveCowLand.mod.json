@@ -134,6 +134,15 @@
         "maxGroup": 4,
         "weight": 5,
         "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:FrostZombie"
+        },
+        "minGroup": 3,
+        "maxGroup": 7,
+        "weight": 20,
+        "spawnType": "ambient"
       }
     ]
   }

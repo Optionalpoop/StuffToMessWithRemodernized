@@ -16,6 +16,7 @@ import net.mcreator.stmwr.client.renderer.PikachuRenderer;
 import net.mcreator.stmwr.client.renderer.MutantWormRenderer;
 import net.mcreator.stmwr.client.renderer.MutantBossRenderer;
 import net.mcreator.stmwr.client.renderer.GiantSteveCowRenderer;
+import net.mcreator.stmwr.client.renderer.FrostZombieRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class StmwrModEntityRenderers {
@@ -28,5 +29,6 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.SOLDIER.get(), SoldierRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.MUTANT_BOSS.get(), MutantBossRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.MUTANT_WORM.get(), MutantWormRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.FROST_ZOMBIE.get(), FrostZombieRenderer::new);
 	}
 }

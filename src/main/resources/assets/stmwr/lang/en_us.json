@@ -12,7 +12,11 @@
   "advancements.mystical_agriculture.descr": "Craft a magic carrot",
   "block.stmwr.stevum_ore": "Stevum Ore",
   "item.stmwr.goop": "Goop",
+<<<<<<< HEAD
   "advancements.modification_station.title": "Modification Station",
+=======
+  "biome.stmwr.cold_oasis": "Cold Oasis",
+>>>>>>> 1.3-BranchTest
   "advancements.named.descr": "You can craft name tags now!",
   "item.stmwr.chocolate": "Chocolate",
   "advancements.stringy.descr": "Craft up some delicious cheese sticks!",
@@ -33,6 +37,10 @@
   "advancements.goopy.title": "Goopy?!",
   "item.stmwr.godlium_armor_helmet": "Godlium Helmet",
   "item.stmwr.magic_carrot": "Magic Carrot",
+<<<<<<< HEAD
+=======
+  "advancements.free_magicite.title": "Free Magicite",
+>>>>>>> 1.3-BranchTest
   "advancements.flame_on.title": "Flame On!",
   "item.stmwr.advanced_wand_stick": "Advanced Wand Stick",
   "advancements.mooore_stoooorage.title": "Mooore Stoooorage!!!!",
@@ -60,6 +68,7 @@
   "item.stmwr.blazed_ingot": "Blazed",
   "item.stmwr.pikachu_spawn_egg": "Pikachu Spawn Egg",
   "item.stmwr.magicite_dust": "Magicite",
+  "advancements.free_magicite.descr": "Kill some Frost Zombies to get ice shards. Ice shards can be crafted into some free magicite!",
   "advancements.golden_boy.title": "Golden Boy",
   "item.stmwr.pizza_slice": "Pizza Slice",
   "advancements.find_the_pieces.descr": "Craft some key pieces, used to make keys for the trials",
@@ -153,6 +162,7 @@
   "item.stmwr.haste_totem_t_2": "Haste Totem Tier 2",
   "item.stmwr.haste_totem_t_1": "Haste Totem Tier 1",
   "advancements.double_the_godlium.descr": "You can craft a block of godlium with the creation orb, as long as you have some godlium already.",
+  "entity.stmwr.frost_zombie": "Frost Zombie",
   "advancements.welcome_to_militaria.descr": "Craft a Militaria trial key after defeating the Giant Steve Cow",
   "item.stmwr.haste_totem_t_3": "Haste Totem T 3",
   "advancements.plastic_fantastic.title": "Plastic Fantastic!",
@@ -227,6 +237,7 @@
   "advancements.speedy_gonzales.title": "Speedy Gonzales",
   "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
   "item.stmwr.blazed_armor_chestplate": "Blazed Chestplate",
+  "biome.stmwr.everfrost": "Everfrost",
   "advancements.suggestions_welcome.descr": "Find some Suggestium, which can be used to craft things suggested by friends that don\u0027t really have a place anywhere.",
   "advancements.stmw_foods.title": "STMW: Foods",
   "advancements.coal_for_christmas.title": "Coal For Christmas!",
@@ -261,6 +272,7 @@
   "advancements.oh_the_irony.title": "Oh The Irony",
   "biome.stmwr.militaria_land": "Militaria Land",
   "advancements.toot_toot.title": "Toot Toot!",
+  "item.stmwr.frost_zombie_spawn_egg": "Frost Zombie Spawn Egg",
   "item.stmwr.infinitite_ingot": "Infinitite",
   "advancements.tortillas.descr": "Make some tortillas!",
   "advancements.i_am_speed.title": "I Am Speed",
@@ -271,6 +283,7 @@
   "advancements.welcome_to_militaria.title": "Welcome To Militaria!",
   "item.stmwr.healing_totem": "Healing Totem Tier One",
   "item.stmwr.dirt_nugget": "Dirt Nugget",
+  "item.stmwr.basic_spellbook": "Basic Spellbook",
   "item.stmwr.godlium_shovel": "Godlium Shovel",
   "advancements.inventory_pork.descr": "You can make pork in your inventory!",
   "item.stmwr.knife": "Knife",
@@ -294,7 +307,11 @@
   "item.stmwr.portable_oven": "Portable Oven",
   "item.stmwr.land_of_the_steve_cows": "SteveCow Trial Key",
   "item.stmwr.godlium_pickaxe": "Godlium Pickaxe",
+<<<<<<< HEAD
   "gui.stmwr.modifiers_table.label_modifiers": "Modifier Table",
+=======
+  "item.stmwr.ice_shard": "Ice Shard",
+>>>>>>> 1.3-BranchTest
   "block.stmwr.godlium_block": "Block of Godlium",
   "item.stmwr.stevum": "Stevum",
   "advancements.experienced.descr": "You can craft experience bottles!",

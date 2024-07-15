@@ -1,0 +1,99 @@
+{
+  "stmwr:kachow": {
+    "criteria": {
+      "kachow_0": "2024-07-14 21:16:28 -0400"
+    },
+    "done": true
+  },
+  "stmwr:maximum_health": {
+    "criteria": {
+      "maximum_health_0": "2024-07-14 21:16:28 -0400"
+    },
+    "done": true
+  },
+  "stmwr:dirty": {
+    "criteria": {
+      "dirty_0": "2024-07-14 21:16:28 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_trials": {
+    "criteria": {
+      "stmw_trials_0": "2024-07-14 21:16:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-14 21:16:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-07-14 21:16:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-07-14 21:17:17 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_foods": {
+    "criteria": {
+      "stmw_foods_0": "2024-07-14 21:16:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2024-07-14 21:16:17 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-07-14 21:16:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-07-14 21:16:51 -0400"
+    },
+    "done": true
+  },
+  "stmwr:steve_cows": {
+    "criteria": {
+      "steve_cows_0": "2024-07-14 21:16:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-07-14 21:17:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-07-14 21:16:51 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_vanilla_plus": {
+    "criteria": {
+      "stmw_vanilla_plus_0": "2024-07-14 21:16:16 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stuff_to_mess_with_remodernized": {
+    "criteria": {
+      "stuff_to_mess_with_remodernized_0": "2024-07-14 21:16:16 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

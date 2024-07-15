@@ -1,0 +1,141 @@
+{
+  "stmwr:killer": {
+    "criteria": {
+      "killer_0": "2024-07-14 21:06:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "stmwr:kachow": {
+    "criteria": {
+      "kachow_0": "2024-07-14 21:06:16 -0400"
+    },
+    "done": true
+  },
+  "stmwr:maximum_health": {
+    "criteria": {
+      "maximum_health_0": "2024-07-14 21:06:16 -0400"
+    },
+    "done": true
+  },
+  "stmwr:dirty": {
+    "criteria": {
+      "dirty_0": "2024-07-14 21:06:16 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_trials": {
+    "criteria": {
+      "stmw_trials_0": "2024-07-14 21:05:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-14 21:05:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-07-14 21:06:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-07-14 21:06:26 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_foods": {
+    "criteria": {
+      "stmw_foods_0": "2024-07-14 21:05:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna": "2024-07-14 21:05:35 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "stmwr:steve_cows": {
+    "criteria": {
+      "steve_cows_0": "2024-07-14 21:05:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-07-14 21:06:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_vanilla_plus": {
+    "criteria": {
+      "stmw_vanilla_plus_0": "2024-07-14 21:05:34 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stuff_to_mess_with_remodernized": {
+    "criteria": {
+      "stuff_to_mess_with_remodernized_0": "2024-07-14 21:05:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2024-07-14 21:06:58 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
