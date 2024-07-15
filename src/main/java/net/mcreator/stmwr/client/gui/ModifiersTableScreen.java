@@ -65,13 +65,13 @@ public class ModifiersTableScreen extends AbstractContainerScreen<ModifiersTable
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.modifiers_table.label_modifiers"), 11, 3, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.modifiers_table.label_modifiers"), 65, 9, -12829636, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		button_confirm = new PlainTextButton(this.leftPos + 35, this.topPos + 43, 61, 20, Component.translatable("gui.stmwr.modifiers_table.button_confirm"), e -> {
+		button_confirm = new PlainTextButton(this.leftPos + 69, this.topPos + 66, 61, 20, Component.translatable("gui.stmwr.modifiers_table.button_confirm"), e -> {
 			if (true) {
 				StmwrMod.PACKET_HANDLER.sendToServer(new ModifiersTableButtonMessage(0, x, y, z));
 				ModifiersTableButtonMessage.handleButtonAction(entity, 0, x, y, z);

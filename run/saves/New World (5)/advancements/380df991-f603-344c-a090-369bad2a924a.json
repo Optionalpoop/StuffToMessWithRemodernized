@@ -1,0 +1,39 @@
+{
+  "stmwr:stmw_trials": {
+    "criteria": {
+      "stmw_trials_0": "2024-07-14 22:03:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-14 22:03:55 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_foods": {
+    "criteria": {
+      "stmw_foods_0": "2024-07-14 22:03:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-07-14 22:03:56 -0400"
+    },
+    "done": false
+  },
+  "stmwr:stmw_vanilla_plus": {
+    "criteria": {
+      "stmw_vanilla_plus_0": "2024-07-14 22:03:55 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stuff_to_mess_with_remodernized": {
+    "criteria": {
+      "stuff_to_mess_with_remodernized_0": "2024-07-14 22:03:55 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "stmwr:block/modifiertabletop",
-    "up": "stmwr:block/modifiertabletop",
-    "north": "stmwr:block/modifiertablefront",
-    "east": "stmwr:block/modifiertableside",
-    "south": "stmwr:block/modifiertableside",
-    "west": "stmwr:block/modifiertableside",
-    "particle": "stmwr:block/modifiertabletop"
+    "down": "minecraft:block/bookshelf",
+    "up": "minecraft:block/beehive_end",
+    "north": "minecraft:block/black_candle_lit",
+    "east": "minecraft:block/cherry_log",
+    "south": "minecraft:block/blast_furnace_front_on",
+    "west": "minecraft:block/black_terracotta",
+    "particle": "minecraft:block/bookshelf"
   },
   "render_type": "solid"
 }
