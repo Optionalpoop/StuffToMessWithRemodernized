@@ -77,13 +77,13 @@ public class ModifiersTableMenu extends AbstractContainerMenu implements Supplie
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 80, 25) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 12, 20) {
 			private final int slot = 0;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 59) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 12, 44) {
 			private final int slot = 1;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 116, 59) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 76, 44) {
 			private final int slot = 2;
 		}));
 		for (int si = 0; si < 3; ++si)

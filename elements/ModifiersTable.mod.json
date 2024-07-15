@@ -24,8 +24,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 205,
-          "y": 61
+          "x": 137,
+          "y": 56
         }
       },
       {
@@ -33,14 +33,14 @@
         "data": {
           "name": "label_modifiers",
           "text": {
-            "fixedValue": "modifiers"
+            "fixedValue": "Modifier Table"
           },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 191,
-          "y": 46
+          "x": 137,
+          "y": 40
         }
       },
       {
@@ -57,8 +57,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 169,
-          "y": 95
+          "x": 137,
+          "y": 80
         }
       },
       {
@@ -75,8 +75,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 241,
-          "y": 95
+          "x": 201,
+          "y": 80
         }
       },
       {
@@ -90,8 +90,8 @@
           },
           "width": 61,
           "height": 20,
-          "x": 195,
-          "y": 103
+          "x": 161,
+          "y": 80
         }
       }
     ],
@@ -100,7 +100,7 @@
       "sy": 16,
       "ox": 16,
       "oy": 30,
-      "snapOnGrid": false
+      "snapOnGrid": true
     }
   }
 }
