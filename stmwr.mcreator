@@ -43,8 +43,8 @@
       "registry_name": "dirt_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/dirt_nugget.json",
-          "src/main/java/net/mcreator/stmwr/item/DirtNuggetItem.java"
+          "src/main/java/net/mcreator/stmwr/item/DirtNuggetItem.java",
+          "src/main/resources/assets/stmwr/models/item/dirt_nugget.json"
         ]
       }
     },
@@ -93,7 +93,6 @@
       "registry_name": "magicite_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/stmwr/block/MagiciteOreBlock.java",
           "src/main/resources/data/stmwr/forge/biome_modifier/magicite_ore_biome_modifier.json",
           "src/main/resources/assets/stmwr/models/item/magicite_ore.json",
@@ -102,16 +101,6 @@
           "src/main/resources/data/stmwr/worldgen/placed_feature/magicite_ore.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/magicite_ore.json",
           "src/main/resources/assets/stmwr/models/block/magicite_ore.json"
-=======
-          "src/main/resources/assets/stmwr/models/block/magicite_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/magicite_ore.json",
-          "src/main/resources/assets/stmwr/models/item/magicite_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/magicite_ore_biome_modifier.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/magicite_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/MagiciteOreBlock.java",
-          "src/main/resources/assets/stmwr/blockstates/magicite_ore.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/magicite_ore.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -123,19 +112,11 @@
       "registry_name": "magicite_block",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/stmwr/block/MagiciteBlockBlock.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/magicite_block.json",
           "src/main/resources/assets/stmwr/models/item/magicite_block.json",
           "src/main/resources/assets/stmwr/blockstates/magicite_block.json",
           "src/main/resources/assets/stmwr/models/block/magicite_block.json"
-=======
-          "src/main/resources/data/stmwr/loot_tables/blocks/magicite_block.json",
-          "src/main/resources/assets/stmwr/models/item/magicite_block.json",
-          "src/main/resources/assets/stmwr/blockstates/magicite_block.json",
-          "src/main/resources/assets/stmwr/models/block/magicite_block.json",
-          "src/main/java/net/mcreator/stmwr/block/MagiciteBlockBlock.java"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -195,8 +176,8 @@
       "registry_name": "plastika",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/PlastikaItem.java",
-          "src/main/resources/assets/stmwr/models/item/plastika.json"
+          "src/main/resources/assets/stmwr/models/item/plastika.json",
+          "src/main/java/net/mcreator/stmwr/item/PlastikaItem.java"
         ]
       }
     },
@@ -208,9 +189,7 @@
       "registry_name": "plasticilia",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/blockstates/plasticilia.json",
           "src/main/resources/data/stmwr/forge/biome_modifier/plasticilia_biome_modifier.json",
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/blockstates/plasticilia.json",
           "src/main/resources/data/stmwr/worldgen/placed_feature/plasticilia.json",
           "src/main/resources/assets/stmwr/models/item/plasticilia.json",
@@ -218,14 +197,6 @@
           "src/main/resources/assets/stmwr/models/block/plasticilia.json",
           "src/main/resources/data/stmwr/worldgen/configured_feature/plasticilia.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/plasticilia.json"
-=======
-          "src/main/resources/data/stmwr/worldgen/configured_feature/plasticilia.json",
-          "src/main/resources/assets/stmwr/models/item/plasticilia.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/plasticilia.json",
-          "src/main/java/net/mcreator/stmwr/block/PlasticiliaBlock.java",
-          "src/main/resources/data/stmwr/loot_tables/blocks/plasticilia.json",
-          "src/main/resources/assets/stmwr/models/block/plasticilia.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -274,7 +245,6 @@
       "registry_name": "godlium_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/block/godlium_ore.json",
           "src/main/resources/data/stmwr/worldgen/placed_feature/godlium_ore.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/godlium_ore.json",
@@ -283,16 +253,6 @@
           "src/main/resources/data/stmwr/worldgen/configured_feature/godlium_ore.json",
           "src/main/resources/assets/stmwr/blockstates/godlium_ore.json",
           "src/main/resources/assets/stmwr/models/item/godlium_ore.json"
-=======
-          "src/main/resources/data/stmwr/forge/biome_modifier/godlium_ore_biome_modifier.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/godlium_ore.json",
-          "src/main/resources/assets/stmwr/models/item/godlium_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/godlium_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/godlium_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/GodliumOreBlock.java",
-          "src/main/resources/data/stmwr/loot_tables/blocks/godlium_ore.json",
-          "src/main/resources/assets/stmwr/models/block/godlium_ore.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -304,15 +264,9 @@
       "registry_name": "godlium_block",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/stmwr/block/GodliumBlockBlock.java",
           "src/main/resources/assets/stmwr/blockstates/godlium_block.json",
           "src/main/resources/assets/stmwr/models/block/godlium_block.json",
-=======
-          "src/main/resources/assets/stmwr/models/block/godlium_block.json",
-          "src/main/resources/assets/stmwr/blockstates/godlium_block.json",
-          "src/main/java/net/mcreator/stmwr/block/GodliumBlockBlock.java",
->>>>>>> 1.3-BranchTest
           "src/main/resources/assets/stmwr/models/item/godlium_block.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/godlium_block.json"
         ]
@@ -487,19 +441,11 @@
       "registry_name": "godlium_armor",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/item/godlium_armor_boots.json",
           "src/main/resources/assets/stmwr/models/item/godlium_armor_leggings.json",
           "src/main/java/net/mcreator/stmwr/item/GodliumArmorItem.java",
           "src/main/resources/assets/stmwr/models/item/godlium_armor_chestplate.json",
           "src/main/resources/assets/stmwr/models/item/godlium_armor_helmet.json"
-=======
-          "src/main/resources/assets/stmwr/models/item/godlium_armor_helmet.json",
-          "src/main/resources/assets/stmwr/models/item/godlium_armor_boots.json",
-          "src/main/resources/assets/stmwr/models/item/godlium_armor_leggings.json",
-          "src/main/resources/assets/stmwr/models/item/godlium_armor_chestplate.json",
-          "src/main/java/net/mcreator/stmwr/item/GodliumArmorItem.java"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -704,8 +650,8 @@
       "registry_name": "healing_totem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/HealingTotemItem.java",
-          "src/main/resources/assets/stmwr/models/item/healing_totem.json"
+          "src/main/resources/assets/stmwr/models/item/healing_totem.json",
+          "src/main/java/net/mcreator/stmwr/item/HealingTotemItem.java"
         ]
       }
     },
@@ -775,8 +721,8 @@
       "registry_name": "builders_wand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/builders_wand.json",
-          "src/main/java/net/mcreator/stmwr/item/BuildersWandItem.java"
+          "src/main/java/net/mcreator/stmwr/item/BuildersWandItem.java",
+          "src/main/resources/assets/stmwr/models/item/builders_wand.json"
         ]
       }
     },
@@ -834,8 +780,8 @@
       "registry_name": "healing_totem_t_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/healing_totem_t_2.json",
-          "src/main/java/net/mcreator/stmwr/item/HealingTotemT2Item.java"
+          "src/main/java/net/mcreator/stmwr/item/HealingTotemT2Item.java",
+          "src/main/resources/assets/stmwr/models/item/healing_totem_t_2.json"
         ]
       }
     },
@@ -1011,8 +957,8 @@
       "registry_name": "speed_totem_t_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/speed_totem_t_2.json",
-          "src/main/java/net/mcreator/stmwr/item/SpeedTotemT2Item.java"
+          "src/main/java/net/mcreator/stmwr/item/SpeedTotemT2Item.java",
+          "src/main/resources/assets/stmwr/models/item/speed_totem_t_2.json"
         ]
       }
     },
@@ -1125,8 +1071,8 @@
       "registry_name": "nightvision_totem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/nightvision_totem.json",
-          "src/main/java/net/mcreator/stmwr/item/NightvisionTotemItem.java"
+          "src/main/java/net/mcreator/stmwr/item/NightvisionTotemItem.java",
+          "src/main/resources/assets/stmwr/models/item/nightvision_totem.json"
         ]
       }
     },
@@ -1361,8 +1307,8 @@
       "registry_name": "haste_totem_t_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/HasteTotemT1Item.java",
-          "src/main/resources/assets/stmwr/models/item/haste_totem_t_1.json"
+          "src/main/resources/assets/stmwr/models/item/haste_totem_t_1.json",
+          "src/main/java/net/mcreator/stmwr/item/HasteTotemT1Item.java"
         ]
       }
     },
@@ -1624,8 +1570,8 @@
       "registry_name": "iron_wand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/iron_wand.json",
-          "src/main/java/net/mcreator/stmwr/item/IronWandItem.java"
+          "src/main/java/net/mcreator/stmwr/item/IronWandItem.java",
+          "src/main/resources/assets/stmwr/models/item/iron_wand.json"
         ]
       }
     },
@@ -1695,8 +1641,8 @@
       "registry_name": "coal_wand",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/CoalWandItem.java",
-          "src/main/resources/assets/stmwr/models/item/coal_wand.json"
+          "src/main/resources/assets/stmwr/models/item/coal_wand.json",
+          "src/main/java/net/mcreator/stmwr/item/CoalWandItem.java"
         ]
       }
     },
@@ -1732,8 +1678,8 @@
       "registry_name": "infinitite_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/InfinititeIngotItem.java",
-          "src/main/resources/assets/stmwr/models/item/infinitite_ingot.json"
+          "src/main/resources/assets/stmwr/models/item/infinitite_ingot.json",
+          "src/main/java/net/mcreator/stmwr/item/InfinititeIngotItem.java"
         ]
       }
     },
@@ -1745,7 +1691,6 @@
       "registry_name": "infinitite_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/stmwr/worldgen/placed_feature/infinitite_ore.json",
           "src/main/java/net/mcreator/stmwr/block/InfinititeOreBlock.java",
           "src/main/resources/assets/stmwr/models/item/infinitite_ore.json",
@@ -1754,16 +1699,6 @@
           "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_ore.json",
           "src/main/resources/assets/stmwr/blockstates/infinitite_ore.json",
           "src/main/resources/assets/stmwr/models/block/infinitite_ore.json"
-=======
-          "src/main/resources/assets/stmwr/models/item/infinitite_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/infinitite_ore_biome_modifier.json",
-          "src/main/resources/assets/stmwr/models/block/infinitite_ore.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/infinitite_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/InfinititeOreBlock.java",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/infinitite_ore.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/infinitite_ore.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -1776,17 +1711,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/stmwr/block/InfinititeBlockBlock.java",
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/item/infinitite_block.json",
           "src/main/resources/assets/stmwr/blockstates/infinitite_block.json",
           "src/main/resources/assets/stmwr/models/block/infinitite_block.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_block.json"
-=======
-          "src/main/resources/assets/stmwr/models/block/infinitite_block.json",
-          "src/main/resources/assets/stmwr/blockstates/infinitite_block.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_block.json",
-          "src/main/resources/assets/stmwr/models/item/infinitite_block.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -1871,7 +1799,6 @@
       "registry_name": "blazed_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/block/blazed_ore.json",
           "src/main/resources/data/stmwr/forge/biome_modifier/blazed_ore_biome_modifier.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/blazed_ore.json",
@@ -1880,16 +1807,6 @@
           "src/main/resources/data/stmwr/worldgen/placed_feature/blazed_ore.json",
           "src/main/resources/assets/stmwr/models/item/blazed_ore.json",
           "src/main/resources/assets/stmwr/blockstates/blazed_ore.json"
-=======
-          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/blazed_ore_biome_modifier.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/blazed_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/blazed_ore.json",
-          "src/main/resources/assets/stmwr/models/item/blazed_ore.json",
-          "src/main/resources/assets/stmwr/models/block/blazed_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/BlazedOreBlock.java",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/blazed_ore.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -1901,16 +1818,11 @@
       "registry_name": "blazed_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/stmwr/blockstates/blazed_block.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/blazed_block.json",
           "src/main/resources/assets/stmwr/models/block/blazed_block.json",
           "src/main/resources/assets/stmwr/models/item/blazed_block.json",
-<<<<<<< HEAD
           "src/main/java/net/mcreator/stmwr/block/BlazedBlockBlock.java"
-=======
-          "src/main/resources/assets/stmwr/blockstates/blazed_block.json",
-          "src/main/java/net/mcreator/stmwr/block/BlazedBlockBlock.java",
-          "src/main/resources/assets/stmwr/models/block/blazed_block.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -1958,8 +1870,8 @@
       "registry_name": "blazed_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/BlazedPickaxeItem.java",
-          "src/main/resources/assets/stmwr/models/item/blazed_pickaxe.json"
+          "src/main/resources/assets/stmwr/models/item/blazed_pickaxe.json",
+          "src/main/java/net/mcreator/stmwr/item/BlazedPickaxeItem.java"
         ]
       }
     },
@@ -1997,8 +1909,8 @@
       "registry_name": "blazed_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/BlazedShovelItem.java",
-          "src/main/resources/assets/stmwr/models/item/blazed_shovel.json"
+          "src/main/resources/assets/stmwr/models/item/blazed_shovel.json",
+          "src/main/java/net/mcreator/stmwr/item/BlazedShovelItem.java"
         ]
       }
     },
@@ -2083,19 +1995,11 @@
       "registry_name": "blazed_armor",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/item/blazed_armor_boots.json",
           "src/main/java/net/mcreator/stmwr/item/BlazedArmorItem.java",
           "src/main/resources/assets/stmwr/models/item/blazed_armor_leggings.json",
           "src/main/resources/assets/stmwr/models/item/blazed_armor_chestplate.json",
           "src/main/resources/assets/stmwr/models/item/blazed_armor_helmet.json"
-=======
-          "src/main/resources/assets/stmwr/models/item/blazed_armor_leggings.json",
-          "src/main/resources/assets/stmwr/models/item/blazed_armor_helmet.json",
-          "src/main/resources/assets/stmwr/models/item/blazed_armor_boots.json",
-          "src/main/resources/assets/stmwr/models/item/blazed_armor_chestplate.json",
-          "src/main/java/net/mcreator/stmwr/item/BlazedArmorItem.java"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -2483,7 +2387,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/worldgen/placed_feature/storum_ore.json",
-<<<<<<< HEAD
           "src/main/java/net/mcreator/stmwr/block/StorumOreBlock.java",
           "src/main/resources/assets/stmwr/models/block/storum_ore.json",
           "src/main/resources/data/stmwr/forge/biome_modifier/storum_ore_biome_modifier.json",
@@ -2491,15 +2394,6 @@
           "src/main/resources/data/stmwr/loot_tables/blocks/storum_ore.json",
           "src/main/resources/assets/stmwr/models/item/storum_ore.json",
           "src/main/resources/data/stmwr/worldgen/configured_feature/storum_ore.json"
-=======
-          "src/main/resources/data/stmwr/forge/biome_modifier/storum_ore_biome_modifier.json",
-          "src/main/resources/assets/stmwr/models/item/storum_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/storum_ore.json",
-          "src/main/resources/assets/stmwr/models/block/storum_ore.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/storum_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/storum_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/StorumOreBlock.java"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -2511,19 +2405,11 @@
       "registry_name": "storum_block",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/stmwr/block/StorumBlockBlock.java",
           "src/main/resources/assets/stmwr/models/item/storum_block.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/storum_block.json",
           "src/main/resources/assets/stmwr/models/block/storum_block.json",
           "src/main/resources/assets/stmwr/blockstates/storum_block.json"
-=======
-          "src/main/resources/data/stmwr/loot_tables/blocks/storum_block.json",
-          "src/main/resources/assets/stmwr/blockstates/storum_block.json",
-          "src/main/java/net/mcreator/stmwr/block/StorumBlockBlock.java",
-          "src/main/resources/assets/stmwr/models/item/storum_block.json",
-          "src/main/resources/assets/stmwr/models/block/storum_block.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -2571,8 +2457,8 @@
       "registry_name": "cubby_cube_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/world/inventory/CubbyCubeGUIMenu.java",
-          "src/main/java/net/mcreator/stmwr/client/gui/CubbyCubeGUIScreen.java"
+          "src/main/java/net/mcreator/stmwr/client/gui/CubbyCubeGUIScreen.java",
+          "src/main/java/net/mcreator/stmwr/world/inventory/CubbyCubeGUIMenu.java"
         ]
       }
     },
@@ -2584,21 +2470,12 @@
       "registry_name": "cubby_cube",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/block/cubby_cube.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/cubby_cube.json",
           "src/main/java/net/mcreator/stmwr/block/CubbyCubeBlock.java",
           "src/main/resources/assets/stmwr/models/item/cubby_cube.json",
           "src/main/java/net/mcreator/stmwr/block/entity/CubbyCubeBlockEntity.java",
           "src/main/resources/assets/stmwr/blockstates/cubby_cube.json"
-=======
-          "src/main/java/net/mcreator/stmwr/block/entity/CubbyCubeBlockEntity.java",
-          "src/main/resources/data/stmwr/loot_tables/blocks/cubby_cube.json",
-          "src/main/resources/assets/stmwr/blockstates/cubby_cube.json",
-          "src/main/java/net/mcreator/stmwr/block/CubbyCubeBlock.java",
-          "src/main/resources/assets/stmwr/models/item/cubby_cube.json",
-          "src/main/resources/assets/stmwr/models/block/cubby_cube.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -2755,8 +2632,8 @@
       "registry_name": "sausage",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/SausageItem.java",
-          "src/main/resources/assets/stmwr/models/item/sausage.json"
+          "src/main/resources/assets/stmwr/models/item/sausage.json",
+          "src/main/java/net/mcreator/stmwr/item/SausageItem.java"
         ]
       }
     },
@@ -2804,19 +2681,11 @@
       "registry_name": "trial_brick",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/stmwr/loot_tables/blocks/trial_brick.json",
           "src/main/java/net/mcreator/stmwr/block/TrialBrickBlock.java",
           "src/main/resources/assets/stmwr/blockstates/trial_brick.json",
           "src/main/resources/assets/stmwr/models/item/trial_brick.json",
           "src/main/resources/assets/stmwr/models/block/trial_brick.json"
-=======
-          "src/main/resources/assets/stmwr/models/block/trial_brick.json",
-          "src/main/resources/assets/stmwr/models/item/trial_brick.json",
-          "src/main/resources/assets/stmwr/blockstates/trial_brick.json",
-          "src/main/java/net/mcreator/stmwr/block/TrialBrickBlock.java",
-          "src/main/resources/data/stmwr/loot_tables/blocks/trial_brick.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -2855,13 +2724,8 @@
         "files": [
           "src/main/resources/data/stmwr/forge/biome_modifier/steve_cow_biome_modifier.json",
           "src/main/java/net/mcreator/stmwr/client/renderer/SteveCowRenderer.java",
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/item/steve_cow_spawn_egg.json",
           "src/main/java/net/mcreator/stmwr/entity/SteveCowEntity.java"
-=======
-          "src/main/java/net/mcreator/stmwr/entity/SteveCowEntity.java",
-          "src/main/resources/assets/stmwr/models/item/steve_cow_spawn_egg.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -2887,7 +2751,6 @@
       "registry_name": "land_of_the_steve_cows",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ew.json",
           "src/main/resources/data/stmwr/dimension/land_of_the_steve_cows.json",
           "src/main/resources/assets/stmwr/models/item/land_of_the_steve_cows.json",
@@ -2899,19 +2762,6 @@
           "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ns.json",
           "src/main/java/net/mcreator/stmwr/item/LandOfTheSteveCowsItem.java",
           "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsPortalShape.java"
-=======
-          "src/main/java/net/mcreator/stmwr/block/LandOfTheSteveCowsPortalBlock.java",
-          "src/main/java/net/mcreator/stmwr/item/LandOfTheSteveCowsItem.java",
-          "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ns.json",
-          "src/main/resources/data/stmwr/dimension_type/land_of_the_steve_cows.json",
-          "src/main/resources/data/stmwr/dimension/land_of_the_steve_cows.json",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsTeleporter.java",
-          "src/main/resources/assets/stmwr/blockstates/land_of_the_steve_cows_portal.json",
-          "src/main/java/net/mcreator/stmwr/world/dimension/LandOfTheSteveCowsDimension.java",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsPortalShape.java",
-          "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ew.json",
-          "src/main/resources/assets/stmwr/models/item/land_of_the_steve_cows.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -3021,22 +2871,14 @@
       "registry_name": "stevum_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/block/stevum_ore.json",
           "src/main/resources/data/stmwr/worldgen/configured_feature/stevum_ore.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/stevum_ore.json",
           "src/main/resources/assets/stmwr/models/item/stevum_ore.json",
           "src/main/resources/data/stmwr/forge/biome_modifier/stevum_ore_biome_modifier.json",
-=======
-          "src/main/resources/data/stmwr/loot_tables/blocks/stevum_ore.json",
->>>>>>> 1.3-BranchTest
           "src/main/resources/assets/stmwr/blockstates/stevum_ore.json",
           "src/main/java/net/mcreator/stmwr/block/StevumOreBlock.java",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/stevum_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/stevum_ore.json",
-          "src/main/resources/assets/stmwr/models/item/stevum_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/stevum_ore_biome_modifier.json",
-          "src/main/resources/assets/stmwr/models/block/stevum_ore.json"
+          "src/main/resources/data/stmwr/worldgen/placed_feature/stevum_ore.json"
         ]
       }
     },
@@ -3049,17 +2891,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/stmwr/models/block/stevum_block.json",
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/blockstates/stevum_block.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/stevum_block.json",
           "src/main/resources/assets/stmwr/models/item/stevum_block.json",
           "src/main/java/net/mcreator/stmwr/block/StevumBlockBlock.java"
-=======
-          "src/main/java/net/mcreator/stmwr/block/StevumBlockBlock.java",
-          "src/main/resources/assets/stmwr/blockstates/stevum_block.json",
-          "src/main/resources/assets/stmwr/models/item/stevum_block.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/stevum_block.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -3133,8 +2968,8 @@
       "registry_name": "giant_steve_cow_heart",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/giant_steve_cow_heart.json",
-          "src/main/java/net/mcreator/stmwr/item/GiantSteveCowHeartItem.java"
+          "src/main/java/net/mcreator/stmwr/item/GiantSteveCowHeartItem.java",
+          "src/main/resources/assets/stmwr/models/item/giant_steve_cow_heart.json"
         ]
       }
     },
@@ -3242,17 +3077,10 @@
       "registry_name": "pikachu",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/item/pikachu_spawn_egg.json",
           "src/main/java/net/mcreator/stmwr/client/renderer/PikachuRenderer.java",
           "src/main/resources/data/stmwr/forge/biome_modifier/pikachu_biome_modifier.json",
           "src/main/java/net/mcreator/stmwr/entity/PikachuEntity.java"
-=======
-          "src/main/java/net/mcreator/stmwr/client/renderer/PikachuRenderer.java",
-          "src/main/java/net/mcreator/stmwr/entity/PikachuEntity.java",
-          "src/main/resources/data/stmwr/forge/biome_modifier/pikachu_biome_modifier.json",
-          "src/main/resources/assets/stmwr/models/item/pikachu_spawn_egg.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -3298,8 +3126,8 @@
       "registry_name": "pikastaff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/pikastaff.json",
-          "src/main/java/net/mcreator/stmwr/item/PikastaffItem.java"
+          "src/main/java/net/mcreator/stmwr/item/PikastaffItem.java",
+          "src/main/resources/assets/stmwr/models/item/pikastaff.json"
         ]
       }
     },
@@ -3349,15 +3177,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/forge/biome_modifier/survivor_biome_modifier.json",
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/item/survivor_spawn_egg.json",
           "src/main/java/net/mcreator/stmwr/client/renderer/SurvivorRenderer.java",
           "src/main/java/net/mcreator/stmwr/entity/SurvivorEntity.java"
-=======
-          "src/main/java/net/mcreator/stmwr/entity/SurvivorEntity.java",
-          "src/main/java/net/mcreator/stmwr/client/renderer/SurvivorRenderer.java",
-          "src/main/resources/assets/stmwr/models/item/survivor_spawn_egg.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -3436,7 +3258,6 @@
       "registry_name": "militaria",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/item/militaria.json",
           "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
           "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
@@ -3448,19 +3269,6 @@
           "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaPortalShape.java",
           "src/main/resources/data/stmwr/dimension_type/militaria.json",
           "src/main/resources/data/stmwr/dimension/militaria.json"
-=======
-          "src/main/java/net/mcreator/stmwr/block/MilitariaPortalBlock.java",
-          "src/main/java/net/mcreator/stmwr/item/MilitariaItem.java",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaPortalShape.java",
-          "src/main/resources/data/stmwr/dimension_type/militaria.json",
-          "src/main/resources/data/stmwr/dimension/militaria.json",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaTeleporter.java",
-          "src/main/resources/assets/stmwr/models/item/militaria.json",
-          "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
-          "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
-          "src/main/resources/assets/stmwr/blockstates/militaria_portal.json",
-          "src/main/resources/assets/stmwr/models/block/militaria_portal_ns.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -3607,8 +3415,8 @@
       "registry_name": "steel_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/steel_ingot.json",
-          "src/main/java/net/mcreator/stmwr/item/SteelIngotItem.java"
+          "src/main/java/net/mcreator/stmwr/item/SteelIngotItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_ingot.json"
         ]
       }
     },
@@ -3620,7 +3428,6 @@
       "registry_name": "steel_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/stmwr/worldgen/configured_feature/steel_ore.json",
           "src/main/resources/assets/stmwr/models/item/steel_ore.json",
           "src/main/resources/assets/stmwr/blockstates/steel_ore.json",
@@ -3629,16 +3436,6 @@
           "src/main/java/net/mcreator/stmwr/block/SteelOreBlock.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/steel_ore.json",
           "src/main/resources/data/stmwr/forge/biome_modifier/steel_ore_biome_modifier.json"
-=======
-          "src/main/resources/data/stmwr/worldgen/placed_feature/steel_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/steel_ore_biome_modifier.json",
-          "src/main/resources/assets/stmwr/blockstates/steel_ore.json",
-          "src/main/resources/assets/stmwr/models/item/steel_ore.json",
-          "src/main/resources/assets/stmwr/models/block/steel_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/SteelOreBlock.java",
-          "src/main/resources/data/stmwr/loot_tables/blocks/steel_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/steel_ore.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -3650,19 +3447,11 @@
       "registry_name": "steel_block",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/stmwr/block/SteelBlockBlock.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/steel_block.json",
           "src/main/resources/assets/stmwr/models/block/steel_block.json",
           "src/main/resources/assets/stmwr/models/item/steel_block.json",
           "src/main/resources/assets/stmwr/blockstates/steel_block.json"
-=======
-          "src/main/resources/assets/stmwr/blockstates/steel_block.json",
-          "src/main/resources/assets/stmwr/models/block/steel_block.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/steel_block.json",
-          "src/main/resources/assets/stmwr/models/item/steel_block.json",
-          "src/main/java/net/mcreator/stmwr/block/SteelBlockBlock.java"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -3723,8 +3512,8 @@
       "registry_name": "steel_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/SteelAxeItem.java",
-          "src/main/resources/assets/stmwr/models/item/steel_axe.json"
+          "src/main/resources/assets/stmwr/models/item/steel_axe.json",
+          "src/main/java/net/mcreator/stmwr/item/SteelAxeItem.java"
         ]
       }
     },
@@ -3736,8 +3525,8 @@
       "registry_name": "steel_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/steel_sword.json",
-          "src/main/java/net/mcreator/stmwr/item/SteelSwordItem.java"
+          "src/main/java/net/mcreator/stmwr/item/SteelSwordItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_sword.json"
         ]
       }
     },
@@ -3762,8 +3551,8 @@
       "registry_name": "steel_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/SteelHoeItem.java",
-          "src/main/resources/assets/stmwr/models/item/steel_hoe.json"
+          "src/main/resources/assets/stmwr/models/item/steel_hoe.json",
+          "src/main/java/net/mcreator/stmwr/item/SteelHoeItem.java"
         ]
       }
     },
@@ -3835,13 +3624,9 @@
       "registry_name": "steel_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/steel_armor_leggings.json",
           "src/main/resources/assets/stmwr/models/item/steel_armor_helmet.json",
           "src/main/java/net/mcreator/stmwr/item/SteelArmorItem.java",
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/models/item/steel_armor_leggings.json",
-=======
->>>>>>> 1.3-BranchTest
           "src/main/resources/assets/stmwr/models/item/steel_armor_boots.json",
           "src/main/resources/assets/stmwr/models/item/steel_armor_chestplate.json"
         ]
@@ -4042,7 +3827,6 @@
       "registry_name": "suggestium_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/stmwr/worldgen/placed_feature/suggestium_ore.json",
           "src/main/resources/assets/stmwr/models/block/suggestium_ore.json",
           "src/main/resources/assets/stmwr/models/item/suggestium_ore.json",
@@ -4051,16 +3835,6 @@
           "src/main/java/net/mcreator/stmwr/block/SuggestiumOreBlock.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_ore.json",
           "src/main/resources/data/stmwr/forge/biome_modifier/suggestium_ore_biome_modifier.json"
-=======
-          "src/main/resources/data/stmwr/worldgen/configured_feature/suggestium_ore.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/suggestium_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/suggestium_ore.json",
-          "src/main/resources/assets/stmwr/models/item/suggestium_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/suggestium_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/stmwr/block/SuggestiumOreBlock.java",
-          "src/main/resources/assets/stmwr/models/block/suggestium_ore.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_ore.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -4072,19 +3846,11 @@
       "registry_name": "suggestium_block",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/stmwr/blockstates/suggestium_block.json",
           "src/main/resources/assets/stmwr/models/block/suggestium_block.json",
           "src/main/resources/assets/stmwr/models/item/suggestium_block.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_block.json",
           "src/main/java/net/mcreator/stmwr/block/SuggestiumBlockBlock.java"
-=======
-          "src/main/resources/assets/stmwr/models/block/suggestium_block.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_block.json",
-          "src/main/java/net/mcreator/stmwr/block/SuggestiumBlockBlock.java",
-          "src/main/resources/assets/stmwr/blockstates/suggestium_block.json",
-          "src/main/resources/assets/stmwr/models/item/suggestium_block.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
@@ -4218,8 +3984,8 @@
       "registry_name": "cheese_stick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/CheeseStickItem.java",
-          "src/main/resources/assets/stmwr/models/item/cheese_stick.json"
+          "src/main/resources/assets/stmwr/models/item/cheese_stick.json",
+          "src/main/java/net/mcreator/stmwr/item/CheeseStickItem.java"
         ]
       }
     },
@@ -4329,8 +4095,8 @@
       "registry_name": "taco",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/taco.json",
-          "src/main/java/net/mcreator/stmwr/item/TacoItem.java"
+          "src/main/java/net/mcreator/stmwr/item/TacoItem.java",
+          "src/main/resources/assets/stmwr/models/item/taco.json"
         ]
       }
     },
@@ -4366,8 +4132,8 @@
       "registry_name": "portable_oven",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/PortableOvenItem.java",
-          "src/main/resources/assets/stmwr/models/item/portable_oven.json"
+          "src/main/resources/assets/stmwr/models/item/portable_oven.json",
+          "src/main/java/net/mcreator/stmwr/item/PortableOvenItem.java"
         ]
       }
     },
@@ -4872,8 +4638,8 @@
       "registry_name": "strength_totem_t_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/strength_totem_t_3.json",
-          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT3Item.java"
+          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT3Item.java",
+          "src/main/resources/assets/stmwr/models/item/strength_totem_t_3.json"
         ]
       }
     },
@@ -4912,7 +4678,6 @@
       }
     },
     {
-<<<<<<< HEAD
       "name": "WarRuins1",
       "type": "structure",
       "compiles": true,
@@ -4923,21 +4688,10 @@
           "src/main/resources/data/stmwr/worldgen/template_pool/war_ruins_1.json",
           "src/main/resources/data/stmwr/worldgen/structure_set/war_ruins_1.json",
           "src/main/resources/data/stmwr/worldgen/structure/war_ruins_1.json"
-=======
-      "name": "Everfrost",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "everfrost",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/worldgen/biome/everfrost.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
     {
-<<<<<<< HEAD
       "name": "ModifiersTable",
       "type": "gui",
       "compiles": true,
@@ -4948,23 +4702,10 @@
           "src/main/java/net/mcreator/stmwr/network/ModifiersTableButtonMessage.java",
           "src/main/java/net/mcreator/stmwr/world/inventory/ModifiersTableMenu.java",
           "src/main/java/net/mcreator/stmwr/client/gui/ModifiersTableScreen.java"
-=======
-      "name": "ColdOasis",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cold_oasis",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/worldgen/configured_feature/cold_oasis_tree.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/cold_oasis_tree.json",
-          "src/main/resources/data/stmwr/worldgen/biome/cold_oasis.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
     {
-<<<<<<< HEAD
       "name": "ModifierTable",
       "type": "block",
       "compiles": true,
@@ -5003,27 +4744,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/advancements/stmwr_tech.json"
-=======
-      "name": "PortalStevecow",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "portal_stevecow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/stmwr/procedures/PortalStevecowProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
->>>>>>> 1.3-BranchTest
         ]
       }
     },
     {
-<<<<<<< HEAD
       "name": "ModificationStation",
       "type": "achievement",
       "compiles": true,
@@ -5032,21 +4756,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/advancements/modification_station.json"
-=======
-      "name": "PortalSteve",
-      "type": "command",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "portal_steve",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/stmwr/command/PortalSteveCommand.java"
->>>>>>> 1.3-BranchTest
         ]
       }
     },
     {
-<<<<<<< HEAD
       "name": "ModifierTableRecipe",
       "type": "recipe",
       "compiles": true,
@@ -5055,81 +4768,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/recipes/modifier_table_recipe.json"
-=======
-      "name": "IceShard",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ice_shard",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/stmwr/models/item/ice_shard.json",
-          "src/main/java/net/mcreator/stmwr/item/IceShardItem.java"
-        ]
-      }
-    },
-    {
-      "name": "FrostZombie",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frost_zombie",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/stmwr/models/item/frost_zombie_spawn_egg.json",
-          "src/main/java/net/mcreator/stmwr/client/renderer/FrostZombieRenderer.java",
-          "src/main/java/net/mcreator/stmwr/entity/FrostZombieEntity.java",
-          "src/main/resources/data/stmwr/forge/biome_modifier/frost_zombie_biome_modifier.json"
-        ]
-      }
-    },
-    {
-      "name": "GrindIceShard",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grind_ice_shard",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/grind_ice_shard.json"
-        ]
-      }
-    },
-    {
-      "name": "FreeMagicite",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "free_magicite",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/free_magicite.json"
-        ]
-      }
-    },
-    {
-      "name": "BasicSpellbook",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basic_spellbook",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/stmwr/models/item/basic_spellbook.json",
-          "src/main/java/net/mcreator/stmwr/item/BasicSpellbookItem.java"
-        ]
-      }
-    },
-    {
-      "name": "BasicSpellbookRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "basic_spellbook_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/basic_spellbook_recipe.json"
->>>>>>> 1.3-BranchTest
         ]
       }
     }
@@ -5137,15 +4775,8 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BIOMES:minecraft:has_structure/ruined_portal_jungle": [
-      "~CUSTOM:ColdOasis"
-    ],
     "BIOMES:minecraft:has_structure/stronghold": [
-      "~CUSTOM:MilitariaLand",
       "~CUSTOM:SteveCowLand"
-    ],
-    "BIOMES:minecraft:has_structure/ocean_monument": [
-      "~CUSTOM:Everfrost"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:SuggestiumBlock",
@@ -5172,11 +4803,7 @@
       "~CUSTOM:Plasticilia"
     ],
     "BIOMES:minecraft:has_structure/igloo": [
-      "~CUSTOM:Everfrost",
       "~CUSTOM:SteveCowLand"
-    ],
-    "BIOMES:minecraft:has_structure/buried_treasure": [
-      "~CUSTOM:Everfrost"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:SteelPickaxe",
@@ -5202,7 +4829,6 @@
       "~CUSTOM:AtomSmasher"
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
-      "~CUSTOM:Everfrost",
       "~CUSTOM:SteveCowLand"
     ],
     "ITEMS:minecraft:hoes": [
@@ -5215,13 +4841,10 @@
       "~Blocks.MUD_BRICKS",
       "~Blocks.RED_SANDSTONE#1",
       "~Blocks.PACKED_ICE",
-      "~Blocks.STONE#0",
       "~Blocks.SNOW",
       "~Blocks.GRASS"
     ],
     "BIOMES:minecraft:has_structure/shipwreck_beached": [
-      "~CUSTOM:ColdOasis",
-      "~CUSTOM:Everfrost",
       "~CUSTOM:MilitariaLand",
       "~CUSTOM:SteveCowLand"
     ],
@@ -5246,7 +4869,6 @@
       "~CUSTOM:MagiciteOre"
     ],
     "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:Everfrost",
       "~CUSTOM:MilitariaLand"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -5254,10 +4876,6 @@
     ],
     "BIOMES:minecraft:has_structure/bastion_remnant": [
       "~CUSTOM:SteveCowLand"
-    ],
-    "BIOMES:minecraft:has_structure/shipwreck": [
-      "~CUSTOM:ColdOasis",
-      "~CUSTOM:Everfrost"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:SteelAxe",
@@ -5297,11 +4915,7 @@
       "advancements.mystical_agriculture.descr": "Craft a magic carrot",
       "block.stmwr.stevum_ore": "Stevum Ore",
       "item.stmwr.goop": "Goop",
-<<<<<<< HEAD
       "advancements.modification_station.title": "Modification Station",
-=======
-      "biome.stmwr.cold_oasis": "Cold Oasis",
->>>>>>> 1.3-BranchTest
       "advancements.named.descr": "You can craft name tags now!",
       "item.stmwr.chocolate": "Chocolate",
       "advancements.stringy.descr": "Craft up some delicious cheese sticks!",
@@ -5322,10 +4936,6 @@
       "advancements.goopy.title": "Goopy?!",
       "item.stmwr.godlium_armor_helmet": "Godlium Helmet",
       "item.stmwr.magic_carrot": "Magic Carrot",
-<<<<<<< HEAD
-=======
-      "advancements.free_magicite.title": "Free Magicite",
->>>>>>> 1.3-BranchTest
       "advancements.flame_on.title": "Flame On!",
       "item.stmwr.advanced_wand_stick": "Advanced Wand Stick",
       "advancements.mooore_stoooorage.title": "Mooore Stoooorage!!!!",
@@ -5353,7 +4963,6 @@
       "item.stmwr.blazed_ingot": "Blazed",
       "item.stmwr.pikachu_spawn_egg": "Pikachu Spawn Egg",
       "item.stmwr.magicite_dust": "Magicite",
-      "advancements.free_magicite.descr": "Kill some Frost Zombies to get ice shards. Ice shards can be crafted into some free magicite!",
       "advancements.golden_boy.title": "Golden Boy",
       "item.stmwr.pizza_slice": "Pizza Slice",
       "advancements.find_the_pieces.descr": "Craft some key pieces, used to make keys for the trials",
@@ -5447,7 +5056,6 @@
       "item.stmwr.haste_totem_t_2": "Haste Totem Tier 2",
       "item.stmwr.haste_totem_t_1": "Haste Totem Tier 1",
       "advancements.double_the_godlium.descr": "You can craft a block of godlium with the creation orb, as long as you have some godlium already.",
-      "entity.stmwr.frost_zombie": "Frost Zombie",
       "advancements.welcome_to_militaria.descr": "Craft a Militaria trial key after defeating the Giant Steve Cow",
       "item.stmwr.haste_totem_t_3": "Haste Totem T 3",
       "advancements.plastic_fantastic.title": "Plastic Fantastic!",
@@ -5522,7 +5130,6 @@
       "advancements.speedy_gonzales.title": "Speedy Gonzales",
       "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
       "item.stmwr.blazed_armor_chestplate": "Blazed Chestplate",
-      "biome.stmwr.everfrost": "Everfrost",
       "advancements.suggestions_welcome.descr": "Find some Suggestium, which can be used to craft things suggested by friends that don\u0027t really have a place anywhere.",
       "advancements.stmw_foods.title": "STMW: Foods",
       "advancements.coal_for_christmas.title": "Coal For Christmas!",
@@ -5557,7 +5164,6 @@
       "advancements.oh_the_irony.title": "Oh The Irony",
       "biome.stmwr.militaria_land": "Militaria Land",
       "advancements.toot_toot.title": "Toot Toot!",
-      "item.stmwr.frost_zombie_spawn_egg": "Frost Zombie Spawn Egg",
       "item.stmwr.infinitite_ingot": "Infinitite",
       "advancements.tortillas.descr": "Make some tortillas!",
       "advancements.i_am_speed.title": "I Am Speed",
@@ -5568,7 +5174,6 @@
       "advancements.welcome_to_militaria.title": "Welcome To Militaria!",
       "item.stmwr.healing_totem": "Healing Totem Tier One",
       "item.stmwr.dirt_nugget": "Dirt Nugget",
-      "item.stmwr.basic_spellbook": "Basic Spellbook",
       "item.stmwr.godlium_shovel": "Godlium Shovel",
       "advancements.inventory_pork.descr": "You can make pork in your inventory!",
       "item.stmwr.knife": "Knife",
@@ -5592,11 +5197,7 @@
       "item.stmwr.portable_oven": "Portable Oven",
       "item.stmwr.land_of_the_steve_cows": "SteveCow Trial Key",
       "item.stmwr.godlium_pickaxe": "Godlium Pickaxe",
-<<<<<<< HEAD
       "gui.stmwr.modifiers_table.label_modifiers": "Modifier Table",
-=======
-      "item.stmwr.ice_shard": "Ice Shard",
->>>>>>> 1.3-BranchTest
       "block.stmwr.godlium_block": "Block of Godlium",
       "item.stmwr.stevum": "Stevum",
       "advancements.experienced.descr": "You can craft experience bottles!",

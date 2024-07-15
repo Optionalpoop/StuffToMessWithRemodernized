@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "stmwr:cold_oasis",
-    "stmwr:everfrost",
     "stmwr:militaria_land",
     "stmwr:steve_cow_land"
   ]

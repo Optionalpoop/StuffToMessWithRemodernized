@@ -2751,7 +2751,6 @@
       "registry_name": "land_of_the_steve_cows",
       "metadata": {
         "files": [
-<<<<<<<< HEAD:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240715_001305
           "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ew.json",
           "src/main/resources/data/stmwr/dimension/land_of_the_steve_cows.json",
           "src/main/resources/assets/stmwr/models/item/land_of_the_steve_cows.json",
@@ -2763,19 +2762,6 @@
           "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ns.json",
           "src/main/java/net/mcreator/stmwr/item/LandOfTheSteveCowsItem.java",
           "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsPortalShape.java"
-========
-          "src/main/java/net/mcreator/stmwr/block/LandOfTheSteveCowsPortalBlock.java",
-          "src/main/java/net/mcreator/stmwr/item/LandOfTheSteveCowsItem.java",
-          "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ns.json",
-          "src/main/resources/data/stmwr/dimension_type/land_of_the_steve_cows.json",
-          "src/main/resources/data/stmwr/dimension/land_of_the_steve_cows.json",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsTeleporter.java",
-          "src/main/resources/assets/stmwr/blockstates/land_of_the_steve_cows_portal.json",
-          "src/main/java/net/mcreator/stmwr/world/dimension/LandOfTheSteveCowsDimension.java",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsPortalShape.java",
-          "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ew.json",
-          "src/main/resources/assets/stmwr/models/item/land_of_the_steve_cows.json"
->>>>>>>> 1.3-BranchTest:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240714_204054
         ]
       }
     },
@@ -3272,7 +3258,6 @@
       "registry_name": "militaria",
       "metadata": {
         "files": [
-<<<<<<<< HEAD:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240715_001305
           "src/main/resources/assets/stmwr/models/item/militaria.json",
           "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
           "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
@@ -3284,19 +3269,6 @@
           "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaPortalShape.java",
           "src/main/resources/data/stmwr/dimension_type/militaria.json",
           "src/main/resources/data/stmwr/dimension/militaria.json"
-========
-          "src/main/java/net/mcreator/stmwr/block/MilitariaPortalBlock.java",
-          "src/main/java/net/mcreator/stmwr/item/MilitariaItem.java",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaPortalShape.java",
-          "src/main/resources/data/stmwr/dimension_type/militaria.json",
-          "src/main/resources/data/stmwr/dimension/militaria.json",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaTeleporter.java",
-          "src/main/resources/assets/stmwr/models/item/militaria.json",
-          "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
-          "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
-          "src/main/resources/assets/stmwr/blockstates/militaria_portal.json",
-          "src/main/resources/assets/stmwr/models/block/militaria_portal_ns.json"
->>>>>>>> 1.3-BranchTest:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240714_204054
         ]
       }
     },
@@ -4706,7 +4678,6 @@
       }
     },
     {
-<<<<<<<< HEAD:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240715_001305
       "name": "WarRuins1",
       "type": "structure",
       "compiles": true,
@@ -4717,21 +4688,10 @@
           "src/main/resources/data/stmwr/worldgen/template_pool/war_ruins_1.json",
           "src/main/resources/data/stmwr/worldgen/structure_set/war_ruins_1.json",
           "src/main/resources/data/stmwr/worldgen/structure/war_ruins_1.json"
-========
-      "name": "Everfrost",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "everfrost",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/worldgen/biome/everfrost.json"
->>>>>>>> 1.3-BranchTest:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240714_204054
         ]
       }
     },
     {
-<<<<<<<< HEAD:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240715_001305
       "name": "ModifiersTable",
       "type": "gui",
       "compiles": true,
@@ -4774,34 +4734,13 @@
         ],
         "dependencies": []
       }
-========
-      "name": "ColdOasis",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cold_oasis",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/worldgen/configured_feature/cold_oasis_tree.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/cold_oasis_tree.json",
-          "src/main/resources/data/stmwr/worldgen/biome/cold_oasis.json"
-        ]
-      }
->>>>>>>> 1.3-BranchTest:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240714_204054
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BIOMES:minecraft:has_structure/ruined_portal_jungle": [
-      "~CUSTOM:ColdOasis"
-    ],
     "BIOMES:minecraft:has_structure/stronghold": [
-      "~CUSTOM:MilitariaLand",
       "~CUSTOM:SteveCowLand"
-    ],
-    "BIOMES:minecraft:has_structure/ocean_monument": [
-      "~CUSTOM:Everfrost"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:SuggestiumBlock",
@@ -4828,11 +4767,7 @@
       "~CUSTOM:Plasticilia"
     ],
     "BIOMES:minecraft:has_structure/igloo": [
-      "~CUSTOM:Everfrost",
       "~CUSTOM:SteveCowLand"
-    ],
-    "BIOMES:minecraft:has_structure/buried_treasure": [
-      "~CUSTOM:Everfrost"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:SteelPickaxe",
@@ -4858,7 +4793,6 @@
       "~CUSTOM:AtomSmasher"
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
-      "~CUSTOM:Everfrost",
       "~CUSTOM:SteveCowLand"
     ],
     "ITEMS:minecraft:hoes": [
@@ -4867,7 +4801,6 @@
       "~CUSTOM:GodliumHoe"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Blocks.STONE#0",
       "~Blocks.SMOOTH_RED_SANDSTONE",
       "~Blocks.MUD_BRICKS",
       "~Blocks.RED_SANDSTONE#1",
@@ -4876,8 +4809,6 @@
       "~Blocks.GRASS"
     ],
     "BIOMES:minecraft:has_structure/shipwreck_beached": [
-      "~CUSTOM:ColdOasis",
-      "~CUSTOM:Everfrost",
       "~CUSTOM:MilitariaLand",
       "~CUSTOM:SteveCowLand"
     ],
@@ -4902,7 +4833,6 @@
       "~CUSTOM:MagiciteOre"
     ],
     "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:Everfrost",
       "~CUSTOM:MilitariaLand"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -4910,10 +4840,6 @@
     ],
     "BIOMES:minecraft:has_structure/bastion_remnant": [
       "~CUSTOM:SteveCowLand"
-    ],
-    "BIOMES:minecraft:has_structure/shipwreck": [
-      "~CUSTOM:ColdOasis",
-      "~CUSTOM:Everfrost"
     ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:SteelAxe",
@@ -4953,7 +4879,6 @@
       "advancements.mystical_agriculture.descr": "Craft a magic carrot",
       "block.stmwr.stevum_ore": "Stevum Ore",
       "item.stmwr.goop": "Goop",
-      "biome.stmwr.cold_oasis": "Cold Oasis",
       "advancements.named.descr": "You can craft name tags now!",
       "item.stmwr.chocolate": "Chocolate",
       "advancements.stringy.descr": "Craft up some delicious cheese sticks!",
@@ -5165,7 +5090,6 @@
       "advancements.speedy_gonzales.title": "Speedy Gonzales",
       "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
       "item.stmwr.blazed_armor_chestplate": "Blazed Chestplate",
-      "biome.stmwr.everfrost": "Everfrost",
       "advancements.suggestions_welcome.descr": "Find some Suggestium, which can be used to craft things suggested by friends that don\u0027t really have a place anywhere.",
       "advancements.stmw_foods.title": "STMW: Foods",
       "advancements.coal_for_christmas.title": "Coal For Christmas!",

@@ -5,12 +5,6 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:SteveCowLand"
-      },
-      {
-        "value": "CUSTOM:Everfrost"
-      },
-      {
-        "value": "CUSTOM:ColdOasis"
       }
     ],
     "worldGenType": "Normal world gen",

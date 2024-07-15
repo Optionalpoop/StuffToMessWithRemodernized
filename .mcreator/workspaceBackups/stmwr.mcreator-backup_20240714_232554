@@ -3258,7 +3258,6 @@
       "registry_name": "militaria",
       "metadata": {
         "files": [
-<<<<<<<< HEAD:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240714_232554
           "src/main/resources/assets/stmwr/models/item/militaria.json",
           "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
           "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
@@ -3270,19 +3269,6 @@
           "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaPortalShape.java",
           "src/main/resources/data/stmwr/dimension_type/militaria.json",
           "src/main/resources/data/stmwr/dimension/militaria.json"
-========
-          "src/main/java/net/mcreator/stmwr/block/MilitariaPortalBlock.java",
-          "src/main/java/net/mcreator/stmwr/item/MilitariaItem.java",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaPortalShape.java",
-          "src/main/resources/data/stmwr/dimension_type/militaria.json",
-          "src/main/resources/data/stmwr/dimension/militaria.json",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaTeleporter.java",
-          "src/main/resources/assets/stmwr/models/item/militaria.json",
-          "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
-          "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
-          "src/main/resources/assets/stmwr/blockstates/militaria_portal.json",
-          "src/main/resources/assets/stmwr/models/block/militaria_portal_ns.json"
->>>>>>>> 1.3-BranchTest:.mcreator/workspaceBackups/stmwr.mcreator-backup_20240714_202124
         ]
       }
     },
@@ -4740,7 +4726,6 @@
   "sound_elements": [],
   "tag_elements": {
     "BIOMES:minecraft:has_structure/stronghold": [
-      "~CUSTOM:MilitariaLand",
       "~CUSTOM:SteveCowLand"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [

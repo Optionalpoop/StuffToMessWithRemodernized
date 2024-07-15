@@ -53,18 +53,16 @@ public class MutantWormEntity extends PathfinderMob {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, SoldierEntity.class, false, false));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, SurvivorEntity.class, false, false));
-		this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false) {
+		this.goalSelector.addGoal(2, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(8, new FloatGoal(this));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
 	}
 
 	@Override
