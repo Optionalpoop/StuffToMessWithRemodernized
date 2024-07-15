@@ -4810,14 +4810,29 @@
         ]
       }
     },
-    {
-      "name": "Chargogga",
-      "type": "painting",
+      {
+      "name": "BasicSpellbook",
+      "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chargogga",
+      "registry_name": "basic_spellbook",
       "metadata": {
-        "files": []
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/basic_spellbook.json",
+          "src/main/java/net/mcreator/stmwr/item/BasicSpellbookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BasicSpellbookRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basic_spellbook_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/basic_spellbook_recipe.json"
+        ]
       }
     }
   ],
