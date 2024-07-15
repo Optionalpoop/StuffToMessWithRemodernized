@@ -36,21 +36,9 @@
     },
     "done": false
   },
-  "stmwr:teenage_mutant_ninja_turtles": {
+  "stmwr:doughy": {
     "criteria": {
-      "teenage_mutant_ninja_turtles_0": "2024-07-14 20:00:35 -0400"
-    },
-    "done": true
-  },
-  "stmwr:defeat": {
-    "criteria": {
-      "defeat_0": "2024-07-14 20:00:33 -0400"
-    },
-    "done": true
-  },
-  "stmwr:find_the_pieces": {
-    "criteria": {
-      "find_the_pieces_0": "2024-07-14 20:00:30 -0400"
+      "doughy_0": "2024-07-14 20:00:26 -0400"
     },
     "done": true
   },
@@ -60,21 +48,165 @@
     },
     "done": true
   },
-  "minecraft:husbandry/root": {
+  "stmwr:find_the_pieces": {
     "criteria": {
-      "consumed_item": "2024-07-14 20:01:03 -0400"
+      "find_the_pieces_0": "2024-07-14 20:00:30 -0400"
     },
     "done": true
   },
-  "stmwr:doughy": {
+  "stmwr:defeat": {
     "criteria": {
-      "doughy_0": "2024-07-14 20:00:26 -0400"
+      "defeat_0": "2024-07-14 20:00:33 -0400"
+    },
+    "done": true
+  },
+  "stmwr:teenage_mutant_ninja_turtles": {
+    "criteria": {
+      "teenage_mutant_ninja_turtles_0": "2024-07-14 20:00:35 -0400"
     },
     "done": true
   },
   "stmwr:goopy": {
     "criteria": {
       "goopy_0": "2024-07-14 20:00:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-07-14 20:01:03 -0400"
+    },
+    "done": true
+  },
+  "stmwr:mmmmmm": {
+    "criteria": {
+      "mmmmmm_0": "2024-07-14 21:25:37 -0400"
+    },
+    "done": true
+  },
+  "stmwr:ripped_to_shreds": {
+    "criteria": {
+      "ripped_to_shreds_0": "2024-07-14 21:25:39 -0400"
+    },
+    "done": true
+  },
+  "stmwr:welcome_to_militaria": {
+    "criteria": {
+      "welcome_to_militaria_0": "2024-07-14 21:25:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-07-14 21:25:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-07-14 21:30:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-07-14 21:30:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-07-14 21:30:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-07-14 21:33:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs_from_smooth_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2024-07-14 21:36:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_slab": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2024-07-14 21:36:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_slab_from_smooth_red_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2024-07-14 21:36:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_red_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_red_sandstone": "2024-07-14 21:36:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2024-07-14 21:39:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2024-07-14 21:39:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2024-07-14 21:39:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2024-07-14 21:39:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-07-14 21:39:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2024-07-14 21:39:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-07-14 21:39:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-07-14 21:39:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-07-14 21:39:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-07-14 21:39:42 -0400"
     },
     "done": true
   },

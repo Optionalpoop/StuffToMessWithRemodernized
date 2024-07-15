@@ -1,44 +1,43 @@
 {
   "stmwr:stmw_trials": {
     "criteria": {
-      "stmw_trials_0": "2024-07-14 20:42:20 -0400"
+      "stmw_trials_0": "2024-07-14 22:00:10 -0400"
     },
     "done": true
   },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-07-14 20:42:20 -0400"
+      "unlock_right_away": "2024-07-14 22:00:10 -0400"
     },
     "done": true
   },
   "stmwr:stmw_foods": {
     "criteria": {
-      "stmw_foods_0": "2024-07-14 20:42:20 -0400"
+      "stmw_foods_0": "2024-07-14 22:00:10 -0400"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:stony_shore": "2024-07-14 20:42:23 -0400",
-      "minecraft:plains": "2024-07-14 20:42:21 -0400"
+      "minecraft:plains": "2024-07-14 22:00:11 -0400"
     },
     "done": false
   },
-  "stmwr:steve_cows": {
+  "stmwr:welcome_to_militaria": {
     "criteria": {
-      "steve_cows_0": "2024-07-14 20:42:53 -0400"
+      "welcome_to_militaria_0": "2024-07-14 22:00:15 -0400"
     },
     "done": true
   },
   "stmwr:stmw_vanilla_plus": {
     "criteria": {
-      "stmw_vanilla_plus_0": "2024-07-14 20:42:20 -0400"
+      "stmw_vanilla_plus_0": "2024-07-14 22:00:10 -0400"
     },
     "done": true
   },
   "stmwr:stuff_to_mess_with_remodernized": {
     "criteria": {
-      "stuff_to_mess_with_remodernized_0": "2024-07-14 20:42:20 -0400"
+      "stuff_to_mess_with_remodernized_0": "2024-07-14 22:00:10 -0400"
     },
     "done": true
   },

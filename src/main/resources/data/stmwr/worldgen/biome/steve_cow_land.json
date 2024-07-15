@@ -32,12 +32,6 @@
         "weight": 25,
         "minCount": 2,
         "maxCount": 12
-      },
-      {
-        "type": "stmwr:frost_zombie",
-        "weight": 20,
-        "minCount": 3,
-        "maxCount": 7
       }
     ],
     "axolotls": [],

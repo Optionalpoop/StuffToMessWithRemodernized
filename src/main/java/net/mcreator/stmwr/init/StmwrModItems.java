@@ -61,7 +61,6 @@ import net.mcreator.stmwr.item.JumpboostTotemT1Item;
 import net.mcreator.stmwr.item.IronWandItem;
 import net.mcreator.stmwr.item.InfinititeIngotItem;
 import net.mcreator.stmwr.item.IdkSomethingItem;
-import net.mcreator.stmwr.item.IceShardItem;
 import net.mcreator.stmwr.item.HealthTotemT3Item;
 import net.mcreator.stmwr.item.HealingTotemT2Item;
 import net.mcreator.stmwr.item.HealingTotemItem;
@@ -94,7 +93,6 @@ import net.mcreator.stmwr.item.BlazedIngotItem;
 import net.mcreator.stmwr.item.BlazedHoeItem;
 import net.mcreator.stmwr.item.BlazedAxeItem;
 import net.mcreator.stmwr.item.BlazedArmorItem;
-import net.mcreator.stmwr.item.BasicSpellbookItem;
 import net.mcreator.stmwr.item.AtomSmasherItem;
 import net.mcreator.stmwr.item.AnimalStrapItem;
 import net.mcreator.stmwr.item.AdvancedWandStickItem;
@@ -222,9 +220,7 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> STRENGTH_TOTEM_T_1 = REGISTRY.register("strength_totem_t_1", () -> new StrengthTotemT1Item());
 	public static final RegistryObject<Item> STRENGTH_TOTEM_T_2 = REGISTRY.register("strength_totem_t_2", () -> new StrengthTotemT2Item());
 	public static final RegistryObject<Item> STRENGTH_TOTEM_T_3 = REGISTRY.register("strength_totem_t_3", () -> new StrengthTotemT3Item());
-	public static final RegistryObject<Item> ICE_SHARD = REGISTRY.register("ice_shard", () -> new IceShardItem());
-	public static final RegistryObject<Item> FROST_ZOMBIE_SPAWN_EGG = REGISTRY.register("frost_zombie_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.FROST_ZOMBIE, -13382401, -10027162, new Item.Properties()));
-	public static final RegistryObject<Item> BASIC_SPELLBOOK = REGISTRY.register("basic_spellbook", () -> new BasicSpellbookItem());
+	public static final RegistryObject<Item> MODIFIER_TABLE = block(StmwrModBlocks.MODIFIER_TABLE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

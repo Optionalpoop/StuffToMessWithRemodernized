@@ -24,6 +24,7 @@ import net.mcreator.stmwr.block.StevumBlockBlock;
 import net.mcreator.stmwr.block.SteelOreBlock;
 import net.mcreator.stmwr.block.SteelBlockBlock;
 import net.mcreator.stmwr.block.PlasticiliaBlock;
+import net.mcreator.stmwr.block.ModifierTableBlock;
 import net.mcreator.stmwr.block.MilitariaPortalBlock;
 import net.mcreator.stmwr.block.MagiciteOreBlock;
 import net.mcreator.stmwr.block.MagiciteBlockBlock;
@@ -60,6 +61,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
 	public static final RegistryObject<Block> SUGGESTIUM_ORE = REGISTRY.register("suggestium_ore", () -> new SuggestiumOreBlock());
 	public static final RegistryObject<Block> SUGGESTIUM_BLOCK = REGISTRY.register("suggestium_block", () -> new SuggestiumBlockBlock());
+	public static final RegistryObject<Block> MODIFIER_TABLE = REGISTRY.register("modifier_table", () -> new ModifierTableBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

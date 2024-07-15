@@ -11,10 +11,12 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.stmwr.world.inventory.ModifiersTableMenu;
 import net.mcreator.stmwr.world.inventory.CubbyCubeGUIMenu;
 import net.mcreator.stmwr.StmwrMod;
 
 public class StmwrModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, StmwrMod.MODID);
 	public static final RegistryObject<MenuType<CubbyCubeGUIMenu>> CUBBY_CUBE_GUI = REGISTRY.register("cubby_cube_gui", () -> IForgeMenuType.create(CubbyCubeGUIMenu::new));
+	public static final RegistryObject<MenuType<ModifiersTableMenu>> MODIFIERS_TABLE = REGISTRY.register("modifiers_table", () -> IForgeMenuType.create(ModifiersTableMenu::new));
 }
