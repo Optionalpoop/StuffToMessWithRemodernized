@@ -23,6 +23,9 @@ import net.mcreator.stmwr.entity.PikachuEntity;
 import net.mcreator.stmwr.entity.MutantWormEntity;
 import net.mcreator.stmwr.entity.MutantBossEntity;
 import net.mcreator.stmwr.entity.GiantSteveCowEntity;
+import net.mcreator.stmwr.entity.GasMaskZombieEntity;
+import net.mcreator.stmwr.entity.FrostZombieEntity;
+import net.mcreator.stmwr.entity.BulletEntity;
 import net.mcreator.stmwr.StmwrMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -54,6 +57,14 @@ public class StmwrModEntities {
 			EntityType.Builder.<MutantWormEntity>of(MutantWormEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MutantWormEntity::new)
 
 					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<FrostZombieEntity>> FROST_ZOMBIE = register("frost_zombie",
+			EntityType.Builder.<FrostZombieEntity>of(FrostZombieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FrostZombieEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BulletEntity>> BULLET = register("bullet",
+			EntityType.Builder.<BulletEntity>of(BulletEntity::new, MobCategory.MISC).setCustomClientFactory(BulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<GasMaskZombieEntity>> GAS_MASK_ZOMBIE = register("gas_mask_zombie", EntityType.Builder.<GasMaskZombieEntity>of(GasMaskZombieEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GasMaskZombieEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -69,6 +80,8 @@ public class StmwrModEntities {
 			SoldierEntity.init();
 			MutantBossEntity.init();
 			MutantWormEntity.init();
+			FrostZombieEntity.init();
+			GasMaskZombieEntity.init();
 		});
 	}
 
@@ -81,5 +94,7 @@ public class StmwrModEntities {
 		event.put(SOLDIER.get(), SoldierEntity.createAttributes().build());
 		event.put(MUTANT_BOSS.get(), MutantBossEntity.createAttributes().build());
 		event.put(MUTANT_WORM.get(), MutantWormEntity.createAttributes().build());
+		event.put(FROST_ZOMBIE.get(), FrostZombieEntity.createAttributes().build());
+		event.put(GAS_MASK_ZOMBIE.get(), GasMaskZombieEntity.createAttributes().build());
 	}
 }

@@ -44,7 +44,10 @@ import net.mcreator.stmwr.item.PortableOvenItem;
 import net.mcreator.stmwr.item.PlastikaItem;
 import net.mcreator.stmwr.item.PizzaSliceItem;
 import net.mcreator.stmwr.item.PizzaItem;
+import net.mcreator.stmwr.item.PistolItem;
+import net.mcreator.stmwr.item.PistolAmmoItem;
 import net.mcreator.stmwr.item.PikastaffItem;
+import net.mcreator.stmwr.item.NoobishTrialCoinItem;
 import net.mcreator.stmwr.item.NightvisionTotemItem;
 import net.mcreator.stmwr.item.MysteriousScrapItem;
 import net.mcreator.stmwr.item.MutantWhistleItem;
@@ -61,6 +64,7 @@ import net.mcreator.stmwr.item.JumpboostTotemT1Item;
 import net.mcreator.stmwr.item.IronWandItem;
 import net.mcreator.stmwr.item.InfinititeIngotItem;
 import net.mcreator.stmwr.item.IdkSomethingItem;
+import net.mcreator.stmwr.item.IceShardItem;
 import net.mcreator.stmwr.item.HealthTotemT3Item;
 import net.mcreator.stmwr.item.HealingTotemT2Item;
 import net.mcreator.stmwr.item.HealingTotemItem;
@@ -221,6 +225,12 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> STRENGTH_TOTEM_T_2 = REGISTRY.register("strength_totem_t_2", () -> new StrengthTotemT2Item());
 	public static final RegistryObject<Item> STRENGTH_TOTEM_T_3 = REGISTRY.register("strength_totem_t_3", () -> new StrengthTotemT3Item());
 	public static final RegistryObject<Item> MODIFIER_TABLE = block(StmwrModBlocks.MODIFIER_TABLE);
+	public static final RegistryObject<Item> ICE_SHARD = REGISTRY.register("ice_shard", () -> new IceShardItem());
+	public static final RegistryObject<Item> FROST_ZOMBIE_SPAWN_EGG = REGISTRY.register("frost_zombie_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.FROST_ZOMBIE, -16711732, -16751002, new Item.Properties()));
+	public static final RegistryObject<Item> PISTOL_AMMO = REGISTRY.register("pistol_ammo", () -> new PistolAmmoItem());
+	public static final RegistryObject<Item> PISTOL = REGISTRY.register("pistol", () -> new PistolItem());
+	public static final RegistryObject<Item> GAS_MASK_ZOMBIE_SPAWN_EGG = REGISTRY.register("gas_mask_zombie_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.GAS_MASK_ZOMBIE, -16751104, -13421773, new Item.Properties()));
+	public static final RegistryObject<Item> NOOBISH_TRIAL_COIN = REGISTRY.register("noobish_trial_coin", () -> new NoobishTrialCoinItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

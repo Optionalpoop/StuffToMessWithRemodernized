@@ -6,7 +6,16 @@
       "item": "minecraft:golden_apple"
     },
     {
-      "item": "stmwr:healing_totem"
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "stmwr:raw_totem"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
     }
   ],
   "result": {

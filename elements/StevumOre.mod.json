@@ -125,6 +125,12 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:SteveCowLand"
+      },
+      {
+        "value": "CUSTOM:FrostedOasis"
+      },
+      {
+        "value": "CUSTOM:FrozenWastes"
       }
     ],
     "blocksToReplace": [

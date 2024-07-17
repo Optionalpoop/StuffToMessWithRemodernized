@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "stmwr:steve_cow_land",
+    "stmwr:frosted_oasis"
+  ],
+  "spawners": {
+    "type": "stmwr:frost_zombie",
+    "weight": 20,
+    "minCount": 3,
+    "maxCount": 8
+  }
+}

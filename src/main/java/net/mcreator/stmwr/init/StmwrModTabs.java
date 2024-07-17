@@ -138,6 +138,12 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.STRENGTH_TOTEM_T_2.get());
 				tabData.accept(StmwrModItems.STRENGTH_TOTEM_T_3.get());
 				tabData.accept(StmwrModBlocks.MODIFIER_TABLE.get().asItem());
+				tabData.accept(StmwrModItems.ICE_SHARD.get());
+				tabData.accept(StmwrModItems.FROST_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.PISTOL_AMMO.get());
+				tabData.accept(StmwrModItems.PISTOL.get());
+				tabData.accept(StmwrModItems.GAS_MASK_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.NOOBISH_TRIAL_COIN.get());
 			})
 
 					.build());

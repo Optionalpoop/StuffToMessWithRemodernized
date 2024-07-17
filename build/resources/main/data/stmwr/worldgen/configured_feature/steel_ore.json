@@ -45,6 +45,17 @@
         "state": {
           "Name": "stmwr:steel_ore"
         }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:mud"
+          }
+        },
+        "state": {
+          "Name": "stmwr:steel_ore"
+        }
       }
     ]
   }

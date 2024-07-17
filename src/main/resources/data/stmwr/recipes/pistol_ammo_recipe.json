@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:advanced_material"
+    },
+    {
+      "item": "stmwr:steel_ingot"
+    },
+    {
+      "item": "stmwr:mysterious_scrap"
+    },
+    {
+      "item": "stmwr:goop"
+    }
+  ],
+  "result": {
+    "item": "stmwr:pistol_ammo",
+    "count": 8
+  }
+}

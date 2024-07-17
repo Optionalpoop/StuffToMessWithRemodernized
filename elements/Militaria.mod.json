@@ -5,6 +5,12 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:MilitariaLand"
+      },
+      {
+        "value": "CUSTOM:DeadForest"
+      },
+      {
+        "value": "CUSTOM:Perfecta"
       }
     ],
     "worldGenType": "Normal world gen",

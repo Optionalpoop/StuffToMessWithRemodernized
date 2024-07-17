@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "minecraft:dirt",
+    "minecraft:mud",
+    "minecraft:podzol",
+    "minecraft:powder_snow",
+    "minecraft:stone",
     "minecraft:smooth_red_sandstone",
     "minecraft:mud_bricks",
     "minecraft:chiseled_red_sandstone",

@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:dead_forest",
+    "stmwr:frozen_wastes",
+    "stmwr:frosted_oasis",
     "stmwr:militaria_land",
     "stmwr:steve_cow_land"
   ]

@@ -3,6 +3,17 @@
   "temperature": 1.5,
   "downfall": 0,
   "effects": {
+    "ambient_sound": "block.fire.ambient",
+    "additions_sound": {
+      "sound": "block.anvil.fall",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "block.end_portal.spawn",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -6750055,
     "grass_color": -26215,
     "sky_color": -39322,

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:ultrite"
+    },
+    {
+      "item": "stmwr:giant_steve_cow_heart"
+    }
+  ],
+  "result": {
+    "item": "stmwr:noobish_trial_coin",
+    "count": 1
+  }
+}

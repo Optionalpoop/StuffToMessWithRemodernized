@@ -38,6 +38,11 @@ public class GodliumkitprocedureProcedure {
 			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 		}
 		if (entity instanceof Player _player) {
+			ItemStack _setstack = new ItemStack(StmwrModItems.JUMPBOOST_TOTEM_T_3.get()).copy();
+			_setstack.setCount(1);
+			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		}
+		if (entity instanceof Player _player) {
 			ItemStack _setstack = new ItemStack(StmwrModItems.GODLIUM_ARMOR_HELMET.get()).copy();
 			_setstack.setCount(1);
 			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);

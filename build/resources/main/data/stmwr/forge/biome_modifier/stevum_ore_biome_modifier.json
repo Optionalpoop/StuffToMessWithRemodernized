@@ -1,6 +1,10 @@
 {
   "type": "forge:add_features",
-  "biomes": "stmwr:steve_cow_land",
+  "biomes": [
+    "stmwr:steve_cow_land",
+    "stmwr:frosted_oasis",
+    "stmwr:frozen_wastes"
+  ],
   "features": "stmwr:stevum_ore",
   "step": "underground_ores"
 }
