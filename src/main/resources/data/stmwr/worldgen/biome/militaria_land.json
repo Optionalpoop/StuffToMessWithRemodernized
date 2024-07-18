@@ -3,7 +3,7 @@
   "temperature": 1.5,
   "downfall": 0,
   "effects": {
-    "ambient_sound": "block.fire.ambient",
+    "ambient_sound": "ambient.nether_wastes.loop",
     "additions_sound": {
       "sound": "block.anvil.fall",
       "tick_chance": 0.0111
