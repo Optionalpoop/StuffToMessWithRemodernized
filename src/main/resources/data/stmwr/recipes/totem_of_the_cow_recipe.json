@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:giant_steve_cow_heart"
+    },
+    "c": {
+      "item": "stmwr:advanced_totem_base"
+    },
+    "d": {
+      "item": "stmwr:ultrite"
+    },
+    "e": {
+      "item": "stmwr:giant_caller"
+    }
+  },
+  "result": {
+    "item": "stmwr:totem_of_the_cow",
+    "count": 1
+  }
+}

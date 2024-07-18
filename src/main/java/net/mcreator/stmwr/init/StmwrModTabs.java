@@ -144,6 +144,9 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.PISTOL.get());
 				tabData.accept(StmwrModItems.GAS_MASK_ZOMBIE_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.NOOBISH_TRIAL_COIN.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_THE_GOOP.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_THE_COW.get());
+				tabData.accept(StmwrModItems.ADVANCED_TOTEM_BASE.get());
 			})
 
 					.build());

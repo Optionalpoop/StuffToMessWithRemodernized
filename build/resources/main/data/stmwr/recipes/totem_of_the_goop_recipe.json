@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:mutant_goop"
+    },
+    "c": {
+      "item": "stmwr:advanced_totem_base"
+    },
+    "d": {
+      "item": "stmwr:ultrite"
+    },
+    "e": {
+      "item": "stmwr:mutant_whistle"
+    }
+  },
+  "result": {
+    "item": "stmwr:totem_of_the_goop",
+    "count": 1
+  }
+}

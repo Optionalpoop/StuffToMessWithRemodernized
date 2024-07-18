@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:plastika"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "item": "stmwr:dough"
+    },
+    "d": {
+      "item": "stmwr:uglum"
+    },
+    "e": {
+      "item": "stmwr:raw_totem"
+    }
+  },
+  "result": {
+    "item": "stmwr:advanced_totem_base",
+    "count": 1
+  }
+}

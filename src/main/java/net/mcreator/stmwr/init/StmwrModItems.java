@@ -17,6 +17,8 @@ import net.mcreator.stmwr.item.WandarItem;
 import net.mcreator.stmwr.item.WandStickItem;
 import net.mcreator.stmwr.item.UltriteItem;
 import net.mcreator.stmwr.item.UglumItem;
+import net.mcreator.stmwr.item.TotemOfTheGoopItem;
+import net.mcreator.stmwr.item.TotemOfTheCowItem;
 import net.mcreator.stmwr.item.TortillaItem;
 import net.mcreator.stmwr.item.TacoItem;
 import net.mcreator.stmwr.item.SuggestiumItem;
@@ -100,6 +102,7 @@ import net.mcreator.stmwr.item.BlazedArmorItem;
 import net.mcreator.stmwr.item.AtomSmasherItem;
 import net.mcreator.stmwr.item.AnimalStrapItem;
 import net.mcreator.stmwr.item.AdvancedWandStickItem;
+import net.mcreator.stmwr.item.AdvancedTotemBaseItem;
 import net.mcreator.stmwr.item.AdvancedMaterialItem;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -231,6 +234,9 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> PISTOL = REGISTRY.register("pistol", () -> new PistolItem());
 	public static final RegistryObject<Item> GAS_MASK_ZOMBIE_SPAWN_EGG = REGISTRY.register("gas_mask_zombie_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.GAS_MASK_ZOMBIE, -16751104, -13421773, new Item.Properties()));
 	public static final RegistryObject<Item> NOOBISH_TRIAL_COIN = REGISTRY.register("noobish_trial_coin", () -> new NoobishTrialCoinItem());
+	public static final RegistryObject<Item> TOTEM_OF_THE_GOOP = REGISTRY.register("totem_of_the_goop", () -> new TotemOfTheGoopItem());
+	public static final RegistryObject<Item> TOTEM_OF_THE_COW = REGISTRY.register("totem_of_the_cow", () -> new TotemOfTheCowItem());
+	public static final RegistryObject<Item> ADVANCED_TOTEM_BASE = REGISTRY.register("advanced_totem_base", () -> new AdvancedTotemBaseItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

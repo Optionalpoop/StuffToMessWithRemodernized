@@ -1,0 +1,5735 @@
+{
+  "mod_elements": [
+    {
+      "name": "STMW5",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stmw_5",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AtomSmasher",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atom_smasher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/AtomSmasherItem.java",
+          "src/main/resources/assets/stmwr/models/item/atom_smasher.json"
+        ]
+      }
+    },
+    {
+      "name": "StuffToMessWithRemodernized",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stuff_to_mess_with_remodernized",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/stuff_to_mess_with_remodernized.json"
+        ]
+      }
+    },
+    {
+      "name": "DirtNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/dirt_nugget.json",
+          "src/main/java/net/mcreator/stmwr/item/DirtNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DirtNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/dirt_nugget_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Dirty",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/dirty.json"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/MagiciteDustItem.java",
+          "src/main/resources/assets/stmwr/models/item/magicite_dust.json"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/block/magicite_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/magicite_ore.json",
+          "src/main/resources/assets/stmwr/models/item/magicite_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/magicite_ore_biome_modifier.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/magicite_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/MagiciteOreBlock.java",
+          "src/main/resources/assets/stmwr/blockstates/magicite_ore.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/magicite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/loot_tables/blocks/magicite_block.json",
+          "src/main/resources/assets/stmwr/models/item/magicite_block.json",
+          "src/main/resources/assets/stmwr/blockstates/magicite_block.json",
+          "src/main/resources/assets/stmwr/models/block/magicite_block.json",
+          "src/main/java/net/mcreator/stmwr/block/MagiciteBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/magicite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/magicite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/magicite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "Magical",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/magical.json"
+        ]
+      }
+    },
+    {
+      "name": "Plastika",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/PlastikaItem.java",
+          "src/main/resources/assets/stmwr/models/item/plastika.json"
+        ]
+      }
+    },
+    {
+      "name": "Plasticilia",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasticilia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/blockstates/plasticilia.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/plasticilia_biome_modifier.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/plasticilia.json",
+          "src/main/resources/assets/stmwr/models/item/plasticilia.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/plasticilia.json",
+          "src/main/java/net/mcreator/stmwr/block/PlasticiliaBlock.java",
+          "src/main/resources/data/stmwr/loot_tables/blocks/plasticilia.json",
+          "src/main/resources/assets/stmwr/models/block/plasticilia.json"
+        ]
+      }
+    },
+    {
+      "name": "PlasticiliaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plasticilia_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/plasticilia_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PlasticFantastic",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_fantastic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/plastic_fantastic.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/GodliumIngotItem.java",
+          "src/main/resources/assets/stmwr/models/item/godlium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/forge/biome_modifier/godlium_ore_biome_modifier.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/godlium_ore.json",
+          "src/main/resources/assets/stmwr/models/item/godlium_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/godlium_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/godlium_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/GodliumOreBlock.java",
+          "src/main/resources/data/stmwr/loot_tables/blocks/godlium_ore.json",
+          "src/main/resources/assets/stmwr/models/block/godlium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/block/godlium_block.json",
+          "src/main/resources/assets/stmwr/blockstates/godlium_block.json",
+          "src/main/java/net/mcreator/stmwr/block/GodliumBlockBlock.java",
+          "src/main/resources/assets/stmwr/models/item/godlium_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/godlium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/GodliumPickaxeItem.java",
+          "src/main/resources/assets/stmwr/models/item/godlium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/GodliumAxeItem.java",
+          "src/main/resources/assets/stmwr/models/item/godlium_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/GodliumSwordItem.java",
+          "src/main/resources/assets/stmwr/models/item/godlium_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/GodliumShovelItem.java",
+          "src/main/resources/assets/stmwr/models/item/godlium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/godlium_hoe.json",
+          "src/main/java/net/mcreator/stmwr/item/GodliumHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GodliumPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/godlium_armor_helmet.json",
+          "src/main/resources/assets/stmwr/models/item/godlium_armor_boots.json",
+          "src/main/resources/assets/stmwr/models/item/godlium_armor_leggings.json",
+          "src/main/resources/assets/stmwr/models/item/godlium_armor_chestplate.json",
+          "src/main/java/net/mcreator/stmwr/item/GodliumArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GodliumArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GodlyPotential",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godly_potential",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/godly_potential.json"
+        ]
+      }
+    },
+    {
+      "name": "Ultrite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/ultrite.json",
+          "src/main/java/net/mcreator/stmwr/item/UltriteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UltriteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/ultrite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UltimateUltrite",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultimate_ultrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ultimate_ultrite.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTotem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/raw_totem.json",
+          "src/main/java/net/mcreator/stmwr/item/RawTotemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RawTotemRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_totem_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/raw_totem_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RitualsHereICome",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rituals_here_i_come",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/rituals_here_i_come.json"
+        ]
+      }
+    },
+    {
+      "name": "WandStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/WandStickItem.java",
+          "src/main/resources/assets/stmwr/models/item/wand_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "WandStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/wand_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YoureAWizardHarry",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youre_a_wizard_harry",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/youre_a_wizard_harry.json"
+        ]
+      }
+    },
+    {
+      "name": "HealingTotemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_totem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HealingTotemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealingTotem",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_totem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/HealingTotemItem.java",
+          "src/main/resources/assets/stmwr/models/item/healing_totem.json"
+        ]
+      }
+    },
+    {
+      "name": "HealingTotemRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_totem_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/healing_totem_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Healthy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healthy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/healthy.json"
+        ]
+      }
+    },
+    {
+      "name": "BuildersWandRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_wand_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/BuildersWandRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BuildersWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/builders_wand.json",
+          "src/main/java/net/mcreator/stmwr/item/BuildersWandItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BuildersWandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "builders_wand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/builders_wand_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BuildingTime",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building_time",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/building_time.json"
+        ]
+      }
+    },
+    {
+      "name": "HealingTotemT2Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_totem_t_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HealingTotemT2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealingTotemT2",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_totem_t_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/healing_totem_t_2.json",
+          "src/main/java/net/mcreator/stmwr/item/HealingTotemT2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "HealingTotemT2Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_totem_t_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/healing_totem_t_2_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoreHealth",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "more_health",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/more_health.json"
+        ]
+      }
+    },
+    {
+      "name": "HealthTotemT3Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_totem_t_3_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HealthTotemT3RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealthTotemT3",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_totem_t_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/HealthTotemT3Item.java",
+          "src/main/resources/assets/stmwr/models/item/health_totem_t_3.json"
+        ]
+      }
+    },
+    {
+      "name": "HealthTotemT3Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_totem_t_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/health_totem_t_3_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MaximumHealth",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maximum_health",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/maximum_health.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT1Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_1_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/SpeedTotemT1RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT1",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SpeedTotemT1Item.java",
+          "src/main/resources/assets/stmwr/models/item/speed_totem_t_1.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT1Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_1_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/speed_totem_t_1_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IAmSpeed",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_am_speed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/i_am_speed.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT2Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/SpeedTotemT2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT2",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/speed_totem_t_2.json",
+          "src/main/java/net/mcreator/stmwr/item/SpeedTotemT2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT2Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/speed_totem_t_2_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeedyGonzales",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedy_gonzales",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/speedy_gonzales.json"
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT3Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_3_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/SpeedTotemT3RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT3",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/speed_totem_t_3.json",
+          "src/main/java/net/mcreator/stmwr/item/SpeedTotemT3Item.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeedTotemT3Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_totem_t_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/speed_totem_t_3_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Kachow",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kachow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/kachow.json"
+        ]
+      }
+    },
+    {
+      "name": "NightvisionTotemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightvision_totem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/NightvisionTotemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightvisionTotem",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightvision_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/nightvision_totem.json",
+          "src/main/java/net/mcreator/stmwr/item/NightvisionTotemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NightvisionTotemRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightvision_totem_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/nightvision_totem_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SeerOfTheDark",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seer_of_the_dark",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/seer_of_the_dark.json"
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT1Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_1_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/JumpboostTotemT1RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT1",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/JumpboostTotemT1Item.java",
+          "src/main/resources/assets/stmwr/models/item/jumpboost_totem_t_1.json"
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT1Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_1_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/jumpboost_totem_t_1_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Leapfrog",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leapfrog",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/leapfrog.json"
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT2Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/JumpboostTotemT2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT2",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/JumpboostTotemT2Item.java",
+          "src/main/resources/assets/stmwr/models/item/jumpboost_totem_t_2.json"
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT2Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/jumpboost_totem_t_2_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrossyRoad",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crossy_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/crossy_road.json"
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT3Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_3_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/JumpboostTotemT3RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT3",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/JumpboostTotemT3Item.java",
+          "src/main/resources/assets/stmwr/models/item/jumpboost_totem_t_3.json"
+        ]
+      }
+    },
+    {
+      "name": "JumpboostTotemT3Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpboost_totem_t_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/jumpboost_totem_t_3_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LegDay",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leg_day",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/leg_day.json"
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT1Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_1_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HasteTotemT1RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT1",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/HasteTotemT1Item.java",
+          "src/main/resources/assets/stmwr/models/item/haste_totem_t_1.json"
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT1Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_1_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/haste_totem_t_1_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FastHands",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast_hands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/fast_hands.json"
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT2Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HasteTotemT2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT2",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/haste_totem_t_2.json",
+          "src/main/java/net/mcreator/stmwr/item/HasteTotemT2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT2Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/haste_totem_t_2_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HandItToMe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hand_it_to_me",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/hand_it_to_me.json"
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT3Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_3_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HasteTotemT3RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT3",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/HasteTotemT3Item.java",
+          "src/main/resources/assets/stmwr/models/item/haste_totem_t_3.json"
+        ]
+      }
+    },
+    {
+      "name": "HasteTotemT3Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_totem_t_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/haste_totem_t_3_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MasterMiner",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_miner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/master_miner.json"
+        ]
+      }
+    },
+    {
+      "name": "Wandar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wandar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/wandar.json",
+          "src/main/java/net/mcreator/stmwr/item/WandarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WandarRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wandar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/wandar_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Wandars",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wandars",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/wandars.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedWandStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_wand_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/advanced_wand_stick.json",
+          "src/main/java/net/mcreator/stmwr/item/AdvancedWandStickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedWandStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_wand_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/advanced_wand_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WandsButBetter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wands_but_better",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/wands_but_better.json"
+        ]
+      }
+    },
+    {
+      "name": "IronWandRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wand_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/IronWandRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/iron_wand.json",
+          "src/main/java/net/mcreator/stmwr/item/IronWandItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IronWandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_wand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/iron_wand_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironman",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ironman.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalWandRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_wand_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/CoalWandRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CoalWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/CoalWandItem.java",
+          "src/main/resources/assets/stmwr/models/item/coal_wand.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalWandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_wand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/coal_wand_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CoalForChristmas",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_for_christmas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/coal_for_christmas.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/InfinititeIngotItem.java",
+          "src/main/resources/assets/stmwr/models/item/infinitite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/infinitite_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/infinitite_ore_biome_modifier.json",
+          "src/main/resources/assets/stmwr/models/block/infinitite_ore.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/infinitite_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/InfinititeOreBlock.java",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/infinitite_ore.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/infinitite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/block/InfinititeBlockBlock.java",
+          "src/main/resources/assets/stmwr/models/block/infinitite_block.json",
+          "src/main/resources/assets/stmwr/blockstates/infinitite_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_block.json",
+          "src/main/resources/assets/stmwr/models/item/infinitite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinitePower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinite_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/infinite_power.json"
+        ]
+      }
+    },
+    {
+      "name": "AtomSmasherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atom_smasher_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/atom_smasher_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/BlazedIngotItem.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/blazed_ore_biome_modifier.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/blazed_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/blazed_ore.json",
+          "src/main/resources/assets/stmwr/models/item/blazed_ore.json",
+          "src/main/resources/assets/stmwr/models/block/blazed_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/BlazedOreBlock.java",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/blazed_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_block.json",
+          "src/main/resources/assets/stmwr/models/item/blazed_block.json",
+          "src/main/resources/assets/stmwr/blockstates/blazed_block.json",
+          "src/main/java/net/mcreator/stmwr/block/BlazedBlockBlock.java",
+          "src/main/resources/assets/stmwr/models/block/blazed_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/BlazedPickaxeItem.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/BlazedAxeItem.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/BlazedSwordItem.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/BlazedShovelItem.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/BlazedHoeItem.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/blazed_armor_leggings.json",
+          "src/main/resources/assets/stmwr/models/item/blazed_armor_helmet.json",
+          "src/main/resources/assets/stmwr/models/item/blazed_armor_boots.json",
+          "src/main/resources/assets/stmwr/models/item/blazed_armor_chestplate.json",
+          "src/main/java/net/mcreator/stmwr/item/BlazedArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlazedArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/blazed_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Fiery",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fiery",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/fiery.json"
+        ]
+      }
+    },
+    {
+      "name": "Fireproof",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireproof",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/FireproofProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dough",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/dough.json",
+          "src/main/java/net/mcreator/stmwr/item/DoughItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DoughRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/dough_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "STMWFoods",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stmw_foods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/stmw_foods.json"
+        ]
+      }
+    },
+    {
+      "name": "Doughy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doughy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/doughy.json"
+        ]
+      }
+    },
+    {
+      "name": "STMWVanillaPlus",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stmw_vanilla_plus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/stmw_vanilla_plus.json"
+        ]
+      }
+    },
+    {
+      "name": "NametagRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nametag_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/nametag_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Named",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "named",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/named.json"
+        ]
+      }
+    },
+    {
+      "name": "SaddleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/saddle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SaddleUp",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saddle_up",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/saddle_up.json"
+        ]
+      }
+    },
+    {
+      "name": "XPBottleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/xp_bottle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Experienced",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experienced",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/experienced.json"
+        ]
+      }
+    },
+    {
+      "name": "AnimalStrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animal_strap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/AnimalStrapItem.java",
+          "src/main/resources/assets/stmwr/models/item/animal_strap.json"
+        ]
+      }
+    },
+    {
+      "name": "AnimalStrapRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animal_strap_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/animal_strap_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pets",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/pets.json"
+        ]
+      }
+    },
+    {
+      "name": "LeatherHorseArmorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_horse_armor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/leather_horse_armor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronHorseArmorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_horse_armor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/iron_horse_armor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldHorseArmor",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_horse_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/gold_horse_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondHorseArmorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_horse_armor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/diamond_horse_armor_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Leathery",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leathery",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/leathery.json"
+        ]
+      }
+    },
+    {
+      "name": "OhTheIrony",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_the_irony",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/oh_the_irony.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenBoy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_boy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/golden_boy.json"
+        ]
+      }
+    },
+    {
+      "name": "ShineBrightLikeADiamond",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shine_bright_like_a_diamond",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/shine_bright_like_a_diamond.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazedSwordToolInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazed_sword_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/BlazedSwordToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Storum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/StorumItem.java",
+          "src/main/resources/assets/stmwr/models/item/storum.json"
+        ]
+      }
+    },
+    {
+      "name": "StorumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/placed_feature/storum_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/storum_ore_biome_modifier.json",
+          "src/main/resources/assets/stmwr/models/item/storum_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/storum_ore.json",
+          "src/main/resources/assets/stmwr/models/block/storum_ore.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/storum_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/storum_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/StorumOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "StorumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/loot_tables/blocks/storum_block.json",
+          "src/main/resources/assets/stmwr/blockstates/storum_block.json",
+          "src/main/java/net/mcreator/stmwr/block/StorumBlockBlock.java",
+          "src/main/resources/assets/stmwr/models/item/storum_block.json",
+          "src/main/resources/assets/stmwr/models/block/storum_block.json"
+        ]
+      }
+    },
+    {
+      "name": "StorumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storum_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/storum_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StorumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storum_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/storum_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StorumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storum_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/storum_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "CubbyCubeGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubby_cube_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/world/inventory/CubbyCubeGUIMenu.java",
+          "src/main/java/net/mcreator/stmwr/client/gui/CubbyCubeGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "CubbyCube",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubby_cube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/block/entity/CubbyCubeBlockEntity.java",
+          "src/main/resources/data/stmwr/loot_tables/blocks/cubby_cube.json",
+          "src/main/resources/assets/stmwr/blockstates/cubby_cube.json",
+          "src/main/java/net/mcreator/stmwr/block/CubbyCubeBlock.java",
+          "src/main/resources/assets/stmwr/models/item/cubby_cube.json",
+          "src/main/resources/assets/stmwr/models/block/cubby_cube.json"
+        ]
+      }
+    },
+    {
+      "name": "MoooreStoooorage",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mooore_stoooorage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/mooore_stoooorage.json"
+        ]
+      }
+    },
+    {
+      "name": "CubbyCubeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubby_cube_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/cubby_cube_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CubbyCubes",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubby_cubes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/cubby_cubes.json"
+        ]
+      }
+    },
+    {
+      "name": "FireproofTotemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireproof_totem_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/FireproofTotemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireproofTotem",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireproof_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/fireproof_totem.json",
+          "src/main/java/net/mcreator/stmwr/item/FireproofTotemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FireproofTotemRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireproof_totem_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/fireproof_totem_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlameOn",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/flame_on.json"
+        ]
+      }
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/KnifeItem.java",
+          "src/main/resources/assets/stmwr/models/item/knife.json"
+        ]
+      }
+    },
+    {
+      "name": "KnifeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/knife_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RawSausage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_sausage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/RawSausageItem.java",
+          "src/main/resources/assets/stmwr/models/item/raw_sausage.json"
+        ]
+      }
+    },
+    {
+      "name": "RawSausageRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_sausage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/raw_sausage_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Sausage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sausage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SausageItem.java",
+          "src/main/resources/assets/stmwr/models/item/sausage.json"
+        ]
+      }
+    },
+    {
+      "name": "SausageRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sausage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/sausage_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StabbyStabby",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stabby_stabby",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/stabby_stabby.json"
+        ]
+      }
+    },
+    {
+      "name": "BratwurstAnyone",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bratwurst_anyone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/bratwurst_anyone.json"
+        ]
+      }
+    },
+    {
+      "name": "TrialBrick",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trial_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/block/trial_brick.json",
+          "src/main/resources/assets/stmwr/models/item/trial_brick.json",
+          "src/main/resources/assets/stmwr/blockstates/trial_brick.json",
+          "src/main/java/net/mcreator/stmwr/block/TrialBrickBlock.java",
+          "src/main/resources/data/stmwr/loot_tables/blocks/trial_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "TrialBrickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trial_brick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/trial_brick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteveCowHorn",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_cow_horn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SteveCowHornItem.java",
+          "src/main/resources/assets/stmwr/models/item/steve_cow_horn.json"
+        ]
+      }
+    },
+    {
+      "name": "SteveCow",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_cow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/forge/biome_modifier/steve_cow_biome_modifier.json",
+          "src/main/java/net/mcreator/stmwr/client/renderer/SteveCowRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/SteveCowEntity.java",
+          "src/main/resources/assets/stmwr/models/item/steve_cow_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SteveCowLand",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_cow_land",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/configured_feature/steve_cow_land_tree.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/steve_cow_land_tree.json",
+          "src/main/resources/data/stmwr/worldgen/biome/steve_cow_land.json"
+        ]
+      }
+    },
+    {
+      "name": "LandOfTheSteveCows",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "land_of_the_steve_cows",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/block/LandOfTheSteveCowsPortalBlock.java",
+          "src/main/java/net/mcreator/stmwr/item/LandOfTheSteveCowsItem.java",
+          "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ns.json",
+          "src/main/resources/data/stmwr/dimension_type/land_of_the_steve_cows.json",
+          "src/main/resources/data/stmwr/dimension/land_of_the_steve_cows.json",
+          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsTeleporter.java",
+          "src/main/resources/assets/stmwr/blockstates/land_of_the_steve_cows_portal.json",
+          "src/main/java/net/mcreator/stmwr/world/dimension/LandOfTheSteveCowsDimension.java",
+          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsPortalShape.java",
+          "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ew.json",
+          "src/main/resources/assets/stmwr/models/item/land_of_the_steve_cows.json"
+        ]
+      }
+    },
+    {
+      "name": "STMWTrials",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stmw_trials",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/stmw_trials.json"
+        ]
+      }
+    },
+    {
+      "name": "KeyPiece",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_piece",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/KeyPieceItem.java",
+          "src/main/resources/assets/stmwr/models/item/key_piece.json"
+        ]
+      }
+    },
+    {
+      "name": "KeyPieceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_piece_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/key_piece_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FindThePieces",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "find_the_pieces",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/find_the_pieces.json"
+        ]
+      }
+    },
+    {
+      "name": "SteveCows",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_cows",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/steve_cows.json"
+        ]
+      }
+    },
+    {
+      "name": "SteveCowTrialKeyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_cow_trial_key_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steve_cow_trial_key_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Killer",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/killer.json"
+        ]
+      }
+    },
+    {
+      "name": "Stevum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/StevumItem.java",
+          "src/main/resources/assets/stmwr/models/item/stevum.json"
+        ]
+      }
+    },
+    {
+      "name": "StevumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/loot_tables/blocks/stevum_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/stevum_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/StevumOreBlock.java",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/stevum_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/stevum_ore.json",
+          "src/main/resources/assets/stmwr/models/item/stevum_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/stevum_ore_biome_modifier.json",
+          "src/main/resources/assets/stmwr/models/block/stevum_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "StevumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevum_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/block/stevum_block.json",
+          "src/main/java/net/mcreator/stmwr/block/StevumBlockBlock.java",
+          "src/main/resources/assets/stmwr/blockstates/stevum_block.json",
+          "src/main/resources/assets/stmwr/models/item/stevum_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/stevum_block.json"
+        ]
+      }
+    },
+    {
+      "name": "StevumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevum_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/stevum_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StevumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevum_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/stevum_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StevumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevum_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/stevum_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "StevumGems",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevum_gems",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/stevum_gems.json"
+        ]
+      }
+    },
+    {
+      "name": "GiantSteveCow",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_steve_cow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/client/renderer/GiantSteveCowRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/GiantSteveCowEntity.java",
+          "src/main/resources/assets/stmwr/models/item/giant_steve_cow_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GiantSteveCowHeart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_steve_cow_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/giant_steve_cow_heart.json",
+          "src/main/java/net/mcreator/stmwr/item/GiantSteveCowHeartItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GiantCallerRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_caller_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/GiantCallerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiantCaller",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_caller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/GiantCallerItem.java",
+          "src/main/resources/assets/stmwr/models/item/giant_caller.json"
+        ]
+      }
+    },
+    {
+      "name": "GiantCallerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giant_caller_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/giant_caller_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CallMe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "call_me",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/call_me.json"
+        ]
+      }
+    },
+    {
+      "name": "Defeat",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "defeat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/defeat.json"
+        ]
+      }
+    },
+    {
+      "name": "Uglum",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uglum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/UglumItem.java",
+          "src/main/resources/assets/stmwr/models/item/uglum.json"
+        ]
+      }
+    },
+    {
+      "name": "Pikachu",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pikachu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/client/renderer/PikachuRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/PikachuEntity.java",
+          "src/main/resources/data/stmwr/forge/biome_modifier/pikachu_biome_modifier.json",
+          "src/main/resources/assets/stmwr/models/item/pikachu_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PikastaffRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pikastaff_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/PikastaffRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pikastaff",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pikastaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/pikastaff.json",
+          "src/main/java/net/mcreator/stmwr/item/PikastaffItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PikastaffRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pikastaff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/pikastaff_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PikaCHUUUU",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pika_chuuuu",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/pika_chuuuu.json"
+        ]
+      }
+    },
+    {
+      "name": "MysteriousScrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mysterious_scrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/mysterious_scrap.json",
+          "src/main/java/net/mcreator/stmwr/item/MysteriousScrapItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Survivor",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "survivor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/forge/biome_modifier/survivor_biome_modifier.json",
+          "src/main/java/net/mcreator/stmwr/entity/SurvivorEntity.java",
+          "src/main/java/net/mcreator/stmwr/client/renderer/SurvivorRenderer.java",
+          "src/main/resources/assets/stmwr/models/item/survivor_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedMaterial",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_material",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/AdvancedMaterialItem.java",
+          "src/main/resources/assets/stmwr/models/item/advanced_material.json"
+        ]
+      }
+    },
+    {
+      "name": "Soldier",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soldier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/entity/SoldierEntity.java",
+          "src/main/resources/assets/stmwr/models/item/soldier_spawn_egg.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/soldier_biome_modifier.json",
+          "src/main/java/net/mcreator/stmwr/client/renderer/SoldierRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "MutantGoop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutant_goop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/mutant_goop.json",
+          "src/main/java/net/mcreator/stmwr/item/MutantGoopItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MutantBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutant_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/mutant_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/entity/MutantBossEntity.java",
+          "src/main/java/net/mcreator/stmwr/client/renderer/MutantBossRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "MilitariaLand",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaria_land",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/biome/militaria_land.json"
+        ]
+      }
+    },
+    {
+      "name": "Militaria",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/block/MilitariaPortalBlock.java",
+          "src/main/java/net/mcreator/stmwr/item/MilitariaItem.java",
+          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaPortalShape.java",
+          "src/main/resources/data/stmwr/dimension_type/militaria.json",
+          "src/main/resources/data/stmwr/dimension/militaria.json",
+          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaTeleporter.java",
+          "src/main/resources/assets/stmwr/models/item/militaria.json",
+          "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
+          "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
+          "src/main/resources/assets/stmwr/blockstates/militaria_portal.json",
+          "src/main/resources/assets/stmwr/models/block/militaria_portal_ns.json"
+        ]
+      }
+    },
+    {
+      "name": "MilitariaTrialKeyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaria_trial_key_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/militaria_trial_key_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WelcomeToMilitaria",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_militaria",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/welcome_to_militaria.json"
+        ]
+      }
+    },
+    {
+      "name": "ImASurvivor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "im_a_survivor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/im_a_survivor.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavyHitters",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_hitters",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/heavy_hitters.json"
+        ]
+      }
+    },
+    {
+      "name": "MutantWhistleRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutant_whistle_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/MutantWhistleRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MutantWhistle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutant_whistle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/MutantWhistleItem.java",
+          "src/main/resources/assets/stmwr/models/item/mutant_whistle.json"
+        ]
+      }
+    },
+    {
+      "name": "Goop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/goop.json",
+          "src/main/java/net/mcreator/stmwr/item/GoopItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MutantWorm",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutant_worm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/client/renderer/MutantWormRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/MutantWormEntity.java",
+          "src/main/resources/assets/stmwr/models/item/mutant_worm_spawn_egg.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/mutant_worm_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Goopy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goopy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/goopy.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/stmwr/item/SteelIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/placed_feature/steel_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/steel_ore_biome_modifier.json",
+          "src/main/resources/assets/stmwr/blockstates/steel_ore.json",
+          "src/main/resources/assets/stmwr/models/item/steel_ore.json",
+          "src/main/resources/assets/stmwr/models/block/steel_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/SteelOreBlock.java",
+          "src/main/resources/data/stmwr/loot_tables/blocks/steel_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/steel_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/blockstates/steel_block.json",
+          "src/main/resources/assets/stmwr/models/block/steel_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/steel_block.json",
+          "src/main/resources/assets/stmwr/models/item/steel_block.json",
+          "src/main/java/net/mcreator/stmwr/block/SteelBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/steel_pickaxe.json",
+          "src/main/java/net/mcreator/stmwr/item/SteelPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SteelAxeItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/steel_sword.json",
+          "src/main/java/net/mcreator/stmwr/item/SteelSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SteelShovelItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SteelHoeItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/steel_armor_leggings.json",
+          "src/main/resources/assets/stmwr/models/item/steel_armor_helmet.json",
+          "src/main/java/net/mcreator/stmwr/item/SteelArmorItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_armor_boots.json",
+          "src/main/resources/assets/stmwr/models/item/steel_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelArmorTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/SteelArmorTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SteelHeart",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/steel_heart.json"
+        ]
+      }
+    },
+    {
+      "name": "MutantWhistleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutant_whistle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/mutant_whistle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TootToot",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toot_toot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/toot_toot.json"
+        ]
+      }
+    },
+    {
+      "name": "TeenageMutantNinjaTurtles",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teenage_mutant_ninja_turtles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/teenage_mutant_ninja_turtles.json"
+        ]
+      }
+    },
+    {
+      "name": "Godliumkitprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godliumkitprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/GodliumkitprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Godliumkit",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godliumkit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/GodliumkitCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Steelkitprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelkitprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/SteelkitprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SteelKit",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_kit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/SteelKitCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Suggestium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suggestium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/suggestium.json",
+          "src/main/java/net/mcreator/stmwr/item/SuggestiumItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SuggestiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suggestium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/configured_feature/suggestium_ore.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/suggestium_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/suggestium_ore.json",
+          "src/main/resources/assets/stmwr/models/item/suggestium_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/suggestium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/stmwr/block/SuggestiumOreBlock.java",
+          "src/main/resources/assets/stmwr/models/block/suggestium_ore.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SuggestiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suggestium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/block/suggestium_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_block.json",
+          "src/main/java/net/mcreator/stmwr/block/SuggestiumBlockBlock.java",
+          "src/main/resources/assets/stmwr/blockstates/suggestium_block.json",
+          "src/main/resources/assets/stmwr/models/item/suggestium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SuggestiumOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suggestium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/suggestium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SuggestiumBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suggestium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/suggestium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SuggestiumOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suggestium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/suggestium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SuggestionsWelcome",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suggestions_welcome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/suggestions_welcome.json"
+        ]
+      }
+    },
+    {
+      "name": "IdkSomething",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk_something",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/IdkSomethingItem.java",
+          "src/main/resources/assets/stmwr/models/item/idk_something.json"
+        ]
+      }
+    },
+    {
+      "name": "Idksomethingrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idksomethingrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/idksomethingrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LiterallyNoClue",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "literally_no_clue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/literally_no_clue.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/CheeseItem.java",
+          "src/main/resources/assets/stmwr/models/item/cheese.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/cheese_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheesy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheesy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/cheesy.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseStick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_stick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/CheeseStickItem.java",
+          "src/main/resources/assets/stmwr/models/item/cheese_stick.json"
+        ]
+      }
+    },
+    {
+      "name": "CheeseStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/cheese_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Stringy",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stringy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/stringy.json"
+        ]
+      }
+    },
+    {
+      "name": "ShreddedBeef",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shredded_beef",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/ShreddedBeefItem.java",
+          "src/main/resources/assets/stmwr/models/item/shredded_beef.json"
+        ]
+      }
+    },
+    {
+      "name": "ShreddedBeefRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shredded_beef_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/shredded_beef_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RippedToShreds",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ripped_to_shreds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ripped_to_shreds.json"
+        ]
+      }
+    },
+    {
+      "name": "Tortilla",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tortilla",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/TortillaItem.java",
+          "src/main/resources/assets/stmwr/models/item/tortilla.json"
+        ]
+      }
+    },
+    {
+      "name": "TortillaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tortilla_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/tortilla_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Tortillas",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tortillas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/tortillas.json"
+        ]
+      }
+    },
+    {
+      "name": "Taco",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taco",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/taco.json",
+          "src/main/java/net/mcreator/stmwr/item/TacoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TacoRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taco_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/taco_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TacoTuesday",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taco_tuesday",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/taco_tuesday.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableOven",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_oven",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/PortableOvenItem.java",
+          "src/main/resources/assets/stmwr/models/item/portable_oven.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableOvenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_oven_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_oven_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CookOnTheGo",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cook_on_the_go",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/cook_on_the_go.json"
+        ]
+      }
+    },
+    {
+      "name": "BeefRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beef_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/beef_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticBeef",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_beef",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/inventory_beef.json"
+        ]
+      }
+    },
+    {
+      "name": "PorkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pork_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/pork_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InventoryPork",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inventory_pork",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/inventory_pork.json"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticBeefRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_beef_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/synthetic_beef_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "VeganBeef",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vegan_beef",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/vegan_beef.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicCarrot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_carrot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/MagicCarrotItem.java",
+          "src/main/resources/assets/stmwr/models/item/magic_carrot.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicCarrotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_carrot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/magic_carrot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MysticalAgriculture",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystical_agriculture",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/mystical_agriculture.json"
+        ]
+      }
+    },
+    {
+      "name": "Pizza",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/PizzaItem.java",
+          "src/main/resources/assets/stmwr/models/item/pizza.json"
+        ]
+      }
+    },
+    {
+      "name": "PizzaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/pizza_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PizzaTime",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_time",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/pizza_time.json"
+        ]
+      }
+    },
+    {
+      "name": "PizzaSlice",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_slice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/pizza_slice.json",
+          "src/main/java/net/mcreator/stmwr/item/PizzaSliceItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PizzaSliceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pizza_slice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/pizza_slice_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "YoureAwfulAtThis",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youre_awful_at_this",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/youre_awful_at_this.json"
+        ]
+      }
+    },
+    {
+      "name": "CreationOrb",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creation_orb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/CreationOrbItem.java",
+          "src/main/resources/assets/stmwr/models/item/creation_orb.json"
+        ]
+      }
+    },
+    {
+      "name": "CreationOrbRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creation_orb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/creation_orb_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CreationAtYourFingertips",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creation_at_your_fingertips",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/creation_at_your_fingertips.json"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/magicite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftedMagicite",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafted_magicite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/crafted_magicite.json"
+        ]
+      }
+    },
+    {
+      "name": "GodliumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/godlium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DoubleTheGodlium",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "double_the_godlium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/double_the_godlium.json"
+        ]
+      }
+    },
+    {
+      "name": "StorumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storum_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/storum_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SimpleStorage",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simple_storage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/simple_storage.json"
+        ]
+      }
+    },
+    {
+      "name": "Chocolate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/ChocolateItem.java",
+          "src/main/resources/assets/stmwr/models/item/chocolate.json"
+        ]
+      }
+    },
+    {
+      "name": "ChocolateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/chocolate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Mmmmmm",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mmmmmm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/mmmmmm.json"
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT1Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_1_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/StrengthTotemT1RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT1Item.java",
+          "src/main/resources/assets/stmwr/models/item/strength_totem_t_1.json"
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT1Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_1_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/strength_totem_t_1_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThatsTuff",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thats_tuff",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/thats_tuff.json"
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT2Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_2_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/StrengthTotemT2RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT2Item.java",
+          "src/main/resources/assets/stmwr/models/item/strength_totem_t_2.json"
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT2Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/strength_totem_t_2_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Bullfighter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullfighter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/bullfighter.json"
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT3Rightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_3_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/StrengthTotemT3RightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/strength_totem_t_3.json",
+          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT3Item.java"
+        ]
+      }
+    },
+    {
+      "name": "StrengthTotemT3Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_totem_t_3_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/strength_totem_t_3_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Superman",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/superman.json"
+        ]
+      }
+    },
+    {
+      "name": "TheBlurb",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_blurb",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WarRuins1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "war_ruins_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/template_pool/war_ruins_1.json",
+          "src/main/resources/data/stmwr/worldgen/structure_set/war_ruins_1.json",
+          "src/main/resources/data/stmwr/worldgen/structure/war_ruins_1.json"
+        ]
+      }
+    },
+    {
+      "name": "ModifiersTable",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modifiers_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/network/ModifiersTableButtonMessage.java",
+          "src/main/java/net/mcreator/stmwr/world/inventory/ModifiersTableMenu.java",
+          "src/main/java/net/mcreator/stmwr/client/gui/ModifiersTableScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ModifierTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modifier_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/block/entity/ModifierTableBlockEntity.java",
+          "src/main/resources/assets/stmwr/blockstates/modifier_table.json",
+          "src/main/resources/assets/stmwr/models/block/modifier_table.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/modifier_table.json",
+          "src/main/java/net/mcreator/stmwr/block/ModifierTableBlock.java",
+          "src/main/resources/assets/stmwr/models/item/modifier_table.json"
+        ]
+      }
+    },
+    {
+      "name": "ConfirmModifierPress",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confirm_modifier_press",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/ConfirmModifierPressProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "IceShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/ice_shard.json",
+          "src/main/java/net/mcreator/stmwr/item/IceShardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FrostZombie",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/frost_zombie_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/client/renderer/FrostZombieRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/FrostZombieEntity.java",
+          "src/main/resources/data/stmwr/forge/biome_modifier/frost_zombie_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "IceShardIntoMagicite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shard_into_magicite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/ice_shard_into_magicite.json"
+        ]
+      }
+    },
+    {
+      "name": "IceIceBaby",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_ice_baby",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ice_ice_baby.json"
+        ]
+      }
+    },
+    {
+      "name": "FreeMagicite",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "free_magicite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/free_magicite.json"
+        ]
+      }
+    },
+    {
+      "name": "PortalSteveProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_steve_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/PortalSteveProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PortalMilitariaProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_militaria_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/PortalMilitariaProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PortalSteve",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_steve",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/PortalSteveCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "PortalMilitaria",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_militaria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/PortalMilitariaCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "PistolAmmo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/PistolAmmoItem.java",
+          "src/main/resources/assets/stmwr/models/item/pistol_ammo.json"
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/entity/BulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/PistolItem.java",
+          "src/main/resources/assets/stmwr/models/item/pistol.json"
+        ]
+      }
+    },
+    {
+      "name": "PistolAmmoRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ammo_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/pistol_ammo_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PistolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/pistol_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SecondAmendment",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_amendment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/second_amendment.json"
+        ]
+      }
+    },
+    {
+      "name": "FrostedOasis",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosted_oasis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/configured_feature/frosted_oasis_tree.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/frosted_oasis_tree.json",
+          "src/main/resources/data/stmwr/worldgen/biome/frosted_oasis.json"
+        ]
+      }
+    },
+    {
+      "name": "FrozenWastes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_wastes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/biome/frozen_wastes.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/world/features/treedecorators/DeadForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/stmwr/world/features/treedecorators/DeadForestTrunkDecorator.java",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/dead_forest_tree.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/dead_forest_tree.json",
+          "src/main/resources/data/stmwr/worldgen/biome/dead_forest.json"
+        ]
+      }
+    },
+    {
+      "name": "GasMaskZombie",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_mask_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/gas_mask_zombie_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/client/renderer/GasMaskZombieRenderer.java",
+          "src/main/resources/data/stmwr/forge/biome_modifier/gas_mask_zombie_biome_modifier.json",
+          "src/main/java/net/mcreator/stmwr/entity/GasMaskZombieEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Perfecta",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perfecta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/biome/perfecta.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/perfecta_tree.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/perfecta_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "NoobishTrialCoin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobish_trial_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/noobish_trial_coin.json",
+          "src/main/java/net/mcreator/stmwr/item/NoobishTrialCoinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "INeedMyPayday2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_need_my_payday_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/i_need_my_payday_2.json"
+        ]
+      }
+    },
+    {
+      "name": "NoobishTrialCoinRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobish_trial_coin_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/noobish_trial_coin_recipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "NoobishTrialCoinRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobish_trial_coin_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/noobish_trial_coin_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "GunpowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpowder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/gunpowder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheCowRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_cow_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/TotemOfTheCowRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheGoopRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_goop_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/TotemOfTheGoopRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheGoop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_goop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/TotemOfTheGoopItem.java",
+          "src/main/resources/assets/stmwr/models/item/totem_of_the_goop.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheCow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_cow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/TotemOfTheCowItem.java",
+          "src/main/resources/assets/stmwr/models/item/totem_of_the_cow.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheCowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_cow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/totem_of_the_cow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheGoopRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_goop_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/totem_of_the_goop_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedTotemBase",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_totem_base",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/AdvancedTotemBaseItem.java",
+          "src/main/resources/assets/stmwr/models/item/advanced_totem_base.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedTotemBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_totem_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/advanced_totem_base_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedTotemMaking",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_totem_making",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/advanced_totem_making.json"
+        ]
+      }
+    },
+    {
+      "name": "KingOfSteveCows",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "king_of_steve_cows",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/king_of_steve_cows.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrostedOasis",
+      "~CUSTOM:SteveCowLand"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:Plasticilia"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:SteveCowLand"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:FrostedOasis"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:SteelHoe",
+      "~CUSTOM:BlazedHoe",
+      "~CUSTOM:GodliumHoe"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:FrostedOasis",
+      "~CUSTOM:MilitariaLand"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:CubbyCube"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:SteveCowLand"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:FrostedOasis"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:SteelAxe",
+      "~CUSTOM:BlazedAxe",
+      "~CUSTOM:GodliumAxe",
+      "~CUSTOM:AtomSmasher"
+    ],
+    "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:SteveCowLand"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SteelSword",
+      "~CUSTOM:Knife",
+      "~CUSTOM:BlazedSword",
+      "~CUSTOM:GodliumSword",
+      "~CUSTOM:AtomSmasher"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:SuggestiumBlock",
+      "~CUSTOM:SuggestiumOre",
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:SteelOre",
+      "~CUSTOM:StevumBlock",
+      "~CUSTOM:StevumOre",
+      "~CUSTOM:StorumBlock",
+      "~CUSTOM:StorumOre",
+      "~CUSTOM:InfinititeBlock",
+      "~CUSTOM:InfinititeOre",
+      "~CUSTOM:GodliumBlock",
+      "~CUSTOM:GodliumOre",
+      "~CUSTOM:MagiciteBlock",
+      "~CUSTOM:MagiciteOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:TrialBrick",
+      "~CUSTOM:BlazedBlock",
+      "~CUSTOM:BlazedOre"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:DeadForest"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SteelPickaxe",
+      "~CUSTOM:FireproofTotem",
+      "~CUSTOM:BlazedPickaxe",
+      "~CUSTOM:CoalWand",
+      "~CUSTOM:IronWand",
+      "~CUSTOM:HasteTotemT3",
+      "~CUSTOM:HasteTotemT2",
+      "~CUSTOM:HasteTotemT1",
+      "~CUSTOM:JumpboostTotemT3",
+      "~CUSTOM:JumpboostTotemT2",
+      "~CUSTOM:JumpboostTotemT1",
+      "~CUSTOM:NightvisionTotem",
+      "~CUSTOM:SpeedTotemT3",
+      "~CUSTOM:SpeedTotemT2",
+      "~CUSTOM:SpeedTotemT1",
+      "~CUSTOM:HealthTotemT3",
+      "~CUSTOM:HealingTotemT2",
+      "~CUSTOM:BuildersWand",
+      "~CUSTOM:HealingTotem",
+      "~CUSTOM:GodliumPickaxe",
+      "~CUSTOM:AtomSmasher"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:FrostedOasis",
+      "~CUSTOM:SteveCowLand"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.MUD",
+      "~Blocks.SMOOTH_RED_SANDSTONE",
+      "~Blocks.MUD_BRICKS",
+      "~Blocks.DIRT#0",
+      "~Blocks.RED_SANDSTONE#1",
+      "~Blocks.DIRT#2",
+      "~Blocks.POWDER_SNOW",
+      "~Blocks.PACKED_ICE",
+      "~Blocks.STONE#0",
+      "~Blocks.SNOW",
+      "~Blocks.GRASS"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:FrostedOasis",
+      "~CUSTOM:MilitariaLand",
+      "~CUSTOM:SteveCowLand"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SuggestiumBlock",
+      "~CUSTOM:SuggestiumOre",
+      "~CUSTOM:SteelBlock",
+      "~CUSTOM:SteelOre",
+      "~CUSTOM:StevumBlock",
+      "~CUSTOM:StevumOre",
+      "~CUSTOM:TrialBrick",
+      "~CUSTOM:CubbyCube",
+      "~CUSTOM:StorumBlock",
+      "~CUSTOM:StorumOre",
+      "~CUSTOM:BlazedBlock",
+      "~CUSTOM:BlazedOre",
+      "~CUSTOM:InfinititeBlock",
+      "~CUSTOM:InfinititeOre",
+      "~CUSTOM:GodliumBlock",
+      "~CUSTOM:GodliumOre",
+      "~CUSTOM:MagiciteBlock",
+      "~CUSTOM:MagiciteOre"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:SteelShovel",
+      "~CUSTOM:BlazedShovel",
+      "~CUSTOM:GodliumShovel"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Perfecta"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.wands_but_better.descr": "Get an advanced wand stick. It can be used for the most powerful of resource generations.",
+      "block.stmwr.steel_ore": "Steel Ore",
+      "advancements.killer.title": "Killer",
+      "advancements.vegan_beef.descr": "You can craft beef with plants!",
+      "block.stmwr.steel_block": "Block of Steel",
+      "item.stmwr.idk_something": "Idk Something",
+      "advancements.cheesy.title": "Cheesy!",
+      "item.stmwr.storum": "Storum",
+      "advancements.saddle_up.descr": "You can craft saddles!",
+      "advancements.defeat.descr": "Slay the Giant Steve Cow and grab its heart",
+      "advancements.mystical_agriculture.descr": "Craft a magic carrot",
+      "item.stmwr.goop": "Goop",
+      "block.stmwr.stevum_ore": "Stevum Ore",
+      "advancements.named.descr": "You can craft name tags now!",
+      "item.stmwr.chocolate": "Chocolate",
+      "advancements.stringy.descr": "Craft up some delicious cheese sticks!",
+      "item.stmwr.steel_armor_chestplate": "Steel Chestplate",
+      "item.stmwr.steel_armor_boots": "Steel Boots",
+      "item.stmwr.steel_pickaxe": "Steel Pickaxe",
+      "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
+      "painting.stmwr.the_blurb.title": "The Blurb",
+      "advancements.leg_day.title": "Leg Day",
+      "advancements.master_miner.descr": "Get a tier 3 haste totem",
+      "advancements.suggestions_welcome.title": "Suggestions Welcome!",
+      "advancements.stuff_to_mess_with_remodernized.descr": "Welcome to the mod! These advancements will guide you through this mod!",
+      "item.stmwr.shredded_beef": "Shredded Beef",
+      "block.stmwr.suggestium_block": "Block of Suggestium",
+      "item.stmwr.blazed_armor_leggings": "Blazed Leggings",
+      "advancements.ironman.title": "Ironman",
+      "advancements.goopy.title": "Goopy?!",
+      "item.stmwr.magic_carrot": "Magic Carrot",
+      "item.stmwr.godlium_armor_helmet": "Godlium Helmet",
+      "advancements.free_magicite.title": "Free Magicite?!",
+      "advancements.flame_on.title": "Flame On!",
+      "item.stmwr.advanced_wand_stick": "Advanced Wand Stick",
+      "advancements.mooore_stoooorage.title": "Mooore Stoooorage!!!!",
+      "advancements.advanced_totem_making.title": "Advanced Totem Making",
+      "advancements.fiery.descr": "Get some blazing ore, which when combined with magicite can lead to fireproof gear!",
+      "item.stmwr.godlium_ingot": "Godlium",
+      "item.stmwr.godlium_armor_boots": "Godlium Boots",
+      "block.stmwr.blazed_block": "Block of Blazed",
+      "item.stmwr.blazed_armor_boots": "Blazed Boots",
+      "advancements.cubby_cubes.title": "Cubby Cubes!",
+      "advancements.i_need_my_payday_2.title": "I Need My Payday, Two",
+      "item.stmwr.godlium_axe": "Godlium Axe",
+      "advancements.superman.title": "Superman",
+      "item.stmwr.steel_ingot": "Steel",
+      "advancements.im_a_survivor.title": "I\u0027m A Survivor!",
+      "advancements.stevum_gems.title": "Stevum Gems",
+      "item.stmwr.blazed_hoe": "Blazed Hoe",
+      "advancements.leathery.descr": "You can craft leather horse armor now!",
+      "gui.stmwr.modifiers_table.button_confirm": "CONFIRM",
+      "block.stmwr.blazed_ore": "Blazed Ore",
+      "item.stmwr.giant_steve_cow_heart": "Giant Steve Cow Heart",
+      "advancements.magical.title": "Magical!",
+      "advancements.thats_tuff.descr": "Get a T1 Strength Totem",
+      "advancements.mooore_stoooorage.descr": "Find some storum, used for powerful storage items",
+      "advancements.tortillas.title": "Tortillas!!!",
+      "advancements.more_health.title": "More Health",
+      "item.stmwr.blazed_ingot": "Blazed",
+      "item.stmwr.pikachu_spawn_egg": "Pikachu Spawn Egg",
+      "item.stmwr.magicite_dust": "Magicite",
+      "advancements.free_magicite.descr": "You can craft magicite dust from ice shards!",
+      "advancements.golden_boy.title": "Golden Boy",
+      "item.stmwr.pizza_slice": "Pizza Slice",
+      "advancements.find_the_pieces.descr": "Craft some key pieces, used to make keys for the trials",
+      "advancements.youre_awful_at_this.descr": "Cut a pizza into.... 7 slices?!",
+      "advancements.stmw_vanilla_plus.descr": "Jump into the word of QOL changes to Minecraft",
+      "advancements.fiery.title": "Fiery!",
+      "block.stmwr.infinitite_ore": "Infinitite Ore",
+      "advancements.master_miner.title": "Master Miner",
+      "advancements.flame_on.descr": "Get a fireproof totem",
+      "item.stmwr.giant_steve_cow_spawn_egg": "Giant Steve Cow Spawn Egg",
+      "advancements.literally_no_clue.title": "Literally No Clue",
+      "advancements.goopy.descr": "Find some goop from a mutant worm",
+      "advancements.pets.descr": "Obtain some animal straps, which can be used for crafting horse armor!",
+      "item.stmwr.mutant_whistle": "Mutant Whistle",
+      "item.stmwr.noobish_trial_coin": "Noobish Trial Coin",
+      "item.stmwr.mysterious_scrap": "Mysterious Scrap",
+      "advancements.fast_hands.descr": "Get a haste totem tier 1",
+      "advancements.infinite_power.descr": "The most powerful ore in the game... chances are, you won\u0027t find any any time soon.",
+      "item.stmwr.blazed_axe": "Blazed Axe",
+      "block.stmwr.storum_block": "Block of Storum",
+      "advancements.healthy.title": "Healthy!",
+      "advancements.speedy_gonzales.descr": "Craft a tier 2 speed totem",
+      "advancements.simple_storage.descr": "Convert your storum into more storum with a creation orb",
+      "gui.stmwr.modifiers_table.tooltip_empty": "item to modify",
+      "biome.stmwr.dead_forest": "Dead Forest",
+      "item.stmwr.coal_wand": "Coal Wand",
+      "advancements.wandars.descr": "Get a wandar, which can be used for advanced wands",
+      "advancements.plastic_fantastic.descr": "Get your first plastika",
+      "entity.stmwr.soldier": "Soldier",
+      "advancements.hand_it_to_me.descr": "Get a haste totem tier 2",
+      "advancements.steel_heart.title": "Steel Heart",
+      "item.stmwr.blazed_pickaxe": "Blazed Pickaxe",
+      "gui.stmwr.modifiers_table.label_modifier": "modifier",
+      "item.stmwr.sausage": "Sausage",
+      "item.stmwr.godlium_armor_leggings": "Godlium Leggings",
+      "item.stmwr.cheese_stick": "Cheese Stick",
+      "advancements.seer_of_the_dark.descr": "Craft a night vision totem",
+      "block.stmwr.plasticilia": "Plasticilia",
+      "subtitles.wind": "spoooooooky wiiiiiind",
+      "advancements.defeat.title": "Defeat!",
+      "item.stmwr.totem_of_the_cow": "Totem Of The Cow",
+      "advancements.find_the_pieces.title": "Find The Pieces",
+      "item.stmwr.advanced_material": "Advanced Material",
+      "advancements.ripped_to_shreds.title": "Ripped To Shreds",
+      "entity.stmwr.giant_steve_cow": "Giant Steve Cow",
+      "advancements.stabby_stabby.descr": "Get a knife",
+      "advancements.cheesy.descr": "Craft up some cheese!",
+      "item.stmwr.godlium_sword": "Godlium Sword",
+      "block.stmwr.godlium_ore": "Godlium Ore",
+      "item.stmwr.dough": "Dough",
+      "item.stmwr.giant_caller": "Giant Caller",
+      "item.stmwr.pistol": "Pistol",
+      "advancements.coal_for_christmas.descr": "Get a coal wand",
+      "advancements.king_of_steve_cows.title": "King Of Steve Cows",
+      "item.stmwr.speed_totem_t_1": "Speed Totem Tier 1",
+      "advancements.more_health.descr": "Get a tier 2 health totem",
+      "item.stmwr.speed_totem_t_2": "Speed Totem Tier 2",
+      "item.stmwr.speed_totem_t_3": "Speed Totem Tier 3",
+      "advancements.kachow.title": "Kachow!",
+      "item.stmwr.suggestium": "Suggestium",
+      "block.stmwr.magicite_block": "Block of Magicite",
+      "advancements.youre_awful_at_this.title": "You\u0027re Awful At This",
+      "advancements.literally_no_clue.descr": "Yeah... pretty weird suggestion... but I thought it was kinda funny",
+      "advancements.pizza_time.descr": "Bake a pizza",
+      "advancements.dirty.title": "Dirty!",
+      "item.stmwr.blazed_sword": "Blazed Sword",
+      "advancements.building_time.descr": "Craft a builders wand, allowing you to transform ANY block into oak planks.",
+      "item.stmwr.plastika": "Plastika",
+      "advancements.ice_ice_baby.title": "Ice Ice Baby",
+      "item.stmwr.taco": "Taco",
+      "gui.stmwr.modifiers_table.label_empty": "---------",
+      "biome.stmwr.steve_cow_land": "Steve Cow Land",
+      "advancements.inventory_pork.title": "Inventory Pork",
+      "advancements.bratwurst_anyone.descr": "Get some sausage",
+      "advancements.leathery.title": "Leathery",
+      "item.stmwr.gas_mask_zombie_spawn_egg": "Gas Mask Zombie Spawn Egg",
+      "entity.stmwr.gas_mask_zombie": "Gas Mask Zombie",
+      "advancements.stmw_trials.title": "STMW: Trials",
+      "item.stmwr.totem_of_the_goop": "Totem Of The Goop",
+      "advancements.pika_chuuuu.title": "Pika-CHUUUU!",
+      "advancements.i_am_speed.descr": "Get a speed totem",
+      "item.stmwr.steel_armor_leggings": "Steel Leggings",
+      "item.stmwr.wandar": "Wandar",
+      "item.stmwr.tortilla": "Tortilla",
+      "item.stmwr.raw_sausage": "Raw Sausage",
+      "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
+      "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
+      "advancements.oh_the_irony.descr": "You can craft iron horse armor!",
+      "item.stmwr.jumpboost_totem_t_3": "Jumpboost Totem Tier 3",
+      "item.stmwr.jumpboost_totem_t_2": "Jumpboost Totem Tier 2",
+      "item.stmwr.mutant_goop": "Mutant Goop",
+      "item.stmwr.jumpboost_totem_t_1": "Jumpboost Totem Tier 1",
+      "item.stmwr.steel_hoe": "Steel Hoe",
+      "item.stmwr.builders_wand": "Builders Wand",
+      "item.stmwr.atom_smasher": "Atom Smasher",
+      "advancements.maximum_health.title": "Maximum Health!!!",
+      "advancements.leapfrog.title": "Leapfrog",
+      "advancements.shine_bright_like_a_diamond.title": "Shine Bright Like A Diamond",
+      "item.stmwr.haste_totem_t_2": "Haste Totem Tier 2",
+      "item.stmwr.haste_totem_t_1": "Haste Totem Tier 1",
+      "advancements.double_the_godlium.descr": "You can craft a block of godlium with the creation orb, as long as you have some godlium already.",
+      "entity.stmwr.frost_zombie": "Frost Zombie",
+      "advancements.welcome_to_militaria.descr": "Craft a Militaria trial key after defeating the Giant Steve Cow",
+      "item.stmwr.haste_totem_t_3": "Haste Totem T 3",
+      "advancements.plastic_fantastic.title": "Plastic Fantastic!",
+      "item.stmwr.advanced_totem_base": "Advanced Totem Base",
+      "item.stmwr.godlium_hoe": "Godlium Hoe",
+      "advancements.youre_a_wizard_harry.descr": "By combining a stick with some magicite, you\u0027re able to create a stick that you could use to make wands, the ultimate resource generators!",
+      "advancements.simple_storage.title": "Simple Storage",
+      "biome.stmwr.frosted_oasis": "Frosted Oasis",
+      "advancements.rituals_here_i_come.descr": "By combining magicite and plastika, you are able to create a totem. I wonder what kinds of powers there are that I can imbue into this?",
+      "advancements.mmmmmm.descr": "Make some chocolate",
+      "gui.stmwr.modifiers_table.tooltip_modifier": "modifier",
+      "advancements.fast_hands.title": "Fast Hands",
+      "biome.stmwr.perfecta": "Perfecta",
+      "advancements.hand_it_to_me.title": "Hand It To Me",
+      "advancements.golden_boy.descr": "You can craft golden horse armor now!",
+      "advancements.steve_cows.descr": "Craft a Steve Cow trial key!",
+      "advancements.ripped_to_shreds.descr": "Cook up some delicious shredded beef!",
+      "advancements.king_of_steve_cows.descr": "Craft the Totem of the Cow",
+      "block.stmwr.modifier_table": "Modifier table",
+      "item.stmwr.soldier_spawn_egg": "Soldier Spawn Egg",
+      "block.stmwr.magicite_ore": "Magicite Ore",
+      "gui.stmwr.modifiers_table.label_empty1": "|",
+      "gui.stmwr.modifiers_table.label_empty2": "|",
+      "advancements.wandars.title": "Wandars",
+      "advancements.seer_of_the_dark.title": "Seer Of The Dark",
+      "advancements.steel_heart.descr": "Get some steel, which is used for extremely powerful armor, and guns.",
+      "advancements.teenage_mutant_ninja_turtles.title": "Teenage Mutant Ninja Turtles!",
+      "advancements.inventory_beef.descr": "You can make beef without a furnace?!",
+      "item.stmwr.steve_cow_spawn_egg": "Steve Cow Spawn Egg",
+      "item.stmwr.blazed_shovel": "Blazed Shovel",
+      "advancements.crossy_road.descr": "Obtain a tier 2 jumpboost totem",
+      "advancements.taco_tuesday.descr": "Craft up some tacos!",
+      "advancements.im_a_survivor.descr": "Find and kill a survivor, and get some of their mysterious scraps...",
+      "advancements.second_amendment.descr": "Craft some bullets, and then a gun!",
+      "item.stmwr.ultrite": "Ultrite",
+      "item.stmwr.strength_totem_t_2": "Strength Totem T2",
+      "item.stmwr.strength_totem_t_1": "Strength Totem T1",
+      "advancements.cook_on_the_go.title": "Cook On The Go!",
+      "advancements.creation_at_your_fingertips.descr": "Craft some creation orbs, used for a lot of special recipies!",
+      "item.stmwr.strength_totem_t_3": "Strength Totem T3",
+      "item.stmwr.pizza": "Pizza",
+      "block.stmwr.trial_brick": "Trial Brick",
+      "block.stmwr.infinitite_block": "Block of Infinitite",
+      "advancements.magical.descr": "Mine up some magicite, a key ingredient to all things magic!",
+      "item.stmwr.nightvision_totem": "Nightvision Totem",
+      "advancements.stmw_vanilla_plus.title": "STMW: Vanilla Plus",
+      "advancements.doughy.descr": "Get some dough, a key ingredient in many foods",
+      "advancements.leapfrog.descr": "Craft a tier 1 jumpboost totem",
+      "advancements.crafted_magicite.descr": "Create magicite with the creation orb!",
+      "advancements.stmw_foods.descr": "Welcome to the foods section, which explains the basics of cooking in STMW5!",
+      "advancements.pets.title": "Pets!",
+      "item.stmwr.raw_totem": "Raw Totem",
+      "advancements.ultimate_ultrite.descr": "By mixing godlium and magicite, you are able to create a mystical compound, capable of startling power...",
+      "advancements.call_me.title": "Call Me!!",
+      "advancements.superman.descr": "Craft a T3 Strength Totem",
+      "item.stmwr.steve_cow_horn": "Steve Cow Horn",
+      "item.stmwr.steel_armor_helmet": "Steel Helmet",
+      "advancements.toot_toot.descr": "Get a mutant whistle, to fight the boss of this dimension!",
+      "gui.stmwr.modifiers_table.tooltip_upgrade": "modifier",
+      "advancements.experienced.title": "Experienced",
+      "advancements.cubby_cubes.descr": "Craft a cubby cube, a huge version of a chest! Do NOT mine it with items inside...",
+      "advancements.i_need_my_payday_2.descr": "Get some noobish trial coins with things found in the first few trials!",
+      "advancements.stringy.title": "Stringy",
+      "item.stmwr.health_totem_t_3": "Health Totem Tier 3",
+      "advancements.call_me.descr": "Obtain a giant caller, to fight the Giant Steve Cow boss",
+      "advancements.leg_day.descr": "Get a tier 3 jumpboost totem",
+      "advancements.heavy_hitters.title": "Heavy Hitters!",
+      "item.stmwr.blazed_armor_helmet": "Blazed Helmet",
+      "advancements.bullfighter.title": "Bullfighter",
+      "item.stmwr.iron_wand": "Iron Wand",
+      "advancements.saddle_up.title": "Saddle Up!",
+      "item.stmwr.steel_shovel": "Steel Shovel",
+      "advancements.godly_potential.title": "Godly Potential...",
+      "advancements.ironman.descr": "Craft an iron wand",
+      "item.stmwr.pistol_ammo": "Pistol Ammo",
+      "advancements.kachow.descr": "Craft the tier 3 speed totem, and become the fastest man alive",
+      "advancements.creation_at_your_fingertips.title": "Creation At Your Fingertips",
+      "advancements.cook_on_the_go.descr": "You can craft a portable oven for easy cooking of food",
+      "advancements.speedy_gonzales.title": "Speedy Gonzales",
+      "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
+      "item.stmwr.blazed_armor_chestplate": "Blazed Chestplate",
+      "advancements.suggestions_welcome.descr": "Find some Suggestium, which can be used to craft things suggested by friends that don\u0027t really have a place anywhere.",
+      "advancements.stmw_foods.title": "STMW: Foods",
+      "advancements.coal_for_christmas.title": "Coal For Christmas!",
+      "advancements.taco_tuesday.title": "Taco Tuesday!",
+      "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
+      "advancements.advanced_totem_making.descr": "Craft an advanced totem base, to craft unique totems.",
+      "advancements.stabby_stabby.title": "Stabby Stabby",
+      "advancements.doughy.title": "Doughy!",
+      "advancements.mystical_agriculture.title": "Mystical Agriculture",
+      "advancements.mmmmmm.title": "Mmmmmm",
+      "item.stmwr.militaria": "Militaria Trial Key",
+      "advancements.inventory_beef.title": "Pocket Beef",
+      "block.stmwr.storum_ore": "Storum Ore",
+      "item.stmwr.wand_stick": "Wand Stick",
+      "advancements.named.title": "Named!",
+      "item.stmwr.creation_orb": "Creation Orb",
+      "advancements.vegan_beef.title": "Vegan Beef",
+      "advancements.killer.descr": "Kill some Steve Cows and get their horns",
+      "advancements.godly_potential.descr": "Obtain some godlium, an extremely powerful ore. It\u0027s only just the beginning...",
+      "advancements.thats_tuff.title": "That\u0027s Tuff",
+      "advancements.stuff_to_mess_with_remodernized.title": "Stuff To Mess With Remodernized",
+      "item.stmwr.pikastaff": "Pikastaff",
+      "item_group.stmwr.stmw_5": "STMW 5",
+      "entity.stmwr.steve_cow": "Steve Cow",
+      "advancements.rituals_here_i_come.title": "Rituals, Here I Come!",
+      "entity.stmwr.mutant_worm": "Mutant Worm",
+      "item.stmwr.steel_sword": "Steel Sword",
+      "advancements.bullfighter.descr": "Craft a T2 Strength Totem",
+      "item.stmwr.steel_axe": "Steel Axe",
+      "advancements.shine_bright_like_a_diamond.descr": "You can craft diamond horse armor now!",
+      "advancements.maximum_health.descr": "Get the tier 3 health totem, and become a god!",
+      "advancements.steve_cows.title": "Steve Cows",
+      "advancements.oh_the_irony.title": "Oh The Irony",
+      "biome.stmwr.militaria_land": "Militaria Land",
+      "advancements.toot_toot.title": "Toot Toot!",
+      "item.stmwr.frost_zombie_spawn_egg": "Frost Zombie Spawn Egg",
+      "item.stmwr.infinitite_ingot": "Infinitite",
+      "advancements.tortillas.descr": "Make some tortillas!",
+      "advancements.i_am_speed.title": "I Am Speed",
+      "advancements.wands_but_better.title": "Wands, But Better!!!",
+      "item.stmwr.mutant_boss_spawn_egg": "Mutant Boss Spawn Egg",
+      "entity.stmwr.survivor": "Survivor",
+      "advancements.youre_a_wizard_harry.title": "You\u0027re A Wizard Harry!",
+      "advancements.welcome_to_militaria.title": "Welcome To Militaria!",
+      "item.stmwr.healing_totem": "Healing Totem Tier One",
+      "biome.stmwr.frozen_wastes": "Frozen Wastes",
+      "item.stmwr.dirt_nugget": "Dirt Nugget",
+      "item.stmwr.godlium_shovel": "Godlium Shovel",
+      "advancements.inventory_pork.descr": "You can make pork in your inventory!",
+      "item.stmwr.knife": "Knife",
+      "block.stmwr.suggestium_ore": "Suggestium Ore",
+      "advancements.double_the_godlium.title": "Double The Godlium",
+      "advancements.ice_ice_baby.descr": "Kill a frost zombie for its ice shards",
+      "entity.stmwr.pikachu": "Pikachu",
+      "entity.stmwr.mutant_boss": "Mutant Boss",
+      "item.stmwr.fireproof_totem": "Fireproof Totem",
+      "advancements.bratwurst_anyone.title": "Bratwurst Anyone?",
+      "item.stmwr.godlium_armor_chestplate": "Godlium Chestplate",
+      "advancements.stmw_trials.descr": "Craft trial bricks, used for entering dangerous dimensions full of powerful gear!",
+      "item.stmwr.key_piece": "Key Piece",
+      "advancements.crossy_road.title": "Crossy Road",
+      "advancements.pika_chuuuu.descr": "Get a Pikastaff, allowing for Pikachu on the go!",
+      "item.stmwr.cheese": "Cheese",
+      "block.stmwr.cubby_cube": "Cubby Cube",
+      "item.stmwr.healing_totem_t_2": "Healing Totem Tier 2",
+      "painting.stmwr.the_blurb.author": "Merb",
+      "advancements.stevum_gems.descr": "Obtain some Stevum",
+      "item.stmwr.uglum": "Uglum",
+      "item.stmwr.portable_oven": "Portable Oven",
+      "item.stmwr.land_of_the_steve_cows": "SteveCow Trial Key",
+      "item.stmwr.godlium_pickaxe": "Godlium Pickaxe",
+      "gui.stmwr.modifiers_table.label_modifiers": "modifiers",
+      "item.stmwr.ice_shard": "Ice Shard",
+      "block.stmwr.godlium_block": "Block of Godlium",
+      "item.stmwr.stevum": "Stevum",
+      "advancements.experienced.descr": "You can craft experience bottles!",
+      "advancements.infinite_power.title": "Infinite Power",
+      "advancements.building_time.title": "It\u0027s Building Time!",
+      "block.stmwr.stevum_block": "Block of Stevum",
+      "advancements.pizza_time.title": "Pizza Time",
+      "item.stmwr.animal_strap": "Animal Strap",
+      "advancements.crafted_magicite.title": "Crafted Magicite",
+      "advancements.dirty.descr": "Obtain a dirt nugget, the single most overpowered food in the game...",
+      "item.stmwr.mutant_worm_spawn_egg": "Mutant Worm Spawn Egg",
+      "advancements.second_amendment.title": "Second Amendment"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "stmwr",
+    "modName": "Stuff To Mess With Remodernized",
+    "version": "1.0.0",
+    "author": "erikn, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.stmwr"
+  },
+  "mcreatorVersion": 202400228714
+}
