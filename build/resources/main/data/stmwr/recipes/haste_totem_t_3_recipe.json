@@ -2,21 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aba",
-    "cdc",
-    "aba"
+    "abc",
+    "ded",
+    "cba"
   ],
   "key": {
     "a": {
-      "item": "minecraft:netherite_ingot"
+      "item": "stmwr:uglum"
     },
     "b": {
       "item": "stmwr:ultrite"
     },
     "c": {
-      "item": "minecraft:beacon"
+      "item": "stmwr:blazed_block"
     },
     "d": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "e": {
       "item": "stmwr:haste_totem_t_2"
     }
   },

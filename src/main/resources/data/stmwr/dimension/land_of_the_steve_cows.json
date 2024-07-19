@@ -63,12 +63,12 @@
           "biome": "stmwr:frozen_wastes",
           "parameters": {
             "temperature": [
-              -0.4998,
+              -0.4898,
               0.4996
             ],
             "humidity": [
-              -0.5005,
-              0.4995
+              0.4886,
+              1.4887
             ],
             "continentalness": [
               0.2994,

@@ -12,22 +12,22 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:GodliumPickaxe"
+      },
+      {
+        "value": "CUSTOM:SpeedTotemT3"
       },
       {
         "value": "CUSTOM:GodliumPickaxe"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:MagiciteDust"
       },
       {
         "value": "CUSTOM:HasteTotemT1"
       },
       {
-        "value": ""
+        "value": "CUSTOM:MagiciteDust"
       },
       {
         "value": ""

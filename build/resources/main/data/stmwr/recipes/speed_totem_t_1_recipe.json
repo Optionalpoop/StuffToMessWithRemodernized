@@ -2,21 +2,27 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
-    "bcb",
-    " d "
+    "aba",
+    "cdc",
+    "efe"
   ],
   "key": {
     "a": {
-      "item": "minecraft:sugar"
+      "item": "stmwr:sausage"
     },
     "b": {
-      "item": "stmwr:magicite_dust"
+      "item": "minecraft:sugar"
     },
     "c": {
-      "item": "stmwr:raw_totem"
+      "item": "stmwr:magicite_dust"
     },
     "d": {
+      "item": "stmwr:raw_totem"
+    },
+    "e": {
+      "item": "stmwr:dough"
+    },
+    "f": {
       "item": "stmwr:ultrite"
     }
   },

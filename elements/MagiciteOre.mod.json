@@ -102,7 +102,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "vanillaToolTier": "DIAMOND",
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -134,8 +134,8 @@
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 7,
-    "frequencyOnChunk": 4,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 43
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 100
   }
 }

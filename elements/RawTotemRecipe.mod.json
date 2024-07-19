@@ -12,15 +12,6 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Plastika"
-      },
-      {
-        "value": ""
-      },
-      {
         "value": "CUSTOM:MagiciteDust"
       },
       {
@@ -30,13 +21,22 @@
         "value": "CUSTOM:MagiciteDust"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Plasticilia"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:Plasticilia"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
       },
       {
         "value": "CUSTOM:Plastika"
       },
       {
-        "value": ""
+        "value": "CUSTOM:MagiciteDust"
       }
     ],
     "recipeReturnStack": {

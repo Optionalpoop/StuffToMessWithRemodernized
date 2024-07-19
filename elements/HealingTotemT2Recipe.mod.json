@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:BlazedIngot"
       },
       {
         "value": "CUSTOM:Ultrite"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BlazedIngot"
       },
       {
         "value": "CUSTOM:MagiciteDust"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:MagiciteDust"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BlazedIngot"
       },
       {
         "value": "CUSTOM:Ultrite"
       },
       {
-        "value": ""
+        "value": "CUSTOM:BlazedIngot"
       }
     ],
     "recipeReturnStack": {

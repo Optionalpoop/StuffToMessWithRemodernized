@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:Uglum"
       },
       {
         "value": "CUSTOM:Ultrite"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:BlazedBlock"
       },
       {
-        "value": "Blocks.BEACON"
+        "value": "Items.NETHERITE_PICKAXE"
       },
       {
         "value": "CUSTOM:HasteTotemT2"
       },
       {
-        "value": "Blocks.BEACON"
+        "value": "Items.NETHERITE_PICKAXE"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:BlazedBlock"
       },
       {
         "value": "CUSTOM:Ultrite"
       },
       {
-        "value": "Items.NETHERITE_INGOT"
+        "value": "CUSTOM:Uglum"
       }
     ],
     "recipeReturnStack": {

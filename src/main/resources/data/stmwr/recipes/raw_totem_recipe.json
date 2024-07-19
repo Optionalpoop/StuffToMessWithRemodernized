@@ -2,16 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
-    "bab",
-    " a "
+    "aba",
+    "cdc",
+    "aba"
   ],
   "key": {
     "a": {
-      "item": "stmwr:plastika"
+      "item": "stmwr:magicite_dust"
     },
     "b": {
-      "item": "stmwr:magicite_dust"
+      "item": "stmwr:plastika"
+    },
+    "c": {
+      "item": "stmwr:plasticilia"
+    },
+    "d": {
+      "item": "stmwr:magicite_block"
     }
   },
   "result": {

@@ -10,6 +10,6 @@ public class SpeedTotemT3RightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 9999, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 99999, 5));
 	}
 }

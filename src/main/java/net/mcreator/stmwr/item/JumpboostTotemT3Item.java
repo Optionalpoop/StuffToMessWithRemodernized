@@ -22,7 +22,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class JumpboostTotemT3Item extends Item {
 	public JumpboostTotemT3Item() {
-		super(new Item.Properties().durability(100));
+		super(new Item.Properties().durability(0));
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class JumpboostTotemT3Item extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		JumpboostTotemT3RightclickedProcedure.execute(entity, ar.getObject());
+		JumpboostTotemT3RightclickedProcedure.execute(entity);
 		return ar;
 	}
 

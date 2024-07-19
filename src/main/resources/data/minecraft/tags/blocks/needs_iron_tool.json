@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "stmwr:storum_ore",
+    "stmwr:suggestium_ore",
+    "stmwr:magicite_ore",
     "stmwr:trial_brick",
     "stmwr:blazed_block",
     "stmwr:blazed_ore"

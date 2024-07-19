@@ -41,7 +41,6 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.RAW_TOTEM.get());
 				tabData.accept(StmwrModItems.WAND_STICK.get());
 				tabData.accept(StmwrModItems.HEALING_TOTEM.get());
-				tabData.accept(StmwrModItems.BUILDERS_WAND.get());
 				tabData.accept(StmwrModItems.HEALING_TOTEM_T_2.get());
 				tabData.accept(StmwrModItems.HEALTH_TOTEM_T_3.get());
 				tabData.accept(StmwrModItems.SPEED_TOTEM_T_1.get());
@@ -56,8 +55,6 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.HASTE_TOTEM_T_3.get());
 				tabData.accept(StmwrModItems.WANDAR.get());
 				tabData.accept(StmwrModItems.ADVANCED_WAND_STICK.get());
-				tabData.accept(StmwrModItems.IRON_WAND.get());
-				tabData.accept(StmwrModItems.COAL_WAND.get());
 				tabData.accept(StmwrModItems.INFINITITE_INGOT.get());
 				tabData.accept(StmwrModBlocks.INFINITITE_ORE.get().asItem());
 				tabData.accept(StmwrModBlocks.INFINITITE_BLOCK.get().asItem());
