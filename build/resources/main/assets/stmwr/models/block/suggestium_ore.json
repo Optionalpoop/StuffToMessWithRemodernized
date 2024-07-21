@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "stmwr:block/suggestium_ore",
-    "particle": "stmwr:block/suggestium_ore"
-  },
-  "render_type": "solid"
-}

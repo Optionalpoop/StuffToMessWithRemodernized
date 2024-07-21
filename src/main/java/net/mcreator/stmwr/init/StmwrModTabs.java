@@ -114,10 +114,6 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.STEEL_ARMOR_CHESTPLATE.get());
 				tabData.accept(StmwrModItems.STEEL_ARMOR_LEGGINGS.get());
 				tabData.accept(StmwrModItems.STEEL_ARMOR_BOOTS.get());
-				tabData.accept(StmwrModItems.SUGGESTIUM.get());
-				tabData.accept(StmwrModBlocks.SUGGESTIUM_ORE.get().asItem());
-				tabData.accept(StmwrModBlocks.SUGGESTIUM_BLOCK.get().asItem());
-				tabData.accept(StmwrModItems.IDK_SOMETHING.get());
 				tabData.accept(StmwrModItems.CHEESE.get());
 				tabData.accept(StmwrModItems.CHEESE_STICK.get());
 				tabData.accept(StmwrModItems.SHREDDED_BEEF.get());

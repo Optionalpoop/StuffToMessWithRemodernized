@@ -3,12 +3,15 @@
   "category": "equipment",
   "pattern": [
     "a a",
-    "aaa",
+    "aba",
     "aaa"
   ],
   "key": {
     "a": {
       "item": "stmwr:godlium_ingot"
+    },
+    "b": {
+      "item": "minecraft:diamond_chestplate"
     }
   },
   "result": {

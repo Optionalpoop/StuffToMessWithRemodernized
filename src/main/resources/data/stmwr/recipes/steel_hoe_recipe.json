@@ -4,13 +4,16 @@
   "pattern": [
     "aa",
     " b",
-    " b"
+    " c"
   ],
   "key": {
     "a": {
       "item": "stmwr:steel_ingot"
     },
     "b": {
+      "item": "stmwr:godlium_hoe"
+    },
+    "c": {
       "item": "minecraft:stick"
     }
   },

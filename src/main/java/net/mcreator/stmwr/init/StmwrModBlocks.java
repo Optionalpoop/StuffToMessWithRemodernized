@@ -11,8 +11,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.stmwr.block.TrialBrickBlock;
-import net.mcreator.stmwr.block.SuggestiumOreBlock;
-import net.mcreator.stmwr.block.SuggestiumBlockBlock;
 import net.mcreator.stmwr.block.StorumOreBlock;
 import net.mcreator.stmwr.block.StorumBlockBlock;
 import net.mcreator.stmwr.block.StevumOreBlock;
@@ -56,8 +54,6 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> MILITARIA_PORTAL = REGISTRY.register("militaria_portal", () -> new MilitariaPortalBlock());
 	public static final RegistryObject<Block> STEEL_ORE = REGISTRY.register("steel_ore", () -> new SteelOreBlock());
 	public static final RegistryObject<Block> STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
-	public static final RegistryObject<Block> SUGGESTIUM_ORE = REGISTRY.register("suggestium_ore", () -> new SuggestiumOreBlock());
-	public static final RegistryObject<Block> SUGGESTIUM_BLOCK = REGISTRY.register("suggestium_block", () -> new SuggestiumBlockBlock());
 	public static final RegistryObject<Block> MODIFIER_TABLE = REGISTRY.register("modifier_table", () -> new ModifierTableBlock());
 	public static final RegistryObject<Block> BASIC_CUBBY_CUBE = REGISTRY.register("basic_cubby_cube", () -> new BasicCubbyCubeBlock());
 	public static final RegistryObject<Block> ADVANCED_CUBBY_CUBE = REGISTRY.register("advanced_cubby_cube", () -> new AdvancedCubbyCubeBlock());

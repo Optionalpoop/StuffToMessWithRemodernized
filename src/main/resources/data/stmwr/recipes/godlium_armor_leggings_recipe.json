@@ -2,13 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "aaa",
+    "aba",
     "a a",
     "a a"
   ],
   "key": {
     "a": {
       "item": "stmwr:godlium_ingot"
+    },
+    "b": {
+      "item": "minecraft:diamond_leggings"
     }
   },
   "result": {
