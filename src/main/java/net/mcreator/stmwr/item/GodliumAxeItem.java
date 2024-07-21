@@ -17,7 +17,7 @@ public class GodliumAxeItem extends AxeItem {
 			}
 
 			public float getSpeed() {
-				return 16f;
+				return 20f;
 			}
 
 			public float getAttackDamageBonus() {

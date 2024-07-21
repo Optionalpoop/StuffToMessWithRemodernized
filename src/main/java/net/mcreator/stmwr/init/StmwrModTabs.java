@@ -53,7 +53,6 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.HASTE_TOTEM_T_1.get());
 				tabData.accept(StmwrModItems.HASTE_TOTEM_T_2.get());
 				tabData.accept(StmwrModItems.HASTE_TOTEM_T_3.get());
-				tabData.accept(StmwrModItems.WANDAR.get());
 				tabData.accept(StmwrModItems.ADVANCED_WAND_STICK.get());
 				tabData.accept(StmwrModItems.INFINITITE_INGOT.get());
 				tabData.accept(StmwrModBlocks.INFINITITE_ORE.get().asItem());
@@ -144,6 +143,8 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TOTEM_OF_THE_GOOP.get());
 				tabData.accept(StmwrModItems.TOTEM_OF_THE_COW.get());
 				tabData.accept(StmwrModItems.ADVANCED_TOTEM_BASE.get());
+				tabData.accept(StmwrModItems.PORTABLE_CRUCIBLE.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_SLOW_FALLING.get());
 			})
 
 					.build());

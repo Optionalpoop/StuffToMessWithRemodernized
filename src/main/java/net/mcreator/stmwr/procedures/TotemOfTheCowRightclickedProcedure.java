@@ -12,11 +12,7 @@ public class TotemOfTheCowRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 999999999, 1));
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.DOLPHINS_GRACE, 999999999, 3));
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 999999999, 1));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 999999999, 3));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

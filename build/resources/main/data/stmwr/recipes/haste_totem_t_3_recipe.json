@@ -4,7 +4,7 @@
   "pattern": [
     "abc",
     "ded",
-    "cba"
+    "cfa"
   ],
   "key": {
     "a": {
@@ -21,6 +21,9 @@
     },
     "e": {
       "item": "stmwr:haste_totem_t_2"
+    },
+    "f": {
+      "item": "minecraft:dragon_breath"
     }
   },
   "result": {

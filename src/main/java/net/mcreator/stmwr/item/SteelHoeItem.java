@@ -17,7 +17,7 @@ public class SteelHoeItem extends HoeItem {
 			}
 
 			public float getSpeed() {
-				return 12f;
+				return 15f;
 			}
 
 			public float getAttackDamageBonus() {

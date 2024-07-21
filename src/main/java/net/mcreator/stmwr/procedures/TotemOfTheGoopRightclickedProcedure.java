@@ -17,8 +17,6 @@ public class TotemOfTheGoopRightclickedProcedure {
 			_entity.addEffect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 999999999, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 999999999, 1));
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 999999999, 2));
 		{
 			ItemStack _ist = itemstack;
 			if (_ist.hurt(1, RandomSource.create(), null)) {

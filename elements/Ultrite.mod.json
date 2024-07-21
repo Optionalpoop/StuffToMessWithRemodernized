@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "The ultimate crafting material for a magician"
+      ]
     },
     "glowCondition": {
       "fixedValue": true

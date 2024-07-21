@@ -29,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "The greatest of foods, instantly fully satiating you."
+      ]
     },
     "glowCondition": {
       "fixedValue": true

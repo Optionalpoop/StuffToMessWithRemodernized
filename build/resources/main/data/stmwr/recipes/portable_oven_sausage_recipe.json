@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:portable_oven"
+    },
+    {
+      "item": "stmwr:raw_sausage"
+    }
+  ],
+  "result": {
+    "item": "stmwr:sausage",
+    "count": 1
+  }
+}

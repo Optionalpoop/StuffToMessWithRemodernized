@@ -12,7 +12,7 @@ public class StrengthTotemT2RightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 999999, 2));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 999999, 4));
 		{
 			ItemStack _ist = itemstack;
 			if (_ist.hurt(1, RandomSource.create(), null)) {

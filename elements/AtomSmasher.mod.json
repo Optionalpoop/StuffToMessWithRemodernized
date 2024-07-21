@@ -10,7 +10,9 @@
     "blockingModelName": "Normal blocking",
     "name": "Atom Smasher",
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "A powerful item that allows the destruction of everything in the known universe, besides bedrock."
+      ]
     },
     "creativeTabs": [
       {

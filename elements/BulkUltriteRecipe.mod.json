@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 15,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ultrite"
+    },
+    "name": "bulk_ultrite_recipe",
+    "namespace": "mod"
+  }
+}

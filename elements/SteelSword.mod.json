@@ -17,11 +17,11 @@
         "value": "CUSTOM:STMW5"
       }
     ],
-    "efficiency": 12.0,
+    "efficiency": 25.0,
     "attackSpeed": 1.6,
     "enchantability": 42,
     "damageVsEntity": 50.0,
-    "usageCount": 1164,
+    "usageCount": 3000,
     "glowCondition": {
       "fixedValue": false
     },

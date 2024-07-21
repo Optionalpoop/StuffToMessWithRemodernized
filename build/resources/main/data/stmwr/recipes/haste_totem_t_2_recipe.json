@@ -1,29 +1,28 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    {
+  "pattern": [
+    "aba",
+    "cdc",
+    " e "
+  ],
+  "key": {
+    "a": {
       "item": "stmwr:godlium_pickaxe"
     },
-    {
+    "b": {
       "item": "stmwr:speed_totem_t_3"
     },
-    {
-      "item": "stmwr:godlium_pickaxe"
-    },
-    {
+    "c": {
       "item": "stmwr:magicite_dust"
     },
-    {
+    "d": {
       "item": "stmwr:haste_totem_t_1"
     },
-    {
-      "item": "stmwr:magicite_dust"
-    },
-    {
+    "e": {
       "item": "stmwr:ultrite"
     }
-  ],
+  },
   "result": {
     "item": "stmwr:haste_totem_t_2",
     "count": 1

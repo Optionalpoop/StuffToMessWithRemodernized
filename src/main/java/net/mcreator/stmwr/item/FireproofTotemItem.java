@@ -25,7 +25,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class FireproofTotemItem extends Item {
 	public FireproofTotemItem() {
-		super(new Item.Properties().durability(20).fireResistant());
+		super(new Item.Properties().durability(50).fireResistant());
 	}
 
 	@Override

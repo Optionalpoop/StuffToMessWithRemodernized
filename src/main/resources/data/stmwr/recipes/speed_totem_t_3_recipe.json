@@ -4,7 +4,7 @@
   "pattern": [
     "aba",
     "cdc",
-    "eae"
+    "efe"
   ],
   "key": {
     "a": {
@@ -21,6 +21,9 @@
     },
     "e": {
       "item": "stmwr:pizza"
+    },
+    "f": {
+      "item": "minecraft:dragon_breath"
     }
   },
   "result": {

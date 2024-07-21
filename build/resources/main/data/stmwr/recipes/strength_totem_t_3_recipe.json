@@ -4,7 +4,7 @@
   "pattern": [
     "abc",
     "bdb",
-    "cba"
+    "cea"
   ],
   "key": {
     "a": {
@@ -18,6 +18,9 @@
     },
     "d": {
       "item": "stmwr:strength_totem_t_2"
+    },
+    "e": {
+      "item": "minecraft:dragon_breath"
     }
   },
   "result": {

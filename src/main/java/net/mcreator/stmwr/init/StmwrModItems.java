@@ -13,12 +13,12 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.stmwr.item.WandarItem;
 import net.mcreator.stmwr.item.WandStickItem;
 import net.mcreator.stmwr.item.UltriteItem;
 import net.mcreator.stmwr.item.UglumItem;
 import net.mcreator.stmwr.item.TotemOfTheGoopItem;
 import net.mcreator.stmwr.item.TotemOfTheCowItem;
+import net.mcreator.stmwr.item.TotemOfSlowFallingItem;
 import net.mcreator.stmwr.item.TortillaItem;
 import net.mcreator.stmwr.item.TacoItem;
 import net.mcreator.stmwr.item.SuggestiumItem;
@@ -43,6 +43,7 @@ import net.mcreator.stmwr.item.SausageItem;
 import net.mcreator.stmwr.item.RawTotemItem;
 import net.mcreator.stmwr.item.RawSausageItem;
 import net.mcreator.stmwr.item.PortableOvenItem;
+import net.mcreator.stmwr.item.PortableCrucibleItem;
 import net.mcreator.stmwr.item.PlastikaItem;
 import net.mcreator.stmwr.item.PizzaSliceItem;
 import net.mcreator.stmwr.item.PizzaItem;
@@ -140,7 +141,6 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> HASTE_TOTEM_T_1 = REGISTRY.register("haste_totem_t_1", () -> new HasteTotemT1Item());
 	public static final RegistryObject<Item> HASTE_TOTEM_T_2 = REGISTRY.register("haste_totem_t_2", () -> new HasteTotemT2Item());
 	public static final RegistryObject<Item> HASTE_TOTEM_T_3 = REGISTRY.register("haste_totem_t_3", () -> new HasteTotemT3Item());
-	public static final RegistryObject<Item> WANDAR = REGISTRY.register("wandar", () -> new WandarItem());
 	public static final RegistryObject<Item> ADVANCED_WAND_STICK = REGISTRY.register("advanced_wand_stick", () -> new AdvancedWandStickItem());
 	public static final RegistryObject<Item> INFINITITE_INGOT = REGISTRY.register("infinitite_ingot", () -> new InfinititeIngotItem());
 	public static final RegistryObject<Item> INFINITITE_ORE = block(StmwrModBlocks.INFINITITE_ORE);
@@ -231,6 +231,8 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> TOTEM_OF_THE_GOOP = REGISTRY.register("totem_of_the_goop", () -> new TotemOfTheGoopItem());
 	public static final RegistryObject<Item> TOTEM_OF_THE_COW = REGISTRY.register("totem_of_the_cow", () -> new TotemOfTheCowItem());
 	public static final RegistryObject<Item> ADVANCED_TOTEM_BASE = REGISTRY.register("advanced_totem_base", () -> new AdvancedTotemBaseItem());
+	public static final RegistryObject<Item> PORTABLE_CRUCIBLE = REGISTRY.register("portable_crucible", () -> new PortableCrucibleItem());
+	public static final RegistryObject<Item> TOTEM_OF_SLOW_FALLING = REGISTRY.register("totem_of_slow_falling", () -> new TotemOfSlowFallingItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
