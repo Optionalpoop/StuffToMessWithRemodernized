@@ -18,8 +18,8 @@
       "registry_name": "atom_smasher",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/AtomSmasherItem.java",
-          "src/main/resources/assets/stmwr/models/item/atom_smasher.json"
+          "src/main/resources/assets/stmwr/models/item/atom_smasher.json",
+          "src/main/java/net/mcreator/stmwr/item/AtomSmasherItem.java"
         ]
       }
     },
@@ -43,8 +43,8 @@
       "registry_name": "dirt_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/dirt_nugget.json",
-          "src/main/java/net/mcreator/stmwr/item/DirtNuggetItem.java"
+          "src/main/java/net/mcreator/stmwr/item/DirtNuggetItem.java",
+          "src/main/resources/assets/stmwr/models/item/dirt_nugget.json"
         ]
       }
     },
@@ -93,14 +93,14 @@
       "registry_name": "magicite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/block/magicite_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/magicite_ore.json",
-          "src/main/resources/assets/stmwr/models/item/magicite_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/magicite_ore_biome_modifier.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/magicite_ore.json",
           "src/main/java/net/mcreator/stmwr/block/MagiciteOreBlock.java",
+          "src/main/resources/data/stmwr/forge/biome_modifier/magicite_ore_biome_modifier.json",
+          "src/main/resources/assets/stmwr/models/item/magicite_ore.json",
           "src/main/resources/assets/stmwr/blockstates/magicite_ore.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/magicite_ore.json"
+          "src/main/resources/data/stmwr/worldgen/configured_feature/magicite_ore.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/magicite_ore.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/magicite_ore.json",
+          "src/main/resources/assets/stmwr/models/block/magicite_ore.json"
         ]
       }
     },
@@ -112,11 +112,11 @@
       "registry_name": "magicite_block",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/stmwr/block/MagiciteBlockBlock.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/magicite_block.json",
           "src/main/resources/assets/stmwr/models/item/magicite_block.json",
           "src/main/resources/assets/stmwr/blockstates/magicite_block.json",
-          "src/main/resources/assets/stmwr/models/block/magicite_block.json",
-          "src/main/java/net/mcreator/stmwr/block/MagiciteBlockBlock.java"
+          "src/main/resources/assets/stmwr/models/block/magicite_block.json"
         ]
       }
     },
@@ -176,8 +176,8 @@
       "registry_name": "plastika",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/PlastikaItem.java",
-          "src/main/resources/assets/stmwr/models/item/plastika.json"
+          "src/main/resources/assets/stmwr/models/item/plastika.json",
+          "src/main/java/net/mcreator/stmwr/item/PlastikaItem.java"
         ]
       }
     },
@@ -189,14 +189,14 @@
       "registry_name": "plasticilia",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/blockstates/plasticilia.json",
           "src/main/resources/data/stmwr/forge/biome_modifier/plasticilia_biome_modifier.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/plasticilia.json",
-          "src/main/resources/assets/stmwr/models/item/plasticilia.json",
+          "src/main/resources/assets/stmwr/blockstates/plasticilia.json",
           "src/main/resources/data/stmwr/worldgen/placed_feature/plasticilia.json",
+          "src/main/resources/assets/stmwr/models/item/plasticilia.json",
           "src/main/java/net/mcreator/stmwr/block/PlasticiliaBlock.java",
-          "src/main/resources/data/stmwr/loot_tables/blocks/plasticilia.json",
-          "src/main/resources/assets/stmwr/models/block/plasticilia.json"
+          "src/main/resources/assets/stmwr/models/block/plasticilia.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/plasticilia.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/plasticilia.json"
         ]
       }
     },
@@ -232,8 +232,8 @@
       "registry_name": "godlium_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/GodliumIngotItem.java",
-          "src/main/resources/assets/stmwr/models/item/godlium_ingot.json"
+          "src/main/resources/assets/stmwr/models/item/godlium_ingot.json",
+          "src/main/java/net/mcreator/stmwr/item/GodliumIngotItem.java"
         ]
       }
     },
@@ -245,14 +245,14 @@
       "registry_name": "godlium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/forge/biome_modifier/godlium_ore_biome_modifier.json",
+          "src/main/resources/assets/stmwr/models/block/godlium_ore.json",
           "src/main/resources/data/stmwr/worldgen/placed_feature/godlium_ore.json",
-          "src/main/resources/assets/stmwr/models/item/godlium_ore.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/godlium_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/GodliumOreBlock.java",
+          "src/main/resources/data/stmwr/forge/biome_modifier/godlium_ore_biome_modifier.json",
           "src/main/resources/data/stmwr/worldgen/configured_feature/godlium_ore.json",
           "src/main/resources/assets/stmwr/blockstates/godlium_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/GodliumOreBlock.java",
-          "src/main/resources/data/stmwr/loot_tables/blocks/godlium_ore.json",
-          "src/main/resources/assets/stmwr/models/block/godlium_ore.json"
+          "src/main/resources/assets/stmwr/models/item/godlium_ore.json"
         ]
       }
     },
@@ -264,9 +264,9 @@
       "registry_name": "godlium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/block/godlium_block.json",
-          "src/main/resources/assets/stmwr/blockstates/godlium_block.json",
           "src/main/java/net/mcreator/stmwr/block/GodliumBlockBlock.java",
+          "src/main/resources/assets/stmwr/blockstates/godlium_block.json",
+          "src/main/resources/assets/stmwr/models/block/godlium_block.json",
           "src/main/resources/assets/stmwr/models/item/godlium_block.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/godlium_block.json"
         ]
@@ -316,8 +316,8 @@
       "registry_name": "godlium_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/GodliumPickaxeItem.java",
-          "src/main/resources/assets/stmwr/models/item/godlium_pickaxe.json"
+          "src/main/resources/assets/stmwr/models/item/godlium_pickaxe.json",
+          "src/main/java/net/mcreator/stmwr/item/GodliumPickaxeItem.java"
         ]
       }
     },
@@ -329,8 +329,8 @@
       "registry_name": "godlium_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/GodliumAxeItem.java",
-          "src/main/resources/assets/stmwr/models/item/godlium_axe.json"
+          "src/main/resources/assets/stmwr/models/item/godlium_axe.json",
+          "src/main/java/net/mcreator/stmwr/item/GodliumAxeItem.java"
         ]
       }
     },
@@ -441,11 +441,11 @@
       "registry_name": "godlium_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/godlium_armor_helmet.json",
           "src/main/resources/assets/stmwr/models/item/godlium_armor_boots.json",
           "src/main/resources/assets/stmwr/models/item/godlium_armor_leggings.json",
+          "src/main/java/net/mcreator/stmwr/item/GodliumArmorItem.java",
           "src/main/resources/assets/stmwr/models/item/godlium_armor_chestplate.json",
-          "src/main/java/net/mcreator/stmwr/item/GodliumArmorItem.java"
+          "src/main/resources/assets/stmwr/models/item/godlium_armor_helmet.json"
         ]
       }
     },
@@ -650,8 +650,8 @@
       "registry_name": "healing_totem",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/HealingTotemItem.java",
-          "src/main/resources/assets/stmwr/models/item/healing_totem.json"
+          "src/main/resources/assets/stmwr/models/item/healing_totem.json",
+          "src/main/java/net/mcreator/stmwr/item/HealingTotemItem.java"
         ]
       }
     },
@@ -709,8 +709,8 @@
       "registry_name": "healing_totem_t_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/healing_totem_t_2.json",
-          "src/main/java/net/mcreator/stmwr/item/HealingTotemT2Item.java"
+          "src/main/java/net/mcreator/stmwr/item/HealingTotemT2Item.java",
+          "src/main/resources/assets/stmwr/models/item/healing_totem_t_2.json"
         ]
       }
     },
@@ -886,8 +886,8 @@
       "registry_name": "speed_totem_t_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/speed_totem_t_2.json",
-          "src/main/java/net/mcreator/stmwr/item/SpeedTotemT2Item.java"
+          "src/main/java/net/mcreator/stmwr/item/SpeedTotemT2Item.java",
+          "src/main/resources/assets/stmwr/models/item/speed_totem_t_2.json"
         ]
       }
     },
@@ -1000,8 +1000,8 @@
       "registry_name": "nightvision_totem",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/nightvision_totem.json",
-          "src/main/java/net/mcreator/stmwr/item/NightvisionTotemItem.java"
+          "src/main/java/net/mcreator/stmwr/item/NightvisionTotemItem.java",
+          "src/main/resources/assets/stmwr/models/item/nightvision_totem.json"
         ]
       }
     },
@@ -1161,10 +1161,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       }
@@ -1236,8 +1232,8 @@
       "registry_name": "haste_totem_t_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/HasteTotemT1Item.java",
-          "src/main/resources/assets/stmwr/models/item/haste_totem_t_1.json"
+          "src/main/resources/assets/stmwr/models/item/haste_totem_t_1.json",
+          "src/main/java/net/mcreator/stmwr/item/HasteTotemT1Item.java"
         ]
       }
     },
@@ -1295,8 +1291,8 @@
       "registry_name": "haste_totem_t_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/haste_totem_t_2.json",
-          "src/main/java/net/mcreator/stmwr/item/HasteTotemT2Item.java"
+          "src/main/java/net/mcreator/stmwr/item/HasteTotemT2Item.java",
+          "src/main/resources/assets/stmwr/models/item/haste_totem_t_2.json"
         ]
       }
     },
@@ -1384,43 +1380,6 @@
       }
     },
     {
-      "name": "Wandar",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wandar",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/stmwr/models/item/wandar.json",
-          "src/main/java/net/mcreator/stmwr/item/WandarItem.java"
-        ]
-      }
-    },
-    {
-      "name": "WandarRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wandar_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/wandar_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Wandars",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wandars",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/wandars.json"
-        ]
-      }
-    },
-    {
       "name": "AdvancedWandStick",
       "type": "item",
       "compiles": true,
@@ -1465,8 +1424,8 @@
       "registry_name": "infinitite_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/InfinititeIngotItem.java",
-          "src/main/resources/assets/stmwr/models/item/infinitite_ingot.json"
+          "src/main/resources/assets/stmwr/models/item/infinitite_ingot.json",
+          "src/main/java/net/mcreator/stmwr/item/InfinititeIngotItem.java"
         ]
       }
     },
@@ -1478,11 +1437,11 @@
       "registry_name": "infinitite_ore",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/stmwr/block/InfinititeOreBlock.java",
           "src/main/resources/assets/stmwr/models/item/infinitite_ore.json",
-          "src/main/resources/assets/stmwr/models/block/infinitite_ore.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_ore.json",
           "src/main/resources/assets/stmwr/blockstates/infinitite_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/InfinititeOreBlock.java"
+          "src/main/resources/assets/stmwr/models/block/infinitite_ore.json"
         ]
       }
     },
@@ -1495,10 +1454,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/stmwr/block/InfinititeBlockBlock.java",
-          "src/main/resources/assets/stmwr/models/block/infinitite_block.json",
+          "src/main/resources/assets/stmwr/models/item/infinitite_block.json",
           "src/main/resources/assets/stmwr/blockstates/infinitite_block.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_block.json",
-          "src/main/resources/assets/stmwr/models/item/infinitite_block.json"
+          "src/main/resources/assets/stmwr/models/block/infinitite_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_block.json"
         ]
       }
     },
@@ -1558,8 +1517,8 @@
       "registry_name": "blazed_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/BlazedIngotItem.java",
-          "src/main/resources/assets/stmwr/models/item/blazed_ingot.json"
+          "src/main/resources/assets/stmwr/models/item/blazed_ingot.json",
+          "src/main/java/net/mcreator/stmwr/item/BlazedIngotItem.java"
         ]
       }
     },
@@ -1571,14 +1530,14 @@
       "registry_name": "blazed_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/blazed_ore_biome_modifier.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/blazed_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/blazed_ore.json",
-          "src/main/resources/assets/stmwr/models/item/blazed_ore.json",
           "src/main/resources/assets/stmwr/models/block/blazed_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/blazed_ore_biome_modifier.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/blazed_ore.json",
           "src/main/java/net/mcreator/stmwr/block/BlazedOreBlock.java",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/blazed_ore.json"
+          "src/main/resources/data/stmwr/worldgen/placed_feature/blazed_ore.json",
+          "src/main/resources/assets/stmwr/models/item/blazed_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/blazed_ore.json"
         ]
       }
     },
@@ -1590,11 +1549,11 @@
       "registry_name": "blazed_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_block.json",
-          "src/main/resources/assets/stmwr/models/item/blazed_block.json",
           "src/main/resources/assets/stmwr/blockstates/blazed_block.json",
-          "src/main/java/net/mcreator/stmwr/block/BlazedBlockBlock.java",
-          "src/main/resources/assets/stmwr/models/block/blazed_block.json"
+          "src/main/resources/data/stmwr/loot_tables/blocks/blazed_block.json",
+          "src/main/resources/assets/stmwr/models/block/blazed_block.json",
+          "src/main/resources/assets/stmwr/models/item/blazed_block.json",
+          "src/main/java/net/mcreator/stmwr/block/BlazedBlockBlock.java"
         ]
       }
     },
@@ -1642,8 +1601,8 @@
       "registry_name": "blazed_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/BlazedPickaxeItem.java",
-          "src/main/resources/assets/stmwr/models/item/blazed_pickaxe.json"
+          "src/main/resources/assets/stmwr/models/item/blazed_pickaxe.json",
+          "src/main/java/net/mcreator/stmwr/item/BlazedPickaxeItem.java"
         ]
       }
     },
@@ -1668,8 +1627,8 @@
       "registry_name": "blazed_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/BlazedSwordItem.java",
-          "src/main/resources/assets/stmwr/models/item/blazed_sword.json"
+          "src/main/resources/assets/stmwr/models/item/blazed_sword.json",
+          "src/main/java/net/mcreator/stmwr/item/BlazedSwordItem.java"
         ]
       }
     },
@@ -1681,8 +1640,8 @@
       "registry_name": "blazed_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/BlazedShovelItem.java",
-          "src/main/resources/assets/stmwr/models/item/blazed_shovel.json"
+          "src/main/resources/assets/stmwr/models/item/blazed_shovel.json",
+          "src/main/java/net/mcreator/stmwr/item/BlazedShovelItem.java"
         ]
       }
     },
@@ -1767,11 +1726,11 @@
       "registry_name": "blazed_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/blazed_armor_leggings.json",
-          "src/main/resources/assets/stmwr/models/item/blazed_armor_helmet.json",
           "src/main/resources/assets/stmwr/models/item/blazed_armor_boots.json",
+          "src/main/java/net/mcreator/stmwr/item/BlazedArmorItem.java",
+          "src/main/resources/assets/stmwr/models/item/blazed_armor_leggings.json",
           "src/main/resources/assets/stmwr/models/item/blazed_armor_chestplate.json",
-          "src/main/java/net/mcreator/stmwr/item/BlazedArmorItem.java"
+          "src/main/resources/assets/stmwr/models/item/blazed_armor_helmet.json"
         ]
       }
     },
@@ -1994,8 +1953,8 @@
       "registry_name": "animal_strap",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/AnimalStrapItem.java",
-          "src/main/resources/assets/stmwr/models/item/animal_strap.json"
+          "src/main/resources/assets/stmwr/models/item/animal_strap.json",
+          "src/main/java/net/mcreator/stmwr/item/AnimalStrapItem.java"
         ]
       }
     },
@@ -2159,13 +2118,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/worldgen/placed_feature/storum_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/storum_ore_biome_modifier.json",
-          "src/main/resources/assets/stmwr/models/item/storum_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/storum_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/StorumOreBlock.java",
           "src/main/resources/assets/stmwr/models/block/storum_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/storum_ore_biome_modifier.json",
+          "src/main/resources/assets/stmwr/blockstates/storum_ore.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/storum_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/storum_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/StorumOreBlock.java"
+          "src/main/resources/assets/stmwr/models/item/storum_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/storum_ore.json"
         ]
       }
     },
@@ -2177,11 +2136,11 @@
       "registry_name": "storum_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/loot_tables/blocks/storum_block.json",
-          "src/main/resources/assets/stmwr/blockstates/storum_block.json",
           "src/main/java/net/mcreator/stmwr/block/StorumBlockBlock.java",
           "src/main/resources/assets/stmwr/models/item/storum_block.json",
-          "src/main/resources/assets/stmwr/models/block/storum_block.json"
+          "src/main/resources/data/stmwr/loot_tables/blocks/storum_block.json",
+          "src/main/resources/assets/stmwr/models/block/storum_block.json",
+          "src/main/resources/assets/stmwr/blockstates/storum_block.json"
         ]
       }
     },
@@ -2229,8 +2188,8 @@
       "registry_name": "cubby_cube_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/world/inventory/CubbyCubeGUIMenu.java",
-          "src/main/java/net/mcreator/stmwr/client/gui/CubbyCubeGUIScreen.java"
+          "src/main/java/net/mcreator/stmwr/client/gui/CubbyCubeGUIScreen.java",
+          "src/main/java/net/mcreator/stmwr/world/inventory/CubbyCubeGUIMenu.java"
         ]
       }
     },
@@ -2242,12 +2201,12 @@
       "registry_name": "cubby_cube",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/block/entity/CubbyCubeBlockEntity.java",
+          "src/main/resources/assets/stmwr/models/block/cubby_cube.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/cubby_cube.json",
-          "src/main/resources/assets/stmwr/blockstates/cubby_cube.json",
           "src/main/java/net/mcreator/stmwr/block/CubbyCubeBlock.java",
           "src/main/resources/assets/stmwr/models/item/cubby_cube.json",
-          "src/main/resources/assets/stmwr/models/block/cubby_cube.json"
+          "src/main/java/net/mcreator/stmwr/block/entity/CubbyCubeBlockEntity.java",
+          "src/main/resources/assets/stmwr/blockstates/cubby_cube.json"
         ]
       }
     },
@@ -2404,8 +2363,8 @@
       "registry_name": "sausage",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/SausageItem.java",
-          "src/main/resources/assets/stmwr/models/item/sausage.json"
+          "src/main/resources/assets/stmwr/models/item/sausage.json",
+          "src/main/java/net/mcreator/stmwr/item/SausageItem.java"
         ]
       }
     },
@@ -2453,11 +2412,11 @@
       "registry_name": "trial_brick",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/block/trial_brick.json",
-          "src/main/resources/assets/stmwr/models/item/trial_brick.json",
-          "src/main/resources/assets/stmwr/blockstates/trial_brick.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/trial_brick.json",
           "src/main/java/net/mcreator/stmwr/block/TrialBrickBlock.java",
-          "src/main/resources/data/stmwr/loot_tables/blocks/trial_brick.json"
+          "src/main/resources/assets/stmwr/blockstates/trial_brick.json",
+          "src/main/resources/assets/stmwr/models/item/trial_brick.json",
+          "src/main/resources/assets/stmwr/models/block/trial_brick.json"
         ]
       }
     },
@@ -2481,8 +2440,8 @@
       "registry_name": "steve_cow_horn",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/SteveCowHornItem.java",
-          "src/main/resources/assets/stmwr/models/item/steve_cow_horn.json"
+          "src/main/resources/assets/stmwr/models/item/steve_cow_horn.json",
+          "src/main/java/net/mcreator/stmwr/item/SteveCowHornItem.java"
         ]
       }
     },
@@ -2496,8 +2455,8 @@
         "files": [
           "src/main/resources/data/stmwr/forge/biome_modifier/steve_cow_biome_modifier.json",
           "src/main/java/net/mcreator/stmwr/client/renderer/SteveCowRenderer.java",
-          "src/main/java/net/mcreator/stmwr/entity/SteveCowEntity.java",
-          "src/main/resources/assets/stmwr/models/item/steve_cow_spawn_egg.json"
+          "src/main/resources/assets/stmwr/models/item/steve_cow_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/entity/SteveCowEntity.java"
         ]
       }
     },
@@ -2523,17 +2482,17 @@
       "registry_name": "land_of_the_steve_cows",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/block/LandOfTheSteveCowsPortalBlock.java",
-          "src/main/java/net/mcreator/stmwr/item/LandOfTheSteveCowsItem.java",
-          "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ns.json",
-          "src/main/resources/data/stmwr/dimension_type/land_of_the_steve_cows.json",
-          "src/main/resources/data/stmwr/dimension/land_of_the_steve_cows.json",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsTeleporter.java",
-          "src/main/resources/assets/stmwr/blockstates/land_of_the_steve_cows_portal.json",
-          "src/main/java/net/mcreator/stmwr/world/dimension/LandOfTheSteveCowsDimension.java",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsPortalShape.java",
           "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ew.json",
-          "src/main/resources/assets/stmwr/models/item/land_of_the_steve_cows.json"
+          "src/main/resources/data/stmwr/dimension/land_of_the_steve_cows.json",
+          "src/main/resources/assets/stmwr/models/item/land_of_the_steve_cows.json",
+          "src/main/java/net/mcreator/stmwr/world/dimension/LandOfTheSteveCowsDimension.java",
+          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsTeleporter.java",
+          "src/main/java/net/mcreator/stmwr/block/LandOfTheSteveCowsPortalBlock.java",
+          "src/main/resources/data/stmwr/dimension_type/land_of_the_steve_cows.json",
+          "src/main/resources/assets/stmwr/blockstates/land_of_the_steve_cows_portal.json",
+          "src/main/resources/assets/stmwr/models/block/land_of_the_steve_cows_portal_ns.json",
+          "src/main/java/net/mcreator/stmwr/item/LandOfTheSteveCowsItem.java",
+          "src/main/java/net/mcreator/stmwr/world/teleporter/LandOfTheSteveCowsPortalShape.java"
         ]
       }
     },
@@ -2557,8 +2516,8 @@
       "registry_name": "key_piece",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/KeyPieceItem.java",
-          "src/main/resources/assets/stmwr/models/item/key_piece.json"
+          "src/main/resources/assets/stmwr/models/item/key_piece.json",
+          "src/main/java/net/mcreator/stmwr/item/KeyPieceItem.java"
         ]
       }
     },
@@ -2630,8 +2589,8 @@
       "registry_name": "stevum",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/StevumItem.java",
-          "src/main/resources/assets/stmwr/models/item/stevum.json"
+          "src/main/resources/assets/stmwr/models/item/stevum.json",
+          "src/main/java/net/mcreator/stmwr/item/StevumItem.java"
         ]
       }
     },
@@ -2643,14 +2602,14 @@
       "registry_name": "stevum_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/loot_tables/blocks/stevum_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/stevum_ore.json",
-          "src/main/java/net/mcreator/stmwr/block/StevumOreBlock.java",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/stevum_ore.json",
+          "src/main/resources/assets/stmwr/models/block/stevum_ore.json",
           "src/main/resources/data/stmwr/worldgen/configured_feature/stevum_ore.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/stevum_ore.json",
           "src/main/resources/assets/stmwr/models/item/stevum_ore.json",
           "src/main/resources/data/stmwr/forge/biome_modifier/stevum_ore_biome_modifier.json",
-          "src/main/resources/assets/stmwr/models/block/stevum_ore.json"
+          "src/main/resources/assets/stmwr/blockstates/stevum_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/StevumOreBlock.java",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/stevum_ore.json"
         ]
       }
     },
@@ -2663,10 +2622,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/stmwr/models/block/stevum_block.json",
-          "src/main/java/net/mcreator/stmwr/block/StevumBlockBlock.java",
           "src/main/resources/assets/stmwr/blockstates/stevum_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/stevum_block.json",
           "src/main/resources/assets/stmwr/models/item/stevum_block.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/stevum_block.json"
+          "src/main/java/net/mcreator/stmwr/block/StevumBlockBlock.java"
         ]
       }
     },
@@ -2740,8 +2699,8 @@
       "registry_name": "giant_steve_cow_heart",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/giant_steve_cow_heart.json",
-          "src/main/java/net/mcreator/stmwr/item/GiantSteveCowHeartItem.java"
+          "src/main/java/net/mcreator/stmwr/item/GiantSteveCowHeartItem.java",
+          "src/main/resources/assets/stmwr/models/item/giant_steve_cow_heart.json"
         ]
       }
     },
@@ -2787,8 +2746,8 @@
       "registry_name": "giant_caller",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/GiantCallerItem.java",
-          "src/main/resources/assets/stmwr/models/item/giant_caller.json"
+          "src/main/resources/assets/stmwr/models/item/giant_caller.json",
+          "src/main/java/net/mcreator/stmwr/item/GiantCallerItem.java"
         ]
       }
     },
@@ -2849,10 +2808,10 @@
       "registry_name": "pikachu",
       "metadata": {
         "files": [
+          "src/main/resources/assets/stmwr/models/item/pikachu_spawn_egg.json",
           "src/main/java/net/mcreator/stmwr/client/renderer/PikachuRenderer.java",
-          "src/main/java/net/mcreator/stmwr/entity/PikachuEntity.java",
           "src/main/resources/data/stmwr/forge/biome_modifier/pikachu_biome_modifier.json",
-          "src/main/resources/assets/stmwr/models/item/pikachu_spawn_egg.json"
+          "src/main/java/net/mcreator/stmwr/entity/PikachuEntity.java"
         ]
       }
     },
@@ -2898,8 +2857,8 @@
       "registry_name": "pikastaff",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/pikastaff.json",
-          "src/main/java/net/mcreator/stmwr/item/PikastaffItem.java"
+          "src/main/java/net/mcreator/stmwr/item/PikastaffItem.java",
+          "src/main/resources/assets/stmwr/models/item/pikastaff.json"
         ]
       }
     },
@@ -2935,8 +2894,8 @@
       "registry_name": "mysterious_scrap",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/mysterious_scrap.json",
-          "src/main/java/net/mcreator/stmwr/item/MysteriousScrapItem.java"
+          "src/main/java/net/mcreator/stmwr/item/MysteriousScrapItem.java",
+          "src/main/resources/assets/stmwr/models/item/mysterious_scrap.json"
         ]
       }
     },
@@ -2949,9 +2908,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/forge/biome_modifier/survivor_biome_modifier.json",
-          "src/main/java/net/mcreator/stmwr/entity/SurvivorEntity.java",
+          "src/main/resources/assets/stmwr/models/item/survivor_spawn_egg.json",
           "src/main/java/net/mcreator/stmwr/client/renderer/SurvivorRenderer.java",
-          "src/main/resources/assets/stmwr/models/item/survivor_spawn_egg.json"
+          "src/main/java/net/mcreator/stmwr/entity/SurvivorEntity.java"
         ]
       }
     },
@@ -3004,9 +2963,9 @@
       "registry_name": "mutant_boss",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/mutant_boss_spawn_egg.json",
           "src/main/java/net/mcreator/stmwr/entity/MutantBossEntity.java",
-          "src/main/java/net/mcreator/stmwr/client/renderer/MutantBossRenderer.java"
+          "src/main/java/net/mcreator/stmwr/client/renderer/MutantBossRenderer.java",
+          "src/main/resources/assets/stmwr/models/item/mutant_boss_spawn_egg.json"
         ]
       }
     },
@@ -3030,17 +2989,17 @@
       "registry_name": "militaria",
       "metadata": {
         "files": [
+          "src/main/resources/assets/stmwr/models/item/militaria.json",
+          "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
+          "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
+          "src/main/resources/assets/stmwr/blockstates/militaria_portal.json",
           "src/main/java/net/mcreator/stmwr/block/MilitariaPortalBlock.java",
+          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaTeleporter.java",
           "src/main/java/net/mcreator/stmwr/item/MilitariaItem.java",
+          "src/main/resources/assets/stmwr/models/block/militaria_portal_ns.json",
           "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaPortalShape.java",
           "src/main/resources/data/stmwr/dimension_type/militaria.json",
-          "src/main/resources/data/stmwr/dimension/militaria.json",
-          "src/main/java/net/mcreator/stmwr/world/teleporter/MilitariaTeleporter.java",
-          "src/main/resources/assets/stmwr/models/item/militaria.json",
-          "src/main/java/net/mcreator/stmwr/world/dimension/MilitariaDimension.java",
-          "src/main/resources/assets/stmwr/models/block/militaria_portal_ew.json",
-          "src/main/resources/assets/stmwr/blockstates/militaria_portal.json",
-          "src/main/resources/assets/stmwr/models/block/militaria_portal_ns.json"
+          "src/main/resources/data/stmwr/dimension/militaria.json"
         ]
       }
     },
@@ -3187,8 +3146,8 @@
       "registry_name": "steel_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/steel_ingot.json",
-          "src/main/java/net/mcreator/stmwr/item/SteelIngotItem.java"
+          "src/main/java/net/mcreator/stmwr/item/SteelIngotItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_ingot.json"
         ]
       }
     },
@@ -3200,14 +3159,14 @@
       "registry_name": "steel_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/worldgen/placed_feature/steel_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/steel_ore_biome_modifier.json",
-          "src/main/resources/assets/stmwr/blockstates/steel_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/steel_ore.json",
           "src/main/resources/assets/stmwr/models/item/steel_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/steel_ore.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/steel_ore.json",
           "src/main/resources/assets/stmwr/models/block/steel_ore.json",
           "src/main/java/net/mcreator/stmwr/block/SteelOreBlock.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/steel_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/steel_ore.json"
+          "src/main/resources/data/stmwr/forge/biome_modifier/steel_ore_biome_modifier.json"
         ]
       }
     },
@@ -3219,11 +3178,11 @@
       "registry_name": "steel_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/blockstates/steel_block.json",
-          "src/main/resources/assets/stmwr/models/block/steel_block.json",
+          "src/main/java/net/mcreator/stmwr/block/SteelBlockBlock.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/steel_block.json",
+          "src/main/resources/assets/stmwr/models/block/steel_block.json",
           "src/main/resources/assets/stmwr/models/item/steel_block.json",
-          "src/main/java/net/mcreator/stmwr/block/SteelBlockBlock.java"
+          "src/main/resources/assets/stmwr/blockstates/steel_block.json"
         ]
       }
     },
@@ -3284,8 +3243,8 @@
       "registry_name": "steel_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/SteelAxeItem.java",
-          "src/main/resources/assets/stmwr/models/item/steel_axe.json"
+          "src/main/resources/assets/stmwr/models/item/steel_axe.json",
+          "src/main/java/net/mcreator/stmwr/item/SteelAxeItem.java"
         ]
       }
     },
@@ -3297,8 +3256,8 @@
       "registry_name": "steel_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/steel_sword.json",
-          "src/main/java/net/mcreator/stmwr/item/SteelSwordItem.java"
+          "src/main/java/net/mcreator/stmwr/item/SteelSwordItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_sword.json"
         ]
       }
     },
@@ -3323,8 +3282,8 @@
       "registry_name": "steel_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/SteelHoeItem.java",
-          "src/main/resources/assets/stmwr/models/item/steel_hoe.json"
+          "src/main/resources/assets/stmwr/models/item/steel_hoe.json",
+          "src/main/java/net/mcreator/stmwr/item/SteelHoeItem.java"
         ]
       }
     },
@@ -3396,9 +3355,9 @@
       "registry_name": "steel_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/steel_armor_leggings.json",
           "src/main/resources/assets/stmwr/models/item/steel_armor_helmet.json",
           "src/main/java/net/mcreator/stmwr/item/SteelArmorItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_armor_leggings.json",
           "src/main/resources/assets/stmwr/models/item/steel_armor_boots.json",
           "src/main/resources/assets/stmwr/models/item/steel_armor_chestplate.json"
         ]
@@ -3599,14 +3558,14 @@
       "registry_name": "suggestium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/worldgen/configured_feature/suggestium_ore.json",
           "src/main/resources/data/stmwr/worldgen/placed_feature/suggestium_ore.json",
-          "src/main/resources/assets/stmwr/blockstates/suggestium_ore.json",
-          "src/main/resources/assets/stmwr/models/item/suggestium_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/suggestium_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/stmwr/block/SuggestiumOreBlock.java",
           "src/main/resources/assets/stmwr/models/block/suggestium_ore.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_ore.json"
+          "src/main/resources/assets/stmwr/models/item/suggestium_ore.json",
+          "src/main/resources/assets/stmwr/blockstates/suggestium_ore.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/suggestium_ore.json",
+          "src/main/java/net/mcreator/stmwr/block/SuggestiumOreBlock.java",
+          "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_ore.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/suggestium_ore_biome_modifier.json"
         ]
       }
     },
@@ -3618,11 +3577,11 @@
       "registry_name": "suggestium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/block/suggestium_block.json",
-          "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_block.json",
-          "src/main/java/net/mcreator/stmwr/block/SuggestiumBlockBlock.java",
           "src/main/resources/assets/stmwr/blockstates/suggestium_block.json",
-          "src/main/resources/assets/stmwr/models/item/suggestium_block.json"
+          "src/main/resources/assets/stmwr/models/block/suggestium_block.json",
+          "src/main/resources/assets/stmwr/models/item/suggestium_block.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/suggestium_block.json",
+          "src/main/java/net/mcreator/stmwr/block/SuggestiumBlockBlock.java"
         ]
       }
     },
@@ -3719,8 +3678,8 @@
       "registry_name": "cheese",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/CheeseItem.java",
-          "src/main/resources/assets/stmwr/models/item/cheese.json"
+          "src/main/resources/assets/stmwr/models/item/cheese.json",
+          "src/main/java/net/mcreator/stmwr/item/CheeseItem.java"
         ]
       }
     },
@@ -3756,8 +3715,8 @@
       "registry_name": "cheese_stick",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/CheeseStickItem.java",
-          "src/main/resources/assets/stmwr/models/item/cheese_stick.json"
+          "src/main/resources/assets/stmwr/models/item/cheese_stick.json",
+          "src/main/java/net/mcreator/stmwr/item/CheeseStickItem.java"
         ]
       }
     },
@@ -3867,8 +3826,8 @@
       "registry_name": "taco",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/taco.json",
-          "src/main/java/net/mcreator/stmwr/item/TacoItem.java"
+          "src/main/java/net/mcreator/stmwr/item/TacoItem.java",
+          "src/main/resources/assets/stmwr/models/item/taco.json"
         ]
       }
     },
@@ -3904,8 +3863,8 @@
       "registry_name": "portable_oven",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/PortableOvenItem.java",
-          "src/main/resources/assets/stmwr/models/item/portable_oven.json"
+          "src/main/resources/assets/stmwr/models/item/portable_oven.json",
+          "src/main/java/net/mcreator/stmwr/item/PortableOvenItem.java"
         ]
       }
     },
@@ -4013,8 +3972,8 @@
       "registry_name": "magic_carrot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/MagicCarrotItem.java",
-          "src/main/resources/assets/stmwr/models/item/magic_carrot.json"
+          "src/main/resources/assets/stmwr/models/item/magic_carrot.json",
+          "src/main/java/net/mcreator/stmwr/item/MagicCarrotItem.java"
         ]
       }
     },
@@ -4124,8 +4083,8 @@
       "registry_name": "creation_orb",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/CreationOrbItem.java",
-          "src/main/resources/assets/stmwr/models/item/creation_orb.json"
+          "src/main/resources/assets/stmwr/models/item/creation_orb.json",
+          "src/main/java/net/mcreator/stmwr/item/CreationOrbItem.java"
         ]
       }
     },
@@ -4233,8 +4192,8 @@
       "registry_name": "chocolate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/ChocolateItem.java",
-          "src/main/resources/assets/stmwr/models/item/chocolate.json"
+          "src/main/resources/assets/stmwr/models/item/chocolate.json",
+          "src/main/java/net/mcreator/stmwr/item/ChocolateItem.java"
         ]
       }
     },
@@ -4292,8 +4251,8 @@
       "registry_name": "strength_totem_t_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT1Item.java",
-          "src/main/resources/assets/stmwr/models/item/strength_totem_t_1.json"
+          "src/main/resources/assets/stmwr/models/item/strength_totem_t_1.json",
+          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT1Item.java"
         ]
       }
     },
@@ -4351,8 +4310,8 @@
       "registry_name": "strength_totem_t_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT2Item.java",
-          "src/main/resources/assets/stmwr/models/item/strength_totem_t_2.json"
+          "src/main/resources/assets/stmwr/models/item/strength_totem_t_2.json",
+          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT2Item.java"
         ]
       }
     },
@@ -4410,8 +4369,8 @@
       "registry_name": "strength_totem_t_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/strength_totem_t_3.json",
-          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT3Item.java"
+          "src/main/java/net/mcreator/stmwr/item/StrengthTotemT3Item.java",
+          "src/main/resources/assets/stmwr/models/item/strength_totem_t_3.json"
         ]
       }
     },
@@ -4472,8 +4431,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/stmwr/network/ModifiersTableButtonMessage.java",
-          "src/main/java/net/mcreator/stmwr/world/inventory/ModifiersTableMenu.java",
-          "src/main/java/net/mcreator/stmwr/client/gui/ModifiersTableScreen.java"
+          "src/main/java/net/mcreator/stmwr/client/gui/ModifiersTableScreen.java",
+          "src/main/java/net/mcreator/stmwr/world/inventory/ModifiersTableMenu.java"
         ]
       }
     },
@@ -4485,12 +4444,12 @@
       "registry_name": "modifier_table",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/block/entity/ModifierTableBlockEntity.java",
-          "src/main/resources/assets/stmwr/blockstates/modifier_table.json",
           "src/main/resources/assets/stmwr/models/block/modifier_table.json",
+          "src/main/java/net/mcreator/stmwr/block/entity/ModifierTableBlockEntity.java",
           "src/main/resources/data/stmwr/loot_tables/blocks/modifier_table.json",
-          "src/main/java/net/mcreator/stmwr/block/ModifierTableBlock.java",
-          "src/main/resources/assets/stmwr/models/item/modifier_table.json"
+          "src/main/resources/assets/stmwr/models/item/modifier_table.json",
+          "src/main/resources/assets/stmwr/blockstates/modifier_table.json",
+          "src/main/java/net/mcreator/stmwr/block/ModifierTableBlock.java"
         ]
       }
     },
@@ -4515,8 +4474,8 @@
       "registry_name": "ice_shard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/ice_shard.json",
-          "src/main/java/net/mcreator/stmwr/item/IceShardItem.java"
+          "src/main/java/net/mcreator/stmwr/item/IceShardItem.java",
+          "src/main/resources/assets/stmwr/models/item/ice_shard.json"
         ]
       }
     },
@@ -4528,10 +4487,10 @@
       "registry_name": "frost_zombie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/frost_zombie_spawn_egg.json",
+          "src/main/resources/data/stmwr/forge/biome_modifier/frost_zombie_biome_modifier.json",
           "src/main/java/net/mcreator/stmwr/client/renderer/FrostZombieRenderer.java",
-          "src/main/java/net/mcreator/stmwr/entity/FrostZombieEntity.java",
-          "src/main/resources/data/stmwr/forge/biome_modifier/frost_zombie_biome_modifier.json"
+          "src/main/resources/assets/stmwr/models/item/frost_zombie_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/entity/FrostZombieEntity.java"
         ]
       }
     },
@@ -4664,8 +4623,8 @@
       "registry_name": "pistol",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/PistolItem.java",
-          "src/main/resources/assets/stmwr/models/item/pistol.json"
+          "src/main/resources/assets/stmwr/models/item/pistol.json",
+          "src/main/java/net/mcreator/stmwr/item/PistolItem.java"
         ]
       }
     },
@@ -4713,9 +4672,9 @@
       "registry_name": "frosted_oasis",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/worldgen/configured_feature/frosted_oasis_tree.json",
+          "src/main/resources/data/stmwr/worldgen/biome/frosted_oasis.json",
           "src/main/resources/data/stmwr/worldgen/placed_feature/frosted_oasis_tree.json",
-          "src/main/resources/data/stmwr/worldgen/biome/frosted_oasis.json"
+          "src/main/resources/data/stmwr/worldgen/configured_feature/frosted_oasis_tree.json"
         ]
       }
     },
@@ -4739,11 +4698,11 @@
       "registry_name": "dead_forest",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/world/features/treedecorators/DeadForestLeaveDecorator.java",
-          "src/main/java/net/mcreator/stmwr/world/features/treedecorators/DeadForestTrunkDecorator.java",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/dead_forest_tree.json",
           "src/main/resources/data/stmwr/worldgen/placed_feature/dead_forest_tree.json",
-          "src/main/resources/data/stmwr/worldgen/biome/dead_forest.json"
+          "src/main/resources/data/stmwr/worldgen/biome/dead_forest.json",
+          "src/main/java/net/mcreator/stmwr/world/features/treedecorators/DeadForestLeaveDecorator.java",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/dead_forest_tree.json",
+          "src/main/java/net/mcreator/stmwr/world/features/treedecorators/DeadForestTrunkDecorator.java"
         ]
       }
     },
@@ -4755,10 +4714,10 @@
       "registry_name": "gas_mask_zombie",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/gas_mask_zombie_spawn_egg.json",
-          "src/main/java/net/mcreator/stmwr/client/renderer/GasMaskZombieRenderer.java",
           "src/main/resources/data/stmwr/forge/biome_modifier/gas_mask_zombie_biome_modifier.json",
-          "src/main/java/net/mcreator/stmwr/entity/GasMaskZombieEntity.java"
+          "src/main/java/net/mcreator/stmwr/client/renderer/GasMaskZombieRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/GasMaskZombieEntity.java",
+          "src/main/resources/assets/stmwr/models/item/gas_mask_zombie_spawn_egg.json"
         ]
       }
     },
@@ -4770,9 +4729,9 @@
       "registry_name": "perfecta",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/worldgen/biome/perfecta.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/perfecta_tree.json",
           "src/main/resources/data/stmwr/worldgen/configured_feature/perfecta_tree.json",
-          "src/main/resources/data/stmwr/worldgen/placed_feature/perfecta_tree.json"
+          "src/main/resources/data/stmwr/worldgen/biome/perfecta.json"
         ]
       }
     },
@@ -4784,8 +4743,8 @@
       "registry_name": "noobish_trial_coin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/stmwr/models/item/noobish_trial_coin.json",
-          "src/main/java/net/mcreator/stmwr/item/NoobishTrialCoinItem.java"
+          "src/main/java/net/mcreator/stmwr/item/NoobishTrialCoinItem.java",
+          "src/main/resources/assets/stmwr/models/item/noobish_trial_coin.json"
         ]
       }
     },
@@ -4889,8 +4848,8 @@
       "registry_name": "totem_of_the_goop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/TotemOfTheGoopItem.java",
-          "src/main/resources/assets/stmwr/models/item/totem_of_the_goop.json"
+          "src/main/resources/assets/stmwr/models/item/totem_of_the_goop.json",
+          "src/main/java/net/mcreator/stmwr/item/TotemOfTheGoopItem.java"
         ]
       }
     },
@@ -4939,8 +4898,8 @@
       "registry_name": "advanced_totem_base",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/stmwr/item/AdvancedTotemBaseItem.java",
-          "src/main/resources/assets/stmwr/models/item/advanced_totem_base.json"
+          "src/main/resources/assets/stmwr/models/item/advanced_totem_base.json",
+          "src/main/java/net/mcreator/stmwr/item/AdvancedTotemBaseItem.java"
         ]
       }
     },
@@ -5039,6 +4998,414 @@
           "src/main/resources/data/stmwr/advancements/gimme_dat_powda.json"
         ]
       }
+    },
+    {
+      "name": "Ugly",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ugly",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ugly.json"
+        ]
+      }
+    },
+    {
+      "name": "BulkUltriteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulk_ultrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/bulk_ultrite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExtraUltriteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extra_ultrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/extra_ultrite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UncraftBlazePowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncraft_blaze_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/uncraft_blaze_powder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReroddingYourBlazes",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rerodding_your_blazes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/rerodding_your_blazes.json"
+        ]
+      }
+    },
+    {
+      "name": "Sheeple",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheeple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/sheeple.json"
+        ]
+      }
+    },
+    {
+      "name": "Grilling",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grilling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/grilling.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableOvenSausageRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_oven_sausage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_oven_sausage_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableOvenMuttonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_oven_mutton_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_oven_mutton_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucible",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/PortableCrucibleItem.java",
+          "src/main/resources/assets/stmwr/models/item/portable_crucible.json"
+        ]
+      }
+    },
+    {
+      "name": "Meltdown",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meltdown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/meltdown.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleIronRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_iron_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_iron_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleGoldRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_gold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_gold_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleGlassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_glass_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenGlass",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/molten_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "KingMidas",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "king_midas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/king_midas.json"
+        ]
+      }
+    },
+    {
+      "name": "IranAwayFromTheIron",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iran_away_from_the_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/iran_away_from_the_iron.json"
+        ]
+      }
+    },
+    {
+      "name": "BrickedIt",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricked_it",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/bricked_it.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_bricks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfSlowFalling",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_slow_falling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/TotemOfSlowFallingItem.java",
+          "src/main/resources/assets/stmwr/models/item/totem_of_slow_falling.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfSlowFallingRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_slow_falling_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/TotemOfSlowFallingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfSlowFallingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_slow_falling_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/totem_of_slow_falling_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SloMo",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slo_mo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/slo_mo.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleGodliumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_godlium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_godlium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleBlazedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_blazed_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_blazed_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleSteelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_steel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleDebrisRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_debris_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_debris_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleCopperRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_copper_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HalfAnIngot",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "half_an_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/half_an_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "PleaseTheGods",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "please_the_gods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/please_the_gods.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingFlames",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_flames",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/blazing_flames.json"
+        ]
+      }
+    },
+    {
+      "name": "IHaveTooMuchAlready",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_have_too_much_already",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/i_have_too_much_already.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -5106,6 +5473,14 @@
     "BIOMES:minecraft:has_structure/swamp_hut": [
       "~CUSTOM:DeadForest"
     ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SuggestiumOre",
+      "~CUSTOM:TrialBrick",
+      "~CUSTOM:StorumOre",
+      "~CUSTOM:BlazedBlock",
+      "~CUSTOM:BlazedOre",
+      "~CUSTOM:MagiciteOre"
+    ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:SuggestiumBlock",
       "~CUSTOM:SteelBlock",
@@ -5118,14 +5493,6 @@
       "~CUSTOM:GodliumBlock",
       "~CUSTOM:GodliumOre",
       "~CUSTOM:MagiciteBlock"
-    ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:StorumOre",
-      "~CUSTOM:SuggestiumOre",
-      "~CUSTOM:MagiciteOre",
-      "~CUSTOM:TrialBrick",
-      "~CUSTOM:BlazedBlock",
-      "~CUSTOM:BlazedOre"
     ],
     "BIOMES:minecraft:has_structure/jungle_temple": [
       "~CUSTOM:DeadForest"
@@ -5219,8 +5586,8 @@
       "advancements.saddle_up.descr": "You can craft saddles!",
       "advancements.defeat.descr": "Slay the Giant Steve Cow and grab its heart",
       "advancements.mystical_agriculture.descr": "Craft a magic carrot",
-      "block.stmwr.stevum_ore": "Stevum Ore",
       "item.stmwr.goop": "Goop",
+      "block.stmwr.stevum_ore": "Stevum Ore",
       "advancements.named.descr": "You can craft name tags now!",
       "item.stmwr.chocolate": "Chocolate",
       "advancements.stringy.descr": "Craft up some delicious cheese sticks!",
@@ -5272,6 +5639,7 @@
       "advancements.free_magicite.descr": "You can craft magicite dust from ice shards!",
       "advancements.golden_boy.title": "Golden Boy",
       "item.stmwr.pizza_slice": "Pizza Slice",
+      "advancements.sheeple.descr": "You can cook mutton in the portable oven!",
       "advancements.find_the_pieces.descr": "Craft some key pieces, used to make keys for the trials",
       "advancements.youre_awful_at_this.descr": "Cut a pizza into.... 7 slices?!",
       "advancements.stmw_vanilla_plus.descr": "Jump into the word of QOL changes to Minecraft",
@@ -5295,7 +5663,6 @@
       "advancements.simple_storage.descr": "Convert your storum into more storum with a creation orb",
       "gui.stmwr.modifiers_table.tooltip_empty": "item to modify",
       "biome.stmwr.dead_forest": "Dead Forest",
-      "advancements.wandars.descr": "Get a wandar, which can be used for advanced wands",
       "advancements.plastic_fantastic.descr": "Get your first plastika",
       "entity.stmwr.soldier": "Soldier",
       "advancements.hand_it_to_me.descr": "Get a haste totem tier 2",
@@ -5317,6 +5684,8 @@
       "advancements.stabby_stabby.descr": "Get a knife",
       "advancements.cheesy.descr": "Craft up some cheese!",
       "item.stmwr.godlium_sword": "Godlium Sword",
+      "advancements.meltdown.title": "Meltdown",
+      "advancements.bricked_it.title": "Bricked It",
       "block.stmwr.godlium_ore": "Godlium Ore",
       "item.stmwr.dough": "Dough",
       "item.stmwr.giant_caller": "Giant Caller",
@@ -5338,11 +5707,13 @@
       "advancements.ice_ice_baby.title": "Ice Ice Baby",
       "item.stmwr.taco": "Taco",
       "gui.stmwr.modifiers_table.label_empty": "---------",
+      "advancements.molten_glass.descr": "You can make glass with the crucible! And get double output!",
       "biome.stmwr.steve_cow_land": "Steve Cow Land",
       "advancements.inventory_pork.title": "Inventory Pork",
       "advancements.bratwurst_anyone.descr": "Get some sausage",
       "advancements.kfc.descr": "You can cook chicken with the portable oven!",
       "advancements.leathery.title": "Leathery",
+      "advancements.slo_mo.descr": "Craft a totem of slow falling, along you to glide from heights.",
       "item.stmwr.gas_mask_zombie_spawn_egg": "Gas Mask Zombie Spawn Egg",
       "entity.stmwr.gas_mask_zombie": "Gas Mask Zombie",
       "advancements.stmw_trials.title": "STMW: Trials",
@@ -5350,11 +5721,13 @@
       "advancements.pika_chuuuu.title": "Pika-CHUUUU!",
       "advancements.i_am_speed.descr": "Get a speed totem",
       "item.stmwr.steel_armor_leggings": "Steel Leggings",
-      "item.stmwr.wandar": "Wandar",
       "item.stmwr.tortilla": "Tortilla",
       "item.stmwr.raw_sausage": "Raw Sausage",
+      "advancements.half_an_ingot.descr": "You can melt debris for two scraps in the portable crucible!",
       "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
       "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
+      "advancements.rerodding_your_blazes.title": "Rerodding Your Blazes",
+      "advancements.grilling.title": "Grilling",
       "advancements.oh_the_irony.descr": "You can craft iron horse armor!",
       "item.stmwr.jumpboost_totem_t_3": "Jumpboost Totem Tier 3",
       "item.stmwr.jumpboost_totem_t_2": "Jumpboost Totem Tier 2",
@@ -5369,6 +5742,9 @@
       "item.stmwr.haste_totem_t_2": "Haste Totem Tier 2",
       "item.stmwr.haste_totem_t_1": "Haste Totem Tier 1",
       "advancements.double_the_godlium.descr": "You can craft a block of godlium with the creation orb, as long as you have some godlium already.",
+      "advancements.ugly.descr": "Kill a pikachu to obtain uglum, a useful component for magic",
+      "item.stmwr.portable_crucible": "Portable Crucible",
+      "advancements.please_the_gods.descr": "Double your godlium output using a portable crucible!",
       "entity.stmwr.frost_zombie": "Frost Zombie",
       "advancements.welcome_to_militaria.descr": "Craft a Militaria trial key after defeating the Giant Steve Cow",
       "item.stmwr.haste_totem_t_3": "Haste Totem T 3",
@@ -5393,14 +5769,15 @@
       "block.stmwr.magicite_ore": "Magicite Ore",
       "gui.stmwr.modifiers_table.label_empty1": "|",
       "gui.stmwr.modifiers_table.label_empty2": "|",
-      "advancements.wandars.title": "Wandars",
       "advancements.seer_of_the_dark.title": "Seer Of The Dark",
+      "advancements.blazing_flames.title": "Blazing Flames",
       "advancements.steel_heart.descr": "Get some steel, which is used for extremely powerful armor, and guns.",
       "advancements.teenage_mutant_ninja_turtles.title": "Teenage Mutant Ninja Turtles!",
       "advancements.inventory_beef.descr": "You can make beef without a furnace?!",
       "item.stmwr.steve_cow_spawn_egg": "Steve Cow Spawn Egg",
       "item.stmwr.blazed_shovel": "Blazed Shovel",
       "advancements.kfc.title": "KFC",
+      "advancements.please_the_gods.title": "Please The Gods",
       "advancements.crossy_road.descr": "Obtain a tier 2 jumpboost totem",
       "advancements.taco_tuesday.descr": "Craft up some tacos!",
       "advancements.im_a_survivor.descr": "Find and kill a survivor, and get some of their mysterious scraps...",
@@ -5414,6 +5791,7 @@
       "item.stmwr.pizza": "Pizza",
       "block.stmwr.trial_brick": "Trial Brick",
       "block.stmwr.infinitite_block": "Block of Infinitite",
+      "advancements.half_an_ingot.title": "Half An Ingot",
       "advancements.magical.descr": "Mine up some magicite, a key ingredient to all things magic!",
       "item.stmwr.nightvision_totem": "Nightvision Totem",
       "advancements.stmw_vanilla_plus.title": "STMW: Vanilla Plus",
@@ -5421,8 +5799,11 @@
       "advancements.leapfrog.descr": "Craft a tier 1 jumpboost totem",
       "advancements.not_so_fun_to_hold.descr": "Craft a Totem of the Goop",
       "advancements.crafted_magicite.descr": "Create magicite with the creation orb!",
+      "advancements.iran_away_from_the_iron.descr": "You can make iron in the crucible, and get double the iron as a reward!",
+      "advancements.sheeple.title": "Sheeple",
       "advancements.stmw_foods.descr": "Welcome to the foods section, which explains the basics of cooking in STMW5!",
       "advancements.pets.title": "Pets!",
+      "advancements.ugly.title": "Ugly",
       "item.stmwr.raw_totem": "Raw Totem",
       "advancements.ultimate_ultrite.descr": "By mixing godlium and magicite, you are able to create a mystical compound, capable of startling power...",
       "advancements.call_me.title": "Call Me!!",
@@ -5430,11 +5811,14 @@
       "item.stmwr.steve_cow_horn": "Steve Cow Horn",
       "item.stmwr.steel_armor_helmet": "Steel Helmet",
       "advancements.toot_toot.descr": "Get a mutant whistle, to fight the boss of this dimension!",
+      "advancements.i_have_too_much_already.title": "I Have Too Much Already",
       "gui.stmwr.modifiers_table.tooltip_upgrade": "modifier",
       "advancements.experienced.title": "Experienced",
       "advancements.cubby_cubes.descr": "Craft a cubby cube, a huge version of a chest! Do NOT mine it with items inside...",
+      "advancements.i_have_too_much_already.descr": "You may have loads of copper, why not double it with the crucible though?",
       "advancements.i_need_my_payday_2.descr": "Get some noobish trial coins with things found in the first few trials!",
       "advancements.stringy.title": "Stringy",
+      "advancements.king_midas.descr": "You can make gold with the crucible, and double output!",
       "item.stmwr.health_totem_t_3": "Health Totem Tier 3",
       "advancements.call_me.descr": "Obtain a giant caller, to fight the Giant Steve Cow boss",
       "advancements.leg_day.descr": "Get a tier 3 jumpboost totem",
@@ -5455,9 +5839,11 @@
       "advancements.stmw_foods.title": "STMW: Foods",
       "advancements.taco_tuesday.title": "Taco Tuesday!",
       "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
+      "advancements.iran_away_from_the_iron.title": "Iran Away From The Iron",
       "advancements.advanced_totem_making.descr": "Craft an advanced totem base, to craft unique totems.",
       "advancements.stabby_stabby.title": "Stabby Stabby",
       "advancements.doughy.title": "Doughy!",
+      "advancements.bricked_it.descr": "You can double your brick output using the portable crucible!",
       "advancements.mystical_agriculture.title": "Mystical Agriculture",
       "advancements.mmmmmm.title": "Mmmmmm",
       "item.stmwr.militaria": "Militaria Trial Key",
@@ -5475,7 +5861,9 @@
       "item_group.stmwr.stmw_5": "STMW 5",
       "entity.stmwr.steve_cow": "Steve Cow",
       "advancements.rituals_here_i_come.title": "Rituals, Here I Come!",
+      "advancements.rerodding_your_blazes.descr": "You can recraft blaze rods from the powder!",
       "entity.stmwr.mutant_worm": "Mutant Worm",
+      "advancements.blazing_flames.descr": "Twice the blazed from just a crucible!",
       "item.stmwr.steel_sword": "Steel Sword",
       "advancements.bullfighter.descr": "Craft a T2 Strength Totem",
       "item.stmwr.steel_axe": "Steel Axe",
@@ -5487,7 +5875,9 @@
       "advancements.toot_toot.title": "Toot Toot!",
       "item.stmwr.frost_zombie_spawn_egg": "Frost Zombie Spawn Egg",
       "item.stmwr.infinitite_ingot": "Infinitite",
+      "advancements.king_midas.title": "King Midas",
       "advancements.tortillas.descr": "Make some tortillas!",
+      "advancements.grilling.descr": "You can cook sausage with the portable oven.",
       "advancements.i_am_speed.title": "I Am Speed",
       "advancements.wands_but_better.title": "Wands, But Better!!!",
       "item.stmwr.mutant_boss_spawn_egg": "Mutant Boss Spawn Egg",
@@ -5500,12 +5890,14 @@
       "item.stmwr.dirt_nugget": "Dirt Nugget",
       "item.stmwr.godlium_shovel": "Godlium Shovel",
       "advancements.inventory_pork.descr": "You can make pork in your inventory!",
+      "advancements.molten_glass.title": "Molten Glass",
       "item.stmwr.knife": "Knife",
       "block.stmwr.suggestium_ore": "Suggestium Ore",
       "advancements.double_the_godlium.title": "Double The Godlium",
       "advancements.ice_ice_baby.descr": "Kill a frost zombie for its ice shards",
       "entity.stmwr.pikachu": "Pikachu",
       "entity.stmwr.mutant_boss": "Mutant Boss",
+      "item.stmwr.totem_of_slow_falling": "Totem Of Slow Falling",
       "item.stmwr.fireproof_totem": "Fireproof Totem",
       "advancements.bratwurst_anyone.title": "Bratwurst Anyone?",
       "item.stmwr.godlium_armor_chestplate": "Godlium Chestplate",
@@ -5518,6 +5910,7 @@
       "item.stmwr.healing_totem_t_2": "Healing Totem Tier 2",
       "painting.stmwr.the_blurb.author": "Merb",
       "advancements.stevum_gems.descr": "Obtain some Stevum",
+      "advancements.slo_mo.title": "SloMo",
       "item.stmwr.uglum": "Uglum",
       "item.stmwr.portable_oven": "Portable Oven",
       "item.stmwr.land_of_the_steve_cows": "SteveCow Trial Key",
@@ -5532,6 +5925,7 @@
       "item.stmwr.animal_strap": "Animal Strap",
       "advancements.crafted_magicite.title": "Crafted Magicite",
       "advancements.dirty.descr": "Obtain a dirt nugget, the single most overpowered food in the game...",
+      "advancements.meltdown.descr": "Obtain a portable crucible, allowing for smelting on the go!",
       "item.stmwr.mutant_worm_spawn_egg": "Mutant Worm Spawn Egg",
       "advancements.second_amendment.title": "Second Amendment"
     }
