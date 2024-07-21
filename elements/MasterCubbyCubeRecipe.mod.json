@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CreationOrb"
+      },
+      {
+        "value": "CUSTOM:Storalium"
+      },
+      {
+        "value": "CUSTOM:CreationOrb"
+      },
+      {
+        "value": "CUSTOM:Storalium"
+      },
+      {
+        "value": "CUSTOM:AdvancedCubbyCube"
+      },
+      {
+        "value": "CUSTOM:Storalium"
+      },
+      {
+        "value": "CUSTOM:CreationOrb"
+      },
+      {
+        "value": "CUSTOM:Storalium"
+      },
+      {
+        "value": "CUSTOM:CreationOrb"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MasterCubbyCube"
+    },
+    "name": "master_cubby_cube_recipe",
+    "namespace": "mod"
+  }
+}

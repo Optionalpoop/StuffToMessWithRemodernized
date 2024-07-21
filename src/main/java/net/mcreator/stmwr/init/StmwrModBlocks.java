@@ -7,10 +7,6 @@ package net.mcreator.stmwr.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.RegisterColorHandlersEvent;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -26,6 +22,7 @@ import net.mcreator.stmwr.block.SteelBlockBlock;
 import net.mcreator.stmwr.block.PlasticiliaBlock;
 import net.mcreator.stmwr.block.ModifierTableBlock;
 import net.mcreator.stmwr.block.MilitariaPortalBlock;
+import net.mcreator.stmwr.block.MasterCubbyCubeBlock;
 import net.mcreator.stmwr.block.MagiciteOreBlock;
 import net.mcreator.stmwr.block.MagiciteBlockBlock;
 import net.mcreator.stmwr.block.LandOfTheSteveCowsPortalBlock;
@@ -33,9 +30,10 @@ import net.mcreator.stmwr.block.InfinititeOreBlock;
 import net.mcreator.stmwr.block.InfinititeBlockBlock;
 import net.mcreator.stmwr.block.GodliumOreBlock;
 import net.mcreator.stmwr.block.GodliumBlockBlock;
-import net.mcreator.stmwr.block.CubbyCubeBlock;
 import net.mcreator.stmwr.block.BlazedOreBlock;
 import net.mcreator.stmwr.block.BlazedBlockBlock;
+import net.mcreator.stmwr.block.BasicCubbyCubeBlock;
+import net.mcreator.stmwr.block.AdvancedCubbyCubeBlock;
 import net.mcreator.stmwr.StmwrMod;
 
 public class StmwrModBlocks {
@@ -51,7 +49,6 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> BLAZED_BLOCK = REGISTRY.register("blazed_block", () -> new BlazedBlockBlock());
 	public static final RegistryObject<Block> STORUM_ORE = REGISTRY.register("storum_ore", () -> new StorumOreBlock());
 	public static final RegistryObject<Block> STORUM_BLOCK = REGISTRY.register("storum_block", () -> new StorumBlockBlock());
-	public static final RegistryObject<Block> CUBBY_CUBE = REGISTRY.register("cubby_cube", () -> new CubbyCubeBlock());
 	public static final RegistryObject<Block> TRIAL_BRICK = REGISTRY.register("trial_brick", () -> new TrialBrickBlock());
 	public static final RegistryObject<Block> LAND_OF_THE_STEVE_COWS_PORTAL = REGISTRY.register("land_of_the_steve_cows_portal", () -> new LandOfTheSteveCowsPortalBlock());
 	public static final RegistryObject<Block> STEVUM_ORE = REGISTRY.register("stevum_ore", () -> new StevumOreBlock());
@@ -62,19 +59,9 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> SUGGESTIUM_ORE = REGISTRY.register("suggestium_ore", () -> new SuggestiumOreBlock());
 	public static final RegistryObject<Block> SUGGESTIUM_BLOCK = REGISTRY.register("suggestium_block", () -> new SuggestiumBlockBlock());
 	public static final RegistryObject<Block> MODIFIER_TABLE = REGISTRY.register("modifier_table", () -> new ModifierTableBlock());
-
+	public static final RegistryObject<Block> BASIC_CUBBY_CUBE = REGISTRY.register("basic_cubby_cube", () -> new BasicCubbyCubeBlock());
+	public static final RegistryObject<Block> ADVANCED_CUBBY_CUBE = REGISTRY.register("advanced_cubby_cube", () -> new AdvancedCubbyCubeBlock());
+	public static final RegistryObject<Block> MASTER_CUBBY_CUBE = REGISTRY.register("master_cubby_cube", () -> new MasterCubbyCubeBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class BlocksClientSideHandler {
-		@SubscribeEvent
-		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
-			CubbyCubeBlock.blockColorLoad(event);
-		}
-
-		@SubscribeEvent
-		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
-			CubbyCubeBlock.itemColorLoad(event);
-		}
-	}
 }

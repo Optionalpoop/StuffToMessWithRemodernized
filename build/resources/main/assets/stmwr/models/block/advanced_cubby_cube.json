@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/advancedcubbycubebottom",
+    "up": "stmwr:block/advancedcubbycubetop",
+    "north": "stmwr:block/advancedcubbycube",
+    "east": "stmwr:block/advancedcubbycubeside",
+    "south": "stmwr:block/advancedcubbycubeside",
+    "west": "stmwr:block/advancedcubbycubeside",
+    "particle": "stmwr:block/advancedcubbycubebottom"
+  },
+  "render_type": "solid"
+}

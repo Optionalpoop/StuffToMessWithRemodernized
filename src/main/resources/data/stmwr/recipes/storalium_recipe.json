@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:storum_block"
+    },
+    {
+      "item": "stmwr:creation_orb"
+    },
+    {
+      "item": "stmwr:ultrite"
+    }
+  ],
+  "result": {
+    "item": "stmwr:storalium",
+    "count": 1
+  }
+}

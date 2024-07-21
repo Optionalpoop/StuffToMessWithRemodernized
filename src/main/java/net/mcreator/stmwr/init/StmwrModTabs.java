@@ -74,7 +74,6 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.STORUM.get());
 				tabData.accept(StmwrModBlocks.STORUM_ORE.get().asItem());
 				tabData.accept(StmwrModBlocks.STORUM_BLOCK.get().asItem());
-				tabData.accept(StmwrModBlocks.CUBBY_CUBE.get().asItem());
 				tabData.accept(StmwrModItems.FIREPROOF_TOTEM.get());
 				tabData.accept(StmwrModItems.KNIFE.get());
 				tabData.accept(StmwrModItems.RAW_SAUSAGE.get());
@@ -145,6 +144,13 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.ADVANCED_TOTEM_BASE.get());
 				tabData.accept(StmwrModItems.PORTABLE_CRUCIBLE.get());
 				tabData.accept(StmwrModItems.TOTEM_OF_SLOW_FALLING.get());
+				tabData.accept(StmwrModBlocks.BASIC_CUBBY_CUBE.get().asItem());
+				tabData.accept(StmwrModItems.BASIC_CUBBY_PACK.get());
+				tabData.accept(StmwrModItems.STORALIUM.get());
+				tabData.accept(StmwrModBlocks.ADVANCED_CUBBY_CUBE.get().asItem());
+				tabData.accept(StmwrModItems.ADVANCED_CUBBY_PACK.get());
+				tabData.accept(StmwrModBlocks.MASTER_CUBBY_CUBE.get().asItem());
+				tabData.accept(StmwrModItems.MASTER_CUBBY_PACK.get());
 			})
 
 					.build());

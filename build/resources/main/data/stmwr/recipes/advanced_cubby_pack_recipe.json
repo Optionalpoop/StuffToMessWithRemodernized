@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:storalium"
+    },
+    "c": {
+      "item": "stmwr:godlium_block"
+    },
+    "d": {
+      "item": "stmwr:basic_cubby_pack"
+    }
+  },
+  "result": {
+    "item": "stmwr:advanced_cubby_pack",
+    "count": 1
+  }
+}

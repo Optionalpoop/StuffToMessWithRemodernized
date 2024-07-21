@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:Storalium"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:BasicCubbyPack"
+      },
+      {
+        "value": "CUSTOM:GodliumBlock"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:Storalium"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AdvancedCubbyPack"
+    },
+    "name": "advanced_cubby_pack_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:creation_orb"
+    },
+    "b": {
+      "item": "stmwr:storalium"
+    },
+    "c": {
+      "item": "stmwr:advanced_cubby_pack"
+    }
+  },
+  "result": {
+    "item": "stmwr:master_cubby_pack",
+    "count": 1
+  }
+}

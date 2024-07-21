@@ -26,6 +26,7 @@ import net.mcreator.stmwr.item.StrengthTotemT3Item;
 import net.mcreator.stmwr.item.StrengthTotemT2Item;
 import net.mcreator.stmwr.item.StrengthTotemT1Item;
 import net.mcreator.stmwr.item.StorumItem;
+import net.mcreator.stmwr.item.StoraliumItem;
 import net.mcreator.stmwr.item.StevumItem;
 import net.mcreator.stmwr.item.SteveCowHornItem;
 import net.mcreator.stmwr.item.SteelSwordItem;
@@ -56,6 +57,7 @@ import net.mcreator.stmwr.item.MysteriousScrapItem;
 import net.mcreator.stmwr.item.MutantWhistleItem;
 import net.mcreator.stmwr.item.MutantGoopItem;
 import net.mcreator.stmwr.item.MilitariaItem;
+import net.mcreator.stmwr.item.MasterCubbyPackItem;
 import net.mcreator.stmwr.item.MagiciteDustItem;
 import net.mcreator.stmwr.item.MagicCarrotItem;
 import net.mcreator.stmwr.item.LandOfTheSteveCowsItem;
@@ -97,11 +99,13 @@ import net.mcreator.stmwr.item.BlazedIngotItem;
 import net.mcreator.stmwr.item.BlazedHoeItem;
 import net.mcreator.stmwr.item.BlazedAxeItem;
 import net.mcreator.stmwr.item.BlazedArmorItem;
+import net.mcreator.stmwr.item.BasicCubbyPackItem;
 import net.mcreator.stmwr.item.AtomSmasherItem;
 import net.mcreator.stmwr.item.AnimalStrapItem;
 import net.mcreator.stmwr.item.AdvancedWandStickItem;
 import net.mcreator.stmwr.item.AdvancedTotemBaseItem;
 import net.mcreator.stmwr.item.AdvancedMaterialItem;
+import net.mcreator.stmwr.item.AdvancedCubbyPackItem;
 import net.mcreator.stmwr.StmwrMod;
 
 public class StmwrModItems {
@@ -162,7 +166,6 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> STORUM = REGISTRY.register("storum", () -> new StorumItem());
 	public static final RegistryObject<Item> STORUM_ORE = block(StmwrModBlocks.STORUM_ORE);
 	public static final RegistryObject<Item> STORUM_BLOCK = block(StmwrModBlocks.STORUM_BLOCK);
-	public static final RegistryObject<Item> CUBBY_CUBE = block(StmwrModBlocks.CUBBY_CUBE);
 	public static final RegistryObject<Item> FIREPROOF_TOTEM = REGISTRY.register("fireproof_totem", () -> new FireproofTotemItem());
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
 	public static final RegistryObject<Item> RAW_SAUSAGE = REGISTRY.register("raw_sausage", () -> new RawSausageItem());
@@ -233,6 +236,13 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> ADVANCED_TOTEM_BASE = REGISTRY.register("advanced_totem_base", () -> new AdvancedTotemBaseItem());
 	public static final RegistryObject<Item> PORTABLE_CRUCIBLE = REGISTRY.register("portable_crucible", () -> new PortableCrucibleItem());
 	public static final RegistryObject<Item> TOTEM_OF_SLOW_FALLING = REGISTRY.register("totem_of_slow_falling", () -> new TotemOfSlowFallingItem());
+	public static final RegistryObject<Item> BASIC_CUBBY_CUBE = block(StmwrModBlocks.BASIC_CUBBY_CUBE);
+	public static final RegistryObject<Item> BASIC_CUBBY_PACK = REGISTRY.register("basic_cubby_pack", () -> new BasicCubbyPackItem());
+	public static final RegistryObject<Item> STORALIUM = REGISTRY.register("storalium", () -> new StoraliumItem());
+	public static final RegistryObject<Item> ADVANCED_CUBBY_CUBE = block(StmwrModBlocks.ADVANCED_CUBBY_CUBE);
+	public static final RegistryObject<Item> ADVANCED_CUBBY_PACK = REGISTRY.register("advanced_cubby_pack", () -> new AdvancedCubbyPackItem());
+	public static final RegistryObject<Item> MASTER_CUBBY_CUBE = block(StmwrModBlocks.MASTER_CUBBY_CUBE);
+	public static final RegistryObject<Item> MASTER_CUBBY_PACK = REGISTRY.register("master_cubby_pack", () -> new MasterCubbyPackItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
