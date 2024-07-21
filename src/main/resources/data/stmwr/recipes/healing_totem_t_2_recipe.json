@@ -2,18 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
-    "bcb",
-    " a "
+    "aba",
+    "cdc",
+    "aba"
   ],
   "key": {
     "a": {
-      "item": "stmwr:ultrite"
+      "item": "stmwr:blazed_ingot"
     },
     "b": {
-      "item": "stmwr:magicite_dust"
+      "item": "stmwr:ultrite"
     },
     "c": {
+      "item": "stmwr:magicite_dust"
+    },
+    "d": {
       "item": "stmwr:healing_totem"
     }
   },

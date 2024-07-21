@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:portable_crucible"
+    },
+    {
+      "item": "minecraft:ancient_debris"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_scrap",
+    "count": 2
+  }
+}

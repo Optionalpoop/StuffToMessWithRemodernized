@@ -125,6 +125,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:MilitariaLand"
+      },
+      {
+        "value": "CUSTOM:DeadForest"
       }
     ],
     "blocksToReplace": [
@@ -139,6 +142,9 @@
       },
       {
         "value": "Blocks.SMOOTH_RED_SANDSTONE"
+      },
+      {
+        "value": "Blocks.MUD"
       }
     ],
     "generationShape": "UNIFORM",

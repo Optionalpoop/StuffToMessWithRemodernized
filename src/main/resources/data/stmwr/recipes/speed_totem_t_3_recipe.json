@@ -4,20 +4,26 @@
   "pattern": [
     "aba",
     "cdc",
-    "aba"
+    "efe"
   ],
   "key": {
     "a": {
-      "item": "stmwr:magicite_dust"
+      "item": "stmwr:ultrite"
     },
     "b": {
-      "item": "stmwr:ultrite"
+      "item": "stmwr:uglum"
     },
     "c": {
       "item": "stmwr:godlium_ingot"
     },
     "d": {
       "item": "stmwr:speed_totem_t_2"
+    },
+    "e": {
+      "item": "stmwr:pizza"
+    },
+    "f": {
+      "item": "minecraft:dragon_breath"
     }
   },
   "result": {

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:portable_crucible"
+    },
+    {
+      "item": "stmwr:godlium_ore"
+    }
+  ],
+  "result": {
+    "item": "stmwr:godlium_ingot",
+    "count": 2
+  }
+}

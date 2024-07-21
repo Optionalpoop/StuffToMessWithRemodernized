@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Sausage"
       },
       {
         "value": "Items.SUGAR"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Sausage"
       },
       {
         "value": "CUSTOM:MagiciteDust"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:MagiciteDust"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Dough"
       },
       {
         "value": "CUSTOM:Ultrite"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Dough"
       }
     ],
     "recipeReturnStack": {

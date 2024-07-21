@@ -12,7 +12,7 @@ public class JumpboostTotemT1RightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 9999, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 99999, 1));
 		{
 			ItemStack _ist = itemstack;
 			if (_ist.hurt(1, RandomSource.create(), null)) {

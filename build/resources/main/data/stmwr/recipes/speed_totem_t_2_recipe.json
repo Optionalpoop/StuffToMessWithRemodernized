@@ -2,19 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
-    "bcb",
-    " a "
+    "aba",
+    "cdc",
+    "ebe"
   ],
   "key": {
     "a": {
-      "item": "stmwr:ultrite"
+      "item": "stmwr:cheese"
     },
     "b": {
-      "item": "stmwr:magicite_dust"
+      "item": "stmwr:ultrite"
     },
     "c": {
+      "item": "stmwr:magicite_dust"
+    },
+    "d": {
       "item": "stmwr:speed_totem_t_1"
+    },
+    "e": {
+      "item": "stmwr:taco"
     }
   },
   "result": {

@@ -22,7 +22,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class HasteTotemT1Item extends Item {
 	public HasteTotemT1Item() {
-		super(new Item.Properties().durability(10));
+		super(new Item.Properties().durability(20));
 	}
 
 	@Override

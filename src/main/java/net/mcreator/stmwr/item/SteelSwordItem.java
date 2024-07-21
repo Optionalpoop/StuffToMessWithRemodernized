@@ -13,11 +13,11 @@ public class SteelSwordItem extends SwordItem {
 	public SteelSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1164;
+				return 3000;
 			}
 
 			public float getSpeed() {
-				return 12f;
+				return 25f;
 			}
 
 			public float getAttackDamageBonus() {

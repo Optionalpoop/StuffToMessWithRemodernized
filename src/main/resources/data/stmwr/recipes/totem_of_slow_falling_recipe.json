@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "c": {
+      "item": "stmwr:magicite_dust"
+    },
+    "d": {
+      "item": "stmwr:raw_totem"
+    }
+  },
+  "result": {
+    "item": "stmwr:totem_of_slow_falling",
+    "count": 1
+  }
+}

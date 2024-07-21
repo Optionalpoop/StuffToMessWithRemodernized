@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 5,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,13 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:MagiciteDust"
-      },
-      {
-        "value": ""
+        "value": "CUSTOM:Ultrite"
       },
       {
         "value": "CUSTOM:MagiciteDust"
@@ -30,13 +24,19 @@
         "value": "CUSTOM:MagiciteDust"
       },
       {
-        "value": ""
+        "value": "Blocks.GOLD_BLOCK"
       },
       {
         "value": "CUSTOM:MagiciteDust"
       },
       {
-        "value": ""
+        "value": "Blocks.GOLD_BLOCK"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
       }
     ],
     "recipeReturnStack": {

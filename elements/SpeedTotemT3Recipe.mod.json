@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:MagiciteDust"
-      },
-      {
         "value": "CUSTOM:Ultrite"
       },
       {
-        "value": "CUSTOM:MagiciteDust"
+        "value": "CUSTOM:Uglum"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
       },
       {
         "value": "CUSTOM:GodliumIngot"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:GodliumIngot"
       },
       {
-        "value": "CUSTOM:MagiciteDust"
+        "value": "CUSTOM:Pizza"
       },
       {
-        "value": "CUSTOM:Ultrite"
+        "value": "Items.DRAGON_BREATH"
       },
       {
-        "value": "CUSTOM:MagiciteDust"
+        "value": "CUSTOM:Pizza"
       }
     ],
     "recipeReturnStack": {

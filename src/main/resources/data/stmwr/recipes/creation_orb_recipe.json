@@ -2,20 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
-    "aba",
-    " a "
+    "abc",
+    "bcb",
+    "cba"
   ],
   "key": {
     "a": {
-      "item": "stmwr:magicite_dust"
+      "item": "stmwr:ultrite"
     },
     "b": {
+      "item": "stmwr:magicite_dust"
+    },
+    "c": {
       "item": "minecraft:gold_block"
     }
   },
   "result": {
     "item": "stmwr:creation_orb",
-    "count": 5
+    "count": 1
   }
 }

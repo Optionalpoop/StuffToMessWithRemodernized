@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:bookshelf",
-    "textureTop": "minecraft:beehive_end",
-    "textureLeft": "minecraft:cherry_log",
-    "textureFront": "minecraft:black_candle_lit",
-    "textureRight": "minecraft:black_terracotta",
-    "textureBack": "minecraft:blast_furnace_front_on",
+    "texture": "modifiertablebottom",
+    "textureTop": "modifiertabletop",
+    "textureLeft": "modifiertableside",
+    "textureFront": "modifiertablefront",
+    "textureRight": "modifiertableside",
+    "textureBack": "modifiertableside",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -83,7 +83,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""

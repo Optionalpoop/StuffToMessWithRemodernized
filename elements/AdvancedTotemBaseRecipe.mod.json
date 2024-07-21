@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Plastika"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:Dough"
+      },
+      {
+        "value": "CUSTOM:Uglum"
+      },
+      {
+        "value": "CUSTOM:RawTotem"
+      },
+      {
+        "value": "CUSTOM:Uglum"
+      },
+      {
+        "value": "CUSTOM:Dough"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:Plastika"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AdvancedTotemBase"
+    },
+    "name": "advanced_totem_base_recipe",
+    "namespace": "mod"
+  }
+}

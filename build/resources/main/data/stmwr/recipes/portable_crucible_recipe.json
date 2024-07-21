@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:lava_bucket"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:furnace"
+    },
+    "d": {
+      "item": "stmwr:magicite_dust"
+    },
+    "e": {
+      "item": "stmwr:godlium_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:portable_crucible",
+    "count": 1
+  }
+}

@@ -28,7 +28,7 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{50, 100, 100, 50}[type.getSlot().getIndex()];
+				return new int[]{50, 70, 80, 60}[type.getSlot().getIndex()];
 			}
 
 			@Override

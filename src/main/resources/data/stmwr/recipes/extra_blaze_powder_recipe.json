@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:blaze_rod"
+    },
+    "b": {
+      "item": "stmwr:creation_orb"
+    }
+  },
+  "result": {
+    "item": "minecraft:blaze_powder",
+    "count": 8
+  }
+}

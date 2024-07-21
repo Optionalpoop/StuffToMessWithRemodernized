@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:ice_shard"
+    }
+  ],
+  "result": {
+    "item": "stmwr:magicite_dust",
+    "count": 8
+  }
+}

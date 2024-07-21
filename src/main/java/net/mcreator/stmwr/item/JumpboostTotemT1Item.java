@@ -22,7 +22,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class JumpboostTotemT1Item extends Item {
 	public JumpboostTotemT1Item() {
-		super(new Item.Properties().durability(10));
+		super(new Item.Properties().durability(30));
 	}
 
 	@Override

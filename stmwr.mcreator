@@ -680,77 +680,6 @@
       }
     },
     {
-      "name": "BuildersWandRightclickedOnBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "builders_wand_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/stmwr/procedures/BuildersWandRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "BuildersWand",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "builders_wand",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/stmwr/item/BuildersWandItem.java",
-          "src/main/resources/assets/stmwr/models/item/builders_wand.json"
-        ]
-      }
-    },
-    {
-      "name": "BuildersWandRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "builders_wand_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/builders_wand_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BuildingTime",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "building_time",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/building_time.json"
-        ]
-      }
-    },
-    {
       "name": "HealingTotemT2Rightclicked",
       "type": "procedure",
       "compiles": true,
@@ -1232,10 +1161,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       }
@@ -1455,43 +1380,6 @@
       }
     },
     {
-      "name": "Wandar",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wandar",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/stmwr/item/WandarItem.java",
-          "src/main/resources/assets/stmwr/models/item/wandar.json"
-        ]
-      }
-    },
-    {
-      "name": "WandarRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wandar_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/wandar_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Wandars",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wandars",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/wandars.json"
-        ]
-      }
-    },
-    {
       "name": "AdvancedWandStick",
       "type": "item",
       "compiles": true,
@@ -1529,148 +1417,6 @@
       }
     },
     {
-      "name": "IronWandRightclickedOnBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iron_wand_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/stmwr/procedures/IronWandRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "IronWand",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iron_wand",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/stmwr/item/IronWandItem.java",
-          "src/main/resources/assets/stmwr/models/item/iron_wand.json"
-        ]
-      }
-    },
-    {
-      "name": "IronWandRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iron_wand_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/iron_wand_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "Ironman",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ironman",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/ironman.json"
-        ]
-      }
-    },
-    {
-      "name": "CoalWandRightclickedOnBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coal_wand_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/stmwr/procedures/CoalWandRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CoalWand",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coal_wand",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/stmwr/models/item/coal_wand.json",
-          "src/main/java/net/mcreator/stmwr/item/CoalWandItem.java"
-        ]
-      }
-    },
-    {
-      "name": "CoalWandRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coal_wand_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/coal_wand_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "CoalForChristmas",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "coal_for_christmas",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/coal_for_christmas.json"
-        ]
-      }
-    },
-    {
       "name": "InfinititeIngot",
       "type": "item",
       "compiles": true,
@@ -1691,11 +1437,8 @@
       "registry_name": "infinitite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/stmwr/worldgen/placed_feature/infinitite_ore.json",
           "src/main/java/net/mcreator/stmwr/block/InfinititeOreBlock.java",
           "src/main/resources/assets/stmwr/models/item/infinitite_ore.json",
-          "src/main/resources/data/stmwr/worldgen/configured_feature/infinitite_ore.json",
-          "src/main/resources/data/stmwr/forge/biome_modifier/infinitite_ore_biome_modifier.json",
           "src/main/resources/data/stmwr/loot_tables/blocks/infinitite_ore.json",
           "src/main/resources/assets/stmwr/blockstates/infinitite_ore.json",
           "src/main/resources/assets/stmwr/models/block/infinitite_ore.json"
@@ -1751,18 +1494,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/recipes/infinitite_ore_smelting.json"
-        ]
-      }
-    },
-    {
-      "name": "InfinitePower",
-      "type": "achievement",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infinite_power",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/advancements/infinite_power.json"
         ]
       }
     },
@@ -4734,47 +4465,1078 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "IceShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/IceShardItem.java",
+          "src/main/resources/assets/stmwr/models/item/ice_shard.json"
+        ]
+      }
+    },
+    {
+      "name": "FrostZombie",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/forge/biome_modifier/frost_zombie_biome_modifier.json",
+          "src/main/java/net/mcreator/stmwr/client/renderer/FrostZombieRenderer.java",
+          "src/main/resources/assets/stmwr/models/item/frost_zombie_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/entity/FrostZombieEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "IceShardIntoMagicite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shard_into_magicite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/ice_shard_into_magicite.json"
+        ]
+      }
+    },
+    {
+      "name": "IceIceBaby",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_ice_baby",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ice_ice_baby.json"
+        ]
+      }
+    },
+    {
+      "name": "FreeMagicite",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "free_magicite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/free_magicite.json"
+        ]
+      }
+    },
+    {
+      "name": "PortalSteveProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_steve_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/PortalSteveProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PortalMilitariaProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_militaria_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/PortalMilitariaProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PortalSteve",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_steve",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/PortalSteveCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "PortalMilitaria",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_militaria",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/PortalMilitariaCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "PistolAmmo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/PistolAmmoItem.java",
+          "src/main/resources/assets/stmwr/models/item/pistol_ammo.json"
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/entity/BulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Pistol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/pistol.json",
+          "src/main/java/net/mcreator/stmwr/item/PistolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PistolAmmoRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ammo_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/pistol_ammo_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PistolRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/pistol_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SecondAmendment",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_amendment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/second_amendment.json"
+        ]
+      }
+    },
+    {
+      "name": "FrostedOasis",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosted_oasis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/biome/frosted_oasis.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/frosted_oasis_tree.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/frosted_oasis_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "FrozenWastes",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_wastes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/biome/frozen_wastes.json"
+        ]
+      }
+    },
+    {
+      "name": "DeadForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/placed_feature/dead_forest_tree.json",
+          "src/main/resources/data/stmwr/worldgen/biome/dead_forest.json",
+          "src/main/java/net/mcreator/stmwr/world/features/treedecorators/DeadForestLeaveDecorator.java",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/dead_forest_tree.json",
+          "src/main/java/net/mcreator/stmwr/world/features/treedecorators/DeadForestTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "GasMaskZombie",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_mask_zombie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/forge/biome_modifier/gas_mask_zombie_biome_modifier.json",
+          "src/main/java/net/mcreator/stmwr/client/renderer/GasMaskZombieRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/GasMaskZombieEntity.java",
+          "src/main/resources/assets/stmwr/models/item/gas_mask_zombie_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Perfecta",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perfecta",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/placed_feature/perfecta_tree.json",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/perfecta_tree.json",
+          "src/main/resources/data/stmwr/worldgen/biome/perfecta.json"
+        ]
+      }
+    },
+    {
+      "name": "NoobishTrialCoin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobish_trial_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/NoobishTrialCoinItem.java",
+          "src/main/resources/assets/stmwr/models/item/noobish_trial_coin.json"
+        ]
+      }
+    },
+    {
+      "name": "INeedMyPayday2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_need_my_payday_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/i_need_my_payday_2.json"
+        ]
+      }
+    },
+    {
+      "name": "NoobishTrialCoinRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobish_trial_coin_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/noobish_trial_coin_recipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "NoobishTrialCoinRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noobish_trial_coin_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/noobish_trial_coin_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "GunpowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunpowder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/gunpowder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheCowRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_cow_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/TotemOfTheCowRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheGoopRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_goop_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/TotemOfTheGoopRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheGoop",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_goop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/totem_of_the_goop.json",
+          "src/main/java/net/mcreator/stmwr/item/TotemOfTheGoopItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheCow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_cow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/TotemOfTheCowItem.java",
+          "src/main/resources/assets/stmwr/models/item/totem_of_the_cow.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheCowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_cow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/totem_of_the_cow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfTheGoopRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_the_goop_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/totem_of_the_goop_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedTotemBase",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_totem_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/advanced_totem_base.json",
+          "src/main/java/net/mcreator/stmwr/item/AdvancedTotemBaseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedTotemBaseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_totem_base_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/advanced_totem_base_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedTotemMaking",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_totem_making",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/advanced_totem_making.json"
+        ]
+      }
+    },
+    {
+      "name": "KingOfSteveCows",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "king_of_steve_cows",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/king_of_steve_cows.json"
+        ]
+      }
+    },
+    {
+      "name": "NotSoFunToHold",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_so_fun_to_hold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/not_so_fun_to_hold.json"
+        ]
+      }
+    },
+    {
+      "name": "ChickenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/chicken_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KFC",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kfc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/kfc.json"
+        ]
+      }
+    },
+    {
+      "name": "ExtraBlazePowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extra_blaze_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/extra_blaze_powder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GimmeDatPowda",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gimme_dat_powda",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/gimme_dat_powda.json"
+        ]
+      }
+    },
+    {
+      "name": "Ugly",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ugly",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ugly.json"
+        ]
+      }
+    },
+    {
+      "name": "BulkUltriteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulk_ultrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/bulk_ultrite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExtraUltriteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extra_ultrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/extra_ultrite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UncraftBlazePowderRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncraft_blaze_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/uncraft_blaze_powder_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReroddingYourBlazes",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rerodding_your_blazes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/rerodding_your_blazes.json"
+        ]
+      }
+    },
+    {
+      "name": "Sheeple",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheeple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/sheeple.json"
+        ]
+      }
+    },
+    {
+      "name": "Grilling",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grilling",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/grilling.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableOvenSausageRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_oven_sausage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_oven_sausage_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableOvenMuttonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_oven_mutton_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_oven_mutton_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucible",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/PortableCrucibleItem.java",
+          "src/main/resources/assets/stmwr/models/item/portable_crucible.json"
+        ]
+      }
+    },
+    {
+      "name": "Meltdown",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meltdown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/meltdown.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleIronRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_iron_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_iron_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleGoldRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_gold_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_gold_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleGlassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_glass_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MoltenGlass",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "molten_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/molten_glass.json"
+        ]
+      }
+    },
+    {
+      "name": "KingMidas",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "king_midas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/king_midas.json"
+        ]
+      }
+    },
+    {
+      "name": "IranAwayFromTheIron",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iran_away_from_the_iron",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/iran_away_from_the_iron.json"
+        ]
+      }
+    },
+    {
+      "name": "BrickedIt",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bricked_it",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/bricked_it.json"
+        ]
+      }
+    },
+    {
+      "name": "PortableCrucibleBricksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_crucible_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/portable_crucible_bricks_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfSlowFalling",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_slow_falling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/TotemOfSlowFallingItem.java",
+          "src/main/resources/assets/stmwr/models/item/totem_of_slow_falling.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfSlowFallingRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_slow_falling_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/TotemOfSlowFallingRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfSlowFallingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_slow_falling_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/totem_of_slow_falling_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SloMo",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slo_mo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/slo_mo.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleGodliumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_godlium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_godlium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleBlazedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_blazed_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_blazed_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleSteelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_steel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_steel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleDebrisRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_debris_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_debris_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrucibleCopperRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crucible_copper_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/crucible_copper_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HalfAnIngot",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "half_an_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/half_an_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "PleaseTheGods",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "please_the_gods",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/please_the_gods.json"
+        ]
+      }
+    },
+    {
+      "name": "BlazingFlames",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazing_flames",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/blazing_flames.json"
+        ]
+      }
+    },
+    {
+      "name": "IHaveTooMuchAlready",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_have_too_much_already",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/i_have_too_much_already.json"
+        ]
+      }
+    },
+    {
+      "name": "ManOfSteel",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "man_of_steel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/man_of_steel.json"
+        ]
+      }
+    },
+    {
+      "name": "UpgradeTemplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_template_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/upgrade_template_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NoMorePiggies",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_more_piggies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/no_more_piggies.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrostedOasis",
       "~CUSTOM:SteveCowLand"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:Plasticilia"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:FrostedOasis"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:SteveCowLand"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:SteelHoe",
+      "~CUSTOM:BlazedHoe",
+      "~CUSTOM:GodliumHoe"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:FrostedOasis",
+      "~CUSTOM:MilitariaLand"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:CubbyCube"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:SteveCowLand"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:FrostedOasis"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:SteelAxe",
+      "~CUSTOM:BlazedAxe",
+      "~CUSTOM:GodliumAxe",
+      "~CUSTOM:AtomSmasher"
+    ],
+    "BIOMES:minecraft:has_structure/village_snowy": [
+      "~CUSTOM:SteveCowLand"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SteelSword",
+      "~CUSTOM:Knife",
+      "~CUSTOM:BlazedSword",
+      "~CUSTOM:GodliumSword",
+      "~CUSTOM:AtomSmasher"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:DeadForest"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SuggestiumOre",
+      "~CUSTOM:TrialBrick",
+      "~CUSTOM:StorumOre",
+      "~CUSTOM:BlazedBlock",
+      "~CUSTOM:BlazedOre",
+      "~CUSTOM:MagiciteOre"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
       "~CUSTOM:SuggestiumBlock",
-      "~CUSTOM:SuggestiumOre",
       "~CUSTOM:SteelBlock",
       "~CUSTOM:SteelOre",
       "~CUSTOM:StevumBlock",
       "~CUSTOM:StevumOre",
       "~CUSTOM:StorumBlock",
-      "~CUSTOM:StorumOre",
       "~CUSTOM:InfinititeBlock",
       "~CUSTOM:InfinititeOre",
       "~CUSTOM:GodliumBlock",
       "~CUSTOM:GodliumOre",
-      "~CUSTOM:MagiciteBlock",
-      "~CUSTOM:MagiciteOre"
+      "~CUSTOM:MagiciteBlock"
     ],
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:TrialBrick",
-      "~CUSTOM:BlazedBlock",
-      "~CUSTOM:BlazedOre"
-    ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:Plasticilia"
-    ],
-    "BIOMES:minecraft:has_structure/igloo": [
-      "~CUSTOM:SteveCowLand"
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:DeadForest"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:SteelPickaxe",
       "~CUSTOM:FireproofTotem",
       "~CUSTOM:BlazedPickaxe",
-      "~CUSTOM:CoalWand",
-      "~CUSTOM:IronWand",
       "~CUSTOM:HasteTotemT3",
       "~CUSTOM:HasteTotemT2",
       "~CUSTOM:HasteTotemT1",
@@ -4787,28 +5549,33 @@
       "~CUSTOM:SpeedTotemT1",
       "~CUSTOM:HealthTotemT3",
       "~CUSTOM:HealingTotemT2",
-      "~CUSTOM:BuildersWand",
       "~CUSTOM:HealingTotem",
       "~CUSTOM:GodliumPickaxe",
       "~CUSTOM:AtomSmasher"
     ],
     "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:FrostedOasis",
       "~CUSTOM:SteveCowLand"
     ],
-    "ITEMS:minecraft:hoes": [
-      "~CUSTOM:SteelHoe",
-      "~CUSTOM:BlazedHoe",
-      "~CUSTOM:GodliumHoe"
-    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.MUD",
       "~Blocks.SMOOTH_RED_SANDSTONE",
       "~Blocks.MUD_BRICKS",
+      "~Blocks.DIRT#0",
       "~Blocks.RED_SANDSTONE#1",
+      "~Blocks.DIRT#2",
+      "~Blocks.POWDER_SNOW",
       "~Blocks.PACKED_ICE",
+      "~Blocks.STONE#0",
       "~Blocks.SNOW",
       "~Blocks.GRASS"
     ],
     "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:DeadForest",
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:FrostedOasis",
       "~CUSTOM:MilitariaLand",
       "~CUSTOM:SteveCowLand"
     ],
@@ -4832,35 +5599,13 @@
       "~CUSTOM:MagiciteBlock",
       "~CUSTOM:MagiciteOre"
     ],
-    "BIOMES:minecraft:has_structure/nether_fossil": [
-      "~CUSTOM:MilitariaLand"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:CubbyCube"
-    ],
-    "BIOMES:minecraft:has_structure/bastion_remnant": [
-      "~CUSTOM:SteveCowLand"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:SteelAxe",
-      "~CUSTOM:BlazedAxe",
-      "~CUSTOM:GodliumAxe",
-      "~CUSTOM:AtomSmasher"
-    ],
-    "BIOMES:minecraft:has_structure/village_snowy": [
-      "~CUSTOM:SteveCowLand"
-    ],
-    "ITEMS:minecraft:swords": [
-      "~CUSTOM:SteelSword",
-      "~CUSTOM:Knife",
-      "~CUSTOM:BlazedSword",
-      "~CUSTOM:GodliumSword",
-      "~CUSTOM:AtomSmasher"
-    ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:SteelShovel",
       "~CUSTOM:BlazedShovel",
       "~CUSTOM:GodliumShovel"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Perfecta"
     ]
   },
   "tab_element_order": {},
@@ -4877,36 +5622,39 @@
       "advancements.saddle_up.descr": "You can craft saddles!",
       "advancements.defeat.descr": "Slay the Giant Steve Cow and grab its heart",
       "advancements.mystical_agriculture.descr": "Craft a magic carrot",
-      "block.stmwr.stevum_ore": "Stevum Ore",
       "item.stmwr.goop": "Goop",
+      "block.stmwr.stevum_ore": "Stevum Ore",
       "advancements.named.descr": "You can craft name tags now!",
       "item.stmwr.chocolate": "Chocolate",
       "advancements.stringy.descr": "Craft up some delicious cheese sticks!",
       "item.stmwr.steel_armor_chestplate": "Steel Chestplate",
       "item.stmwr.steel_armor_boots": "Steel Boots",
-      "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
       "item.stmwr.steel_pickaxe": "Steel Pickaxe",
-      "advancements.master_miner.descr": "Get a tier 3 haste totem",
-      "advancements.leg_day.title": "Leg Day",
+      "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
       "painting.stmwr.the_blurb.title": "The Blurb",
+      "advancements.leg_day.title": "Leg Day",
+      "advancements.master_miner.descr": "Get a tier 3 haste totem",
       "advancements.suggestions_welcome.title": "Suggestions Welcome!",
       "advancements.stuff_to_mess_with_remodernized.descr": "Welcome to the mod! These advancements will guide you through this mod!",
       "item.stmwr.shredded_beef": "Shredded Beef",
       "block.stmwr.suggestium_block": "Block of Suggestium",
-      "advancements.ironman.title": "Ironman",
       "item.stmwr.blazed_armor_leggings": "Blazed Leggings",
       "advancements.goopy.title": "Goopy?!",
-      "item.stmwr.godlium_armor_helmet": "Godlium Helmet",
       "item.stmwr.magic_carrot": "Magic Carrot",
+      "item.stmwr.godlium_armor_helmet": "Godlium Helmet",
+      "advancements.free_magicite.title": "Free Magicite?!",
+      "advancements.no_more_piggies.descr": "You can craft smithing templates now! Though they aren\u0027t cheap",
       "advancements.flame_on.title": "Flame On!",
       "item.stmwr.advanced_wand_stick": "Advanced Wand Stick",
       "advancements.mooore_stoooorage.title": "Mooore Stoooorage!!!!",
+      "advancements.advanced_totem_making.title": "Advanced Totem Making",
       "advancements.fiery.descr": "Get some blazing ore, which when combined with magicite can lead to fireproof gear!",
       "item.stmwr.godlium_ingot": "Godlium",
       "item.stmwr.godlium_armor_boots": "Godlium Boots",
       "block.stmwr.blazed_block": "Block of Blazed",
       "item.stmwr.blazed_armor_boots": "Blazed Boots",
       "advancements.cubby_cubes.title": "Cubby Cubes!",
+      "advancements.i_need_my_payday_2.title": "I Need My Payday, Two",
       "item.stmwr.godlium_axe": "Godlium Axe",
       "advancements.superman.title": "Superman",
       "item.stmwr.steel_ingot": "Steel",
@@ -4925,11 +5673,14 @@
       "item.stmwr.blazed_ingot": "Blazed",
       "item.stmwr.pikachu_spawn_egg": "Pikachu Spawn Egg",
       "item.stmwr.magicite_dust": "Magicite",
+      "advancements.free_magicite.descr": "You can craft magicite dust from ice shards!",
       "advancements.golden_boy.title": "Golden Boy",
       "item.stmwr.pizza_slice": "Pizza Slice",
+      "advancements.sheeple.descr": "You can cook mutton in the portable oven!",
       "advancements.find_the_pieces.descr": "Craft some key pieces, used to make keys for the trials",
       "advancements.youre_awful_at_this.descr": "Cut a pizza into.... 7 slices?!",
       "advancements.stmw_vanilla_plus.descr": "Jump into the word of QOL changes to Minecraft",
+      "advancements.gimme_dat_powda.descr": "You can get loads more blaze powder when you use a creation orb!",
       "advancements.fiery.title": "Fiery!",
       "block.stmwr.infinitite_ore": "Infinitite Ore",
       "advancements.master_miner.title": "Master Miner",
@@ -4939,17 +5690,17 @@
       "advancements.goopy.descr": "Find some goop from a mutant worm",
       "advancements.pets.descr": "Obtain some animal straps, which can be used for crafting horse armor!",
       "item.stmwr.mutant_whistle": "Mutant Whistle",
+      "item.stmwr.noobish_trial_coin": "Noobish Trial Coin",
       "item.stmwr.mysterious_scrap": "Mysterious Scrap",
       "advancements.fast_hands.descr": "Get a haste totem tier 1",
-      "advancements.infinite_power.descr": "The most powerful ore in the game... chances are, you won\u0027t find any any time soon.",
       "item.stmwr.blazed_axe": "Blazed Axe",
       "block.stmwr.storum_block": "Block of Storum",
       "advancements.healthy.title": "Healthy!",
       "advancements.speedy_gonzales.descr": "Craft a tier 2 speed totem",
       "advancements.simple_storage.descr": "Convert your storum into more storum with a creation orb",
+      "advancements.man_of_steel.descr": "Get some extra steel by smelting your ore with the portable crucible",
       "gui.stmwr.modifiers_table.tooltip_empty": "item to modify",
-      "item.stmwr.coal_wand": "Coal Wand",
-      "advancements.wandars.descr": "Get a wandar, which can be used for advanced wands",
+      "biome.stmwr.dead_forest": "Dead Forest",
       "advancements.plastic_fantastic.descr": "Get your first plastika",
       "entity.stmwr.soldier": "Soldier",
       "advancements.hand_it_to_me.descr": "Get a haste totem tier 2",
@@ -4961,7 +5712,9 @@
       "item.stmwr.cheese_stick": "Cheese Stick",
       "advancements.seer_of_the_dark.descr": "Craft a night vision totem",
       "block.stmwr.plasticilia": "Plasticilia",
+      "subtitles.wind": "spoooooooky wiiiiiind",
       "advancements.defeat.title": "Defeat!",
+      "item.stmwr.totem_of_the_cow": "Totem Of The Cow",
       "advancements.find_the_pieces.title": "Find The Pieces",
       "item.stmwr.advanced_material": "Advanced Material",
       "advancements.ripped_to_shreds.title": "Ripped To Shreds",
@@ -4969,10 +5722,13 @@
       "advancements.stabby_stabby.descr": "Get a knife",
       "advancements.cheesy.descr": "Craft up some cheese!",
       "item.stmwr.godlium_sword": "Godlium Sword",
+      "advancements.meltdown.title": "Meltdown",
+      "advancements.bricked_it.title": "Bricked It",
       "block.stmwr.godlium_ore": "Godlium Ore",
       "item.stmwr.dough": "Dough",
       "item.stmwr.giant_caller": "Giant Caller",
-      "advancements.coal_for_christmas.descr": "Get a coal wand",
+      "item.stmwr.pistol": "Pistol",
+      "advancements.king_of_steve_cows.title": "King Of Steve Cows",
       "item.stmwr.speed_totem_t_1": "Speed Totem Tier 1",
       "advancements.more_health.descr": "Get a tier 2 health totem",
       "item.stmwr.speed_totem_t_2": "Speed Totem Tier 2",
@@ -4985,66 +5741,86 @@
       "advancements.pizza_time.descr": "Bake a pizza",
       "advancements.dirty.title": "Dirty!",
       "item.stmwr.blazed_sword": "Blazed Sword",
-      "advancements.building_time.descr": "Craft a builders wand, allowing you to transform ANY block into oak planks.",
       "item.stmwr.plastika": "Plastika",
+      "advancements.ice_ice_baby.title": "Ice Ice Baby",
       "item.stmwr.taco": "Taco",
       "gui.stmwr.modifiers_table.label_empty": "---------",
+      "advancements.molten_glass.descr": "You can make glass with the crucible! And get double output!",
       "biome.stmwr.steve_cow_land": "Steve Cow Land",
       "advancements.inventory_pork.title": "Inventory Pork",
       "advancements.bratwurst_anyone.descr": "Get some sausage",
+      "advancements.kfc.descr": "You can cook chicken with the portable oven!",
       "advancements.leathery.title": "Leathery",
+      "advancements.slo_mo.descr": "Craft a totem of slow falling, along you to glide from heights.",
+      "item.stmwr.gas_mask_zombie_spawn_egg": "Gas Mask Zombie Spawn Egg",
+      "entity.stmwr.gas_mask_zombie": "Gas Mask Zombie",
       "advancements.stmw_trials.title": "STMW: Trials",
+      "item.stmwr.totem_of_the_goop": "Totem Of The Goop",
       "advancements.pika_chuuuu.title": "Pika-CHUUUU!",
       "advancements.i_am_speed.descr": "Get a speed totem",
       "item.stmwr.steel_armor_leggings": "Steel Leggings",
-      "item.stmwr.wandar": "Wandar",
       "item.stmwr.tortilla": "Tortilla",
       "item.stmwr.raw_sausage": "Raw Sausage",
+      "advancements.half_an_ingot.descr": "You can melt debris for two scraps in the portable crucible!",
       "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
       "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
+      "advancements.rerodding_your_blazes.title": "Rerodding Your Blazes",
+      "advancements.grilling.title": "Grilling",
       "advancements.oh_the_irony.descr": "You can craft iron horse armor!",
       "item.stmwr.jumpboost_totem_t_3": "Jumpboost Totem Tier 3",
       "item.stmwr.jumpboost_totem_t_2": "Jumpboost Totem Tier 2",
       "item.stmwr.mutant_goop": "Mutant Goop",
       "item.stmwr.jumpboost_totem_t_1": "Jumpboost Totem Tier 1",
       "item.stmwr.steel_hoe": "Steel Hoe",
-      "item.stmwr.builders_wand": "Builders Wand",
       "item.stmwr.atom_smasher": "Atom Smasher",
       "advancements.maximum_health.title": "Maximum Health!!!",
       "advancements.leapfrog.title": "Leapfrog",
+      "advancements.not_so_fun_to_hold.title": "Not So Fun To Hold",
       "advancements.shine_bright_like_a_diamond.title": "Shine Bright Like A Diamond",
       "item.stmwr.haste_totem_t_2": "Haste Totem Tier 2",
       "item.stmwr.haste_totem_t_1": "Haste Totem Tier 1",
       "advancements.double_the_godlium.descr": "You can craft a block of godlium with the creation orb, as long as you have some godlium already.",
+      "advancements.ugly.descr": "Kill a pikachu to obtain uglum, a useful component for magic",
+      "item.stmwr.portable_crucible": "Portable Crucible",
+      "advancements.please_the_gods.descr": "Double your godlium output using a portable crucible!",
+      "entity.stmwr.frost_zombie": "Frost Zombie",
       "advancements.welcome_to_militaria.descr": "Craft a Militaria trial key after defeating the Giant Steve Cow",
       "item.stmwr.haste_totem_t_3": "Haste Totem T 3",
       "advancements.plastic_fantastic.title": "Plastic Fantastic!",
+      "item.stmwr.advanced_totem_base": "Advanced Totem Base",
       "item.stmwr.godlium_hoe": "Godlium Hoe",
       "advancements.youre_a_wizard_harry.descr": "By combining a stick with some magicite, you\u0027re able to create a stick that you could use to make wands, the ultimate resource generators!",
       "advancements.simple_storage.title": "Simple Storage",
+      "biome.stmwr.frosted_oasis": "Frosted Oasis",
       "advancements.rituals_here_i_come.descr": "By combining magicite and plastika, you are able to create a totem. I wonder what kinds of powers there are that I can imbue into this?",
       "advancements.mmmmmm.descr": "Make some chocolate",
       "gui.stmwr.modifiers_table.tooltip_modifier": "modifier",
       "advancements.fast_hands.title": "Fast Hands",
+      "biome.stmwr.perfecta": "Perfecta",
       "advancements.hand_it_to_me.title": "Hand It To Me",
       "advancements.golden_boy.descr": "You can craft golden horse armor now!",
       "advancements.steve_cows.descr": "Craft a Steve Cow trial key!",
       "advancements.ripped_to_shreds.descr": "Cook up some delicious shredded beef!",
+      "advancements.king_of_steve_cows.descr": "Craft the Totem of the Cow",
+      "advancements.man_of_steel.title": "Man Of Steel",
       "block.stmwr.modifier_table": "Modifier table",
       "item.stmwr.soldier_spawn_egg": "Soldier Spawn Egg",
       "block.stmwr.magicite_ore": "Magicite Ore",
       "gui.stmwr.modifiers_table.label_empty1": "|",
       "gui.stmwr.modifiers_table.label_empty2": "|",
-      "advancements.wandars.title": "Wandars",
       "advancements.seer_of_the_dark.title": "Seer Of The Dark",
+      "advancements.blazing_flames.title": "Blazing Flames",
       "advancements.steel_heart.descr": "Get some steel, which is used for extremely powerful armor, and guns.",
       "advancements.teenage_mutant_ninja_turtles.title": "Teenage Mutant Ninja Turtles!",
       "advancements.inventory_beef.descr": "You can make beef without a furnace?!",
       "item.stmwr.steve_cow_spawn_egg": "Steve Cow Spawn Egg",
       "item.stmwr.blazed_shovel": "Blazed Shovel",
+      "advancements.kfc.title": "KFC",
+      "advancements.please_the_gods.title": "Please The Gods",
       "advancements.crossy_road.descr": "Obtain a tier 2 jumpboost totem",
       "advancements.taco_tuesday.descr": "Craft up some tacos!",
       "advancements.im_a_survivor.descr": "Find and kill a survivor, and get some of their mysterious scraps...",
+      "advancements.second_amendment.descr": "Craft some bullets, and then a gun!",
       "item.stmwr.ultrite": "Ultrite",
       "item.stmwr.strength_totem_t_2": "Strength Totem T2",
       "item.stmwr.strength_totem_t_1": "Strength Totem T1",
@@ -5054,14 +5830,19 @@
       "item.stmwr.pizza": "Pizza",
       "block.stmwr.trial_brick": "Trial Brick",
       "block.stmwr.infinitite_block": "Block of Infinitite",
+      "advancements.half_an_ingot.title": "Half An Ingot",
       "advancements.magical.descr": "Mine up some magicite, a key ingredient to all things magic!",
       "item.stmwr.nightvision_totem": "Nightvision Totem",
       "advancements.stmw_vanilla_plus.title": "STMW: Vanilla Plus",
       "advancements.doughy.descr": "Get some dough, a key ingredient in many foods",
       "advancements.leapfrog.descr": "Craft a tier 1 jumpboost totem",
+      "advancements.not_so_fun_to_hold.descr": "Craft a Totem of the Goop",
       "advancements.crafted_magicite.descr": "Create magicite with the creation orb!",
+      "advancements.iran_away_from_the_iron.descr": "You can make iron in the crucible, and get double the iron as a reward!",
+      "advancements.sheeple.title": "Sheeple",
       "advancements.stmw_foods.descr": "Welcome to the foods section, which explains the basics of cooking in STMW5!",
       "advancements.pets.title": "Pets!",
+      "advancements.ugly.title": "Ugly",
       "item.stmwr.raw_totem": "Raw Totem",
       "advancements.ultimate_ultrite.descr": "By mixing godlium and magicite, you are able to create a mystical compound, capable of startling power...",
       "advancements.call_me.title": "Call Me!!",
@@ -5069,21 +5850,24 @@
       "item.stmwr.steve_cow_horn": "Steve Cow Horn",
       "item.stmwr.steel_armor_helmet": "Steel Helmet",
       "advancements.toot_toot.descr": "Get a mutant whistle, to fight the boss of this dimension!",
+      "advancements.i_have_too_much_already.title": "I Have Too Much Already",
       "gui.stmwr.modifiers_table.tooltip_upgrade": "modifier",
       "advancements.experienced.title": "Experienced",
       "advancements.cubby_cubes.descr": "Craft a cubby cube, a huge version of a chest! Do NOT mine it with items inside...",
+      "advancements.i_have_too_much_already.descr": "You may have loads of copper, why not double it with the crucible though?",
+      "advancements.i_need_my_payday_2.descr": "Get some noobish trial coins with things found in the first few trials!",
       "advancements.stringy.title": "Stringy",
+      "advancements.king_midas.descr": "You can make gold with the crucible, and double output!",
       "item.stmwr.health_totem_t_3": "Health Totem Tier 3",
       "advancements.call_me.descr": "Obtain a giant caller, to fight the Giant Steve Cow boss",
       "advancements.leg_day.descr": "Get a tier 3 jumpboost totem",
       "advancements.heavy_hitters.title": "Heavy Hitters!",
       "item.stmwr.blazed_armor_helmet": "Blazed Helmet",
       "advancements.bullfighter.title": "Bullfighter",
-      "item.stmwr.iron_wand": "Iron Wand",
       "advancements.saddle_up.title": "Saddle Up!",
       "item.stmwr.steel_shovel": "Steel Shovel",
       "advancements.godly_potential.title": "Godly Potential...",
-      "advancements.ironman.descr": "Craft an iron wand",
+      "item.stmwr.pistol_ammo": "Pistol Ammo",
       "advancements.kachow.descr": "Craft the tier 3 speed totem, and become the fastest man alive",
       "advancements.creation_at_your_fingertips.title": "Creation At Your Fingertips",
       "advancements.cook_on_the_go.descr": "You can craft a portable oven for easy cooking of food",
@@ -5092,11 +5876,13 @@
       "item.stmwr.blazed_armor_chestplate": "Blazed Chestplate",
       "advancements.suggestions_welcome.descr": "Find some Suggestium, which can be used to craft things suggested by friends that don\u0027t really have a place anywhere.",
       "advancements.stmw_foods.title": "STMW: Foods",
-      "advancements.coal_for_christmas.title": "Coal For Christmas!",
       "advancements.taco_tuesday.title": "Taco Tuesday!",
       "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
+      "advancements.iran_away_from_the_iron.title": "Iran Away From The Iron",
+      "advancements.advanced_totem_making.descr": "Craft an advanced totem base, to craft unique totems.",
       "advancements.stabby_stabby.title": "Stabby Stabby",
       "advancements.doughy.title": "Doughy!",
+      "advancements.bricked_it.descr": "You can double your brick output using the portable crucible!",
       "advancements.mystical_agriculture.title": "Mystical Agriculture",
       "advancements.mmmmmm.title": "Mmmmmm",
       "item.stmwr.militaria": "Militaria Trial Key",
@@ -5114,7 +5900,9 @@
       "item_group.stmwr.stmw_5": "STMW 5",
       "entity.stmwr.steve_cow": "Steve Cow",
       "advancements.rituals_here_i_come.title": "Rituals, Here I Come!",
+      "advancements.rerodding_your_blazes.descr": "You can recraft blaze rods from the powder!",
       "entity.stmwr.mutant_worm": "Mutant Worm",
+      "advancements.blazing_flames.descr": "Twice the blazed from just a crucible!",
       "item.stmwr.steel_sword": "Steel Sword",
       "advancements.bullfighter.descr": "Craft a T2 Strength Totem",
       "item.stmwr.steel_axe": "Steel Axe",
@@ -5124,23 +5912,31 @@
       "advancements.oh_the_irony.title": "Oh The Irony",
       "biome.stmwr.militaria_land": "Militaria Land",
       "advancements.toot_toot.title": "Toot Toot!",
+      "item.stmwr.frost_zombie_spawn_egg": "Frost Zombie Spawn Egg",
       "item.stmwr.infinitite_ingot": "Infinitite",
+      "advancements.king_midas.title": "King Midas",
       "advancements.tortillas.descr": "Make some tortillas!",
+      "advancements.grilling.descr": "You can cook sausage with the portable oven.",
       "advancements.i_am_speed.title": "I Am Speed",
       "advancements.wands_but_better.title": "Wands, But Better!!!",
       "item.stmwr.mutant_boss_spawn_egg": "Mutant Boss Spawn Egg",
+      "advancements.gimme_dat_powda.title": "Gimme Dat Powda",
       "entity.stmwr.survivor": "Survivor",
       "advancements.youre_a_wizard_harry.title": "You\u0027re A Wizard Harry!",
       "advancements.welcome_to_militaria.title": "Welcome To Militaria!",
       "item.stmwr.healing_totem": "Healing Totem Tier One",
+      "biome.stmwr.frozen_wastes": "Frozen Wastes",
       "item.stmwr.dirt_nugget": "Dirt Nugget",
       "item.stmwr.godlium_shovel": "Godlium Shovel",
       "advancements.inventory_pork.descr": "You can make pork in your inventory!",
+      "advancements.molten_glass.title": "Molten Glass",
       "item.stmwr.knife": "Knife",
       "block.stmwr.suggestium_ore": "Suggestium Ore",
       "advancements.double_the_godlium.title": "Double The Godlium",
+      "advancements.ice_ice_baby.descr": "Kill a frost zombie for its ice shards",
       "entity.stmwr.pikachu": "Pikachu",
       "entity.stmwr.mutant_boss": "Mutant Boss",
+      "item.stmwr.totem_of_slow_falling": "Totem Of Slow Falling",
       "item.stmwr.fireproof_totem": "Fireproof Totem",
       "advancements.bratwurst_anyone.title": "Bratwurst Anyone?",
       "item.stmwr.godlium_armor_chestplate": "Godlium Chestplate",
@@ -5153,22 +5949,25 @@
       "item.stmwr.healing_totem_t_2": "Healing Totem Tier 2",
       "painting.stmwr.the_blurb.author": "Merb",
       "advancements.stevum_gems.descr": "Obtain some Stevum",
+      "advancements.slo_mo.title": "SloMo",
       "item.stmwr.uglum": "Uglum",
       "item.stmwr.portable_oven": "Portable Oven",
       "item.stmwr.land_of_the_steve_cows": "SteveCow Trial Key",
       "item.stmwr.godlium_pickaxe": "Godlium Pickaxe",
       "gui.stmwr.modifiers_table.label_modifiers": "modifiers",
+      "item.stmwr.ice_shard": "Ice Shard",
       "block.stmwr.godlium_block": "Block of Godlium",
       "item.stmwr.stevum": "Stevum",
       "advancements.experienced.descr": "You can craft experience bottles!",
-      "advancements.infinite_power.title": "Infinite Power",
-      "advancements.building_time.title": "It\u0027s Building Time!",
       "block.stmwr.stevum_block": "Block of Stevum",
       "advancements.pizza_time.title": "Pizza Time",
       "item.stmwr.animal_strap": "Animal Strap",
       "advancements.crafted_magicite.title": "Crafted Magicite",
+      "advancements.no_more_piggies.title": "No More Piggies",
       "advancements.dirty.descr": "Obtain a dirt nugget, the single most overpowered food in the game...",
-      "item.stmwr.mutant_worm_spawn_egg": "Mutant Worm Spawn Egg"
+      "advancements.meltdown.descr": "Obtain a portable crucible, allowing for smelting on the go!",
+      "item.stmwr.mutant_worm_spawn_egg": "Mutant Worm Spawn Egg",
+      "advancements.second_amendment.title": "Second Amendment"
     }
   },
   "foldersRoot": {

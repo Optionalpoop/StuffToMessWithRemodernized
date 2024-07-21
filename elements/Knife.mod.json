@@ -20,8 +20,8 @@
     "efficiency": 4.0,
     "attackSpeed": 3.0,
     "enchantability": 2,
-    "damageVsEntity": 5.0,
-    "usageCount": 200,
+    "damageVsEntity": 8.0,
+    "usageCount": 512,
     "glowCondition": {
       "fixedValue": false
     },
@@ -29,7 +29,7 @@
     "immuneToFire": false,
     "blockDropsTier": "STONE",
     "blocksAffected": [],
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": true
   }
 }

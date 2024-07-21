@@ -41,7 +41,6 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.RAW_TOTEM.get());
 				tabData.accept(StmwrModItems.WAND_STICK.get());
 				tabData.accept(StmwrModItems.HEALING_TOTEM.get());
-				tabData.accept(StmwrModItems.BUILDERS_WAND.get());
 				tabData.accept(StmwrModItems.HEALING_TOTEM_T_2.get());
 				tabData.accept(StmwrModItems.HEALTH_TOTEM_T_3.get());
 				tabData.accept(StmwrModItems.SPEED_TOTEM_T_1.get());
@@ -54,10 +53,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.HASTE_TOTEM_T_1.get());
 				tabData.accept(StmwrModItems.HASTE_TOTEM_T_2.get());
 				tabData.accept(StmwrModItems.HASTE_TOTEM_T_3.get());
-				tabData.accept(StmwrModItems.WANDAR.get());
 				tabData.accept(StmwrModItems.ADVANCED_WAND_STICK.get());
-				tabData.accept(StmwrModItems.IRON_WAND.get());
-				tabData.accept(StmwrModItems.COAL_WAND.get());
 				tabData.accept(StmwrModItems.INFINITITE_INGOT.get());
 				tabData.accept(StmwrModBlocks.INFINITITE_ORE.get().asItem());
 				tabData.accept(StmwrModBlocks.INFINITITE_BLOCK.get().asItem());
@@ -138,6 +134,17 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.STRENGTH_TOTEM_T_2.get());
 				tabData.accept(StmwrModItems.STRENGTH_TOTEM_T_3.get());
 				tabData.accept(StmwrModBlocks.MODIFIER_TABLE.get().asItem());
+				tabData.accept(StmwrModItems.ICE_SHARD.get());
+				tabData.accept(StmwrModItems.FROST_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.PISTOL_AMMO.get());
+				tabData.accept(StmwrModItems.PISTOL.get());
+				tabData.accept(StmwrModItems.GAS_MASK_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.NOOBISH_TRIAL_COIN.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_THE_GOOP.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_THE_COW.get());
+				tabData.accept(StmwrModItems.ADVANCED_TOTEM_BASE.get());
+				tabData.accept(StmwrModItems.PORTABLE_CRUCIBLE.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_SLOW_FALLING.get());
 			})
 
 					.build());

@@ -3,14 +3,14 @@
   "_type": "structure",
   "definition": {
     "structure": "warruins1",
-    "projection": "rigid",
+    "projection": "terrain_matching",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 20,
+    "separation": 7,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:MilitariaLand"

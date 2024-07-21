@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:portable_crucible"
+    },
+    {
+      "item": "stmwr:steel_ore"
+    }
+  ],
+  "result": {
+    "item": "stmwr:steel_ingot",
+    "count": 2
+  }
+}

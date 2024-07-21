@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:frozen_wastes",
     "stmwr:steve_cow_land"
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "d  ",
+    "d  "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:mutant_goop"
+    },
+    "b": {
+      "item": "stmwr:mysterious_scrap"
+    },
+    "c": {
+      "item": "stmwr:pistol_ammo"
+    },
+    "d": {
+      "item": "stmwr:advanced_material"
+    }
+  },
+  "result": {
+    "item": "stmwr:pistol",
+    "count": 1
+  }
+}

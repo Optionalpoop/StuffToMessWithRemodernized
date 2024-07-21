@@ -7,7 +7,7 @@ import net.minecraft.world.item.Item;
 
 public class PortableOvenItem extends Item {
 	public PortableOvenItem() {
-		super(new Item.Properties().durability(100).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(512).rarity(Rarity.COMMON));
 	}
 
 	@Override
