@@ -147,6 +147,19 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.ADVANCED_CUBBY_PACK.get());
 				tabData.accept(StmwrModBlocks.MASTER_CUBBY_CUBE.get().asItem());
 				tabData.accept(StmwrModItems.MASTER_CUBBY_PACK.get());
+				tabData.accept(StmwrModItems.WANDAR_CORE.get());
+				tabData.accept(StmwrModItems.CASTING_WANDAR.get());
+				tabData.accept(StmwrModItems.BUILDING_WANDAR.get());
+				tabData.accept(StmwrModItems.TRAPPED_WIZARD_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.WEAK_SOUL.get());
+				tabData.accept(StmwrModItems.WIZARD_WORLD.get());
+				tabData.accept(StmwrModItems.MYSTICAL_PAGE.get());
+				tabData.accept(StmwrModItems.JUNIOR_WIZARD_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.STRONG_SOUL.get());
+				tabData.accept(StmwrModItems.DANGEROUS_WIZARD_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.EMPTY_SPELL_BOOK.get());
+				tabData.accept(StmwrModItems.HEALING_WAND.get());
+				tabData.accept(StmwrModItems.SPELL_BOOK_OF_HEALING.get());
 			})
 
 					.build());

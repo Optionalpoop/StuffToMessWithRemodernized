@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:weak_soul"
+    },
+    "c": {
+      "item": "stmwr:key_piece"
+    }
+  },
+  "result": {
+    "item": "stmwr:wizard_world",
+    "count": 1
+  }
+}

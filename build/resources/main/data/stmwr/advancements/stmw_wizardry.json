@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "stmwr:magicite_dust"
+    },
+    "title": {
+      "translate": "advancements.stmw_wizardry.title"
+    },
+    "description": {
+      "translate": "advancements.stmw_wizardry.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stmw_wizardry_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

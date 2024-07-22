@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:wizardly_plains",
     "stmwr:dead_forest",
     "stmwr:frosted_oasis",
     "stmwr:steve_cow_land"

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:wizard_world"
+    },
+    "title": {
+      "translate": "advancements.a_world_of_magic.title"
+    },
+    "description": {
+      "translate": "advancements.a_world_of_magic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_world_of_magic_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "stmwr:wizard_world"
+      }
+    }
+  },
+  "parent": "stmwr:stmw_wizardry"
+}

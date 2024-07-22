@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:weak_soul"
+    },
+    "b": {
+      "item": "stmwr:mystical_page"
+    },
+    "c": {
+      "item": "stmwr:strong_soul"
+    }
+  },
+  "result": {
+    "item": "stmwr:empty_spell_book",
+    "count": 1
+  }
+}

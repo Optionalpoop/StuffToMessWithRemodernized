@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Wands, But Better!!!",
-    "achievementDescription": "Get an advanced wand stick. It can be used for the most powerful of resource generations.",
+    "achievementDescription": "Get an advanced wand stick. It can be used for more powerful wands.",
     "achievementIcon": {
       "value": "CUSTOM:AdvancedWandStick"
     },

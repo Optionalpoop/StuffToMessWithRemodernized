@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:weak_soul"
+    },
+    "b": {
+      "item": "stmwr:strong_soul"
+    }
+  },
+  "result": {
+    "item": "stmwr:wandar_core",
+    "count": 4
+  }
+}

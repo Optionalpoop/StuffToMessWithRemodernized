@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:wizard_outpost",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 45,
+    "separation": 20,
+    "salt": 1201678976
+  }
+}

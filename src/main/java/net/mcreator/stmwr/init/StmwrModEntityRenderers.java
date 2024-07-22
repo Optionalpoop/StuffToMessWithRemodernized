@@ -11,15 +11,18 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.stmwr.client.renderer.TrappedWizardRenderer;
 import net.mcreator.stmwr.client.renderer.SurvivorRenderer;
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.SoldierRenderer;
 import net.mcreator.stmwr.client.renderer.PikachuRenderer;
 import net.mcreator.stmwr.client.renderer.MutantWormRenderer;
 import net.mcreator.stmwr.client.renderer.MutantBossRenderer;
+import net.mcreator.stmwr.client.renderer.JuniorWizardRenderer;
 import net.mcreator.stmwr.client.renderer.GiantSteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.GasMaskZombieRenderer;
 import net.mcreator.stmwr.client.renderer.FrostZombieRenderer;
+import net.mcreator.stmwr.client.renderer.DangerousWizardRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class StmwrModEntityRenderers {
@@ -35,5 +38,8 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.FROST_ZOMBIE.get(), FrostZombieRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.BULLET.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.GAS_MASK_ZOMBIE.get(), GasMaskZombieRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.TRAPPED_WIZARD.get(), TrappedWizardRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.JUNIOR_WIZARD.get(), JuniorWizardRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.DANGEROUS_WIZARD.get(), DangerousWizardRenderer::new);
 	}
 }

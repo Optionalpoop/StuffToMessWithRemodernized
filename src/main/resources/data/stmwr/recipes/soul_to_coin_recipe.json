@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:weak_soul"
+    }
+  ],
+  "result": {
+    "item": "stmwr:noobish_trial_coin",
+    "count": 1
+  }
+}

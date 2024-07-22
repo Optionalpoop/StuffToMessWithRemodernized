@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:strong_soul"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "item": "stmwr:creation_orb"
+    },
+    "d": {
+      "item": "stmwr:empty_spell_book"
+    }
+  },
+  "result": {
+    "item": "stmwr:spell_book_of_healing",
+    "count": 1
+  }
+}

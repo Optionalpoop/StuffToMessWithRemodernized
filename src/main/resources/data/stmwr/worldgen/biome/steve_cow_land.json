@@ -20,18 +20,16 @@
     "monster": [],
     "creature": [
       {
+        "type": "stmwr:steve_cow",
+        "weight": 30,
+        "minCount": 2,
+        "maxCount": 12
+      },
+      {
         "type": "stmwr:pikachu",
         "weight": 5,
         "minCount": 1,
         "maxCount": 4
-      }
-    ],
-    "ambient": [
-      {
-        "type": "stmwr:steve_cow",
-        "weight": 25,
-        "minCount": 2,
-        "maxCount": 12
       },
       {
         "type": "stmwr:frost_zombie",
@@ -40,6 +38,7 @@
         "maxCount": 8
       }
     ],
+    "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],

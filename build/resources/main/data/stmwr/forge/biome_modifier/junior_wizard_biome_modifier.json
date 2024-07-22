@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stmwr:wizardly_plains",
+  "spawners": {
+    "type": "stmwr:junior_wizard",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

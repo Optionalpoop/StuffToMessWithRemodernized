@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.stmwr.block.WizardWorldPortalBlock;
 import net.mcreator.stmwr.block.TrialBrickBlock;
 import net.mcreator.stmwr.block.StorumOreBlock;
 import net.mcreator.stmwr.block.StorumBlockBlock;
@@ -58,6 +59,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> BASIC_CUBBY_CUBE = REGISTRY.register("basic_cubby_cube", () -> new BasicCubbyCubeBlock());
 	public static final RegistryObject<Block> ADVANCED_CUBBY_CUBE = REGISTRY.register("advanced_cubby_cube", () -> new AdvancedCubbyCubeBlock());
 	public static final RegistryObject<Block> MASTER_CUBBY_CUBE = REGISTRY.register("master_cubby_cube", () -> new MasterCubbyCubeBlock());
+	public static final RegistryObject<Block> WIZARD_WORLD_PORTAL = REGISTRY.register("wizard_world_portal", () -> new WizardWorldPortalBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "You're A Wizard Harry!",
-    "achievementDescription": "By combining a stick with some magicite, you're able to create a stick that you could use to make wands, the ultimate resource generators!",
+    "achievementDescription": "By combining a stick with some magicite, you're able to create a stick that you could use to make wands",
     "achievementIcon": {
       "value": "CUSTOM:WandStick"
     },
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:Magical"
     },
-    "triggerxml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"advancement_trigger\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\" x=\"156\" y=\"216\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:WandStick</field></block></value></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:WandStick</field></block></value></block></next></block></xml>"
   }
 }
