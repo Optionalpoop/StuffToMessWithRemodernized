@@ -6048,6 +6048,357 @@
           "src/main/resources/data/stmwr/recipes/strong_soul_to_coin_recipe.json"
         ]
       }
+    },
+    {
+      "name": "EmptySpellBook",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_spell_book",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/empty_spell_book.json",
+          "src/main/java/net/mcreator/stmwr/item/EmptySpellBookItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EmptySpellBookRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_spell_book_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/empty_spell_book_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellingBee",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spelling_bee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/spelling_bee.json"
+        ]
+      }
+    },
+    {
+      "name": "HealingWandRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_wand_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HealingWandRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealingWand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/HealingWandItem.java",
+          "src/main/resources/assets/stmwr/models/item/healing_wand.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookOfHealing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_of_healing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/spell_book_of_healing.json",
+          "src/main/java/net/mcreator/stmwr/item/SpellBookOfHealingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HealingWandRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing_wand_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/healing_wand_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookOfHealingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_of_healing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/spell_book_of_healing_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Healing",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/healing.json"
+        ]
+      }
+    },
+    {
+      "name": "TooLazyToSlayTheDragon",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "too_lazy_to_slay_the_dragon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/too_lazy_to_slay_the_dragon.json"
+        ]
+      }
+    },
+    {
+      "name": "SyntheticGodliumRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "synthetic_godlium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/synthetic_godlium_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfLevitationRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_levitation_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/TotemOfLevitationRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TotemOfLevitation",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_levitation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/TotemOfLevitationItem.java",
+          "src/main/resources/assets/stmwr/models/item/totem_of_levitation.json"
+        ]
+      }
+    },
+    {
+      "name": "DiscountFlight",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discount_flight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/discount_flight.json"
+        ]
+      }
+    },
+    {
+      "name": "TotemOfLevitationRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_levitation_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/totem_of_levitation_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulFusion",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_fusion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/soul_fusion.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulDiffusion",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_diffusion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/soul_diffusion.json"
+        ]
+      }
+    },
+    {
+      "name": "FromOneToMany",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "from_one_to_many",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/from_one_to_many.json"
+        ]
+      }
+    },
+    {
+      "name": "IsItAlive",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_it_alive",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/is_it_alive.json"
+        ]
+      }
+    },
+    {
+      "name": "TransmutatedGelatin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transmutated_gelatin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/transmutated_gelatin.json",
+          "src/main/resources/assets/stmwr/blockstates/transmutated_gelatin.json",
+          "src/main/resources/assets/stmwr/models/block/transmutated_gelatin.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/transmutated_gelatin.json",
+          "src/main/java/net/mcreator/stmwr/block/TransmutatedGelatinBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WandOfTransmutation",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_transmutation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/wand_of_transmutation.json",
+          "src/main/java/net/mcreator/stmwr/item/WandOfTransmutationItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WandOfTransmutationRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_transmutation_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/wand_of_transmutation_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TheUltimateDestructionTool",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_ultimate_destruction_tool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/the_ultimate_destruction_tool.json"
+        ]
+      }
+    },
+    {
+      "name": "WandOfTransmutationRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_transmutation_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/WandOfTransmutationRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CompletelyUseless",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "completely_useless",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/completely_useless.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -6060,15 +6411,16 @@
       "~CUSTOM:SteveCowLand"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:TransmutatedGelatin",
       "~CUSTOM:Plasticilia"
-    ],
-    "BIOMES:minecraft:has_structure/igloo": [
-      "~CUSTOM:FrozenWastes",
-      "~CUSTOM:SteveCowLand"
     ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:WizardlyPlains",
       "~CUSTOM:FrostedOasis"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:SteveCowLand"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:SteelHoe",
@@ -6226,6 +6578,8 @@
       "block.stmwr.steel_ore": "Steel Ore",
       "advancements.vegan_beef.descr": "You can craft beef with plants!",
       "block.stmwr.steel_block": "Block of Steel",
+      "advancements.the_ultimate_destruction_tool.descr": "Craft a wand of transmutation, allowing you to turn any block into useless junk. Even bedrock.",
+      "advancements.healing.title": "Healing",
       "advancements.construction.descr": "Craft a building wandar, used by wands to create resources with magic!",
       "item.stmwr.mystical_page": "Mystical Page",
       "advancements.cheesy.title": "Cheesy!",
@@ -6235,9 +6589,11 @@
       "item.stmwr.steel_armor_chestplate": "Steel Chestplate",
       "item.stmwr.steel_armor_boots": "Steel Boots",
       "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
-      "advancements.leg_day.title": "Leg Day",
       "advancements.master_miner.descr": "Get a tier 3 haste totem",
+      "advancements.leg_day.title": "Leg Day",
+      "item.stmwr.healing_wand": "Healing Wand",
       "item.stmwr.shredded_beef": "Shredded Beef",
+      "advancements.discount_flight.descr": "Craft a totem of levitation, to slowly lift yourself into the sky like the Lorax!",
       "advancements.goopy.title": "Goopy?!",
       "item.stmwr.godlium_armor_helmet": "Godlium Helmet",
       "advancements.mooore_stoooorage.title": "Mooore Stoooorage!!!!",
@@ -6248,6 +6604,7 @@
       "advancements.superman.title": "Superman",
       "advancements.im_a_survivor.title": "I\u0027m A Survivor!",
       "block.stmwr.basic_cubby_cube": "Basic Cubby Cube",
+      "advancements.spelling_bee.title": "Spelling Bee",
       "advancements.leathery.descr": "You can craft leather horse armor now!",
       "block.stmwr.blazed_ore": "Blazed Ore",
       "advancements.magical.title": "Magical!",
@@ -6262,17 +6619,18 @@
       "advancements.youre_awful_at_this.descr": "Cut a pizza into.... 7 slices?!",
       "advancements.magic_writing.title": "Magic Writing",
       "advancements.fiery.title": "Fiery!",
-      "advancements.flame_on.descr": "Get a fireproof totem",
       "item.stmwr.giant_steve_cow_spawn_egg": "Giant Steve Cow Spawn Egg",
+      "advancements.flame_on.descr": "Get a fireproof totem",
       "item.stmwr.noobish_trial_coin": "Noobish Trial Coin",
       "advancements.fast_hands.descr": "Get a haste totem tier 1",
       "item.stmwr.blazed_axe": "Blazed Axe",
       "block.stmwr.storum_block": "Block of Storum",
-      "advancements.storum_alloy.title": "Storum Alloy",
       "advancements.speedy_gonzales.descr": "Craft a tier 2 speed totem",
+      "advancements.storum_alloy.title": "Storum Alloy",
+      "advancements.completely_useless.title": "Completely Useless",
       "advancements.simple_storage.descr": "Convert your storum into more storum with a creation orb",
-      "gui.stmwr.modifiers_table.tooltip_empty": "item to modify",
       "biome.stmwr.dead_forest": "Dead Forest",
+      "gui.stmwr.modifiers_table.tooltip_empty": "item to modify",
       "advancements.wandars.descr": "Craft a wandar core, an important component in wands",
       "item.stmwr.blazed_pickaxe": "Blazed Pickaxe",
       "block.stmwr.master_cubby_cube": "Master Cubby Cube",
@@ -6283,17 +6641,18 @@
       "item.stmwr.totem_of_the_cow": "Totem Of The Cow",
       "advancements.find_the_pieces.title": "Find The Pieces",
       "item.stmwr.advanced_material": "Advanced Material",
+      "advancements.is_it_alive.title": "Is It Alive?",
       "advancements.bricked_it.title": "Bricked It",
-      "item.stmwr.dough": "Dough",
       "item.stmwr.pistol": "Pistol",
+      "item.stmwr.dough": "Dough",
       "advancements.king_of_steve_cows.title": "King Of Steve Cows",
       "item.stmwr.speed_totem_t_1": "Speed Totem Tier 1",
       "item.stmwr.speed_totem_t_2": "Speed Totem Tier 2",
       "item.stmwr.speed_totem_t_3": "Speed Totem Tier 3",
       "block.stmwr.magicite_block": "Block of Magicite",
       "advancements.pizza_time.descr": "Bake a pizza",
-      "item.stmwr.blazed_sword": "Blazed Sword",
       "advancements.carrying_the_world.descr": "Make an advanced cubby pack for even more portable storage",
+      "item.stmwr.blazed_sword": "Blazed Sword",
       "advancements.souls.title": "Souls",
       "advancements.ice_ice_baby.title": "Ice Ice Baby",
       "item.stmwr.taco": "Taco",
@@ -6305,12 +6664,13 @@
       "advancements.slo_mo.descr": "Craft a totem of slow falling, along you to glide from heights.",
       "item.stmwr.totem_of_the_goop": "Totem Of The Goop",
       "item.stmwr.storalium": "Storalium",
+      "advancements.too_lazy_to_slay_the_dragon.descr": "Too lazy to kill the dragon and go to the end for godlium? It\u0027s expensive, but you can craft it with overworld materials.",
       "advancements.half_an_ingot.descr": "You can melt debris for two scraps in the portable crucible!",
-      "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
       "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
+      "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
       "advancements.rerodding_your_blazes.title": "Rerodding Your Blazes",
-      "advancements.grilling.title": "Grilling",
       "advancements.off_to_see_the_wizard.title": "Off To See The Wizard",
+      "advancements.grilling.title": "Grilling",
       "item.stmwr.mutant_goop": "Mutant Goop",
       "item.stmwr.atom_smasher": "Atom Smasher",
       "advancements.maximum_health.title": "Maximum Health!!!",
@@ -6325,20 +6685,23 @@
       "biome.stmwr.perfecta": "Perfecta",
       "advancements.golden_boy.descr": "You can craft golden horse armor now!",
       "item.stmwr.soldier_spawn_egg": "Soldier Spawn Egg",
-      "advancements.seer_of_the_dark.title": "Seer Of The Dark",
       "item.stmwr.wizard_world": "Wizard World Trial Key",
+      "advancements.seer_of_the_dark.title": "Seer Of The Dark",
+      "item.stmwr.totem_of_levitation": "Totem Of Levitation",
       "item.stmwr.steve_cow_spawn_egg": "Steve Cow Spawn Egg",
-      "advancements.kfc.title": "KFC",
       "advancements.please_the_gods.title": "Please The Gods",
+      "advancements.kfc.title": "KFC",
       "advancements.crossy_road.descr": "Obtain a tier 2 jumpboost totem",
       "advancements.taco_tuesday.descr": "Craft up some tacos!",
       "item.stmwr.ultrite": "Ultrite",
       "item.stmwr.strength_totem_t_2": "Strength Totem T2",
+      "advancements.completely_useless.descr": "The remnants of your actions have left a completely useless block behind",
       "item.stmwr.strength_totem_t_1": "Strength Totem T1",
       "item.stmwr.dangerous_wizard_spawn_egg": "Dangerous Wizard Spawn Egg",
       "item.stmwr.strength_totem_t_3": "Strength Totem T3",
       "item.stmwr.pizza": "Pizza",
       "advancements.magical.descr": "Mine up some magicite, a key ingredient to all things magic!",
+      "item.stmwr.empty_spell_book": "Empty Spell Book",
       "item.stmwr.trapped_wizard_spawn_egg": "Trapped Wizard Spawn Egg",
       "item.stmwr.nightvision_totem": "Nightvision Totem",
       "advancements.master_traveler.descr": "Obtain a master cubby pack, an amazing way to transport boat loads of resources in your inventory",
@@ -6367,13 +6730,14 @@
       "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
       "advancements.stmw_foods.title": "STMW: Foods",
       "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
+      "block.stmwr.transmutated_gelatin": "Transmutated Gelatin",
       "advancements.mystical_agriculture.title": "Mystical Agriculture",
       "item.stmwr.militaria": "Militaria Trial Key",
       "block.stmwr.storum_ore": "Storum Ore",
       "item.stmwr.creation_orb": "Creation Orb",
       "advancements.vegan_beef.title": "Vegan Beef",
       "advancements.killer.descr": "Kill some Steve Cows and get their horns",
-      "advancements.godly_potential.descr": "Obtain some godlium, an extremely powerful ore. It\u0027s only just the beginning...",
+      "advancements.godly_potential.descr": "Obtain some godlium, an extremely powerful ore. You only find it in the end.",
       "advancements.thats_tuff.title": "That\u0027s Tuff",
       "advancements.stuff_to_mess_with_remodernized.title": "Stuff To Mess With Remodernized",
       "advancements.upgraded.title": "Upgraded",
@@ -6390,6 +6754,7 @@
       "advancements.double_the_godlium.title": "Double The Godlium",
       "entity.stmwr.mutant_boss": "Mutant Boss",
       "item.stmwr.totem_of_slow_falling": "Totem Of Slow Falling",
+      "advancements.is_it_alive.descr": "You can craft a weak soul using a totem and various items from trials",
       "advancements.bratwurst_anyone.title": "Bratwurst Anyone?",
       "item.stmwr.godlium_armor_chestplate": "Godlium Chestplate",
       "advancements.stmw_trials.descr": "Craft trial bricks, used for entering dangerous dimensions full of powerful gear!",
@@ -6443,6 +6808,7 @@
       "advancements.stevum_gems.title": "Stevum Gems",
       "item.stmwr.blazed_hoe": "Blazed Hoe",
       "gui.stmwr.modifiers_table.button_confirm": "CONFIRM",
+      "advancements.from_one_to_many.descr": "You can \"uncraft\" the strong soul into multiple weak souls",
       "item.stmwr.giant_steve_cow_heart": "Giant Steve Cow Heart",
       "advancements.thats_tuff.descr": "Get a T1 Strength Totem",
       "advancements.mooore_stoooorage.descr": "Find some storum, used for powerful storage items",
@@ -6460,11 +6826,14 @@
       "item.stmwr.mutant_whistle": "Mutant Whistle",
       "item.stmwr.mysterious_scrap": "Mysterious Scrap",
       "advancements.construction.title": "Construction",
+      "advancements.the_ultimate_destruction_tool.title": "The Ultimate Destruction Tool",
       "advancements.healthy.title": "Healthy!",
       "item.stmwr.casting_wandar": "Casting Wandar",
       "advancements.man_of_steel.descr": "Get some extra steel by smelting your ore with the portable crucible",
+      "advancements.healing.descr": "You can craft the spellbook of healing! You can make a wand with it.",
       "advancements.plastic_fantastic.descr": "Get your first plastika",
       "entity.stmwr.soldier": "Soldier",
+      "advancements.discount_flight.title": "Discount Flight",
       "advancements.hand_it_to_me.descr": "Get a haste totem tier 2",
       "advancements.steel_heart.title": "Steel Heart",
       "gui.stmwr.modifiers_table.label_modifier": "modifier",
@@ -6519,6 +6888,7 @@
       "biome.stmwr.frosted_oasis": "Frosted Oasis",
       "advancements.mmmmmm.descr": "Make some chocolate",
       "gui.stmwr.modifiers_table.tooltip_modifier": "modifier",
+      "item.stmwr.spell_book_of_healing": "Spell Book Of Healing",
       "item.stmwr.building_wandar": "Building Wandar",
       "advancements.hand_it_to_me.title": "Hand It To Me",
       "advancements.upgraded.descr": "Craft an advanced cubby cube, an even more powerful version with so much more space!",
@@ -6559,6 +6929,7 @@
       "advancements.king_midas.descr": "You can make gold with the crucible, and double output!",
       "item.stmwr.health_totem_t_3": "Health Totem Tier 3",
       "advancements.call_me.descr": "Obtain a giant caller, to fight the Giant Steve Cow boss",
+      "advancements.spelling_bee.descr": "Craft an empty spell book, the key to using wands!",
       "advancements.leg_day.descr": "Get a tier 3 jumpboost totem",
       "advancements.bullfighter.title": "Bullfighter",
       "advancements.carrying_the_world.title": "Carrying The World",
@@ -6584,8 +6955,10 @@
       "entity.stmwr.steve_cow": "Steve Cow",
       "advancements.rerodding_your_blazes.descr": "You can recraft blaze rods from the powder!",
       "advancements.blazing_flames.descr": "Twice the blazed from just a crucible!",
+      "advancements.from_one_to_many.title": "From One To Many",
       "item.stmwr.steel_sword": "Steel Sword",
       "advancements.bullfighter.descr": "Craft a T2 Strength Totem",
+      "advancements.too_lazy_to_slay_the_dragon.title": "Too Lazy To Slay The Dragon",
       "item.stmwr.steel_axe": "Steel Axe",
       "advancements.shine_bright_like_a_diamond.descr": "You can craft diamond horse armor now!",
       "advancements.stmw_wizardry.title": "STMW: Wizardry",
@@ -6594,6 +6967,7 @@
       "advancements.oh_the_irony.title": "Oh The Irony",
       "biome.stmwr.militaria_land": "Militaria Land",
       "advancements.anti_chest_monster.title": "Anti-Chest-Monster",
+      "item.stmwr.wand_of_transmutation": "Wand Of Transmutation",
       "advancements.toot_toot.title": "Toot Toot!",
       "item.stmwr.frost_zombie_spawn_egg": "Frost Zombie Spawn Egg",
       "advancements.king_midas.title": "King Midas",
