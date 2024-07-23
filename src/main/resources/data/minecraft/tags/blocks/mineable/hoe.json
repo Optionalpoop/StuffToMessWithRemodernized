@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:transmutated_gelatin",
     "stmwr:plasticilia"
   ]
 }

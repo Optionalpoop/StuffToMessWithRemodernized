@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.stmwr.block.WizardWorldPortalBlock;
 import net.mcreator.stmwr.block.TrialBrickBlock;
+import net.mcreator.stmwr.block.TransmutatedGelatinBlock;
 import net.mcreator.stmwr.block.StorumOreBlock;
 import net.mcreator.stmwr.block.StorumBlockBlock;
 import net.mcreator.stmwr.block.StevumOreBlock;
@@ -60,6 +61,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> ADVANCED_CUBBY_CUBE = REGISTRY.register("advanced_cubby_cube", () -> new AdvancedCubbyCubeBlock());
 	public static final RegistryObject<Block> MASTER_CUBBY_CUBE = REGISTRY.register("master_cubby_cube", () -> new MasterCubbyCubeBlock());
 	public static final RegistryObject<Block> WIZARD_WORLD_PORTAL = REGISTRY.register("wizard_world_portal", () -> new WizardWorldPortalBlock());
+	public static final RegistryObject<Block> TRANSMUTATED_GELATIN = REGISTRY.register("transmutated_gelatin", () -> new TransmutatedGelatinBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

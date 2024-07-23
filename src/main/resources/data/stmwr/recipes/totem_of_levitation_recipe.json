@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "minecraft:elytra"
+    },
+    "c": {
+      "item": "stmwr:ultrite"
+    },
+    "d": {
+      "item": "stmwr:raw_totem"
+    },
+    "e": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "stmwr:totem_of_levitation",
+    "count": 1
+  }
+}

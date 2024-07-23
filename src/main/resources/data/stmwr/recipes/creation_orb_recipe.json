@@ -3,7 +3,7 @@
   "category": "misc",
   "pattern": [
     "abc",
-    "bcb",
+    "bdb",
     "cba"
   ],
   "key": {
@@ -15,6 +15,9 @@
     },
     "c": {
       "item": "minecraft:gold_block"
+    },
+    "d": {
+      "item": "stmwr:godlium_block"
     }
   },
   "result": {

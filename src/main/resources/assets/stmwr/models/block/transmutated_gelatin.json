@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/transmutatedgelatin",
+    "up": "stmwr:block/transmutatedgelatin",
+    "north": "stmwr:block/transmutatedgelatin",
+    "east": "stmwr:block/transmutatedgelatin",
+    "south": "stmwr:block/transmutatedgelatin",
+    "west": "stmwr:block/transmutatedgelatin",
+    "particle": "stmwr:block/transmutatedgelatin"
+  },
+  "render_type": "solid"
+}

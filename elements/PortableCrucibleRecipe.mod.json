@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.LAVA_BUCKET"
       },
       {
         "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": ""
+        "value": "Items.LAVA_BUCKET"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:BlazedBlock"
       },
       {
-        "value": "Blocks.FURNACE"
+        "value": "CUSTOM:PortableOven"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:BlazedBlock"
       },
       {
-        "value": "CUSTOM:MagiciteDust"
+        "value": "CUSTOM:Ultrite"
       },
       {
         "value": "CUSTOM:GodliumIngot"
       },
       {
-        "value": "CUSTOM:MagiciteDust"
+        "value": "CUSTOM:Ultrite"
       }
     ],
     "recipeReturnStack": {

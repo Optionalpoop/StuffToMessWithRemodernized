@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
+    "aaa",
     "bcb",
     "ded"
   ],
@@ -11,13 +11,13 @@
       "item": "minecraft:lava_bucket"
     },
     "b": {
-      "item": "minecraft:iron_ingot"
+      "item": "stmwr:blazed_block"
     },
     "c": {
-      "item": "minecraft:furnace"
+      "item": "stmwr:portable_oven"
     },
     "d": {
-      "item": "stmwr:magicite_dust"
+      "item": "stmwr:ultrite"
     },
     "e": {
       "item": "stmwr:godlium_ingot"

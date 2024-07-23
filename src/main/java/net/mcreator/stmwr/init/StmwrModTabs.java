@@ -160,6 +160,9 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.EMPTY_SPELL_BOOK.get());
 				tabData.accept(StmwrModItems.HEALING_WAND.get());
 				tabData.accept(StmwrModItems.SPELL_BOOK_OF_HEALING.get());
+				tabData.accept(StmwrModItems.TOTEM_OF_LEVITATION.get());
+				tabData.accept(StmwrModBlocks.TRANSMUTATED_GELATIN.get().asItem());
+				tabData.accept(StmwrModItems.WAND_OF_TRANSMUTATION.get());
 			})
 
 					.build());

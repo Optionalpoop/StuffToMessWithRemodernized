@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:godlium_ingot"
+    },
+    "title": {
+      "translate": "advancements.too_lazy_to_slay_the_dragon.title"
+    },
+    "description": {
+      "translate": "advancements.too_lazy_to_slay_the_dragon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "too_lazy_to_slay_the_dragon_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:godlium_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:magical"
+}

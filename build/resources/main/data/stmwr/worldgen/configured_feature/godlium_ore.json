@@ -1,7 +1,7 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 4,
+    "size": 9,
     "discard_chance_on_air_exposure": 0,
     "targets": [
       {
@@ -31,18 +31,7 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:packed_ice"
-          }
-        },
-        "state": {
-          "Name": "stmwr:godlium_ore"
-        }
-      },
-      {
-        "target": {
-          "predicate_type": "blockstate_match",
-          "block_state": {
-            "Name": "minecraft:ice"
+            "Name": "minecraft:end_stone"
           }
         },
         "state": {

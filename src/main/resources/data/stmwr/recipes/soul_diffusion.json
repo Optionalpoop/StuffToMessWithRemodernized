@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:strong_soul"
+    }
+  },
+  "result": {
+    "item": "stmwr:weak_soul",
+    "count": 4
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:wand_of_transmutation"
+    },
+    "title": {
+      "translate": "advancements.the_ultimate_destruction_tool.title"
+    },
+    "description": {
+      "translate": "advancements.the_ultimate_destruction_tool.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_ultimate_destruction_tool_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:wand_of_transmutation"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:construction"
+}

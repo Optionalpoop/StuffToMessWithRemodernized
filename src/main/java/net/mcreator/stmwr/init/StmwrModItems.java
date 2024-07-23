@@ -17,11 +17,13 @@ import net.mcreator.stmwr.item.WizardWorldItem;
 import net.mcreator.stmwr.item.WeakSoulItem;
 import net.mcreator.stmwr.item.WandarCoreItem;
 import net.mcreator.stmwr.item.WandStickItem;
+import net.mcreator.stmwr.item.WandOfTransmutationItem;
 import net.mcreator.stmwr.item.UltriteItem;
 import net.mcreator.stmwr.item.UglumItem;
 import net.mcreator.stmwr.item.TotemOfTheGoopItem;
 import net.mcreator.stmwr.item.TotemOfTheCowItem;
 import net.mcreator.stmwr.item.TotemOfSlowFallingItem;
+import net.mcreator.stmwr.item.TotemOfLevitationItem;
 import net.mcreator.stmwr.item.TortillaItem;
 import net.mcreator.stmwr.item.TacoItem;
 import net.mcreator.stmwr.item.StrongSoulItem;
@@ -260,6 +262,9 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> EMPTY_SPELL_BOOK = REGISTRY.register("empty_spell_book", () -> new EmptySpellBookItem());
 	public static final RegistryObject<Item> HEALING_WAND = REGISTRY.register("healing_wand", () -> new HealingWandItem());
 	public static final RegistryObject<Item> SPELL_BOOK_OF_HEALING = REGISTRY.register("spell_book_of_healing", () -> new SpellBookOfHealingItem());
+	public static final RegistryObject<Item> TOTEM_OF_LEVITATION = REGISTRY.register("totem_of_levitation", () -> new TotemOfLevitationItem());
+	public static final RegistryObject<Item> TRANSMUTATED_GELATIN = block(StmwrModBlocks.TRANSMUTATED_GELATIN);
+	public static final RegistryObject<Item> WAND_OF_TRANSMUTATION = REGISTRY.register("wand_of_transmutation", () -> new WandOfTransmutationItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

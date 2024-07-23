@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "stmwr:magicite_dust"
+    }
+  },
+  "result": {
+    "item": "stmwr:godlium_ingot",
+    "count": 1
+  }
+}
