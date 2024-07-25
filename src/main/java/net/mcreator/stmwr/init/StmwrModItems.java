@@ -18,6 +18,7 @@ import net.mcreator.stmwr.item.WeakSoulItem;
 import net.mcreator.stmwr.item.WandarCoreItem;
 import net.mcreator.stmwr.item.WandStickItem;
 import net.mcreator.stmwr.item.WandOfTransmutationItem;
+import net.mcreator.stmwr.item.WandOfTheTowerItem;
 import net.mcreator.stmwr.item.UltriteItem;
 import net.mcreator.stmwr.item.UglumItem;
 import net.mcreator.stmwr.item.TotemOfTheGoopItem;
@@ -73,7 +74,10 @@ import net.mcreator.stmwr.item.KeyPieceItem;
 import net.mcreator.stmwr.item.JumpboostTotemT3Item;
 import net.mcreator.stmwr.item.JumpboostTotemT2Item;
 import net.mcreator.stmwr.item.JumpboostTotemT1Item;
+import net.mcreator.stmwr.item.InfinititeScrapItem;
+import net.mcreator.stmwr.item.InfinititeMoldItem;
 import net.mcreator.stmwr.item.InfinititeIngotItem;
+import net.mcreator.stmwr.item.InfinititeArmorItem;
 import net.mcreator.stmwr.item.IceShardItem;
 import net.mcreator.stmwr.item.HealthTotemT3Item;
 import net.mcreator.stmwr.item.HealingWandItem;
@@ -265,6 +269,15 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> TOTEM_OF_LEVITATION = REGISTRY.register("totem_of_levitation", () -> new TotemOfLevitationItem());
 	public static final RegistryObject<Item> TRANSMUTATED_GELATIN = block(StmwrModBlocks.TRANSMUTATED_GELATIN);
 	public static final RegistryObject<Item> WAND_OF_TRANSMUTATION = REGISTRY.register("wand_of_transmutation", () -> new WandOfTransmutationItem());
+	public static final RegistryObject<Item> WAND_OF_THE_TOWER = REGISTRY.register("wand_of_the_tower", () -> new WandOfTheTowerItem());
+	public static final RegistryObject<Item> INFINITITE_SCRAP = REGISTRY.register("infinitite_scrap", () -> new InfinititeScrapItem());
+	public static final RegistryObject<Item> INFINITITE_MOLD = REGISTRY.register("infinitite_mold", () -> new InfinititeMoldItem());
+	public static final RegistryObject<Item> INFINITITE_ARMOR_HELMET = REGISTRY.register("infinitite_armor_helmet", () -> new InfinititeArmorItem.Helmet());
+	public static final RegistryObject<Item> INFINITITE_ARMOR_CHESTPLATE = REGISTRY.register("infinitite_armor_chestplate", () -> new InfinititeArmorItem.Chestplate());
+	public static final RegistryObject<Item> INFINITITE_ARMOR_LEGGINGS = REGISTRY.register("infinitite_armor_leggings", () -> new InfinititeArmorItem.Leggings());
+	public static final RegistryObject<Item> INFINITITE_ARMOR_BOOTS = REGISTRY.register("infinitite_armor_boots", () -> new InfinititeArmorItem.Boots());
+	public static final RegistryObject<Item> INFINITY_GOLEM_SPAWN_EGG = REGISTRY.register("infinity_golem_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.INFINITY_GOLEM, -10092442, -6711040, new Item.Properties()));
+	public static final RegistryObject<Item> FINAL_BOSS_SPAWN_EGG = REGISTRY.register("final_boss_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.FINAL_BOSS, -13434829, -1, new Item.Properties()));
 
 	// Start of user code block custom items
 	// End of user code block custom items

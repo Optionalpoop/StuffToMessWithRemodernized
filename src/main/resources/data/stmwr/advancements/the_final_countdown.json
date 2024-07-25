@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:wand_of_the_tower"
+    },
+    "title": {
+      "translate": "advancements.the_final_countdown.title"
+    },
+    "description": {
+      "translate": "advancements.the_final_countdown.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_final_countdown_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:wand_of_the_tower"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "stmwr:stuff_to_mess_with_remodernized"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HealthTotemT3"
+      },
+      {
+        "value": "CUSTOM:CreationOrb"
+      },
+      {
+        "value": "CUSTOM:TotemOfLevitation"
+      },
+      {
+        "value": "CUSTOM:Pikastaff"
+      },
+      {
+        "value": "CUSTOM:AdvancedWandStick"
+      },
+      {
+        "value": "CUSTOM:SteelPickaxe"
+      },
+      {
+        "value": "CUSTOM:MasterCubbyPack"
+      },
+      {
+        "value": "CUSTOM:BuildingWandar"
+      },
+      {
+        "value": "CUSTOM:HealingWand"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WandOfTheTower"
+    },
+    "name": "wand_of_the_tower_recipe",
+    "namespace": "mod"
+  }
+}

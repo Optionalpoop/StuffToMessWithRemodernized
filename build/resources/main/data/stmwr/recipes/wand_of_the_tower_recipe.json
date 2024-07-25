@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:health_totem_t_3"
+    },
+    "b": {
+      "item": "stmwr:creation_orb"
+    },
+    "c": {
+      "item": "stmwr:totem_of_levitation"
+    },
+    "d": {
+      "item": "stmwr:pikastaff"
+    },
+    "e": {
+      "item": "stmwr:advanced_wand_stick"
+    },
+    "f": {
+      "item": "stmwr:steel_pickaxe"
+    },
+    "g": {
+      "item": "stmwr:master_cubby_pack"
+    },
+    "h": {
+      "item": "stmwr:building_wandar"
+    },
+    "i": {
+      "item": "stmwr:healing_wand"
+    }
+  },
+  "result": {
+    "item": "stmwr:wand_of_the_tower",
+    "count": 1
+  }
+}

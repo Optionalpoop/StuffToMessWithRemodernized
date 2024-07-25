@@ -9795,5 +9795,17 @@
     },
     "done": true
   },
+  "stmwr:completely_useless": {
+    "criteria": {
+      "completely_useless_0": "2024-07-25 09:24:06 -0400"
+    },
+    "done": true
+  },
+  "stmwr:perfection_2": {
+    "criteria": {
+      "perfection_2_0": "2024-07-25 09:27:22 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

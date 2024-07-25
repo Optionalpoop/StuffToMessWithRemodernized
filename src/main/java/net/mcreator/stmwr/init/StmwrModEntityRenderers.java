@@ -19,9 +19,11 @@ import net.mcreator.stmwr.client.renderer.PikachuRenderer;
 import net.mcreator.stmwr.client.renderer.MutantWormRenderer;
 import net.mcreator.stmwr.client.renderer.MutantBossRenderer;
 import net.mcreator.stmwr.client.renderer.JuniorWizardRenderer;
+import net.mcreator.stmwr.client.renderer.InfinityGolemRenderer;
 import net.mcreator.stmwr.client.renderer.GiantSteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.GasMaskZombieRenderer;
 import net.mcreator.stmwr.client.renderer.FrostZombieRenderer;
+import net.mcreator.stmwr.client.renderer.FinalBossRenderer;
 import net.mcreator.stmwr.client.renderer.DangerousWizardRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -41,5 +43,7 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.TRAPPED_WIZARD.get(), TrappedWizardRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.JUNIOR_WIZARD.get(), JuniorWizardRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.DANGEROUS_WIZARD.get(), DangerousWizardRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.INFINITY_GOLEM.get(), InfinityGolemRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.FINAL_BOSS.get(), FinalBossRenderer::new);
 	}
 }

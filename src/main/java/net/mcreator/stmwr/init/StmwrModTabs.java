@@ -163,6 +163,15 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TOTEM_OF_LEVITATION.get());
 				tabData.accept(StmwrModBlocks.TRANSMUTATED_GELATIN.get().asItem());
 				tabData.accept(StmwrModItems.WAND_OF_TRANSMUTATION.get());
+				tabData.accept(StmwrModItems.WAND_OF_THE_TOWER.get());
+				tabData.accept(StmwrModItems.INFINITITE_SCRAP.get());
+				tabData.accept(StmwrModItems.INFINITITE_MOLD.get());
+				tabData.accept(StmwrModItems.INFINITITE_ARMOR_HELMET.get());
+				tabData.accept(StmwrModItems.INFINITITE_ARMOR_CHESTPLATE.get());
+				tabData.accept(StmwrModItems.INFINITITE_ARMOR_LEGGINGS.get());
+				tabData.accept(StmwrModItems.INFINITITE_ARMOR_BOOTS.get());
+				tabData.accept(StmwrModItems.INFINITY_GOLEM_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.FINAL_BOSS_SPAWN_EGG.get());
 			})
 
 					.build());

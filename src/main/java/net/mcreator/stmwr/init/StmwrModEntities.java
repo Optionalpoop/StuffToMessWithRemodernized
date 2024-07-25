@@ -24,9 +24,11 @@ import net.mcreator.stmwr.entity.PikachuEntity;
 import net.mcreator.stmwr.entity.MutantWormEntity;
 import net.mcreator.stmwr.entity.MutantBossEntity;
 import net.mcreator.stmwr.entity.JuniorWizardEntity;
+import net.mcreator.stmwr.entity.InfinityGolemEntity;
 import net.mcreator.stmwr.entity.GiantSteveCowEntity;
 import net.mcreator.stmwr.entity.GasMaskZombieEntity;
 import net.mcreator.stmwr.entity.FrostZombieEntity;
+import net.mcreator.stmwr.entity.FinalBossEntity;
 import net.mcreator.stmwr.entity.DangerousWizardEntity;
 import net.mcreator.stmwr.entity.BulletEntity;
 import net.mcreator.stmwr.StmwrMod;
@@ -74,6 +76,10 @@ public class StmwrModEntities {
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(JuniorWizardEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DangerousWizardEntity>> DANGEROUS_WIZARD = register("dangerous_wizard", EntityType.Builder.<DangerousWizardEntity>of(DangerousWizardEntity::new, MobCategory.AMBIENT)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DangerousWizardEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<InfinityGolemEntity>> INFINITY_GOLEM = register("infinity_golem", EntityType.Builder.<InfinityGolemEntity>of(InfinityGolemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(500).setUpdateInterval(3).setCustomClientFactory(InfinityGolemEntity::new).fireImmune().sized(1f, 1.95f));
+	public static final RegistryObject<EntityType<FinalBossEntity>> FINAL_BOSS = register("final_boss", EntityType.Builder.<FinalBossEntity>of(FinalBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1000)
+			.setUpdateInterval(3).setCustomClientFactory(FinalBossEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -94,6 +100,8 @@ public class StmwrModEntities {
 			TrappedWizardEntity.init();
 			JuniorWizardEntity.init();
 			DangerousWizardEntity.init();
+			InfinityGolemEntity.init();
+			FinalBossEntity.init();
 		});
 	}
 
@@ -111,5 +119,7 @@ public class StmwrModEntities {
 		event.put(TRAPPED_WIZARD.get(), TrappedWizardEntity.createAttributes().build());
 		event.put(JUNIOR_WIZARD.get(), JuniorWizardEntity.createAttributes().build());
 		event.put(DANGEROUS_WIZARD.get(), DangerousWizardEntity.createAttributes().build());
+		event.put(INFINITY_GOLEM.get(), InfinityGolemEntity.createAttributes().build());
+		event.put(FINAL_BOSS.get(), FinalBossEntity.createAttributes().build());
 	}
 }
