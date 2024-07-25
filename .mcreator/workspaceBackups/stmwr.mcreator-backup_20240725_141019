@@ -6399,6 +6399,399 @@
           "src/main/resources/data/stmwr/advancements/completely_useless.json"
         ]
       }
+    },
+    {
+      "name": "WandOfTheTowerRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_the_tower_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/WandOfTheTowerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WandOfTheTower",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_the_tower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/WandOfTheTowerItem.java",
+          "src/main/resources/assets/stmwr/models/item/wand_of_the_tower.json"
+        ]
+      }
+    },
+    {
+      "name": "TheFinalCountdown",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_final_countdown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/the_final_countdown.json"
+        ]
+      }
+    },
+    {
+      "name": "WandOfTheTowerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wand_of_the_tower_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/wand_of_the_tower_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeScrap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_scrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/infinitite_scrap.json",
+          "src/main/java/net/mcreator/stmwr/item/InfinititeScrapItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NearlyThere",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nearly_there",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/nearly_there.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeMold",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_mold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/infinitite_mold.json",
+          "src/main/java/net/mcreator/stmwr/item/InfinititeMoldItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Completion",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "completion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/completion.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ascendance",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ascendance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ascendance.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/infinitite_armor_boots.json",
+          "src/main/resources/assets/stmwr/models/item/infinitite_armor_helmet.json",
+          "src/main/resources/assets/stmwr/models/item/infinitite_armor_chestplate.json",
+          "src/main/resources/assets/stmwr/models/item/infinitite_armor_leggings.json",
+          "src/main/java/net/mcreator/stmwr/item/InfinititeArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmorHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/InfinititeArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmorChestplateTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/InfinititeArmorChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmorLeggingsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/InfinititeArmorLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfinititeArmorBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_armor_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/InfinititeArmorBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Perfection",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perfection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/perfection.json"
+        ]
+      }
+    },
+    {
+      "name": "Perfection2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perfection_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/perfection_2.json"
+        ]
+      }
+    },
+    {
+      "name": "HealProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HealProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heal",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/HealCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeKitProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_kit_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/InfinititeKitProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InifnititeKit",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inifnitite_kit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/command/InifnititeKitCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "InfinityGolem",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_golem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/infinity_golem_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/entity/InfinityGolemEntity.java",
+          "src/main/java/net/mcreator/stmwr/client/renderer/InfinityGolemRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "FinalBoss",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_boss",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/final_boss_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/entity/FinalBossEntity.java",
+          "src/main/java/net/mcreator/stmwr/client/renderer/FinalBossRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -6575,6 +6968,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "advancements.perfection.title": "Perfection",
       "block.stmwr.steel_ore": "Steel Ore",
       "advancements.vegan_beef.descr": "You can craft beef with plants!",
       "block.stmwr.steel_block": "Block of Steel",
@@ -6599,17 +6993,19 @@
       "advancements.mooore_stoooorage.title": "Mooore Stoooorage!!!!",
       "entity.stmwr.trapped_wizard": "Trapped Wizard",
       "advancements.i_need_my_payday_2.title": "I Need My Payday, Two",
+      "item.stmwr.infinitite_mold": "Infinitite Mold",
       "item.stmwr.godlium_axe": "Godlium Axe",
       "item.stmwr.weak_soul": "Weak Soul",
       "advancements.superman.title": "Superman",
+      "item.stmwr.infinitite_scrap": "Infinitite Scrap",
       "advancements.im_a_survivor.title": "I\u0027m A Survivor!",
       "block.stmwr.basic_cubby_cube": "Basic Cubby Cube",
-      "advancements.leathery.descr": "You can craft leather horse armor now!",
       "advancements.spelling_bee.title": "Spelling Bee",
+      "advancements.leathery.descr": "You can craft leather horse armor now!",
       "block.stmwr.blazed_ore": "Blazed Ore",
       "advancements.magical.title": "Magical!",
-      "advancements.tortillas.title": "Tortillas!!!",
       "advancements.more_health.title": "More Health",
+      "advancements.tortillas.title": "Tortillas!!!",
       "item.stmwr.blazed_ingot": "Blazed",
       "advancements.ghost_busters.title": "Ghost Busters",
       "item.stmwr.pikachu_spawn_egg": "Pikachu Spawn Egg",
@@ -6636,7 +7032,9 @@
       "block.stmwr.master_cubby_cube": "Master Cubby Cube",
       "item.stmwr.godlium_armor_leggings": "Godlium Leggings",
       "item.stmwr.cheese_stick": "Cheese Stick",
+      "advancements.the_final_countdown.title": "The Final Countdown",
       "advancements.a_world_of_magic.descr": "Step into the wizard world trial, home to many useful materials!",
+      "item.stmwr.wand_of_the_tower": "Wand Of The Tower",
       "advancements.defeat.title": "Defeat!",
       "item.stmwr.totem_of_the_cow": "Totem Of The Cow",
       "advancements.find_the_pieces.title": "Find The Pieces",
@@ -6658,10 +7056,12 @@
       "item.stmwr.taco": "Taco",
       "gui.stmwr.modifiers_table.label_empty": "---------",
       "advancements.molten_glass.descr": "You can make glass with the crucible! And get double output!",
+      "item.stmwr.infinity_golem_spawn_egg": "Infinity Golem Spawn Egg",
       "biome.stmwr.steve_cow_land": "Steve Cow Land",
       "advancements.inventory_pork.title": "Inventory Pork",
       "advancements.bratwurst_anyone.descr": "Get some sausage",
       "advancements.slo_mo.descr": "Craft a totem of slow falling, along you to glide from heights.",
+      "advancements.completion.title": "Completion",
       "item.stmwr.totem_of_the_goop": "Totem Of The Goop",
       "item.stmwr.storalium": "Storalium",
       "advancements.too_lazy_to_slay_the_dragon.descr": "Too lazy to kill the dragon and go to the end for godlium? It\u0027s expensive, but you can craft it with overworld materials.",
@@ -6678,6 +7078,7 @@
       "advancements.not_so_fun_to_hold.title": "Not So Fun To Hold",
       "item.stmwr.portable_crucible": "Portable Crucible",
       "advancements.spellcasting.title": "Spellcasting",
+      "entity.stmwr.infinity_golem": "Infinity Golem",
       "advancements.welcome_to_militaria.descr": "Craft a Militaria trial key after defeating the Giant Steve Cow",
       "advancements.youre_a_wizard_harry.descr": "By combining a stick with some magicite, you\u0027re able to create a stick that you could use to make wands",
       "advancements.rituals_here_i_come.descr": "By combining magicite and plastika, you are able to create a totem. I wonder what kinds of powers there are that I can imbue into this?",
@@ -6685,6 +7086,7 @@
       "biome.stmwr.perfecta": "Perfecta",
       "advancements.golden_boy.descr": "You can craft golden horse armor now!",
       "item.stmwr.soldier_spawn_egg": "Soldier Spawn Egg",
+      "advancements.ascendance.descr": "Obtain your first infinitite ingot.",
       "advancements.seer_of_the_dark.title": "Seer Of The Dark",
       "item.stmwr.wizard_world": "Wizard World Trial Key",
       "item.stmwr.totem_of_levitation": "Totem Of Levitation",
@@ -6722,6 +7124,8 @@
       "advancements.stringy.title": "Stringy",
       "advancements.heavy_hitters.title": "Heavy Hitters!",
       "item.stmwr.blazed_armor_helmet": "Blazed Helmet",
+      "advancements.completion.descr": "Defeat the final boss, allowing you to obtain infinitite with the mold.",
+      "item.stmwr.infinitite_armor_chestplate": "Infinitite Chestplate",
       "item.stmwr.steel_shovel": "Steel Shovel",
       "advancements.godly_potential.title": "Godly Potential...",
       "item.stmwr.pistol_ammo": "Pistol Ammo",
@@ -6740,12 +7144,15 @@
       "advancements.godly_potential.descr": "Obtain some godlium, an extremely powerful ore. You only find it in the end.",
       "advancements.thats_tuff.title": "That\u0027s Tuff",
       "advancements.stuff_to_mess_with_remodernized.title": "Stuff To Mess With Remodernized",
+      "item.stmwr.infinitite_armor_helmet": "Infinitite Helmet",
       "advancements.upgraded.title": "Upgraded",
       "advancements.rituals_here_i_come.title": "Rituals, Here I Come!",
       "entity.stmwr.mutant_worm": "Mutant Worm",
+      "item.stmwr.final_boss_spawn_egg": "Final Boss Spawn Egg",
       "entity.stmwr.junior_wizard": "Junior Wizard",
       "item.stmwr.infinitite_ingot": "Infinitite",
       "advancements.wands_but_better.title": "Wands, But Better!!!",
+      "advancements.perfection.descr": "Get a full set of infinitite armor. You are now god.",
       "advancements.youre_a_wizard_harry.title": "You\u0027re A Wizard Harry!",
       "item.stmwr.healing_totem": "Healing Totem Tier One",
       "item.stmwr.dirt_nugget": "Dirt Nugget",
@@ -6770,6 +7177,8 @@
       "item.stmwr.land_of_the_steve_cows": "SteveCow Trial Key",
       "block.stmwr.godlium_block": "Block of Godlium",
       "item.stmwr.stevum": "Stevum",
+      "item.stmwr.infinitite_armor_boots": "Infinitite Boots",
+      "advancements.ascendance.title": "Ascendance",
       "advancements.experienced.descr": "You can craft experience bottles!",
       "block.stmwr.stevum_block": "Block of Stevum",
       "item.stmwr.animal_strap": "Animal Strap",
@@ -6780,6 +7189,7 @@
       "item.stmwr.mutant_worm_spawn_egg": "Mutant Worm Spawn Egg",
       "advancements.wands_but_better.descr": "Get an advanced wand stick. It can be used for more powerful wands.",
       "advancements.killer.title": "Killer",
+      "advancements.perfection_2.title": "Perfection #2",
       "advancements.off_to_see_the_wizard.descr": "Craft a wizard world trial key!",
       "item.stmwr.storum": "Storum",
       "advancements.defeat.descr": "Slay the Giant Steve Cow and grab its heart",
@@ -6804,12 +7214,14 @@
       "block.stmwr.blazed_block": "Block of Blazed",
       "item.stmwr.godlium_armor_boots": "Godlium Boots",
       "item.stmwr.godlium_ingot": "Godlium",
+      "advancements.nearly_there.title": "Nearly There",
       "item.stmwr.steel_ingot": "Steel",
       "advancements.stevum_gems.title": "Stevum Gems",
       "item.stmwr.blazed_hoe": "Blazed Hoe",
       "gui.stmwr.modifiers_table.button_confirm": "CONFIRM",
       "advancements.from_one_to_many.descr": "You can \"uncraft\" the strong soul into multiple weak souls",
       "item.stmwr.giant_steve_cow_heart": "Giant Steve Cow Heart",
+      "entity.stmwr.final_boss": "Final Boss",
       "advancements.thats_tuff.descr": "Get a T1 Strength Totem",
       "advancements.mooore_stoooorage.descr": "Find some storum, used for powerful storage items",
       "item.stmwr.master_cubby_pack": "Master Cubby Pack",
@@ -6839,6 +7251,7 @@
       "gui.stmwr.modifiers_table.label_modifier": "modifier",
       "item.stmwr.sausage": "Sausage",
       "advancements.seer_of_the_dark.descr": "Craft a night vision totem",
+      "item.stmwr.infinitite_armor_leggings": "Infinitite Leggings",
       "block.stmwr.plasticilia": "Plasticilia",
       "subtitles.wind": "spoooooooky wiiiiiind",
       "advancements.ripped_to_shreds.title": "Ripped To Shreds",
@@ -6883,6 +7296,7 @@
       "item.stmwr.haste_totem_t_3": "Haste Totem T 3",
       "advancements.plastic_fantastic.title": "Plastic Fantastic!",
       "item.stmwr.advanced_totem_base": "Advanced Totem Base",
+      "advancements.the_final_countdown.descr": "Craft the wand of the tower. The final boss lies ahead. (Dont use near your base)",
       "item.stmwr.godlium_hoe": "Godlium Hoe",
       "advancements.simple_storage.title": "Simple Storage",
       "biome.stmwr.frosted_oasis": "Frosted Oasis",
@@ -6934,6 +7348,7 @@
       "advancements.bullfighter.title": "Bullfighter",
       "advancements.carrying_the_world.title": "Carrying The World",
       "advancements.anti_chest_monster.descr": "Make the master cubby cube, the ultimate solution to your chest monster problem.",
+      "advancements.nearly_there.descr": "Find some infinitite scrap in the tower.",
       "advancements.saddle_up.title": "Saddle Up!",
       "advancements.kachow.descr": "Craft the tier 3 speed totem, and become the fastest man alive",
       "advancements.speedy_gonzales.title": "Speedy Gonzales",
@@ -6949,6 +7364,7 @@
       "advancements.inventory_beef.title": "Pocket Beef",
       "advancements.named.title": "Named!",
       "item.stmwr.wand_stick": "Wand Stick",
+      "advancements.perfection_2.descr": "Obtain the atom smasher. The single greatest tool of all time.",
       "item.stmwr.pikastaff": "Pikastaff",
       "item_group.stmwr.stmw_5": "STMW 5",
       "advancements.better_chests.title": "Better Chests",
