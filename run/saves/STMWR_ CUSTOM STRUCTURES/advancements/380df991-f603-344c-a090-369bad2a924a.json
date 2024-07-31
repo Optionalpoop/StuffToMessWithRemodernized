@@ -9807,5 +9807,116 @@
     },
     "done": true
   },
+  "stmwr:completion": {
+    "criteria": {
+      "completion_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:discount_flight": {
+    "criteria": {
+      "discount_flight_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:too_lazy_to_slay_the_dragon": {
+    "criteria": {
+      "too_lazy_to_slay_the_dragon_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:from_one_to_many": {
+    "criteria": {
+      "from_one_to_many_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:nearly_there": {
+    "criteria": {
+      "nearly_there_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:porcupine": {
+    "criteria": {
+      "porcupine_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:the_ultimate_destruction_tool": {
+    "criteria": {
+      "the_ultimate_destruction_tool_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:the_best_pizza_topping": {
+    "criteria": {
+      "the_best_pizza_topping_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:whats_up_doc": {
+    "criteria": {
+      "whats_up_doc_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:spelling_bee": {
+    "criteria": {
+      "spelling_bee_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:tridention": {
+    "criteria": {
+      "tridention_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:is_it_alive": {
+    "criteria": {
+      "is_it_alive_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:why_isnt_this_vanilla": {
+    "criteria": {
+      "why_isnt_this_vanilla_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:healing": {
+    "criteria": {
+      "healing_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:ascendance": {
+    "criteria": {
+      "ascendance_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:perfection": {
+    "criteria": {
+      "perfection_1": "2024-07-31 09:24:46 -0400",
+      "perfection_0": "2024-07-31 09:24:46 -0400",
+      "perfection_3": "2024-07-31 09:24:46 -0400",
+      "perfection_2": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:the_final_countdown": {
+    "criteria": {
+      "the_final_countdown_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
+  "stmwr:smells_fishy": {
+    "criteria": {
+      "smells_fishy_0": "2024-07-31 09:24:46 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

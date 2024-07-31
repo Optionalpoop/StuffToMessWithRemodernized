@@ -3,14 +3,17 @@
   "category": "equipment",
   "pattern": [
     "aba",
-    "a a"
+    "c c"
   ],
   "key": {
     "a": {
-      "item": "stmwr:steel_ingot"
+      "item": "stmwr:advanced_material"
     },
     "b": {
       "item": "stmwr:godlium_armor_boots"
+    },
+    "c": {
+      "item": "stmwr:steel_ingot"
     }
   },
   "result": {

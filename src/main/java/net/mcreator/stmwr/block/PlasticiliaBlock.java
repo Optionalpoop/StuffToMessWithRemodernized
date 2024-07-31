@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class PlasticiliaBlock extends Block {
 	public PlasticiliaBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.SNOW).strength(1.5f, 10f).lightLevel(s -> 5).speedFactor(1.5f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.SNOW).strength(1.5f, 10f).lightLevel(s -> 5).speedFactor(2f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override

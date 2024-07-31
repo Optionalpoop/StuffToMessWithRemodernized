@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:godlium_armor_helmet",
+    "stmwr:godlium_armor_chestplate",
+    "stmwr:godlium_armor_leggings",
+    "stmwr:godlium_armor_boots",
+    "stmwr:steel_armor_helmet",
+    "stmwr:steel_armor_chestplate",
+    "stmwr:steel_armor_leggings",
+    "stmwr:steel_armor_boots",
+    "stmwr:infinitite_armor_helmet",
+    "stmwr:infinitite_armor_chestplate",
+    "stmwr:infinitite_armor_leggings",
+    "stmwr:infinitite_armor_boots"
+  ]
+}

@@ -21,9 +21,9 @@
     "creature": [
       {
         "type": "stmwr:steve_cow",
-        "weight": 30,
+        "weight": 15,
         "minCount": 2,
-        "maxCount": 12
+        "maxCount": 6
       },
       {
         "type": "stmwr:pikachu",

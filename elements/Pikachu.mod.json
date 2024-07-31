@@ -116,6 +116,9 @@
     "stepSound": {
       "value": ""
     },
+    "raidCelebrationSound": {
+      "value": ""
+    },
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
@@ -139,6 +142,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:SteveCowLand"
+      },
+      {
+        "value": "desert"
       }
     ],
     "spawnInDungeons": false,

@@ -22,5 +22,11 @@
       }
     }
   },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/trial_loot_crate"
+    ]
+  },
   "parent": "stmwr:stmw_wizardry"
 }

@@ -12,7 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Ultrite"
+        "value": "CUSTOM:MagiciteDust"
       },
       {
         "value": "Items.PHANTOM_MEMBRANE"
@@ -36,7 +36,7 @@
         "value": "Items.PHANTOM_MEMBRANE"
       },
       {
-        "value": "CUSTOM:Ultrite"
+        "value": "CUSTOM:MagiciteDust"
       }
     ],
     "recipeReturnStack": {

@@ -2,21 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "abc",
-    "bdb",
-    "cba"
+    "aba",
+    "bcb",
+    "aba"
   ],
   "key": {
     "a": {
-      "item": "stmwr:ultrite"
+      "item": "stmwr:magicite_dust"
     },
     "b": {
       "item": "minecraft:phantom_membrane"
     },
     "c": {
-      "item": "stmwr:magicite_dust"
-    },
-    "d": {
       "item": "stmwr:raw_totem"
     }
   },

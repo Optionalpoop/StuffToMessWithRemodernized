@@ -3,7 +3,7 @@
   "category": "equipment",
   "pattern": [
     "aba",
-    "a a",
+    "c c",
     "a a"
   ],
   "key": {
@@ -12,6 +12,9 @@
     },
     "b": {
       "item": "stmwr:godlium_armor_leggings"
+    },
+    "c": {
+      "item": "stmwr:advanced_material"
     }
   },
   "result": {

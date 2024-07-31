@@ -23,7 +23,7 @@ public abstract class GodliumArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{9, 12, 15, 9}[type.getSlot().getIndex()];
+				return new int[]{10, 15, 20, 15}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -48,7 +48,7 @@ public abstract class GodliumArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 2.5f;
+				return 3.5f;
 			}
 
 			@Override

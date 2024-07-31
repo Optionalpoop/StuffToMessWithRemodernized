@@ -2,16 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aaa",
     "aba",
-    "aaa"
+    "bcb",
+    "aba"
   ],
   "key": {
     "a": {
-      "item": "minecraft:diamond"
+      "item": "stmwr:magicite_dust"
     },
     "b": {
-      "item": "stmwr:magicite_dust"
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "stmwr:magicite_block"
     }
   },
   "result": {

@@ -32,5 +32,11 @@
       }
     }
   },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/storing_loot_crate"
+    ]
+  },
   "parent": "stmwr:better_chests"
 }

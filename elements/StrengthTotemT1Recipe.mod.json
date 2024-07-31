@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:GodliumIngot"
+        "value": "Items.IRON_SWORD"
       },
       {
         "value": "CUSTOM:BlazedSword"
       },
       {
-        "value": "CUSTOM:GodliumIngot"
+        "value": "Items.DIAMOND_SWORD"
       },
       {
         "value": "CUSTOM:MagiciteDust"

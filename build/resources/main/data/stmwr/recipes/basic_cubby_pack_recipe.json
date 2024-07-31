@@ -4,17 +4,20 @@
   "pattern": [
     "aba",
     "aca",
-    "aba"
+    "ada"
   ],
   "key": {
     "a": {
       "item": "stmwr:plastika"
     },
     "b": {
-      "item": "stmwr:ultrite"
+      "item": "stmwr:magicite_block"
     },
     "c": {
       "item": "stmwr:basic_cubby_cube"
+    },
+    "d": {
+      "item": "stmwr:magicite_dust"
     }
   },
   "result": {

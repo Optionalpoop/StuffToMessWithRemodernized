@@ -122,8 +122,8 @@
           "value": "CUSTOM:SteveCow"
         },
         "minGroup": 2,
-        "maxGroup": 12,
-        "weight": 30,
+        "maxGroup": 6,
+        "weight": 15,
         "spawnType": "creature"
       },
       {

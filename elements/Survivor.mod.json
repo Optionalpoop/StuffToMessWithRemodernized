@@ -63,7 +63,7 @@
     },
     "mobBehaviourType": "Creature",
     "mobCreatureType": "ILLAGER",
-    "attackStrength": 60,
+    "attackStrength": 35,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.4,
@@ -71,7 +71,7 @@
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 150,
+    "health": 100,
     "xpAmount": 100,
     "waterMob": false,
     "breatheUnderwater": {
@@ -114,6 +114,9 @@
       "value": "entity.generic.death"
     },
     "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
       "value": ""
     },
     "entityDataEntries": [],

@@ -18,10 +18,10 @@
         "value": "Items.COOKED_BEEF"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Pepperoni"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Pepperoni"
       },
       {
         "value": "CUSTOM:Tortilla"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:Knife"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Pepperoni"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Cheese"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Pepperoni"
       }
     ],
     "recipeReturnStack": {

@@ -9,10 +9,25 @@
       "item": "minecraft:cooked_beef"
     },
     {
+      "item": "stmwr:pepperoni"
+    },
+    {
+      "item": "stmwr:pepperoni"
+    },
+    {
       "item": "stmwr:tortilla"
     },
     {
       "item": "stmwr:knife"
+    },
+    {
+      "item": "stmwr:pepperoni"
+    },
+    {
+      "item": "stmwr:cheese"
+    },
+    {
+      "item": "stmwr:pepperoni"
     }
   ],
   "result": {

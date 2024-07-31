@@ -63,7 +63,7 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 50,
+    "attackStrength": 40,
     "attackKnockback": 2.5,
     "knockbackResistance": 1.0,
     "movementSpeed": 0.3,
@@ -114,6 +114,9 @@
       "value": "entity.generic.death"
     },
     "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
       "value": ""
     },
     "entityDataEntries": [],

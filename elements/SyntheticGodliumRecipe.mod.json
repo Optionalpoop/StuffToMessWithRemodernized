@@ -12,13 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Items.DIAMOND"
-      },
-      {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:MagiciteDust"
       },
       {
         "value": "Items.DIAMOND"
@@ -30,13 +24,19 @@
         "value": "Items.DIAMOND"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "CUSTOM:MagiciteBlock"
       },
       {
         "value": "Items.DIAMOND"
       },
       {
+        "value": "CUSTOM:MagiciteDust"
+      },
+      {
         "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:MagiciteDust"
       }
     ],
     "recipeReturnStack": {

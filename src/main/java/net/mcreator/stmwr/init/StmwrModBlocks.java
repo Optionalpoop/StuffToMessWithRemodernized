@@ -11,10 +11,14 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.stmwr.block.WizardWorldPortalBlock;
+import net.mcreator.stmwr.block.VanillaCrateBlock;
+import net.mcreator.stmwr.block.TrialCrateBlock;
 import net.mcreator.stmwr.block.TrialBrickBlock;
 import net.mcreator.stmwr.block.TransmutatedGelatinBlock;
+import net.mcreator.stmwr.block.TotemicCrateBlock;
 import net.mcreator.stmwr.block.StorumOreBlock;
 import net.mcreator.stmwr.block.StorumBlockBlock;
+import net.mcreator.stmwr.block.StoringCrateBlock;
 import net.mcreator.stmwr.block.StevumOreBlock;
 import net.mcreator.stmwr.block.StevumBlockBlock;
 import net.mcreator.stmwr.block.SteelOreBlock;
@@ -25,11 +29,14 @@ import net.mcreator.stmwr.block.MilitariaPortalBlock;
 import net.mcreator.stmwr.block.MasterCubbyCubeBlock;
 import net.mcreator.stmwr.block.MagiciteOreBlock;
 import net.mcreator.stmwr.block.MagiciteBlockBlock;
+import net.mcreator.stmwr.block.MagicianCrateBlock;
 import net.mcreator.stmwr.block.LandOfTheSteveCowsPortalBlock;
 import net.mcreator.stmwr.block.InfinititeOreBlock;
 import net.mcreator.stmwr.block.InfinititeBlockBlock;
 import net.mcreator.stmwr.block.GodliumOreBlock;
 import net.mcreator.stmwr.block.GodliumBlockBlock;
+import net.mcreator.stmwr.block.GeneralCrateBlock;
+import net.mcreator.stmwr.block.FoodyCrateBlock;
 import net.mcreator.stmwr.block.BlazedOreBlock;
 import net.mcreator.stmwr.block.BlazedBlockBlock;
 import net.mcreator.stmwr.block.BasicCubbyCubeBlock;
@@ -62,6 +69,13 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> MASTER_CUBBY_CUBE = REGISTRY.register("master_cubby_cube", () -> new MasterCubbyCubeBlock());
 	public static final RegistryObject<Block> WIZARD_WORLD_PORTAL = REGISTRY.register("wizard_world_portal", () -> new WizardWorldPortalBlock());
 	public static final RegistryObject<Block> TRANSMUTATED_GELATIN = REGISTRY.register("transmutated_gelatin", () -> new TransmutatedGelatinBlock());
+	public static final RegistryObject<Block> TOTEMIC_CRATE = REGISTRY.register("totemic_crate", () -> new TotemicCrateBlock());
+	public static final RegistryObject<Block> FOODY_CRATE = REGISTRY.register("foody_crate", () -> new FoodyCrateBlock());
+	public static final RegistryObject<Block> MAGICIAN_CRATE = REGISTRY.register("magician_crate", () -> new MagicianCrateBlock());
+	public static final RegistryObject<Block> TRIAL_CRATE = REGISTRY.register("trial_crate", () -> new TrialCrateBlock());
+	public static final RegistryObject<Block> STORING_CRATE = REGISTRY.register("storing_crate", () -> new StoringCrateBlock());
+	public static final RegistryObject<Block> GENERAL_CRATE = REGISTRY.register("general_crate", () -> new GeneralCrateBlock());
+	public static final RegistryObject<Block> VANILLA_CRATE = REGISTRY.register("vanilla_crate", () -> new VanillaCrateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -3,7 +3,7 @@
   "biomes": "stmwr:steve_cow_land",
   "spawners": {
     "type": "stmwr:steve_cow",
-    "weight": 30,
+    "weight": 15,
     "minCount": 2,
     "maxCount": 12
   }

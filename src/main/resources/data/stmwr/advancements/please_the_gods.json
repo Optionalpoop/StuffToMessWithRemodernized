@@ -32,5 +32,11 @@
       }
     }
   },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/vanilla_loot_crate"
+    ]
+  },
   "parent": "stmwr:meltdown"
 }

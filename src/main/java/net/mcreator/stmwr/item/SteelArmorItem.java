@@ -23,12 +23,12 @@ public abstract class SteelArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 45;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 150;
 			}
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{50, 70, 80, 60}[type.getSlot().getIndex()];
+				return new int[]{70, 90, 100, 80}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -53,12 +53,12 @@ public abstract class SteelArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 3f;
+				return 5.5f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 1f;
+				return 2f;
 			}
 		}, type, properties);
 	}

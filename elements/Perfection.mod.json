@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Perfection",
-    "achievementDescription": "Get a full set of infinitite armor. You are now god.",
+    "achievementDescription": "Get a full set of infinitite armor. You are now a god.",
     "achievementIcon": {
       "value": "CUSTOM:InfinititeArmor.body"
     },
@@ -12,7 +12,9 @@
     "showPopup": true,
     "announceToChat": true,
     "hideIfNotCompleted": false,
-    "rewardLoot": [],
+    "rewardLoot": [
+      "MagicianLootCrate"
+    ],
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,

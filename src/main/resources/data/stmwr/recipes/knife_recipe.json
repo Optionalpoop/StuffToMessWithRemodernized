@@ -8,13 +8,13 @@
   ],
   "key": {
     "a": {
-      "item": "stmwr:magicite_dust"
+      "item": "stmwr:iron_spike"
     },
     "b": {
       "item": "minecraft:iron_ingot"
     },
     "c": {
-      "item": "minecraft:stick"
+      "item": "minecraft:iron_sword"
     }
   },
   "result": {

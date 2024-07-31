@@ -32,5 +32,11 @@
       }
     }
   },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/totemic_loot_crate"
+    ]
+  },
   "parent": "stmwr:fast_hands"
 }

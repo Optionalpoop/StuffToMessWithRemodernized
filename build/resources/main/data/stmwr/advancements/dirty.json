@@ -32,5 +32,11 @@
       }
     }
   },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/food_loot_crate"
+    ]
+  },
   "parent": "stmwr:mystical_agriculture"
 }

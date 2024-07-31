@@ -32,5 +32,11 @@
       }
     }
   },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/storing_loot_crate"
+    ]
+  },
   "parent": "stmwr:stuff_to_mess_with_remodernized"
 }

@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:AdvancedMaterial"
       },
       {
         "value": "CUSTOM:GodliumArmor.helmet"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "CUSTOM:AdvancedMaterial"
       },
       {
         "value": "CUSTOM:SteelIngot"

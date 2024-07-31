@@ -21,7 +21,7 @@ public class GodliumHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 9f;
+				return 5f;
 			}
 
 			public int getLevel() {

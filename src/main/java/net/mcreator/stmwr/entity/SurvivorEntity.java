@@ -94,9 +94,9 @@ public class SurvivorEntity extends PathfinderMob {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
-		builder = builder.add(Attributes.MAX_HEALTH, 150);
+		builder = builder.add(Attributes.MAX_HEALTH, 100);
 		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 60);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 35);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		return builder;
 	}

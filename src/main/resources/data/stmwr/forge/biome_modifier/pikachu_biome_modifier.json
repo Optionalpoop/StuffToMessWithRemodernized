@@ -1,6 +1,9 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "stmwr:steve_cow_land",
+  "biomes": [
+    "stmwr:steve_cow_land",
+    "desert"
+  ],
   "spawners": {
     "type": "stmwr:pikachu",
     "weight": 25,

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:uglum"
+    },
+    {
+      "item": "stmwr:can"
+    }
+  ],
+  "result": {
+    "item": "stmwr:canned_pikachu",
+    "count": 1
+  }
+}

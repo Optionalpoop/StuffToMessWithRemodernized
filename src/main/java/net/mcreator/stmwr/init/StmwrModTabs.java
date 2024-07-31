@@ -172,6 +172,18 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.INFINITITE_ARMOR_BOOTS.get());
 				tabData.accept(StmwrModItems.INFINITY_GOLEM_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.FINAL_BOSS_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.IRON_SPIKE.get());
+				tabData.accept(StmwrModItems.PEPPERONI.get());
+				tabData.accept(StmwrModBlocks.TOTEMIC_CRATE.get().asItem());
+				tabData.accept(StmwrModItems.CRATE_TOTEM.get());
+				tabData.accept(StmwrModBlocks.FOODY_CRATE.get().asItem());
+				tabData.accept(StmwrModBlocks.MAGICIAN_CRATE.get().asItem());
+				tabData.accept(StmwrModBlocks.TRIAL_CRATE.get().asItem());
+				tabData.accept(StmwrModBlocks.STORING_CRATE.get().asItem());
+				tabData.accept(StmwrModBlocks.GENERAL_CRATE.get().asItem());
+				tabData.accept(StmwrModBlocks.VANILLA_CRATE.get().asItem());
+				tabData.accept(StmwrModItems.CAN.get());
+				tabData.accept(StmwrModItems.CANNED_PIKACHU.get());
 			})
 
 					.build());

@@ -58,6 +58,7 @@ import net.mcreator.stmwr.item.PizzaItem;
 import net.mcreator.stmwr.item.PistolItem;
 import net.mcreator.stmwr.item.PistolAmmoItem;
 import net.mcreator.stmwr.item.PikastaffItem;
+import net.mcreator.stmwr.item.PepperoniItem;
 import net.mcreator.stmwr.item.NoobishTrialCoinItem;
 import net.mcreator.stmwr.item.NightvisionTotemItem;
 import net.mcreator.stmwr.item.MysticalPageItem;
@@ -74,6 +75,7 @@ import net.mcreator.stmwr.item.KeyPieceItem;
 import net.mcreator.stmwr.item.JumpboostTotemT3Item;
 import net.mcreator.stmwr.item.JumpboostTotemT2Item;
 import net.mcreator.stmwr.item.JumpboostTotemT1Item;
+import net.mcreator.stmwr.item.IronSpikeItem;
 import net.mcreator.stmwr.item.InfinititeScrapItem;
 import net.mcreator.stmwr.item.InfinititeMoldItem;
 import net.mcreator.stmwr.item.InfinititeIngotItem;
@@ -101,10 +103,13 @@ import net.mcreator.stmwr.item.EmptySpellBookItem;
 import net.mcreator.stmwr.item.DoughItem;
 import net.mcreator.stmwr.item.DirtNuggetItem;
 import net.mcreator.stmwr.item.CreationOrbItem;
+import net.mcreator.stmwr.item.CrateTotemItem;
 import net.mcreator.stmwr.item.ChocolateItem;
 import net.mcreator.stmwr.item.CheeseStickItem;
 import net.mcreator.stmwr.item.CheeseItem;
 import net.mcreator.stmwr.item.CastingWandarItem;
+import net.mcreator.stmwr.item.CannedPikachuItem;
+import net.mcreator.stmwr.item.CanItem;
 import net.mcreator.stmwr.item.BuildingWandarItem;
 import net.mcreator.stmwr.item.BlazedSwordItem;
 import net.mcreator.stmwr.item.BlazedShovelItem;
@@ -278,6 +283,18 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> INFINITITE_ARMOR_BOOTS = REGISTRY.register("infinitite_armor_boots", () -> new InfinititeArmorItem.Boots());
 	public static final RegistryObject<Item> INFINITY_GOLEM_SPAWN_EGG = REGISTRY.register("infinity_golem_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.INFINITY_GOLEM, -10092442, -6711040, new Item.Properties()));
 	public static final RegistryObject<Item> FINAL_BOSS_SPAWN_EGG = REGISTRY.register("final_boss_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.FINAL_BOSS, -13434829, -1, new Item.Properties()));
+	public static final RegistryObject<Item> IRON_SPIKE = REGISTRY.register("iron_spike", () -> new IronSpikeItem());
+	public static final RegistryObject<Item> PEPPERONI = REGISTRY.register("pepperoni", () -> new PepperoniItem());
+	public static final RegistryObject<Item> TOTEMIC_CRATE = block(StmwrModBlocks.TOTEMIC_CRATE);
+	public static final RegistryObject<Item> CRATE_TOTEM = REGISTRY.register("crate_totem", () -> new CrateTotemItem());
+	public static final RegistryObject<Item> FOODY_CRATE = block(StmwrModBlocks.FOODY_CRATE);
+	public static final RegistryObject<Item> MAGICIAN_CRATE = block(StmwrModBlocks.MAGICIAN_CRATE);
+	public static final RegistryObject<Item> TRIAL_CRATE = block(StmwrModBlocks.TRIAL_CRATE);
+	public static final RegistryObject<Item> STORING_CRATE = block(StmwrModBlocks.STORING_CRATE);
+	public static final RegistryObject<Item> GENERAL_CRATE = block(StmwrModBlocks.GENERAL_CRATE);
+	public static final RegistryObject<Item> VANILLA_CRATE = block(StmwrModBlocks.VANILLA_CRATE);
+	public static final RegistryObject<Item> CAN = REGISTRY.register("can", () -> new CanItem());
+	public static final RegistryObject<Item> CANNED_PIKACHU = REGISTRY.register("canned_pikachu", () -> new CannedPikachuItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
