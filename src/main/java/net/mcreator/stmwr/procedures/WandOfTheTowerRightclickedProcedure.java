@@ -1,23 +1,69 @@
 package net.mcreator.stmwr.procedures;
 
-import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
-import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
-import net.minecraft.world.level.block.Rotation;
-import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
+
+import net.mcreator.stmwr.init.StmwrModEntities;
 
 public class WandOfTheTowerRightclickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, ItemStack itemstack) {
-		if (world instanceof ServerLevel _serverworld) {
-			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("stmwr", "finaltower"));
-			if (template != null) {
-				template.placeInWorld(_serverworld, BlockPos.containing(x + 10, y, z), BlockPos.containing(x + 10, y, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random,
-						3);
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.FINAL_BOSS.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+			}
+		}
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.INFINITY_GOLEM.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+			}
+		}
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.INFINITY_GOLEM.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+			}
+		}
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.INFINITY_GOLEM.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+			}
+		}
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.INFINITY_GOLEM.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+			}
+		}
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.INFINITY_GOLEM.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+			}
+		}
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.INFINITY_GOLEM.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+			}
+		}
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.INFINITY_GOLEM.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
+			}
+		}
+		if (world instanceof ServerLevel _level) {
+			Entity entityToSpawn = StmwrModEntities.INFINITY_GOLEM.get().spawn(_level, BlockPos.containing(x + 5, y, z), MobSpawnType.MOB_SUMMONED);
+			if (entityToSpawn != null) {
+				entityToSpawn.setDeltaMovement(0, 0, 0);
 			}
 		}
 		{

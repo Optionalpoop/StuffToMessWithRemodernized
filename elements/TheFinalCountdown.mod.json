@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "The Final Countdown",
-    "achievementDescription": "Craft the wand of the tower. The final boss lies ahead. (Dont use near your base)",
+    "achievementDescription": "Craft the wand of the tower, the way to summon the final boss. Good luck.",
     "achievementIcon": {
       "value": "CUSTOM:WandOfTheTower"
     },

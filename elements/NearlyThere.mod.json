@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Nearly There",
-    "achievementDescription": "Find some infinitite scrap in the tower.",
+    "achievementDescription": "Find some infinitite scrap from some golems",
     "achievementIcon": {
       "value": "CUSTOM:InfinititeScrap"
     },

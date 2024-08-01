@@ -7306,6 +7306,114 @@
           "src/main/resources/data/stmwr/loot_tables/blocks/general_loot_crate.json"
         ]
       }
+    },
+    {
+      "name": "Can",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/CanItem.java",
+          "src/main/resources/assets/stmwr/models/item/can.json"
+        ]
+      }
+    },
+    {
+      "name": "CanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/can_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Canned",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canned",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/canned.json"
+        ]
+      }
+    },
+    {
+      "name": "CannedPikachuRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canned_pikachu_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/CannedPikachuRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CannedPikachu",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canned_pikachu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/CannedPikachuItem.java",
+          "src/main/resources/assets/stmwr/models/item/canned_pikachu.json"
+        ]
+      }
+    },
+    {
+      "name": "CannedPikachuRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "canned_pikachu_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/canned_pikachu_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReduceReuseRecycle",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reduce_reuse_recycle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/reduce_reuse_recycle.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -7337,6 +7445,20 @@
     "BIOMES:minecraft:has_structure/woodland_mansion": [
       "~CUSTOM:WizardlyPlains",
       "~CUSTOM:DeadForest"
+    ],
+    "ITEMS:minecraft:trimmable_armor": [
+      "CUSTOM:GodliumArmor.helmet",
+      "CUSTOM:GodliumArmor.body",
+      "CUSTOM:GodliumArmor.legs",
+      "CUSTOM:GodliumArmor.boots",
+      "CUSTOM:SteelArmor.helmet",
+      "CUSTOM:SteelArmor.body",
+      "CUSTOM:SteelArmor.legs",
+      "CUSTOM:SteelArmor.boots",
+      "CUSTOM:InfinititeArmor.helmet",
+      "CUSTOM:InfinititeArmor.body",
+      "CUSTOM:InfinititeArmor.legs",
+      "CUSTOM:InfinititeArmor.boots"
     ],
     "BIOMES:minecraft:has_structure/mineshaft_mesa": [
       "~CUSTOM:DeadForest"
@@ -7585,6 +7707,7 @@
       "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
       "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
       "advancements.rerodding_your_blazes.title": "Rerodding Your Blazes",
+      "advancements.canned.title": "Canned",
       "advancements.off_to_see_the_wizard.title": "Off To See The Wizard",
       "advancements.grilling.title": "Grilling",
       "item.stmwr.mutant_goop": "Mutant Goop",
@@ -7634,6 +7757,7 @@
       "advancements.pets.title": "Pets!",
       "advancements.ugly.title": "Ugly",
       "item.stmwr.raw_totem": "Raw Totem",
+      "advancements.reduce_reuse_recycle.descr": "Craft a can of pikachu, allowing for a one-time spawn!",
       "advancements.magic_writing.descr": "Get yourself a mystical page, leading you one step closer to crafting spell books!",
       "item.stmwr.steve_cow_horn": "Steve Cow Horn",
       "advancements.i_have_too_much_already.title": "I Have Too Much Already",
@@ -7653,6 +7777,7 @@
       "advancements.cook_on_the_go.descr": "You can craft a portable oven for easy cooking of food",
       "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
       "advancements.stmw_foods.title": "STMW: Foods",
+      "item.stmwr.can": "Can",
       "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
       "block.stmwr.transmutated_gelatin": "Transmutated Gelatin",
       "advancements.mystical_agriculture.title": "Mystical Agriculture",
@@ -7671,12 +7796,13 @@
       "advancements.upgraded.title": "Upgraded",
       "advancements.rituals_here_i_come.title": "Rituals, Here I Come!",
       "entity.stmwr.mutant_worm": "Mutant Worm",
+      "item.stmwr.canned_pikachu": "Canned Pikachu",
       "item.stmwr.final_boss_spawn_egg": "Final Boss Spawn Egg",
       "item.stmwr.iron_spike": "Iron Spike",
       "entity.stmwr.junior_wizard": "Junior Wizard",
       "item.stmwr.infinitite_ingot": "Infinitite",
       "advancements.wands_but_better.title": "Wands, But Better!!!",
-      "advancements.perfection.descr": "Get a full set of infinitite armor. You are now god.",
+      "advancements.perfection.descr": "Get a full set of infinitite armor. You are now a god.",
       "advancements.youre_a_wizard_harry.title": "You\u0027re A Wizard Harry!",
       "item.stmwr.healing_totem": "Healing Totem Tier One",
       "item.stmwr.dirt_nugget": "Dirt Nugget",
@@ -7797,6 +7923,7 @@
       "advancements.whats_up_doc.descr": "You can cook rabbit with the portable oven!",
       "advancements.even_soulier.descr": "Defeat the dangerous wizard to get a strong soul",
       "item.stmwr.plastika": "Plastika",
+      "advancements.reduce_reuse_recycle.title": "Reduce, Reuse, Recycle!",
       "advancements.kfc.descr": "You can cook chicken with the portable oven!",
       "advancements.leathery.title": "Leathery",
       "item.stmwr.gas_mask_zombie_spawn_egg": "Gas Mask Zombie Spawn Egg",
@@ -7919,6 +8046,7 @@
       "advancements.anti_chest_monster.title": "Anti-Chest-Monster",
       "item.stmwr.wand_of_transmutation": "Wand Of Transmutation",
       "advancements.toot_toot.title": "Toot Toot!",
+      "advancements.canned.descr": "Craft a can",
       "item.stmwr.frost_zombie_spawn_egg": "Frost Zombie Spawn Egg",
       "advancements.king_midas.title": "King Midas",
       "advancements.ghost_busters.descr": "You can craft phantom membranes!",

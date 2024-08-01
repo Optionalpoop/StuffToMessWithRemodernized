@@ -17,7 +17,7 @@ import java.util.List;
 
 public class WandOfTheTowerItem extends Item {
 	public WandOfTheTowerItem() {
-		super(new Item.Properties().durability(1).rarity(Rarity.EPIC));
+		super(new Item.Properties().durability(4).rarity(Rarity.EPIC));
 	}
 
 	@Override
