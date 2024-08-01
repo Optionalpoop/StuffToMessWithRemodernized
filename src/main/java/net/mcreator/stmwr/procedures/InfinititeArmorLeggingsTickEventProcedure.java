@@ -15,10 +15,10 @@ public class InfinititeArmorLeggingsTickEventProcedure {
 			_player.onUpdateAbilities();
 		}
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 20, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 20, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20, 5));
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20, 2));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 20, 50));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 20, 1));
 	}
 }

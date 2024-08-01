@@ -15,4 +15,5 @@ import net.mcreator.stmwr.StmwrMod;
 public class StmwrModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, StmwrMod.MODID);
 	public static final RegistryObject<PaintingVariant> THE_BLURB = REGISTRY.register("the_blurb", () -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> COOPMORE = REGISTRY.register("coopmore", () -> new PaintingVariant(32, 32));
 }

@@ -1,0 +1,9 @@
+{
+  "asset_name": "ultrite_trim",
+  "description": {
+    "color": "#FF33FF",
+    "translate": "trim_material.stmwr.ultrite_trim"
+  },
+  "ingredient": "stmwr:ultrite",
+  "item_model_index": 0.0
+}

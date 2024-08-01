@@ -1,0 +1,9 @@
+{
+  "asset_name": "blazedtrim",
+  "description": {
+    "color": "#FF0033",
+    "translate": "trim_material.stmwr.blazedtrim"
+  },
+  "ingredient": "stmwr:blazed_ingot",
+  "item_model_index": 0.0
+}

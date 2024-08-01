@@ -14,12 +14,10 @@ public class InfinititeArmorHelmetTickEventProcedure {
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.CONDUIT_POWER, 20, 1, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, 20, 1, false, false));
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 20, 20, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 60, 20, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, 60, 1, false, false));
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 20, 20, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 20, 1, false, false));
 	}
 }

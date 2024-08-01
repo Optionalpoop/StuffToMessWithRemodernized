@@ -7414,6 +7414,136 @@
           "src/main/resources/data/stmwr/advancements/reduce_reuse_recycle.json"
         ]
       }
+    },
+    {
+      "name": "Godlium",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "godlium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/godlium.json"
+        ]
+      }
+    },
+    {
+      "name": "Blazedtrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazedtrim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/blazedtrim.json"
+        ]
+      }
+    },
+    {
+      "name": "StorumTrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storum_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/storum_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "MagiciteTrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicite_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/magicite_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "StevumTrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stevum_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/stevum_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "UglumTrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uglum_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/uglum_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "UltriteTrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ultrite_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/ultrite_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeTrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/infinitite_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelTrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/steel_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "StoraliumTrim",
+      "type": "trimmaterial",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storalium_trim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/trim_material/storalium_trim.json"
+        ]
+      }
+    },
+    {
+      "name": "Coopmore",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coopmore",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -7429,13 +7559,13 @@
       "~CUSTOM:TransmutatedGelatin",
       "~CUSTOM:Plasticilia"
     ],
-    "BIOMES:minecraft:has_structure/buried_treasure": [
-      "~CUSTOM:WizardlyPlains",
-      "~CUSTOM:FrostedOasis"
-    ],
     "BIOMES:minecraft:has_structure/igloo": [
       "~CUSTOM:FrozenWastes",
       "~CUSTOM:SteveCowLand"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:WizardlyPlains",
+      "~CUSTOM:FrostedOasis"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:SteelHoe",
@@ -7609,8 +7739,9 @@
       "advancements.vegan_beef.descr": "You can craft beef with plants!",
       "block.stmwr.steel_block": "Block of Steel",
       "advancements.the_ultimate_destruction_tool.descr": "Craft a wand of transmutation, allowing you to turn any block into useless junk. Even bedrock.",
-      "advancements.healing.title": "Healing",
+      "trim_material.stmwr.storalium_trim": "Storalium",
       "advancements.construction.descr": "Craft a building wandar, used by wands to create resources with magic!",
+      "advancements.healing.title": "Healing",
       "item.stmwr.mystical_page": "Mystical Page",
       "advancements.cheesy.title": "Cheesy!",
       "advancements.saddle_up.descr": "You can craft saddles!",
@@ -7619,8 +7750,8 @@
       "item.stmwr.steel_armor_chestplate": "Steel Chestplate",
       "item.stmwr.steel_armor_boots": "Steel Boots",
       "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
-      "advancements.master_miner.descr": "Get a tier 3 haste totem",
       "advancements.leg_day.title": "Leg Day",
+      "advancements.master_miner.descr": "Get a tier 3 haste totem",
       "item.stmwr.healing_wand": "Healing Wand",
       "item.stmwr.shredded_beef": "Shredded Beef",
       "advancements.discount_flight.descr": "Craft a totem of levitation, to slowly lift yourself into the sky like the Lorax!",
@@ -7641,19 +7772,20 @@
       "advancements.leathery.descr": "You can craft leather horse armor now!",
       "block.stmwr.blazed_ore": "Blazed Ore",
       "advancements.magical.title": "Magical!",
-      "advancements.tortillas.title": "Tortillas!!!",
       "advancements.more_health.title": "More Health",
+      "advancements.tortillas.title": "Tortillas!!!",
       "item.stmwr.blazed_ingot": "Blazed",
       "advancements.ghost_busters.title": "Ghost Busters",
       "item.stmwr.pikachu_spawn_egg": "Pikachu Spawn Egg",
+      "trim_material.stmwr.storum_trim": "Storum",
       "advancements.free_magicite.descr": "You can craft magicite dust from ice shards!",
       "advancements.golden_boy.title": "Golden Boy",
       "item.stmwr.pizza_slice": "Pizza Slice",
       "advancements.youre_awful_at_this.descr": "Cut a pizza into.... 7 slices?!",
       "advancements.magic_writing.title": "Magic Writing",
       "advancements.fiery.title": "Fiery!",
-      "item.stmwr.giant_steve_cow_spawn_egg": "Giant Steve Cow Spawn Egg",
       "advancements.flame_on.descr": "Get a fireproof totem",
+      "item.stmwr.giant_steve_cow_spawn_egg": "Giant Steve Cow Spawn Egg",
       "item.stmwr.noobish_trial_coin": "Noobish Trial Coin",
       "advancements.fast_hands.descr": "Get a haste totem tier 1",
       "item.stmwr.blazed_axe": "Blazed Axe",
@@ -7662,12 +7794,13 @@
       "advancements.storum_alloy.title": "Storum Alloy",
       "advancements.speedy_gonzales.descr": "Craft a tier 2 speed totem",
       "advancements.simple_storage.descr": "Convert your storum into more storum with a creation orb",
-      "biome.stmwr.dead_forest": "Dead Forest",
       "gui.stmwr.modifiers_table.tooltip_empty": "item to modify",
+      "biome.stmwr.dead_forest": "Dead Forest",
       "advancements.wandars.descr": "Craft a wandar core, an important component in wands",
       "item.stmwr.blazed_pickaxe": "Blazed Pickaxe",
       "block.stmwr.master_cubby_cube": "Master Cubby Cube",
       "item.stmwr.godlium_armor_leggings": "Godlium Leggings",
+      "trim_material.stmwr.blazedtrim": "Blazed",
       "item.stmwr.cheese_stick": "Cheese Stick",
       "advancements.the_final_countdown.title": "The Final Countdown",
       "advancements.a_world_of_magic.descr": "Step into the wizard world trial, home to many useful materials!",
@@ -7678,16 +7811,16 @@
       "item.stmwr.advanced_material": "Advanced Material",
       "advancements.is_it_alive.title": "Is It Alive?",
       "advancements.bricked_it.title": "Bricked It",
-      "item.stmwr.pistol": "Pistol",
       "item.stmwr.dough": "Dough",
+      "item.stmwr.pistol": "Pistol",
       "advancements.king_of_steve_cows.title": "King Of Steve Cows",
       "item.stmwr.speed_totem_t_1": "Speed Totem Tier 1",
       "item.stmwr.speed_totem_t_2": "Speed Totem Tier 2",
       "item.stmwr.speed_totem_t_3": "Speed Totem Tier 3",
       "block.stmwr.magicite_block": "Block of Magicite",
       "advancements.pizza_time.descr": "Bake a pizza",
-      "advancements.carrying_the_world.descr": "Make an advanced cubby pack for even more portable storage",
       "item.stmwr.blazed_sword": "Blazed Sword",
+      "advancements.carrying_the_world.descr": "Make an advanced cubby pack for even more portable storage",
       "advancements.souls.title": "Souls",
       "advancements.ice_ice_baby.title": "Ice Ice Baby",
       "item.stmwr.taco": "Taco",
@@ -7706,8 +7839,8 @@
       "advancements.half_an_ingot.descr": "You can melt debris for two scraps in the portable crucible!",
       "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
       "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
-      "advancements.canned.title": "Canned",
       "advancements.rerodding_your_blazes.title": "Rerodding Your Blazes",
+      "advancements.canned.title": "Canned",
       "advancements.off_to_see_the_wizard.title": "Off To See The Wizard",
       "advancements.grilling.title": "Grilling",
       "item.stmwr.mutant_goop": "Mutant Goop",
@@ -7727,14 +7860,15 @@
       "biome.stmwr.perfecta": "Perfecta",
       "advancements.golden_boy.descr": "You can craft golden horse armor now!",
       "item.stmwr.soldier_spawn_egg": "Soldier Spawn Egg",
-      "block.stmwr.magician_crate": "Magician Crate",
       "advancements.ascendance.descr": "Obtain your first infinitite ingot.",
-      "item.stmwr.wizard_world": "Wizard World Trial Key",
+      "block.stmwr.magician_crate": "Magician Crate",
+      "trim_material.stmwr.uglum_trim": "Uglum",
       "advancements.seer_of_the_dark.title": "Seer Of The Dark",
+      "item.stmwr.wizard_world": "Wizard World Trial Key",
       "item.stmwr.totem_of_levitation": "Totem Of Levitation",
       "item.stmwr.steve_cow_spawn_egg": "Steve Cow Spawn Egg",
-      "advancements.please_the_gods.title": "Please The Gods",
       "advancements.kfc.title": "KFC",
+      "advancements.please_the_gods.title": "Please The Gods",
       "advancements.crossy_road.descr": "Obtain a tier 2 jumpboost totem",
       "advancements.taco_tuesday.descr": "Craft up some tacos!",
       "item.stmwr.ultrite": "Ultrite",
@@ -7744,6 +7878,7 @@
       "item.stmwr.dangerous_wizard_spawn_egg": "Dangerous Wizard Spawn Egg",
       "item.stmwr.strength_totem_t_3": "Strength Totem T3",
       "item.stmwr.pizza": "Pizza",
+      "painting.stmwr.coopmore.title": "Coopmore",
       "advancements.magical.descr": "Mine up some magicite, a key ingredient to all things magic!",
       "item.stmwr.empty_spell_book": "Empty Spell Book",
       "item.stmwr.trapped_wizard_spawn_egg": "Trapped Wizard Spawn Egg",
@@ -7777,6 +7912,7 @@
       "advancements.cook_on_the_go.descr": "You can craft a portable oven for easy cooking of food",
       "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
       "advancements.stmw_foods.title": "STMW: Foods",
+      "painting.stmwr.coopmore.author": "Rowanisreal",
       "item.stmwr.can": "Can",
       "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
       "block.stmwr.transmutated_gelatin": "Transmutated Gelatin",
@@ -7831,6 +7967,7 @@
       "advancements.ascendance.title": "Ascendance",
       "advancements.experienced.descr": "You can craft experience bottles!",
       "block.stmwr.stevum_block": "Block of Stevum",
+      "trim_material.stmwr.ultrite_trim": "Ultrite",
       "item.stmwr.animal_strap": "Animal Strap",
       "advancements.crafted_magicite.title": "Crafted Magicite",
       "advancements.dirty.descr": "Obtain a dirt nugget, the single most overpowered food in the game...",
@@ -7968,6 +8105,7 @@
       "block.stmwr.modifier_table": "Modifier table",
       "advancements.a_world_of_magic.title": "A World Of Magic",
       "block.stmwr.magicite_ore": "Magicite Ore",
+      "trim_material.stmwr.godlium": "Godlium",
       "gui.stmwr.modifiers_table.label_empty1": "|",
       "advancements.better_chests.descr": "Craft a basic cubby cube, a special block with more storage than a normal chest!",
       "gui.stmwr.modifiers_table.label_empty2": "|",
@@ -7992,6 +8130,7 @@
       "advancements.ultimate_ultrite.descr": "By mixing godlium and magicite, you are able to create a mystical compound, capable of startling power...",
       "advancements.call_me.title": "Call Me!!",
       "advancements.superman.descr": "Craft a T3 Strength Totem",
+      "trim_material.stmwr.steel_trim": "Steel",
       "item.stmwr.steel_armor_helmet": "Steel Helmet",
       "advancements.toot_toot.descr": "Get a mutant whistle, to fight the boss of this dimension!",
       "gui.stmwr.modifiers_table.tooltip_upgrade": "modifier",
@@ -8020,6 +8159,7 @@
       "advancements.bricked_it.descr": "You can double your brick output using the portable crucible!",
       "advancements.mmmmmm.title": "Mmmmmm",
       "advancements.inventory_beef.title": "Pocket Beef",
+      "trim_material.stmwr.infinitite_trim": "InfinititeTrim",
       "advancements.named.title": "Named!",
       "item.stmwr.wand_stick": "Wand Stick",
       "advancements.perfection_2.descr": "Obtain the atom smasher. The single greatest tool of all time.",
@@ -8027,7 +8167,9 @@
       "item.stmwr.pikastaff": "Pikastaff",
       "item_group.stmwr.stmw_5": "STMW 5",
       "advancements.better_chests.title": "Better Chests",
+      "trim_material.stmwr.stevum_trim": "Stevum",
       "entity.stmwr.steve_cow": "Steve Cow",
+      "trim_material.stmwr.magicite_trim": "Magicite",
       "advancements.rerodding_your_blazes.descr": "You can recraft blaze rods from the powder!",
       "advancements.blazing_flames.descr": "Twice the blazed from just a crucible!",
       "advancements.from_one_to_many.title": "From One To Many",

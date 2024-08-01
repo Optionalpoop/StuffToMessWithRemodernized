@@ -1,0 +1,9 @@
+{
+  "asset_name": "stevum_trim",
+  "description": {
+    "color": "#00FFFF",
+    "translate": "trim_material.stmwr.stevum_trim"
+  },
+  "ingredient": "stmwr:stevum",
+  "item_model_index": 0.0
+}

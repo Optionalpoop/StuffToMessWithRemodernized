@@ -1,0 +1,9 @@
+{
+  "asset_name": "steel_trim",
+  "description": {
+    "color": "#999999",
+    "translate": "trim_material.stmwr.steel_trim"
+  },
+  "ingredient": "stmwr:steel_ingot",
+  "item_model_index": 0.0
+}

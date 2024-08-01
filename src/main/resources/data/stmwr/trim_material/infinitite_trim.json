@@ -1,0 +1,9 @@
+{
+  "asset_name": "infinitite_trim",
+  "description": {
+    "color": "#990099",
+    "translate": "trim_material.stmwr.infinitite_trim"
+  },
+  "ingredient": "stmwr:infinitite_ingot",
+  "item_model_index": 0.0
+}
