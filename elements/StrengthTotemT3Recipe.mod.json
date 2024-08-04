@@ -12,7 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AdvancedMaterial"
+        "value": "CUSTOM:IronSpike"
       },
       {
         "value": "CUSTOM:GodliumBlock"
@@ -36,7 +36,7 @@
         "value": "Items.DRAGON_BREATH"
       },
       {
-        "value": "CUSTOM:AdvancedMaterial"
+        "value": "CUSTOM:IronSpike"
       }
     ],
     "recipeReturnStack": {

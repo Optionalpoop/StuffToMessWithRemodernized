@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:easter_egg"
+    },
+    "title": {
+      "translate": "advancements.how_do_you_craft_this_again.title"
+    },
+    "description": {
+      "translate": "advancements.how_do_you_craft_this_again.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "how_do_you_craft_this_again_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:easter_egg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500,
+    "loot": [
+      "stmwr:blocks/gear_loot_crate"
+    ]
+  },
+  "parent": "stmwr:how_do_you_craft_this_again"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:infinitite_ingot"
+    },
+    "c": {
+      "item": "stmwr:gear_core"
+    }
+  },
+  "result": {
+    "item": "stmwr:infinitite_core",
+    "count": 1
+  }
+}

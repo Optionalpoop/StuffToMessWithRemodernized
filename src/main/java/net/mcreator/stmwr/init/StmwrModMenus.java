@@ -11,6 +11,8 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.mcreator.stmwr.world.inventory.UpgradeStationTutorialSheetGUIMenu;
+import net.mcreator.stmwr.world.inventory.UpgradeStationGUIMenu;
 import net.mcreator.stmwr.world.inventory.ModifiersTableMenu;
 import net.mcreator.stmwr.world.inventory.MasterCubbyPackGUIMenu;
 import net.mcreator.stmwr.world.inventory.MasterCubbyCubeGUIMenu;
@@ -29,4 +31,6 @@ public class StmwrModMenus {
 	public static final RegistryObject<MenuType<AdvancedCubbyPackGUIMenu>> ADVANCED_CUBBY_PACK_GUI = REGISTRY.register("advanced_cubby_pack_gui", () -> IForgeMenuType.create(AdvancedCubbyPackGUIMenu::new));
 	public static final RegistryObject<MenuType<MasterCubbyCubeGUIMenu>> MASTER_CUBBY_CUBE_GUI = REGISTRY.register("master_cubby_cube_gui", () -> IForgeMenuType.create(MasterCubbyCubeGUIMenu::new));
 	public static final RegistryObject<MenuType<MasterCubbyPackGUIMenu>> MASTER_CUBBY_PACK_GUI = REGISTRY.register("master_cubby_pack_gui", () -> IForgeMenuType.create(MasterCubbyPackGUIMenu::new));
+	public static final RegistryObject<MenuType<UpgradeStationGUIMenu>> UPGRADE_STATION_GUI = REGISTRY.register("upgrade_station_gui", () -> IForgeMenuType.create(UpgradeStationGUIMenu::new));
+	public static final RegistryObject<MenuType<UpgradeStationTutorialSheetGUIMenu>> UPGRADE_STATION_TUTORIAL_SHEET_GUI = REGISTRY.register("upgrade_station_tutorial_sheet_gui", () -> IForgeMenuType.create(UpgradeStationTutorialSheetGUIMenu::new));
 }

@@ -10,7 +10,7 @@
         {
           "type": "minecraft:item",
           "name": "stmwr:magicite_dust",
-          "weight": 8,
+          "weight": 10,
           "functions": [
             {
               "function": "set_count",
@@ -32,7 +32,7 @@
         {
           "type": "minecraft:item",
           "name": "stmwr:plasticilia",
-          "weight": 8,
+          "weight": 10,
           "functions": [
             {
               "function": "set_count",
@@ -54,7 +54,7 @@
         {
           "type": "minecraft:item",
           "name": "stmwr:raw_totem",
-          "weight": 4,
+          "weight": 6,
           "functions": [
             {
               "function": "set_count",
@@ -76,7 +76,7 @@
         {
           "type": "minecraft:item",
           "name": "stmwr:ultrite",
-          "weight": 2,
+          "weight": 4,
           "functions": [
             {
               "function": "set_count",
@@ -98,7 +98,7 @@
         {
           "type": "minecraft:item",
           "name": "stmwr:crate_totem",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",

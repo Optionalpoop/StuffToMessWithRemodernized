@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Fiery!",
-    "achievementDescription": "Get some blazing ore, which when combined with magicite can lead to fireproof gear!",
+    "achievementDescription": "Get some blazing ore, which can lead to fireproof gear and useful totems!",
     "achievementIcon": {
       "value": "CUSTOM:BlazedOre"
     },

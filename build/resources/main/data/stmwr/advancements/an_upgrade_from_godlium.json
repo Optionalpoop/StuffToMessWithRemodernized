@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:steel_core"
+    },
+    "title": {
+      "translate": "advancements.an_upgrade_from_godlium.title"
+    },
+    "description": {
+      "translate": "advancements.an_upgrade_from_godlium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "an_upgrade_from_godlium_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:steel_core"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/gear_loot_crate"
+    ]
+  },
+  "parent": "stmwr:the_basis_of_gear"
+}

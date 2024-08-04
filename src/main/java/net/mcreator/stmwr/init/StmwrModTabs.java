@@ -184,6 +184,15 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.VANILLA_CRATE.get().asItem());
 				tabData.accept(StmwrModItems.CAN.get());
 				tabData.accept(StmwrModItems.CANNED_PIKACHU.get());
+				tabData.accept(StmwrModBlocks.UPGRADE_STATION.get().asItem());
+				tabData.accept(StmwrModItems.EASTER_EGG.get());
+				tabData.accept(StmwrModItems.UPGRADE_STATION_TUTORIAL_SHEET.get());
+				tabData.accept(StmwrModItems.GODLIUM_CORE.get());
+				tabData.accept(StmwrModItems.GEAR_CORE.get());
+				tabData.accept(StmwrModBlocks.GEAR_CRATE.get().asItem());
+				tabData.accept(StmwrModItems.BLAZED_CORE.get());
+				tabData.accept(StmwrModItems.STEEL_CORE.get());
+				tabData.accept(StmwrModItems.INFINITITE_CORE.get());
 			})
 
 					.build());

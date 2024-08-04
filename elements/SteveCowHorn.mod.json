@@ -43,14 +43,14 @@
     "projectile": {
       "value": "Arrow"
     },
-    "isFood": false,
+    "isFood": true,
     "nutritionalValue": 4,
-    "saturation": 0.3,
+    "saturation": 0.5,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "none"
   }
 }

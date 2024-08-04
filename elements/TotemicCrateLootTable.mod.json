@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:MagiciteDust"
             },
-            "weight": 8,
+            "weight": 10,
             "minCount": 4,
             "maxCount": 8,
             "minEnchantmentLevel": 0,
@@ -39,7 +39,7 @@
             "item": {
               "value": "CUSTOM:Plasticilia"
             },
-            "weight": 8,
+            "weight": 10,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -62,7 +62,7 @@
             "item": {
               "value": "CUSTOM:RawTotem"
             },
-            "weight": 4,
+            "weight": 6,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -85,7 +85,7 @@
             "item": {
               "value": "CUSTOM:Ultrite"
             },
-            "weight": 2,
+            "weight": 4,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -108,7 +108,7 @@
             "item": {
               "value": "CUSTOM:CrateTotem"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

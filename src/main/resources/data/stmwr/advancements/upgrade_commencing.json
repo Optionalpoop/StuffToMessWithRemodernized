@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:upgrade_station"
+    },
+    "title": {
+      "translate": "advancements.upgrade_commencing.title"
+    },
+    "description": {
+      "translate": "advancements.upgrade_commencing.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "upgrade_commencing_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:upgrade_station"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/upgrade_station_tutorial_sheet_loot_table"
+    ]
+  },
+  "parent": "stmwr:stuff_to_mess_with_remodernized"
+}

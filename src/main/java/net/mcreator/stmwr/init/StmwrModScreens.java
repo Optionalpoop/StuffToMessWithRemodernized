@@ -11,6 +11,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.stmwr.client.gui.UpgradeStationTutorialSheetGUIScreen;
+import net.mcreator.stmwr.client.gui.UpgradeStationGUIScreen;
 import net.mcreator.stmwr.client.gui.ModifiersTableScreen;
 import net.mcreator.stmwr.client.gui.MasterCubbyPackGUIScreen;
 import net.mcreator.stmwr.client.gui.MasterCubbyCubeGUIScreen;
@@ -31,6 +33,8 @@ public class StmwrModScreens {
 			MenuScreens.register(StmwrModMenus.ADVANCED_CUBBY_PACK_GUI.get(), AdvancedCubbyPackGUIScreen::new);
 			MenuScreens.register(StmwrModMenus.MASTER_CUBBY_CUBE_GUI.get(), MasterCubbyCubeGUIScreen::new);
 			MenuScreens.register(StmwrModMenus.MASTER_CUBBY_PACK_GUI.get(), MasterCubbyPackGUIScreen::new);
+			MenuScreens.register(StmwrModMenus.UPGRADE_STATION_GUI.get(), UpgradeStationGUIScreen::new);
+			MenuScreens.register(StmwrModMenus.UPGRADE_STATION_TUTORIAL_SHEET_GUI.get(), UpgradeStationTutorialSheetGUIScreen::new);
 		});
 	}
 }

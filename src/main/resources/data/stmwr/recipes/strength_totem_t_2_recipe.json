@@ -3,8 +3,8 @@
   "category": "misc",
   "pattern": [
     "abc",
-    "def",
-    "cga"
+    "ded",
+    "cfa"
   ],
   "key": {
     "a": {
@@ -17,15 +17,12 @@
       "item": "stmwr:magicite_block"
     },
     "d": {
-      "item": "stmwr:steel_sword"
+      "item": "stmwr:magic_carrot"
     },
     "e": {
       "item": "stmwr:strength_totem_t_1"
     },
     "f": {
-      "item": "minecraft:netherite_sword"
-    },
-    "g": {
       "item": "stmwr:godlium_sword"
     }
   },

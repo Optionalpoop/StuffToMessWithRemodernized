@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:upgrade_station",
     "stmwr:master_cubby_cube",
     "stmwr:advanced_cubby_cube",
     "stmwr:basic_cubby_cube",

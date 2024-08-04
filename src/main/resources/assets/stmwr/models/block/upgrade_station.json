@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/upgradestationbottom",
+    "up": "stmwr:block/upgradestationtop",
+    "north": "stmwr:block/upgradestationfront",
+    "east": "stmwr:block/upgradestationside",
+    "south": "stmwr:block/upgradestationside",
+    "west": "stmwr:block/upgradestationside",
+    "particle": "stmwr:block/upgradestationbottom"
+  },
+  "render_type": "solid"
+}

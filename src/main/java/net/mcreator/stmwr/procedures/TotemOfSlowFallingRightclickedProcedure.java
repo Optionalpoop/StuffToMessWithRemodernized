@@ -12,7 +12,7 @@ public class TotemOfSlowFallingRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 600, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 10, 1));
 		{
 			ItemStack _ist = itemstack;
 			if (_ist.hurt(1, RandomSource.create(), null)) {

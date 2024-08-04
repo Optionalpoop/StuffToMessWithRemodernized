@@ -13,7 +13,7 @@ import net.mcreator.stmwr.procedures.TotemOfSlowFallingRightclickedProcedure;
 
 public class TotemOfSlowFallingItem extends Item {
 	public TotemOfSlowFallingItem() {
-		super(new Item.Properties().durability(100).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(2000).rarity(Rarity.COMMON));
 	}
 
 	@Override

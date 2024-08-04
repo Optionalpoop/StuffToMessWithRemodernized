@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.stmwr.block.WizardWorldPortalBlock;
 import net.mcreator.stmwr.block.VanillaCrateBlock;
+import net.mcreator.stmwr.block.UpgradeStationBlock;
 import net.mcreator.stmwr.block.TrialCrateBlock;
 import net.mcreator.stmwr.block.TrialBrickBlock;
 import net.mcreator.stmwr.block.TransmutatedGelatinBlock;
@@ -36,6 +37,7 @@ import net.mcreator.stmwr.block.InfinititeBlockBlock;
 import net.mcreator.stmwr.block.GodliumOreBlock;
 import net.mcreator.stmwr.block.GodliumBlockBlock;
 import net.mcreator.stmwr.block.GeneralCrateBlock;
+import net.mcreator.stmwr.block.GearCrateBlock;
 import net.mcreator.stmwr.block.FoodyCrateBlock;
 import net.mcreator.stmwr.block.BlazedOreBlock;
 import net.mcreator.stmwr.block.BlazedBlockBlock;
@@ -76,6 +78,8 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> STORING_CRATE = REGISTRY.register("storing_crate", () -> new StoringCrateBlock());
 	public static final RegistryObject<Block> GENERAL_CRATE = REGISTRY.register("general_crate", () -> new GeneralCrateBlock());
 	public static final RegistryObject<Block> VANILLA_CRATE = REGISTRY.register("vanilla_crate", () -> new VanillaCrateBlock());
+	public static final RegistryObject<Block> UPGRADE_STATION = REGISTRY.register("upgrade_station", () -> new UpgradeStationBlock());
+	public static final RegistryObject<Block> GEAR_CRATE = REGISTRY.register("gear_crate", () -> new GearCrateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

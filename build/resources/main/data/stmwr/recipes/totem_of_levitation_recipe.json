@@ -2,25 +2,28 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aba",
-    "cdc",
-    "aea"
+    "abc",
+    "bdb",
+    "efe"
   ],
   "key": {
     "a": {
-      "item": "stmwr:magicite_dust"
+      "item": "stmwr:speed_totem_t_2"
     },
     "b": {
-      "item": "minecraft:elytra"
+      "item": "stmwr:ultrite"
     },
     "c": {
-      "item": "stmwr:ultrite"
+      "item": "stmwr:jumpboost_totem_t_2"
     },
     "d": {
       "item": "stmwr:raw_totem"
     },
     "e": {
-      "item": "minecraft:dragon_breath"
+      "item": "stmwr:magicite_dust"
+    },
+    "f": {
+      "item": "minecraft:phantom_membrane"
     }
   },
   "result": {

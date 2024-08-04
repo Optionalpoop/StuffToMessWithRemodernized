@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magicite_dust"
+    },
+    "b": {
+      "item": "stmwr:blazed_ingot"
+    },
+    "c": {
+      "item": "stmwr:gear_core"
+    }
+  },
+  "result": {
+    "item": "stmwr:blazed_core",
+    "count": 2
+  }
+}
