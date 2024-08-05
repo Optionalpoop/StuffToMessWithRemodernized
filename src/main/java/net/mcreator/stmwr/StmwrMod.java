@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.stmwr.init.StmwrModTabs;
+import net.mcreator.stmwr.init.StmwrModSounds;
 import net.mcreator.stmwr.init.StmwrModPaintings;
 import net.mcreator.stmwr.init.StmwrModMenus;
 import net.mcreator.stmwr.init.StmwrModItems;
@@ -44,7 +45,7 @@ public class StmwrMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		StmwrModSounds.REGISTRY.register(bus);
 		StmwrModBlocks.REGISTRY.register(bus);
 		StmwrModBlockEntities.REGISTRY.register(bus);
 		StmwrModItems.REGISTRY.register(bus);

@@ -1551,66 +1551,6 @@
       }
     },
     {
-      "name": "BlazedPickaxeRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blazed_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/blazed_pickaxe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BlazedAxeRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blazed_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/blazed_axe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BlazedSwordRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blazed_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/blazed_sword_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BlazedShovelRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blazed_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/blazed_shovel_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "BlazedHoeRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blazed_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/blazed_hoe_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "BlazedArmor",
       "type": "armor",
       "compiles": true,
@@ -3078,66 +3018,6 @@
       }
     },
     {
-      "name": "SteelPickaxeRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_pickaxe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "SteelAxeRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_axe_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "SteelSwordRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_sword_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "SteelShovelRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_shovel_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "SteelHoeRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_hoe_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "SteelArmor",
       "type": "armor",
       "compiles": true,
@@ -3150,54 +3030,6 @@
           "src/main/java/net/mcreator/stmwr/item/SteelArmorItem.java",
           "src/main/resources/assets/stmwr/models/item/steel_armor_boots.json",
           "src/main/resources/assets/stmwr/models/item/steel_armor_chestplate.json"
-        ]
-      }
-    },
-    {
-      "name": "SteelArmorHelmetRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_armor_helmet_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "SteelArmorChestplateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_armor_chestplate_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "SteelArmorLeggingsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_armor_leggings_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "SteelArmorBootsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/steel_armor_boots_recipe.json"
         ]
       }
     },
@@ -6406,54 +6238,6 @@
       }
     },
     {
-      "name": "InfinititeArmorHelmetRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infinitite_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/infinitite_armor_helmet_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "InfinititeArmorChestplateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infinitite_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/infinitite_armor_chestplate_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "InfinititeArmorLeggingsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infinitite_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/infinitite_armor_leggings_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "InfinititeArmorBootsRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infinitite_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/infinitite_armor_boots_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "InfinititeArmorHelmetTickEvent",
       "type": "procedure",
       "compiles": true,
@@ -7767,10 +7551,201 @@
           "src/main/resources/data/stmwr/advancements/hot_to_hold.json"
         ]
       }
+    },
+    {
+      "name": "SteelCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SteelCoreItem.java",
+          "src/main/resources/assets/stmwr/models/item/steel_core.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelCoreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/steel_core_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AnUpgradeFromGodlium",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "an_upgrade_from_godlium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/an_upgrade_from_godlium.json"
+        ]
+      }
+    },
+    {
+      "name": "Armored",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armored",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/armored.json"
+        ]
+      }
+    },
+    {
+      "name": "IndustrialAge",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_age",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/industrial_age.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_core",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/InfinititeCoreItem.java",
+          "src/main/resources/assets/stmwr/models/item/infinitite_core.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinititeCoreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinitite_core_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infinitite_core_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "InfinitePowah",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinite_powah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/infinite_powah.json"
+        ]
+      }
+    },
+    {
+      "name": "Smash",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/smash.json"
+        ]
+      }
+    },
+    {
+      "name": "TheFinalArmor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_final_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/the_final_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "FinalBossOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_boss_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/FinalBossOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FinalBossEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "final_boss_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/FinalBossEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "finalbossmusic",
+      "files": [
+        "hey_this_guys_cool"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "tag_elements": {
     "BIOMES:minecraft:has_structure/stronghold": [
       "~CUSTOM:WizardlyPlains",
@@ -7782,13 +7757,13 @@
       "~CUSTOM:TransmutatedGelatin",
       "~CUSTOM:Plasticilia"
     ],
-    "BIOMES:minecraft:has_structure/igloo": [
-      "~CUSTOM:FrozenWastes",
-      "~CUSTOM:SteveCowLand"
-    ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:WizardlyPlains",
       "~CUSTOM:FrostedOasis"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:SteveCowLand"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:SteelHoe",
@@ -8000,6 +7975,7 @@
       "block.stmwr.basic_cubby_cube": "Basic Cubby Cube",
       "advancements.spelling_bee.title": "Spelling Bee",
       "advancements.leathery.descr": "You can craft leather horse armor now!",
+      "advancements.smash.descr": "Craft the atom smasher with a core, 2 infinitite ingots, and ultrite at the end, with a godlium pickaxe for the catalyst",
       "block.stmwr.blazed_ore": "Blazed Ore",
       "advancements.magical.title": "Magical!",
       "advancements.more_health.title": "More Health",
@@ -8013,6 +7989,7 @@
       "block.stmwr.gear_crate": "Gear Crate",
       "advancements.golden_boy.title": "Golden Boy",
       "item.stmwr.pizza_slice": "Pizza Slice",
+      "advancements.infinite_powah.title": "Infinite Powah!!!",
       "advancements.youre_awful_at_this.descr": "Cut a pizza into.... 7 slices?!",
       "advancements.magic_writing.title": "Magic Writing",
       "advancements.fiery.title": "Fiery!",
@@ -8031,6 +8008,7 @@
       "advancements.wandars.descr": "Craft a wandar core, an important component in wands",
       "item.stmwr.blazed_pickaxe": "Blazed Pickaxe",
       "block.stmwr.master_cubby_cube": "Master Cubby Cube",
+      "item.stmwr.steel_core": "Steel Core",
       "item.stmwr.godlium_armor_leggings": "Godlium Leggings",
       "trim_material.stmwr.blazedtrim": "Blazed",
       "item.stmwr.cheese_stick": "Cheese Stick",
@@ -8116,6 +8094,7 @@
       "item.stmwr.dangerous_wizard_spawn_egg": "Dangerous Wizard Spawn Egg",
       "item.stmwr.strength_totem_t_3": "Strength Totem T3",
       "item.stmwr.pizza": "Pizza",
+      "item.stmwr.infinitite_core": "Infinitite Core",
       "painting.stmwr.coopmore.title": "Coopmore",
       "advancements.magical.descr": "Mine up some magicite, a key ingredient to all things magic!",
       "item.stmwr.empty_spell_book": "Empty Spell Book",
@@ -8123,6 +8102,7 @@
       "item.stmwr.nightvision_totem": "Nightvision Totem",
       "block.stmwr.storing_crate": "Storing Crate",
       "advancements.master_traveler.descr": "Obtain a master cubby pack, an amazing way to transport boat loads of resources in your inventory",
+      "advancements.industrial_age.title": "Industrial Age",
       "advancements.not_so_fun_to_hold.descr": "Craft a Totem of the Goop",
       "advancements.crafted_magicite.descr": "Create magicite with the creation orb!",
       "advancements.iran_away_from_the_iron.descr": "You can make iron in the crucible, and get double the iron as a reward!",
@@ -8133,6 +8113,7 @@
       "advancements.reduce_reuse_recycle.descr": "Craft a can of pikachu, allowing for a one-time spawn!",
       "advancements.magic_writing.descr": "Get yourself a mystical page, leading you one step closer to crafting spell books!",
       "item.stmwr.steve_cow_horn": "Steve Cow Horn",
+      "advancements.smash.title": "Smash",
       "advancements.i_have_too_much_already.title": "I Have Too Much Already",
       "advancements.experienced.title": "Experienced",
       "advancements.i_have_too_much_already.descr": "You may have loads of copper, why not double it with the crucible though?",
@@ -8156,6 +8137,7 @@
       "item.stmwr.can": "Can",
       "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
       "block.stmwr.transmutated_gelatin": "Transmutated Gelatin",
+      "advancements.the_final_armor.descr": "Craft infinitite armor with a godlium base, infinitite core, and all infinitite except for one ultrite placed after the core!",
       "advancements.mystical_agriculture.title": "Mystical Agriculture",
       "advancements.smells_fishy.descr": "You can cook fish with the portable oven!",
       "item.stmwr.militaria": "Militaria Trial Key",
@@ -8181,10 +8163,12 @@
       "advancements.wands_but_better.title": "Wands, But Better!!!",
       "block.stmwr.upgrade_station": "Upgrade Station",
       "advancements.perfection.descr": "Get a full set of infinitite armor. You are now a god.",
+      "advancements.the_final_armor.title": "The Final Armor",
       "advancements.youre_a_wizard_harry.title": "You\u0027re A Wizard Harry!",
       "item.stmwr.healing_totem": "Healing Totem Tier One",
       "item.stmwr.dirt_nugget": "Dirt Nugget",
       "item.stmwr.godlium_shovel": "Godlium Shovel",
+      "advancements.an_upgrade_from_godlium.title": "An Upgrade From Godlium",
       "advancements.molten_glass.title": "Molten Glass",
       "advancements.double_the_godlium.title": "Double The Godlium",
       "entity.stmwr.mutant_boss": "Mutant Boss",
@@ -8236,6 +8220,7 @@
       "advancements.molten_gear.descr": "Craft a blazed core, used for blazed gear.",
       "item.stmwr.steel_pickaxe": "Steel Pickaxe",
       "painting.stmwr.the_blurb.title": "The Blurb",
+      "advancements.armored.descr": "Craft steel armor the same way you would any other armor thus far, with a godlium base",
       "advancements.stuff_to_mess_with_remodernized.descr": "Welcome to the mod! These advancements will guide you through this mod!",
       "advancements.storum_alloy.descr": "You can use the creation orb to fuse storum and ultrite",
       "item.stmwr.strong_soul": "Strong Soul",
@@ -8306,6 +8291,7 @@
       "advancements.more_health.descr": "Get a tier 2 health totem",
       "advancements.kachow.title": "Kachow!",
       "advancements.youre_awful_at_this.title": "You\u0027re Awful At This",
+      "advancements.an_upgrade_from_godlium.descr": "Craft a steel core, used for steel gear!",
       "advancements.dirty.title": "Dirty!",
       "advancements.on_the_go.descr": "Craft a basic cubby pack, a handy way to carry more items with you",
       "advancements.whats_up_doc.descr": "You can cook rabbit with the portable oven!",
@@ -8316,6 +8302,7 @@
       "advancements.kfc.descr": "You can cook chicken with the portable oven!",
       "advancements.leathery.title": "Leathery",
       "item.stmwr.gas_mask_zombie_spawn_egg": "Gas Mask Zombie Spawn Egg",
+      "subtitles.finalbossmusic": "",
       "entity.stmwr.gas_mask_zombie": "Gas Mask Zombie",
       "advancements.stmw_trials.title": "STMW: Trials",
       "advancements.pika_chuuuu.title": "Pika-CHUUUU!",
@@ -8352,6 +8339,7 @@
       "item.stmwr.building_wandar": "Building Wandar",
       "advancements.hand_it_to_me.title": "Hand It To Me",
       "advancements.upgraded.descr": "Craft an advanced cubby cube, an even more powerful version with so much more space!",
+      "advancements.infinite_powah.descr": "Craft an infinitite core, the final and most powerful core!",
       "advancements.steve_cows.descr": "Craft a Steve Cow trial key!",
       "advancements.ripped_to_shreds.descr": "Cook up some delicious shredded beef!",
       "advancements.king_of_steve_cows.descr": "Craft the Totem of the Cow",
@@ -8415,10 +8403,12 @@
       "advancements.stabby_stabby.title": "Stabby Stabby",
       "advancements.doughy.title": "Doughy!",
       "advancements.bricked_it.descr": "You can double your brick output using the portable crucible!",
+      "advancements.armored.title": "Armored",
       "advancements.the_basis_of_gear.title": "The Basis Of Gear",
       "advancements.mmmmmm.title": "Mmmmmm",
       "advancements.inventory_beef.title": "Pocket Beef",
       "trim_material.stmwr.infinitite_trim": "InfinititeTrim",
+      "advancements.industrial_age.descr": "Craft steel tools with godlium as the catalyst!",
       "advancements.named.title": "Named!",
       "item.stmwr.wand_stick": "Wand Stick",
       "item.stmwr.upgrade_station_tutorial_sheet": "Upgrade Station Tutorial Sheet",

@@ -1,0 +1,10 @@
+{
+  "finalbossmusic": {
+    "sounds": [
+      {
+        "name": "stmwr:hey_this_guys_cool",
+        "stream": false
+      }
+    ]
+  }
+}
