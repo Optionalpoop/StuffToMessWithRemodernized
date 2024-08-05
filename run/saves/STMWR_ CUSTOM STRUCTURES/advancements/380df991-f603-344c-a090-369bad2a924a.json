@@ -10080,5 +10080,20 @@
     },
     "done": true
   },
+  "stmwr:the_final_armor": {
+    "criteria": {
+      "the_final_armor_2": "2024-08-04 19:42:30 -0400",
+      "the_final_armor_1": "2024-08-04 19:42:29 -0400",
+      "the_final_armor_0": "2024-08-04 19:42:28 -0400",
+      "the_final_armor_3": "2024-08-04 19:42:31 -0400"
+    },
+    "done": true
+  },
+  "stmwr:smash": {
+    "criteria": {
+      "smash_0": "2024-08-04 19:42:39 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

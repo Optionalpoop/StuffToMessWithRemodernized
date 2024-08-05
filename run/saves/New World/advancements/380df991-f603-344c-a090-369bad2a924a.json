@@ -1,0 +1,58 @@
+{
+  "stmwr:stmw_trials": {
+    "criteria": {
+      "stmw_trials_0": "2024-08-04 20:32:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-08-04 20:32:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-08-04 20:33:07 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_foods": {
+    "criteria": {
+      "stmw_foods_0": "2024-08-04 20:32:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-08-04 20:32:33 -0400",
+      "minecraft:dark_forest": "2024-08-04 20:32:38 -0400"
+    },
+    "done": false
+  },
+  "stmwr:the_final_countdown": {
+    "criteria": {
+      "the_final_countdown_0": "2024-08-04 20:32:37 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_vanilla_plus": {
+    "criteria": {
+      "stmw_vanilla_plus_0": "2024-08-04 20:32:32 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stuff_to_mess_with_remodernized": {
+    "criteria": {
+      "stuff_to_mess_with_remodernized_0": "2024-08-04 20:32:32 -0400"
+    },
+    "done": true
+  },
+  "stmwr:stmw_wizardry": {
+    "criteria": {
+      "stmw_wizardry_0": "2024-08-04 20:32:32 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
