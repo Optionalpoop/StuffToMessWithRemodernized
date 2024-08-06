@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:sand_worm_scale"
+    }
+  ],
+  "result": {
+    "item": "stmwr:noobish_trial_coin",
+    "count": 2
+  }
+}

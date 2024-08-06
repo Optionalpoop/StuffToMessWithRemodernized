@@ -1,0 +1,231 @@
+{
+  "_fv": 66,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:ApocalypseVillager"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:PistolAmmo"
+            },
+            "countOffer": 16,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:DurableApple"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 16,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 8,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WingedApple"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelCore"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 6,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SteelIngot"
+            },
+            "countOffer": 4,
+            "level": 3,
+            "maxTrades": 16,
+            "xp": 7,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:MutantGoop"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 4,
+            "xp": 10,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:RawTotem"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 24,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:AdvancedTotemBase"
+            },
+            "countOffer": 2,
+            "level": 3,
+            "maxTrades": 12,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Pikastaff"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:WeakSoul"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 4,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:AssaultRifle"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:AssaultRifleAmmo"
+            },
+            "countOffer": 16,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

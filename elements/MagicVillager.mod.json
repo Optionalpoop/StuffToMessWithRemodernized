@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Magic Villager",
+    "pointOfInterest": {
+      "value": "CUSTOM:MagicVillagerTradingStation"
+    },
+    "actionSound": {
+      "value": "block.amethyst_block.chime"
+    },
+    "hat": "None",
+    "professionTextureFile": "wizardvillager.png",
+    "zombifiedProfessionTextureFile": "wizardvillager.png"
+  }
+}

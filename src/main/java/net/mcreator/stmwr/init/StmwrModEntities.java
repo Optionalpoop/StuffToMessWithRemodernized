@@ -20,9 +20,12 @@ import net.mcreator.stmwr.entity.TrappedWizardEntity;
 import net.mcreator.stmwr.entity.SurvivorEntity;
 import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
+import net.mcreator.stmwr.entity.SandWormEntity;
 import net.mcreator.stmwr.entity.PikachuEntity;
 import net.mcreator.stmwr.entity.MutantWormEntity;
 import net.mcreator.stmwr.entity.MutantBossEntity;
+import net.mcreator.stmwr.entity.MinorSandWormEntity;
+import net.mcreator.stmwr.entity.LightningFlingerEntity;
 import net.mcreator.stmwr.entity.JuniorWizardEntity;
 import net.mcreator.stmwr.entity.InfinityGolemEntity;
 import net.mcreator.stmwr.entity.GiantSteveCowEntity;
@@ -31,6 +34,7 @@ import net.mcreator.stmwr.entity.FrostZombieEntity;
 import net.mcreator.stmwr.entity.FinalBossEntity;
 import net.mcreator.stmwr.entity.DangerousWizardEntity;
 import net.mcreator.stmwr.entity.BulletEntity;
+import net.mcreator.stmwr.entity.AssaultRifleBulletEntity;
 import net.mcreator.stmwr.StmwrMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -80,6 +84,18 @@ public class StmwrModEntities {
 			.setTrackingRange(500).setUpdateInterval(3).setCustomClientFactory(InfinityGolemEntity::new).fireImmune().sized(1f, 1.95f));
 	public static final RegistryObject<EntityType<FinalBossEntity>> FINAL_BOSS = register("final_boss", EntityType.Builder.<FinalBossEntity>of(FinalBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1000)
 			.setUpdateInterval(3).setCustomClientFactory(FinalBossEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<LightningFlingerEntity>> LIGHTNING_FLINGER = register("lightning_flinger", EntityType.Builder.<LightningFlingerEntity>of(LightningFlingerEntity::new, MobCategory.MONSTER)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LightningFlingerEntity::new).fireImmune().sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<SandWormEntity>> SAND_WORM = register("sand_worm",
+			EntityType.Builder.<SandWormEntity>of(SandWormEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SandWormEntity::new)
+
+					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<MinorSandWormEntity>> MINOR_SAND_WORM = register("minor_sand_worm",
+			EntityType.Builder.<MinorSandWormEntity>of(MinorSandWormEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MinorSandWormEntity::new)
+
+					.sized(0.4f, 0.3f));
+	public static final RegistryObject<EntityType<AssaultRifleBulletEntity>> ASSAULT_RIFLE_BULLET = register("assault_rifle_bullet", EntityType.Builder.<AssaultRifleBulletEntity>of(AssaultRifleBulletEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(AssaultRifleBulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -102,6 +118,9 @@ public class StmwrModEntities {
 			DangerousWizardEntity.init();
 			InfinityGolemEntity.init();
 			FinalBossEntity.init();
+			LightningFlingerEntity.init();
+			SandWormEntity.init();
+			MinorSandWormEntity.init();
 		});
 	}
 
@@ -121,5 +140,8 @@ public class StmwrModEntities {
 		event.put(DANGEROUS_WIZARD.get(), DangerousWizardEntity.createAttributes().build());
 		event.put(INFINITY_GOLEM.get(), InfinityGolemEntity.createAttributes().build());
 		event.put(FINAL_BOSS.get(), FinalBossEntity.createAttributes().build());
+		event.put(LIGHTNING_FLINGER.get(), LightningFlingerEntity.createAttributes().build());
+		event.put(SAND_WORM.get(), SandWormEntity.createAttributes().build());
+		event.put(MINOR_SAND_WORM.get(), MinorSandWormEntity.createAttributes().build());
 	}
 }

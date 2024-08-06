@@ -27,11 +27,13 @@ import net.mcreator.stmwr.block.SteelBlockBlock;
 import net.mcreator.stmwr.block.SpellBookApplicatorBlock;
 import net.mcreator.stmwr.block.PlasticiliaBlock;
 import net.mcreator.stmwr.block.ModifierTableBlock;
+import net.mcreator.stmwr.block.MilitariaTradingOutpostBlock;
 import net.mcreator.stmwr.block.MilitariaPortalBlock;
 import net.mcreator.stmwr.block.MasterCubbyCubeBlock;
 import net.mcreator.stmwr.block.MagiciteOreBlock;
 import net.mcreator.stmwr.block.MagiciteBlockBlock;
 import net.mcreator.stmwr.block.MagicianCrateBlock;
+import net.mcreator.stmwr.block.MagicVillagerTradingStationBlock;
 import net.mcreator.stmwr.block.LandOfTheSteveCowsPortalBlock;
 import net.mcreator.stmwr.block.InfinititeOreBlock;
 import net.mcreator.stmwr.block.InfinititeBlockBlock;
@@ -84,6 +86,8 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> GEAR_CRATE = REGISTRY.register("gear_crate", () -> new GearCrateBlock());
 	public static final RegistryObject<Block> SPELL_BOOK_APPLICATOR = REGISTRY.register("spell_book_applicator", () -> new SpellBookApplicatorBlock());
 	public static final RegistryObject<Block> APPLE_CRATE = REGISTRY.register("apple_crate", () -> new AppleCrateBlock());
+	public static final RegistryObject<Block> MILITARIA_TRADING_OUTPOST = REGISTRY.register("militaria_trading_outpost", () -> new MilitariaTradingOutpostBlock());
+	public static final RegistryObject<Block> MAGIC_VILLAGER_TRADING_STATION = REGISTRY.register("magic_villager_trading_station", () -> new MagicVillagerTradingStationBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

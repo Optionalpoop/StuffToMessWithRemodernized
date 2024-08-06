@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:spell_book_of_lightning"
+    },
+    "title": {
+      "translate": "advancements.thats_lit.title"
+    },
+    "description": {
+      "translate": "advancements.thats_lit.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thats_lit_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:spell_book_of_lightning"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/magician_loot_crate"
+    ]
+  },
+  "parent": "stmwr:spelling_bee"
+}

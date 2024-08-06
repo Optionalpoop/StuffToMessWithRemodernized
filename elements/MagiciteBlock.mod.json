@@ -58,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -121,17 +121,24 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
-    "restrictionBiomes": [],
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:WizardlyPlains"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "TAG:stone_ore_replaceables"
+      },
+      {
+        "value": "Blocks.DIRT"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": -55,
+    "maxGenerateHeight": 300
   }
 }

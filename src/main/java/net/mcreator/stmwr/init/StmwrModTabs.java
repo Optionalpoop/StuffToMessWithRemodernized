@@ -204,6 +204,18 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.MINER_APPLE.get());
 				tabData.accept(StmwrModItems.HEALER_APPLE.get());
 				tabData.accept(StmwrModItems.WINGED_APPLE.get());
+				tabData.accept(StmwrModBlocks.MILITARIA_TRADING_OUTPOST.get().asItem());
+				tabData.accept(StmwrModBlocks.MAGIC_VILLAGER_TRADING_STATION.get().asItem());
+				tabData.accept(StmwrModItems.LIGHTNING_FLINGER_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.LIGHTNING_FRAGMENT.get());
+				tabData.accept(StmwrModItems.SPELL_BOOK_OF_LIGHTNING.get());
+				tabData.accept(StmwrModItems.LIGHTNING_WAND.get());
+				tabData.accept(StmwrModItems.SAND_WORM_SCALE.get());
+				tabData.accept(StmwrModItems.SAND_WORM_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.MINOR_SAND_WORM_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.SAND_WORM_CALLER.get());
+				tabData.accept(StmwrModItems.ASSAULT_RIFLE.get());
+				tabData.accept(StmwrModItems.ASSAULT_RIFLE_AMMO.get());
 			})
 
 					.build());

@@ -10156,5 +10156,47 @@
     },
     "done": true
   },
+  "stmwr:ka_boom": {
+    "criteria": {
+      "ka_boom_0": "2024-08-06 09:24:33 -0400"
+    },
+    "done": true
+  },
+  "stmwr:i_cast_lightning": {
+    "criteria": {
+      "i_cast_lightning_0": "2024-08-06 09:49:39 -0400"
+    },
+    "done": true
+  },
+  "stmwr:lightning_spells": {
+    "criteria": {
+      "lightning_spells_0": "2024-08-06 09:49:40 -0400"
+    },
+    "done": true
+  },
+  "stmwr:thats_lit": {
+    "criteria": {
+      "thats_lit_0": "2024-08-06 09:49:40 -0400"
+    },
+    "done": true
+  },
+  "stmwr:baby_sand_worm": {
+    "criteria": {
+      "baby_sand_worm_0": "2024-08-06 10:25:09 -0400"
+    },
+    "done": true
+  },
+  "stmwr:dune": {
+    "criteria": {
+      "dune_0": "2024-08-06 10:25:51 -0400"
+    },
+    "done": true
+  },
+  "stmwr:pew_pew_pew": {
+    "criteria": {
+      "pew_pew_pew_0": "2024-08-06 10:39:39 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

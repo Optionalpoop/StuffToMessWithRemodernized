@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:uglum"
+    },
+    "b": {
+      "item": "stmwr:sand_worm_scale"
+    },
+    "c": {
+      "item": "stmwr:wand_stick"
+    }
+  },
+  "result": {
+    "item": "stmwr:sand_worm_caller",
+    "count": 1
+  }
+}

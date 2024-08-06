@@ -17,6 +17,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.stmwr.init.StmwrModVillagerProfessions;
 import net.mcreator.stmwr.init.StmwrModTabs;
 import net.mcreator.stmwr.init.StmwrModSounds;
 import net.mcreator.stmwr.init.StmwrModPaintings;
@@ -58,6 +59,7 @@ public class StmwrMod {
 
 		StmwrModPaintings.REGISTRY.register(bus);
 
+		StmwrModVillagerProfessions.PROFESSIONS.register(bus);
 		StmwrModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stmwr:militaria_land",
+  "spawners": {
+    "type": "stmwr:sand_worm",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:wizardly_plains",
+  "features": "stmwr:magicite_block",
+  "step": "underground_ores"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/militariatradingoutpost",
+    "up": "stmwr:block/militariatradingoutpost",
+    "north": "stmwr:block/militariatradingoutpost",
+    "east": "stmwr:block/militariatradingoutpost",
+    "south": "stmwr:block/militariatradingoutpost",
+    "west": "stmwr:block/militariatradingoutpost",
+    "particle": "stmwr:block/militariatradingoutpost"
+  },
+  "render_type": "solid"
+}

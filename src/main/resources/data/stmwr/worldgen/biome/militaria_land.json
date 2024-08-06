@@ -48,6 +48,12 @@
         "weight": 23,
         "minCount": 1,
         "maxCount": 4
+      },
+      {
+        "type": "stmwr:sand_worm",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "axolotls": [],

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:lightning_fragment"
+    },
+    "b": {
+      "item": "stmwr:empty_spell_book"
+    }
+  },
+  "result": {
+    "item": "stmwr:spell_book_of_lightning",
+    "count": 1
+  }
+}

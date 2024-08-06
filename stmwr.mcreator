@@ -116,7 +116,10 @@
           "src/main/resources/assets/stmwr/models/item/magicite_block.json",
           "src/main/resources/assets/stmwr/blockstates/magicite_block.json",
           "src/main/resources/assets/stmwr/models/block/magicite_block.json",
-          "src/main/java/net/mcreator/stmwr/block/MagiciteBlockBlock.java"
+          "src/main/resources/data/stmwr/forge/biome_modifier/magicite_block_biome_modifier.json",
+          "src/main/java/net/mcreator/stmwr/block/MagiciteBlockBlock.java",
+          "src/main/resources/data/stmwr/worldgen/configured_feature/magicite_block.json",
+          "src/main/resources/data/stmwr/worldgen/placed_feature/magicite_block.json"
         ]
       }
     },
@@ -7852,18 +7855,6 @@
       }
     },
     {
-      "name": "SpellBookOfTransmutationRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell_book_of_transmutation_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/spell_book_of_transmutation_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "DeletingBedrock",
       "type": "achievement",
       "compiles": true,
@@ -8352,6 +8343,518 @@
           "src/main/resources/data/stmwr/advancements/stmw_triangles.json"
         ]
       }
+    },
+    {
+      "name": "MilitariaTradingOutpost",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaria_trading_outpost",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/militaria_trading_outpost.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/militaria_trading_outpost.json",
+          "src/main/resources/assets/stmwr/models/block/militaria_trading_outpost.json",
+          "src/main/resources/assets/stmwr/blockstates/militaria_trading_outpost.json",
+          "src/main/java/net/mcreator/stmwr/block/MilitariaTradingOutpostBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ApocalypseVillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apocalypse_villager",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ApocalypseVillagerTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apocalypse_villager_trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MilitariaTradingOutpostStructure",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "militaria_trading_outpost_structure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/template_pool/militaria_trading_outpost_structure.json",
+          "src/main/resources/data/stmwr/worldgen/structure/militaria_trading_outpost_structure.json",
+          "src/main/resources/data/stmwr/worldgen/structure_set/militaria_trading_outpost_structure.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicVillagerTradingStation",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_villager_trading_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/magic_villager_trading_station.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/magic_villager_trading_station.json",
+          "src/main/resources/assets/stmwr/models/block/magic_villager_trading_station.json",
+          "src/main/java/net/mcreator/stmwr/block/MagicVillagerTradingStationBlock.java",
+          "src/main/resources/assets/stmwr/blockstates/magic_villager_trading_station.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicVillager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_villager",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MagicVillagerTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_villager_trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WizardTradingOutpost",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wizard_trading_outpost",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/structure/wizard_trading_outpost.json",
+          "src/main/resources/data/stmwr/worldgen/structure_set/wizard_trading_outpost.json",
+          "src/main/resources/data/stmwr/worldgen/template_pool/wizard_trading_outpost.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningFlingerPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_flinger_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/LightningFlingerPlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningFlinger",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_flinger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/client/renderer/LightningFlingerRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/LightningFlingerEntity.java",
+          "src/main/resources/assets/stmwr/models/item/lightning_flinger_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningFragment",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_fragment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/lightning_fragment.json",
+          "src/main/java/net/mcreator/stmwr/item/LightningFragmentItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightningFragmentRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_fragment_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/LightningFragmentRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KaBoom",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ka_boom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/ka_boom.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningManor",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_manor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/worldgen/structure/lightning_manor.json",
+          "src/main/resources/data/stmwr/worldgen/template_pool/lightning_manor.json",
+          "src/main/resources/data/stmwr/worldgen/structure_set/lightning_manor.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookOfLightningLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_of_lightning_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/SpellBookOfLightningLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpellBookOfLightning",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_of_lightning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/spell_book_of_lightning.json",
+          "src/main/java/net/mcreator/stmwr/item/SpellBookOfLightningItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookOfLightningRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_of_lightning_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/spell_book_of_lightning_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningWand",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/LightningWandItem.java",
+          "src/main/resources/assets/stmwr/models/item/lightning_wand.json"
+        ]
+      }
+    },
+    {
+      "name": "ThatsLit",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thats_lit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/thats_lit.json"
+        ]
+      }
+    },
+    {
+      "name": "LightningSpells",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_spells",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/lightning_spells.json"
+        ]
+      }
+    },
+    {
+      "name": "ICastLightning",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_cast_lightning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/i_cast_lightning.json"
+        ]
+      }
+    },
+    {
+      "name": "SandWormScale",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_worm_scale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/sand_worm_scale.json",
+          "src/main/java/net/mcreator/stmwr/item/SandWormScaleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SandWorm",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_worm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/entity/SandWormEntity.java",
+          "src/main/resources/assets/stmwr/models/item/sand_worm_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/client/renderer/SandWormRenderer.java",
+          "src/main/resources/data/stmwr/forge/biome_modifier/sand_worm_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "SandWormScaleToTrialCoinRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_worm_scale_to_trial_coin_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/sand_worm_scale_to_trial_coin_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Dune",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dune",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/dune.json"
+        ]
+      }
+    },
+    {
+      "name": "MinorSandWorm",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minor_sand_worm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/minor_sand_worm_spawn_egg.json",
+          "src/main/java/net/mcreator/stmwr/client/renderer/MinorSandWormRenderer.java",
+          "src/main/java/net/mcreator/stmwr/entity/MinorSandWormEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "SandWormCallerRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_worm_caller_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/SandWormCallerRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SandWormCaller",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_worm_caller",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SandWormCallerItem.java",
+          "src/main/resources/assets/stmwr/models/item/sand_worm_caller.json"
+        ]
+      }
+    },
+    {
+      "name": "SandWormCallerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_worm_caller_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/sand_worm_caller_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BabySandWorm",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_sand_worm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/baby_sand_worm.json"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/AssaultRifleItem.java",
+          "src/main/resources/assets/stmwr/models/item/assault_rifle.json"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifleAmmo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_ammo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/assault_rifle_ammo.json",
+          "src/main/java/net/mcreator/stmwr/item/AssaultRifleAmmoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AssaultRifleBullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assault_rifle_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/entity/AssaultRifleBulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PewPewPew",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pew_pew_pew",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/pew_pew_pew.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -8376,13 +8879,13 @@
       "~CUSTOM:TransmutatedGelatin",
       "~CUSTOM:Plasticilia"
     ],
-    "BIOMES:minecraft:has_structure/igloo": [
-      "~CUSTOM:FrozenWastes",
-      "~CUSTOM:SteveCowLand"
-    ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:WizardlyPlains",
       "~CUSTOM:FrostedOasis"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:SteveCowLand"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:SteelHoe",
@@ -8455,6 +8958,8 @@
       "~CUSTOM:MagiciteOre"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:MagicVillagerTradingStation",
+      "~CUSTOM:MilitariaTradingOutpost",
       "~CUSTOM:MasterCubbyCube",
       "~CUSTOM:SteelBlock",
       "~CUSTOM:SteelOre",
@@ -8523,6 +9028,8 @@
       "~CUSTOM:SteveCowLand"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MagicVillagerTradingStation",
+      "~CUSTOM:MilitariaTradingOutpost",
       "~CUSTOM:SpellBookApplicator",
       "~CUSTOM:UpgradeStation",
       "~CUSTOM:MasterCubbyCube",
@@ -8570,12 +9077,14 @@
       "advancements.cheesy.title": "Cheesy!",
       "advancements.saddle_up.descr": "You can craft saddles!",
       "advancements.mystical_agriculture.descr": "Craft a magic carrot",
+      "entity.minecraft.villager.stmwr.apocalypse_villager": "Apocalypse Villager",
+      "advancements.thats_lit.title": "That\u0027s Lit!",
       "block.stmwr.stevum_ore": "Stevum Ore",
       "item.stmwr.steel_armor_chestplate": "Steel Chestplate",
       "item.stmwr.steel_armor_boots": "Steel Boots",
       "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
-      "advancements.master_miner.descr": "Get a tier 3 haste totem",
       "advancements.leg_day.title": "Leg Day",
+      "advancements.master_miner.descr": "Get a tier 3 haste totem",
       "item.stmwr.healing_wand": "Healing Wand",
       "advancements.meeza_back.title": "Meeza Back!!!",
       "item.stmwr.shredded_beef": "Shredded Beef",
@@ -8592,13 +9101,14 @@
       "item.stmwr.weak_soul": "Weak Soul",
       "advancements.superman.title": "Superman",
       "item.stmwr.infinitite_scrap": "Infinitite Scrap",
-      "advancements.im_a_survivor.title": "I\u0027m A Survivor!",
       "advancements.how_do_you_craft_this_again.descr": "You found the easter egg..?",
+      "advancements.im_a_survivor.title": "I\u0027m A Survivor!",
       "item.stmwr.crate_totem": "Crate Totem",
       "block.stmwr.basic_cubby_cube": "Basic Cubby Cube",
-      "advancements.spelling_bee.title": "Spelling Bee",
-      "advancements.leathery.descr": "You can craft leather horse armor now!",
+      "item.stmwr.assault_rifle_ammo": "Assault Rifle Ammo",
       "advancements.smash.descr": "Craft the atom smasher with a core, 2 infinitite ingots, and ultrite at the end, with a godlium pickaxe for the catalyst",
+      "advancements.leathery.descr": "You can craft leather horse armor now!",
+      "advancements.spelling_bee.title": "Spelling Bee",
       "block.stmwr.blazed_ore": "Blazed Ore",
       "advancements.magical.title": "Magical!",
       "advancements.more_health.title": "More Health",
@@ -8606,33 +9116,33 @@
       "item.stmwr.blazed_ingot": "Blazed",
       "advancements.ghost_busters.title": "Ghost Busters",
       "item.stmwr.pikachu_spawn_egg": "Pikachu Spawn Egg",
-      "gui.stmwr.upgrade_station_gui.label_output": "Output",
-      "advancements.free_magicite.descr": "You can craft magicite dust from ice shards!",
       "trim_material.stmwr.storum_trim": "Storum",
+      "advancements.free_magicite.descr": "You can craft magicite dust from ice shards!",
+      "gui.stmwr.upgrade_station_gui.label_output": "Output",
       "block.stmwr.gear_crate": "Gear Crate",
       "advancements.golden_boy.title": "Golden Boy",
-      "advancements.infinite_powah.title": "Infinite Powah!!!",
       "item.stmwr.pizza_slice": "Pizza Slice",
+      "advancements.infinite_powah.title": "Infinite Powah!!!",
       "advancements.youre_awful_at_this.descr": "Cut a pizza into.... 7 slices?!",
       "advancements.magic_writing.title": "Magic Writing",
       "advancements.fiery.title": "Fiery!",
-      "item.stmwr.giant_steve_cow_spawn_egg": "Giant Steve Cow Spawn Egg",
       "advancements.flame_on.descr": "Get a fireproof totem",
+      "item.stmwr.giant_steve_cow_spawn_egg": "Giant Steve Cow Spawn Egg",
       "item.stmwr.noobish_trial_coin": "Noobish Trial Coin",
       "advancements.fast_hands.descr": "Get a haste totem tier 1",
       "item.stmwr.blazed_axe": "Blazed Axe",
       "block.stmwr.storum_block": "Block of Storum",
-      "advancements.speedy_gonzales.descr": "Craft a tier 2 speed totem",
-      "advancements.storum_alloy.title": "Storum Alloy",
       "advancements.completely_useless.title": "Completely Useless",
+      "advancements.storum_alloy.title": "Storum Alloy",
+      "advancements.speedy_gonzales.descr": "Craft a tier 2 speed totem",
       "advancements.simple_storage.descr": "Convert your storum into more storum with a creation orb",
       "gui.stmwr.modifiers_table.tooltip_empty": "item to modify",
       "biome.stmwr.dead_forest": "Dead Forest",
       "advancements.wandars.descr": "Craft a wandar core, an important component in wands",
-      "item.stmwr.blazed_pickaxe": "Blazed Pickaxe",
       "item.stmwr.winged_apple": "Winged Apple",
-      "item.stmwr.steel_core": "Steel Core",
+      "item.stmwr.blazed_pickaxe": "Blazed Pickaxe",
       "block.stmwr.master_cubby_cube": "Master Cubby Cube",
+      "item.stmwr.steel_core": "Steel Core",
       "item.stmwr.godlium_armor_leggings": "Godlium Leggings",
       "trim_material.stmwr.blazedtrim": "Blazed",
       "gui.stmwr.spell_book_applicator_gui.label_wandar": "Wandar",
@@ -8647,9 +9157,11 @@
       "advancements.hot_to_hold.descr": "Crafting blazed tools is once again the same as godlium, with blazed counterparts to materials",
       "advancements.is_it_alive.title": "Is It Alive?",
       "advancements.bricked_it.title": "Bricked It",
-      "item.stmwr.pistol": "Pistol",
       "item.stmwr.dough": "Dough",
+      "item.stmwr.pistol": "Pistol",
+      "item.stmwr.lightning_wand": "Lightning Wand",
       "advancements.king_of_steve_cows.title": "King Of Steve Cows",
+      "advancements.dune.descr": "Find and defeat a sand worm for its scales",
       "item.stmwr.speed_totem_t_1": "Speed Totem Tier 1",
       "item.stmwr.speed_totem_t_2": "Speed Totem Tier 2",
       "item.stmwr.speed_totem_t_3": "Speed Totem Tier 3",
@@ -8658,9 +9170,11 @@
       "advancements.pizza_time.descr": "Bake a pizza",
       "advancements.carrying_the_world.descr": "Make an advanced cubby pack for even more portable storage",
       "item.stmwr.blazed_sword": "Blazed Sword",
+      "advancements.i_cast_lightning.descr": "Craft a lightning wand with a casting wandar at the spell book applicator!",
       "advancements.souls.title": "Souls",
       "advancements.firey_armor.descr": "Crafting blazed armor is the same as godlium, except with iron armor as the catalyst, and blazed ingots/cores",
       "item.stmwr.blazed_core": "Blazed Core",
+      "item.stmwr.lightning_fragment": "Lightning Fragment",
       "advancements.ice_ice_baby.title": "Ice Ice Baby",
       "item.stmwr.taco": "Taco",
       "gui.stmwr.upgrade_station_gui.label_tool": "Catalyst",
@@ -8687,6 +9201,7 @@
       "advancements.off_to_see_the_wizard.title": "Off To See The Wizard",
       "advancements.grilling.title": "Grilling",
       "item.stmwr.mutant_goop": "Mutant Goop",
+      "item.stmwr.sand_worm_caller": "Sand Worm Caller",
       "item.stmwr.atom_smasher": "Atom Smasher",
       "advancements.maximum_health.title": "Maximum Health!!!",
       "advancements.stmw_wizardry.descr": "All of your progress on the art of magic will be here!",
@@ -8739,9 +9254,11 @@
       "advancements.iran_away_from_the_iron.descr": "You can make iron in the crucible, and get double the iron as a reward!",
       "advancements.sheeple.title": "Sheeple",
       "advancements.pets.title": "Pets!",
+      "entity.stmwr.lightning_flinger": "Lightning Flinger",
       "advancements.ugly.title": "Ugly",
       "item.stmwr.raw_totem": "Raw Totem",
       "advancements.reduce_reuse_recycle.descr": "Craft a can of pikachu, allowing for a one-time spawn!",
+      "advancements.ka_boom.title": "Ka-Boom!",
       "advancements.magic_writing.descr": "Get yourself a mystical page, leading you one step closer to crafting spell books!",
       "advancements.techno_never_dies.descr": "Craft a wand of healing with a casting wandar at the spell book applicator! o7",
       "item.stmwr.steve_cow_horn": "Steve Cow Horn",
@@ -8749,6 +9266,7 @@
       "advancements.i_have_too_much_already.title": "I Have Too Much Already",
       "advancements.experienced.title": "Experienced",
       "advancements.i_have_too_much_already.descr": "You may have loads of copper, why not double it with the crucible though?",
+      "advancements.pew_pew_pew.descr": "Obtain an assault rifle from a trader nearby!",
       "advancements.i_need_my_payday_2.descr": "Get some noobish trial coins with things found in the first few trials!",
       "advancements.even_soulier.title": "Even... Soulier?",
       "gui.stmwr.spell_book_applicator_gui.label_output": "Output",
@@ -8760,11 +9278,13 @@
       "item.stmwr.blazed_armor_helmet": "Blazed Helmet",
       "advancements.meeza_back.descr": "Craft a healer apple, allowing you to torture people with endless life",
       "advancements.completion.descr": "Defeat the final boss, allowing you to obtain infinitite with the mold.",
+      "item.stmwr.assault_rifle": "Assault Rifle",
       "item.stmwr.infinitite_armor_chestplate": "Infinitite Chestplate",
       "item.stmwr.steel_shovel": "Steel Shovel",
       "advancements.godly_potential.title": "Godly Potential...",
       "item.stmwr.pistol_ammo": "Pistol Ammo",
       "advancements.creation_at_your_fingertips.title": "Creation At Your Fingertips",
+      "entity.stmwr.sand_worm": "Sand Worm",
       "advancements.cook_on_the_go.descr": "You can craft a portable oven for easy cooking of food",
       "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
       "advancements.upgrade_commencing.descr": "Craft an upgrade station, your new best friend in making high-level gear!",
@@ -8815,6 +9335,7 @@
       "advancements.an_upgrade_from_godlium.title": "An Upgrade From Godlium",
       "advancements.molten_glass.title": "Molten Glass",
       "advancements.double_the_godlium.title": "Double The Godlium",
+      "item.stmwr.sand_worm_scale": "Sand Worm Scale",
       "entity.stmwr.mutant_boss": "Mutant Boss",
       "item.stmwr.totem_of_slow_falling": "Totem Of Slow Falling",
       "advancements.is_it_alive.descr": "You can craft a weak soul using a totem and various items from trials",
@@ -8840,6 +9361,9 @@
       "block.stmwr.stevum_block": "Block of Stevum",
       "trim_material.stmwr.ultrite_trim": "Ultrite",
       "advancements.inedible_and_incredible.descr": "Craft a magician apple, used for special apples that give OP but short buffs!",
+      "advancements.i_cast_lightning.title": "I Cast Lightning!",
+      "advancements.ka_boom.descr": "Find and kill lightning flingers in their home",
+      "block.stmwr.magic_villager_trading_station": "Magic Villager Trading Station",
       "item.stmwr.animal_strap": "Animal Strap",
       "advancements.crafted_magicite.title": "Crafted Magicite",
       "advancements.dirty.descr": "Obtain a dirt nugget, the single most overpowered food in the game...",
@@ -8853,6 +9377,7 @@
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_youll_do_it_anyways_wont_you": "You\u0027ll do it anyways, won\u0027t you?",
       "advancements.killer.title": "Killer",
       "advancements.perfection_2.title": "Perfection #2",
+      "item.stmwr.minor_sand_worm_spawn_egg": "Minor Sand Worm Spawn Egg",
       "advancements.off_to_see_the_wizard.descr": "Craft a wizard world trial key!",
       "advancements.smells_fishy.title": "Smells Fishy",
       "item.stmwr.storum": "Storum",
@@ -8877,8 +9402,10 @@
       "advancements.no_more_piggies.descr": "You can craft smithing templates now! Though they aren\u0027t cheap",
       "advancements.flame_on.title": "Flame On!",
       "item.stmwr.advanced_wand_stick": "Advanced Wand Stick",
+      "item.stmwr.sand_worm_spawn_egg": "Sand Worm Spawn Egg",
       "advancements.advanced_totem_making.title": "Advanced Totem Making",
       "advancements.fiery.descr": "Get some blazing ore, which can lead to fireproof gear and useful totems!",
+      "item.stmwr.spell_book_of_lightning": "Spell Book Of Lightning",
       "item.stmwr.blazed_armor_boots": "Blazed Boots",
       "block.stmwr.blazed_block": "Block of Blazed",
       "item.stmwr.godlium_armor_boots": "Godlium Boots",
@@ -8900,6 +9427,7 @@
       "item.stmwr.master_cubby_pack": "Master Cubby Pack",
       "item.stmwr.magicite_dust": "Magicite",
       "advancements.better_than_fortune.title": "Better Than Fortune",
+      "advancements.dune.title": "Dune",
       "advancements.sheeple.descr": "You can cook mutton in the portable oven!",
       "advancements.find_the_pieces.descr": "Craft some key pieces, used to make keys for the trials",
       "advancements.stmw_vanilla_plus.descr": "Jump into the word of QOL changes to Minecraft",
@@ -8915,6 +9443,7 @@
       "item.stmwr.mysterious_scrap": "Mysterious Scrap",
       "advancements.construction.title": "Construction",
       "advancements.the_ultimate_destruction_tool.title": "The Ultimate Destruction Tool",
+      "advancements.baby_sand_worm.title": "Baby Sand Worm",
       "advancements.healthy.title": "Healthy!",
       "item.stmwr.casting_wandar": "Casting Wandar",
       "advancements.man_of_steel.descr": "Get some extra steel by smelting your ore with the portable crucible",
@@ -8926,11 +9455,13 @@
       "advancements.steel_heart.title": "Steel Heart",
       "gui.stmwr.modifiers_table.label_modifier": "modifier",
       "item.stmwr.sausage": "Sausage",
+      "advancements.thats_lit.descr": "Obtain a lightning spell book",
       "advancements.seer_of_the_dark.descr": "Craft a night vision totem",
       "item.stmwr.infinitite_armor_leggings": "Infinitite Leggings",
       "block.stmwr.plasticilia": "Plasticilia",
       "subtitles.wind": "spoooooooky wiiiiiind",
       "advancements.ripped_to_shreds.title": "Ripped To Shreds",
+      "advancements.pew_pew_pew.title": "Pew Pew Pew!",
       "entity.stmwr.giant_steve_cow": "Giant Steve Cow",
       "advancements.stabby_stabby.descr": "Get a knife",
       "advancements.cheesy.descr": "Craft up some cheese!",
@@ -8943,6 +9474,7 @@
       "advancements.youre_awful_at_this.title": "You\u0027re Awful At This",
       "advancements.an_upgrade_from_godlium.descr": "Craft a steel core, used for steel gear!",
       "advancements.dirty.title": "Dirty!",
+      "block.stmwr.militaria_trading_outpost": "Militaria Trading Outpost",
       "advancements.on_the_go.descr": "Craft a basic cubby pack, a handy way to carry more items with you",
       "advancements.whats_up_doc.descr": "You can cook rabbit with the portable oven!",
       "advancements.invincible.descr": "Craft a durable apple, which makes you an immortal beast, while cutting your ability to cause harm",
@@ -8954,6 +9486,7 @@
       "advancements.leathery.title": "Leathery",
       "item.stmwr.gas_mask_zombie_spawn_egg": "Gas Mask Zombie Spawn Egg",
       "subtitles.finalbossmusic": "",
+      "entity.stmwr.minor_sand_worm": "Minor Sand Worm",
       "entity.stmwr.gas_mask_zombie": "Gas Mask Zombie",
       "advancements.stmw_trials.title": "STMW: Trials",
       "advancements.pika_chuuuu.title": "Pika-CHUUUU!",
@@ -9018,6 +9551,7 @@
       "advancements.better_than_fortune.descr": "If you get silk touch on your pickaxe and get some magicite ore, you can get so much more with the crucible!",
       "advancements.cook_on_the_go.title": "Cook On The Go!",
       "advancements.creation_at_your_fingertips.descr": "Craft some creation orbs, used for a lot of special recipies!",
+      "advancements.lightning_spells.title": "Lightning Spells",
       "block.stmwr.trial_brick": "Trial Brick",
       "block.stmwr.infinitite_block": "Block of Infinitite",
       "advancements.half_an_ingot.title": "Half An Ingot",
@@ -9056,6 +9590,7 @@
       "advancements.speedy_gonzales.title": "Speedy Gonzales",
       "item.stmwr.blazed_armor_chestplate": "Blazed Chestplate",
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_push_fuse": "Push Fuse,",
+      "entity.minecraft.villager.stmwr.magic_villager": "Magic Villager",
       "advancements.hot_to_hold.title": "Hot To Hold",
       "advancements.taco_tuesday.title": "Taco Tuesday!",
       "item.stmwr.advanced_cubby_pack": "Advanced Cubby Pack",
@@ -9066,6 +9601,7 @@
       "advancements.bricked_it.descr": "You can double your brick output using the portable crucible!",
       "advancements.armored.title": "Armored",
       "advancements.the_basis_of_gear.title": "The Basis Of Gear",
+      "item.stmwr.lightning_flinger_spawn_egg": "Lightning Flinger Spawn Egg",
       "advancements.off_to_the_races.descr": "Craft a booster apple, the ultimate source of speed!",
       "advancements.mmmmmm.title": "Mmmmmm",
       "advancements.inventory_beef.title": "Pocket Beef",
@@ -9131,6 +9667,7 @@
       "advancements.git_gud.descr": "Craft a godlium core",
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_you_can_guess": "You can guess,",
       "advancements.slo_mo.title": "SloMo",
+      "advancements.lightning_spells.descr": "Craft a lightning spell book with the lightning fragments",
       "block.stmwr.advanced_cubby_cube": "Advanced Cubby Cube",
       "item.stmwr.junior_wizard_spawn_egg": "Junior Wizard Spawn Egg",
       "item.stmwr.godlium_pickaxe": "Godlium Pickaxe",
@@ -9138,6 +9675,7 @@
       "gui.stmwr.modifiers_table.label_modifiers": "modifiers",
       "item.stmwr.ice_shard": "Ice Shard",
       "advancements.souls.descr": "Obtain a weak soul by killing a weak magical being",
+      "advancements.baby_sand_worm.descr": "Use some scales to craft a sand worm caller, allowing you to summon a new and powerful mount!",
       "advancements.pizza_time.title": "Pizza Time",
       "advancements.no_more_piggies.title": "No More Piggies",
       "advancements.stmw_triangles.descr": "Welcome to your guide for all things sci-fi and industry!",

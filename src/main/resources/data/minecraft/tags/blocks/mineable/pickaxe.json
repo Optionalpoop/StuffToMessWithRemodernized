@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "stmwr:magic_villager_trading_station",
+    "stmwr:militaria_trading_outpost",
     "stmwr:spell_book_applicator",
     "stmwr:upgrade_station",
     "stmwr:master_cubby_cube",

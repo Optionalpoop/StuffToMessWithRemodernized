@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Apocalypse Villager",
+    "pointOfInterest": {
+      "value": "CUSTOM:MilitariaTradingOutpost"
+    },
+    "actionSound": {
+      "value": "ambient.cave"
+    },
+    "hat": "None",
+    "professionTextureFile": "apocalypsevillager.png",
+    "zombifiedProfessionTextureFile": "apocalypsevillager.png"
+  }
+}

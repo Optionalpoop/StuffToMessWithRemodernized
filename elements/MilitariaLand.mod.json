@@ -144,6 +144,15 @@
         "maxGroup": 4,
         "weight": 23,
         "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:SandWorm"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "ambient"
       }
     ]
   }

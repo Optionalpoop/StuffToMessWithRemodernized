@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:lightning_manor",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 3,
+    "salt": 200653598
+  }
+}
