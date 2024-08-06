@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ender_eye"
+    },
+    "b": {
+      "item": "stmwr:ultrite"
+    },
+    "c": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "d": {
+      "item": "stmwr:infini_boing_apple"
+    }
+  },
+  "result": {
+    "item": "stmwr:winged_apple",
+    "count": 1
+  }
+}

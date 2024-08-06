@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Healing",
-    "achievementDescription": "You can craft the spellbook of healing! You can make a wand with it.",
+    "achievementDescription": "Obtain a spellbook of healing. Use it at the spell book applicator!",
     "achievementIcon": {
       "value": "CUSTOM:SpellBookOfHealing"
     },

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:magic_carrot"
+    },
+    "b": {
+      "item": "minecraft:golden_apple"
+    },
+    "c": {
+      "item": "stmwr:magician_apple"
+    }
+  },
+  "result": {
+    "item": "stmwr:healer_apple",
+    "count": 1
+  }
+}

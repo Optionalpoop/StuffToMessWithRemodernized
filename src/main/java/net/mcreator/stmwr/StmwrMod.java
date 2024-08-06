@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.stmwr.init.StmwrModTabs;
 import net.mcreator.stmwr.init.StmwrModSounds;
 import net.mcreator.stmwr.init.StmwrModPaintings;
+import net.mcreator.stmwr.init.StmwrModMobEffects;
 import net.mcreator.stmwr.init.StmwrModMenus;
 import net.mcreator.stmwr.init.StmwrModItems;
 import net.mcreator.stmwr.init.StmwrModEntities;
@@ -52,6 +53,8 @@ public class StmwrMod {
 		StmwrModEntities.REGISTRY.register(bus);
 
 		StmwrModTabs.REGISTRY.register(bus);
+
+		StmwrModMobEffects.REGISTRY.register(bus);
 
 		StmwrModPaintings.REGISTRY.register(bus);
 

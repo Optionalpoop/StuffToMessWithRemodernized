@@ -13,6 +13,8 @@ import net.minecraft.world.inventory.MenuType;
 
 import net.mcreator.stmwr.world.inventory.UpgradeStationTutorialSheetGUIMenu;
 import net.mcreator.stmwr.world.inventory.UpgradeStationGUIMenu;
+import net.mcreator.stmwr.world.inventory.SpellBookApplicatorTutorialSheetGUIMenu;
+import net.mcreator.stmwr.world.inventory.SpellBookApplicatorGUIMenu;
 import net.mcreator.stmwr.world.inventory.ModifiersTableMenu;
 import net.mcreator.stmwr.world.inventory.MasterCubbyPackGUIMenu;
 import net.mcreator.stmwr.world.inventory.MasterCubbyCubeGUIMenu;
@@ -33,4 +35,7 @@ public class StmwrModMenus {
 	public static final RegistryObject<MenuType<MasterCubbyPackGUIMenu>> MASTER_CUBBY_PACK_GUI = REGISTRY.register("master_cubby_pack_gui", () -> IForgeMenuType.create(MasterCubbyPackGUIMenu::new));
 	public static final RegistryObject<MenuType<UpgradeStationGUIMenu>> UPGRADE_STATION_GUI = REGISTRY.register("upgrade_station_gui", () -> IForgeMenuType.create(UpgradeStationGUIMenu::new));
 	public static final RegistryObject<MenuType<UpgradeStationTutorialSheetGUIMenu>> UPGRADE_STATION_TUTORIAL_SHEET_GUI = REGISTRY.register("upgrade_station_tutorial_sheet_gui", () -> IForgeMenuType.create(UpgradeStationTutorialSheetGUIMenu::new));
+	public static final RegistryObject<MenuType<SpellBookApplicatorGUIMenu>> SPELL_BOOK_APPLICATOR_GUI = REGISTRY.register("spell_book_applicator_gui", () -> IForgeMenuType.create(SpellBookApplicatorGUIMenu::new));
+	public static final RegistryObject<MenuType<SpellBookApplicatorTutorialSheetGUIMenu>> SPELL_BOOK_APPLICATOR_TUTORIAL_SHEET_GUI = REGISTRY.register("spell_book_applicator_tutorial_sheet_gui",
+			() -> IForgeMenuType.create(SpellBookApplicatorTutorialSheetGUIMenu::new));
 }

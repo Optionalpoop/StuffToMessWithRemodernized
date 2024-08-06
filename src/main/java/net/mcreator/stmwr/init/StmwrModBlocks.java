@@ -24,6 +24,7 @@ import net.mcreator.stmwr.block.StevumOreBlock;
 import net.mcreator.stmwr.block.StevumBlockBlock;
 import net.mcreator.stmwr.block.SteelOreBlock;
 import net.mcreator.stmwr.block.SteelBlockBlock;
+import net.mcreator.stmwr.block.SpellBookApplicatorBlock;
 import net.mcreator.stmwr.block.PlasticiliaBlock;
 import net.mcreator.stmwr.block.ModifierTableBlock;
 import net.mcreator.stmwr.block.MilitariaPortalBlock;
@@ -42,6 +43,7 @@ import net.mcreator.stmwr.block.FoodyCrateBlock;
 import net.mcreator.stmwr.block.BlazedOreBlock;
 import net.mcreator.stmwr.block.BlazedBlockBlock;
 import net.mcreator.stmwr.block.BasicCubbyCubeBlock;
+import net.mcreator.stmwr.block.AppleCrateBlock;
 import net.mcreator.stmwr.block.AdvancedCubbyCubeBlock;
 import net.mcreator.stmwr.StmwrMod;
 
@@ -80,6 +82,8 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> VANILLA_CRATE = REGISTRY.register("vanilla_crate", () -> new VanillaCrateBlock());
 	public static final RegistryObject<Block> UPGRADE_STATION = REGISTRY.register("upgrade_station", () -> new UpgradeStationBlock());
 	public static final RegistryObject<Block> GEAR_CRATE = REGISTRY.register("gear_crate", () -> new GearCrateBlock());
+	public static final RegistryObject<Block> SPELL_BOOK_APPLICATOR = REGISTRY.register("spell_book_applicator", () -> new SpellBookApplicatorBlock());
+	public static final RegistryObject<Block> APPLE_CRATE = REGISTRY.register("apple_crate", () -> new AppleCrateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -193,6 +193,17 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.BLAZED_CORE.get());
 				tabData.accept(StmwrModItems.STEEL_CORE.get());
 				tabData.accept(StmwrModItems.INFINITITE_CORE.get());
+				tabData.accept(StmwrModBlocks.SPELL_BOOK_APPLICATOR.get().asItem());
+				tabData.accept(StmwrModItems.SPELL_BOOK_APPLICATOR_TUTORIAL_SHEET.get());
+				tabData.accept(StmwrModItems.SPELL_BOOK_OF_TRANSMUTATION.get());
+				tabData.accept(StmwrModItems.MAGICIAN_APPLE.get());
+				tabData.accept(StmwrModBlocks.APPLE_CRATE.get().asItem());
+				tabData.accept(StmwrModItems.BOOSTER_APPLE.get());
+				tabData.accept(StmwrModItems.INFINI_BOING_APPLE.get());
+				tabData.accept(StmwrModItems.DURABLE_APPLE.get());
+				tabData.accept(StmwrModItems.MINER_APPLE.get());
+				tabData.accept(StmwrModItems.HEALER_APPLE.get());
+				tabData.accept(StmwrModItems.WINGED_APPLE.get());
 			})
 
 					.build());

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:spell_book_applicator",
     "stmwr:trial_brick",
     "stmwr:storum_ore",
     "stmwr:blazed_block",

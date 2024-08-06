@@ -38,5 +38,5 @@
       "stmwr:blocks/magician_loot_crate"
     ]
   },
-  "parent": "stmwr:construction"
+  "parent": "stmwr:deleting_bedrock"
 }

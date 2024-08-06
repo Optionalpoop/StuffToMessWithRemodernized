@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/spellbookapplicatorbottom",
+    "up": "stmwr:block/spellbookapplicatortop",
+    "north": "stmwr:block/spellbookapplicatorfront",
+    "east": "stmwr:block/spellbookapplicatorside",
+    "south": "stmwr:block/spellbookapplicatorside",
+    "west": "stmwr:block/spellbookapplicatorside",
+    "particle": "stmwr:block/spellbookapplicatorbottom"
+  },
+  "render_type": "solid"
+}

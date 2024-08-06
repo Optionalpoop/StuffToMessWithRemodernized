@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "stmwr:steel_block"
+    },
+    "title": {
+      "translate": "advancements.stmw_triangles.title"
+    },
+    "description": {
+      "translate": "advancements.stmw_triangles.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stmw_triangles_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

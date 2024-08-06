@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:infini_boing_apple"
+    },
+    "title": {
+      "translate": "advancements.oh_god.title"
+    },
+    "description": {
+      "translate": "advancements.oh_god.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oh_god_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:infini_boing_apple"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/apple_loot_crate"
+    ]
+  },
+  "parent": "stmwr:inedible_and_incredible"
+}

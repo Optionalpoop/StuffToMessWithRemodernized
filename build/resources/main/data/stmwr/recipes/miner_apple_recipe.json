@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "b": {
+      "item": "stmwr:godlium_ingot"
+    },
+    "c": {
+      "item": "stmwr:magician_apple"
+    }
+  },
+  "result": {
+    "item": "stmwr:miner_apple",
+    "count": 1
+  }
+}

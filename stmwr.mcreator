@@ -5811,18 +5811,6 @@
       }
     },
     {
-      "name": "HealingWandRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "healing_wand_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/healing_wand_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "SpellBookOfHealingRecipe",
       "type": "recipe",
       "compiles": true,
@@ -6003,18 +5991,6 @@
         "files": [
           "src/main/resources/assets/stmwr/models/item/wand_of_transmutation.json",
           "src/main/java/net/mcreator/stmwr/item/WandOfTransmutationItem.java"
-        ]
-      }
-    },
-    {
-      "name": "WandOfTransmutationRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wand_of_transmutation_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/wand_of_transmutation_recipe.json"
         ]
       }
     },
@@ -7737,6 +7713,645 @@
           }
         ]
       }
+    },
+    {
+      "name": "SpellBookApplicator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_applicator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/spell_book_applicator.json",
+          "src/main/java/net/mcreator/stmwr/block/SpellBookApplicatorBlock.java",
+          "src/main/java/net/mcreator/stmwr/block/entity/SpellBookApplicatorBlockEntity.java",
+          "src/main/resources/data/stmwr/loot_tables/blocks/spell_book_applicator.json",
+          "src/main/resources/assets/stmwr/blockstates/spell_book_applicator.json",
+          "src/main/resources/assets/stmwr/models/block/spell_book_applicator.json"
+        ]
+      }
+    },
+    {
+      "name": "BuildAWand",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "build_a_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/build_a_wand.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookApplicatorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_applicator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/spell_book_applicator_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookApplicatorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_applicator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/world/inventory/SpellBookApplicatorGUIMenu.java",
+          "src/main/java/net/mcreator/stmwr/network/SpellBookApplicatorGUIButtonMessage.java",
+          "src/main/java/net/mcreator/stmwr/client/gui/SpellBookApplicatorGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookApplicatorTutorialSheetGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_applicator_tutorial_sheet_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/client/gui/SpellBookApplicatorTutorialSheetGUIScreen.java",
+          "src/main/java/net/mcreator/stmwr/world/inventory/SpellBookApplicatorTutorialSheetGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookApplicatorTutorialSheet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_applicator_tutorial_sheet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SpellBookApplicatorTutorialSheetItem.java",
+          "src/main/java/net/mcreator/stmwr/item/inventory/SpellBookApplicatorTutorialSheetInventoryCapability.java",
+          "src/main/resources/assets/stmwr/models/item/spell_book_applicator_tutorial_sheet.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookApplicatorTutorialSheetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_applicator_tutorial_sheet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/spell_book_applicator_tutorial_sheet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookApplicatorTutorialSheetLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_applicator_tutorial_sheet_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/loot_tables/blocks/spell_book_applicator_tutorial_sheet_loot_table.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookApplicatorProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_applicator_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/SpellBookApplicatorProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpellBookOfTransmutation",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_of_transmutation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/SpellBookOfTransmutationItem.java",
+          "src/main/resources/assets/stmwr/models/item/spell_book_of_transmutation.json"
+        ]
+      }
+    },
+    {
+      "name": "SpellBookOfTransmutationRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_book_of_transmutation_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/spell_book_of_transmutation_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DeletingBedrock",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deleting_bedrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/deleting_bedrock.json"
+        ]
+      }
+    },
+    {
+      "name": "TechnoNeverDies",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "techno_never_dies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/techno_never_dies.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicianApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magician_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/MagicianAppleItem.java",
+          "src/main/resources/assets/stmwr/models/item/magician_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "InedibleAndIncredible",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inedible_and_incredible",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/inedible_and_incredible.json"
+        ]
+      }
+    },
+    {
+      "name": "MagicianAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magician_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/magician_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleCrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/block/apple_crate.json",
+          "src/main/resources/assets/stmwr/models/item/apple_crate.json",
+          "src/main/java/net/mcreator/stmwr/block/AppleCrateBlock.java",
+          "src/main/resources/assets/stmwr/blockstates/apple_crate.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleCrateLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_crate_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/loot_tables/blocks/apple_crate.json"
+        ]
+      }
+    },
+    {
+      "name": "AppleLootCrate",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_loot_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/loot_tables/blocks/apple_loot_crate.json"
+        ]
+      }
+    },
+    {
+      "name": "BoosterApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booster_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/BoosterApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoosterApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booster_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/booster_apple.json",
+          "src/main/java/net/mcreator/stmwr/item/BoosterAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BoosterAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booster_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/booster_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OffToTheRaces",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "off_to_the_races",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/off_to_the_races.json"
+        ]
+      }
+    },
+    {
+      "name": "InfiniBoingApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infini_boing_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/InfiniBoingApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfiniBoingApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infini_boing_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/InfiniBoingAppleItem.java",
+          "src/main/resources/assets/stmwr/models/item/infini_boing_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "InfiniBoingAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infini_boing_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/infini_boing_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "OhGod",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oh_god",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/oh_god.json"
+        ]
+      }
+    },
+    {
+      "name": "DurableApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "durable_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/DurableApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DurableApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "durable_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/DurableAppleItem.java",
+          "src/main/resources/assets/stmwr/models/item/durable_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "DurableAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "durable_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/durable_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Invincible",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invincible",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/invincible.json"
+        ]
+      }
+    },
+    {
+      "name": "MinerApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/MinerApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MinerApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/MinerAppleItem.java",
+          "src/main/resources/assets/stmwr/models/item/miner_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "MinerAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "miner_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/miner_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WasThatHerobrine",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "was_that_herobrine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/was_that_herobrine.json"
+        ]
+      }
+    },
+    {
+      "name": "HealerApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healer_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/item/healer_apple.json",
+          "src/main/java/net/mcreator/stmwr/item/HealerAppleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HealerApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healer_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/HealerApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealerAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healer_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/healer_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MeezaBack",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meeza_back",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/meeza_back.json"
+        ]
+      }
+    },
+    {
+      "name": "CreativeFlightOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_flight_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/CreativeFlightOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreativeFlight",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_flight",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/potion/CreativeFlightMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "WingedApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winged_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/WingedApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WingedApple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winged_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/item/WingedAppleItem.java",
+          "src/main/resources/assets/stmwr/models/item/winged_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "WingedAppleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "winged_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/winged_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IBelieveICanFly",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_believe_i_can_fly",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/i_believe_i_can_fly.json"
+        ]
+      }
+    },
+    {
+      "name": "CreativeFlightEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creative_flight_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/CreativeFlightEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "STMWTriangles",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stmw_triangles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/stmw_triangles.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -7761,13 +8376,13 @@
       "~CUSTOM:TransmutatedGelatin",
       "~CUSTOM:Plasticilia"
     ],
-    "BIOMES:minecraft:has_structure/buried_treasure": [
-      "~CUSTOM:WizardlyPlains",
-      "~CUSTOM:FrostedOasis"
-    ],
     "BIOMES:minecraft:has_structure/igloo": [
       "~CUSTOM:FrozenWastes",
       "~CUSTOM:SteveCowLand"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:WizardlyPlains",
+      "~CUSTOM:FrostedOasis"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:SteelHoe",
@@ -7832,6 +8447,7 @@
       "~CUSTOM:DeadForest"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SpellBookApplicator",
       "~CUSTOM:TrialBrick",
       "~CUSTOM:StorumOre",
       "~CUSTOM:BlazedBlock",
@@ -7907,6 +8523,7 @@
       "~CUSTOM:SteveCowLand"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SpellBookApplicator",
       "~CUSTOM:UpgradeStation",
       "~CUSTOM:MasterCubbyCube",
       "~CUSTOM:AdvancedCubbyCube",
@@ -7943,8 +8560,9 @@
       "advancements.perfection.title": "Perfection",
       "block.stmwr.steel_ore": "Steel Ore",
       "advancements.vegan_beef.descr": "You can craft beef with plants!",
+      "gui.stmwr.spell_book_applicator_gui.button_make_wand": "Make Wand",
       "block.stmwr.steel_block": "Block of Steel",
-      "advancements.the_ultimate_destruction_tool.descr": "Craft a wand of transmutation, allowing you to turn any block into useless junk. Even bedrock.",
+      "advancements.the_ultimate_destruction_tool.descr": "Craft a wand of transmutation using a construction wandar, allowing you to turn any block into useless junk. Even bedrock.",
       "trim_material.stmwr.storalium_trim": "Storalium",
       "advancements.construction.descr": "Craft a building wandar, used by wands to create resources with magic!",
       "advancements.healing.title": "Healing",
@@ -7956,9 +8574,10 @@
       "item.stmwr.steel_armor_chestplate": "Steel Chestplate",
       "item.stmwr.steel_armor_boots": "Steel Boots",
       "advancements.heavy_hitters.descr": "Defeat a soldier and grab some powerful materials!",
-      "advancements.leg_day.title": "Leg Day",
       "advancements.master_miner.descr": "Get a tier 3 haste totem",
+      "advancements.leg_day.title": "Leg Day",
       "item.stmwr.healing_wand": "Healing Wand",
+      "advancements.meeza_back.title": "Meeza Back!!!",
       "item.stmwr.shredded_beef": "Shredded Beef",
       "advancements.discount_flight.descr": "Craft a totem of levitation, to slowly lift yourself into the sky like the Lorax!",
       "advancements.goopy.title": "Goopy?!",
@@ -7987,34 +8606,36 @@
       "item.stmwr.blazed_ingot": "Blazed",
       "advancements.ghost_busters.title": "Ghost Busters",
       "item.stmwr.pikachu_spawn_egg": "Pikachu Spawn Egg",
-      "trim_material.stmwr.storum_trim": "Storum",
-      "advancements.free_magicite.descr": "You can craft magicite dust from ice shards!",
       "gui.stmwr.upgrade_station_gui.label_output": "Output",
+      "advancements.free_magicite.descr": "You can craft magicite dust from ice shards!",
+      "trim_material.stmwr.storum_trim": "Storum",
       "block.stmwr.gear_crate": "Gear Crate",
       "advancements.golden_boy.title": "Golden Boy",
-      "item.stmwr.pizza_slice": "Pizza Slice",
       "advancements.infinite_powah.title": "Infinite Powah!!!",
+      "item.stmwr.pizza_slice": "Pizza Slice",
       "advancements.youre_awful_at_this.descr": "Cut a pizza into.... 7 slices?!",
       "advancements.magic_writing.title": "Magic Writing",
       "advancements.fiery.title": "Fiery!",
-      "advancements.flame_on.descr": "Get a fireproof totem",
       "item.stmwr.giant_steve_cow_spawn_egg": "Giant Steve Cow Spawn Egg",
+      "advancements.flame_on.descr": "Get a fireproof totem",
       "item.stmwr.noobish_trial_coin": "Noobish Trial Coin",
       "advancements.fast_hands.descr": "Get a haste totem tier 1",
       "item.stmwr.blazed_axe": "Blazed Axe",
       "block.stmwr.storum_block": "Block of Storum",
-      "advancements.completely_useless.title": "Completely Useless",
-      "advancements.storum_alloy.title": "Storum Alloy",
       "advancements.speedy_gonzales.descr": "Craft a tier 2 speed totem",
+      "advancements.storum_alloy.title": "Storum Alloy",
+      "advancements.completely_useless.title": "Completely Useless",
       "advancements.simple_storage.descr": "Convert your storum into more storum with a creation orb",
       "gui.stmwr.modifiers_table.tooltip_empty": "item to modify",
       "biome.stmwr.dead_forest": "Dead Forest",
       "advancements.wandars.descr": "Craft a wandar core, an important component in wands",
       "item.stmwr.blazed_pickaxe": "Blazed Pickaxe",
-      "block.stmwr.master_cubby_cube": "Master Cubby Cube",
+      "item.stmwr.winged_apple": "Winged Apple",
       "item.stmwr.steel_core": "Steel Core",
+      "block.stmwr.master_cubby_cube": "Master Cubby Cube",
       "item.stmwr.godlium_armor_leggings": "Godlium Leggings",
       "trim_material.stmwr.blazedtrim": "Blazed",
+      "gui.stmwr.spell_book_applicator_gui.label_wandar": "Wandar",
       "item.stmwr.cheese_stick": "Cheese Stick",
       "advancements.the_final_countdown.title": "The Final Countdown",
       "advancements.a_world_of_magic.descr": "Step into the wizard world trial, home to many useful materials!",
@@ -8026,8 +8647,8 @@
       "advancements.hot_to_hold.descr": "Crafting blazed tools is once again the same as godlium, with blazed counterparts to materials",
       "advancements.is_it_alive.title": "Is It Alive?",
       "advancements.bricked_it.title": "Bricked It",
-      "item.stmwr.dough": "Dough",
       "item.stmwr.pistol": "Pistol",
+      "item.stmwr.dough": "Dough",
       "advancements.king_of_steve_cows.title": "King Of Steve Cows",
       "item.stmwr.speed_totem_t_1": "Speed Totem Tier 1",
       "item.stmwr.speed_totem_t_2": "Speed Totem Tier 2",
@@ -8035,8 +8656,8 @@
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.button_ok": "Ok",
       "block.stmwr.magicite_block": "Block of Magicite",
       "advancements.pizza_time.descr": "Bake a pizza",
-      "item.stmwr.blazed_sword": "Blazed Sword",
       "advancements.carrying_the_world.descr": "Make an advanced cubby pack for even more portable storage",
+      "item.stmwr.blazed_sword": "Blazed Sword",
       "advancements.souls.title": "Souls",
       "advancements.firey_armor.descr": "Crafting blazed armor is the same as godlium, except with iron armor as the catalyst, and blazed ingots/cores",
       "item.stmwr.blazed_core": "Blazed Core",
@@ -8049,7 +8670,9 @@
       "biome.stmwr.steve_cow_land": "Steve Cow Land",
       "advancements.inventory_pork.title": "Inventory Pork",
       "advancements.bratwurst_anyone.descr": "Get some sausage",
+      "advancements.deleting_bedrock.title": "Deleting Bedrock",
       "advancements.slo_mo.descr": "Craft a totem of slow falling, along you to glide from heights.",
+      "item.stmwr.durable_apple": "Durable Apple",
       "block.stmwr.vanilla_crate": "Vanilla Crate",
       "advancements.completion.title": "Completion",
       "item.stmwr.totem_of_the_goop": "Totem Of The Goop",
@@ -8059,8 +8682,8 @@
       "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
       "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
       "item.stmwr.godlium_core": "Godlium Core",
-      "advancements.rerodding_your_blazes.title": "Rerodding Your Blazes",
       "advancements.canned.title": "Canned",
+      "advancements.rerodding_your_blazes.title": "Rerodding Your Blazes",
       "advancements.off_to_see_the_wizard.title": "Off To See The Wizard",
       "advancements.grilling.title": "Grilling",
       "item.stmwr.mutant_goop": "Mutant Goop",
@@ -8068,6 +8691,7 @@
       "advancements.maximum_health.title": "Maximum Health!!!",
       "advancements.stmw_wizardry.descr": "All of your progress on the art of magic will be here!",
       "advancements.not_so_fun_to_hold.title": "Not So Fun To Hold",
+      "item.stmwr.miner_apple": "Miner Apple",
       "item.stmwr.portable_crucible": "Portable Crucible",
       "advancements.spellcasting.title": "Spellcasting",
       "entity.stmwr.infinity_golem": "Infinity Golem",
@@ -8082,6 +8706,7 @@
       "item.stmwr.soldier_spawn_egg": "Soldier Spawn Egg",
       "advancements.ascendance.descr": "Obtain your first infinitite ingot.",
       "block.stmwr.magician_crate": "Magician Crate",
+      "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_how_to_use_spell_book_applicator": "How to use Spell Book Applicator:",
       "trim_material.stmwr.uglum_trim": "Uglum",
       "advancements.seer_of_the_dark.title": "Seer Of The Dark",
       "item.stmwr.wizard_world": "Wizard World Trial Key",
@@ -8091,6 +8716,7 @@
       "advancements.please_the_gods.title": "Please The Gods",
       "advancements.crossy_road.descr": "Obtain a tier 2 jumpboost totem",
       "advancements.taco_tuesday.descr": "Craft up some tacos!",
+      "advancements.inedible_and_incredible.title": "Inedible And Incredible",
       "item.stmwr.ultrite": "Ultrite",
       "item.stmwr.strength_totem_t_2": "Strength Totem T2",
       "advancements.completely_useless.descr": "The remnants of your actions have left a completely useless block behind",
@@ -8105,6 +8731,7 @@
       "item.stmwr.trapped_wizard_spawn_egg": "Trapped Wizard Spawn Egg",
       "item.stmwr.nightvision_totem": "Nightvision Totem",
       "block.stmwr.storing_crate": "Storing Crate",
+      "gui.stmwr.spell_book_applicator_gui.label_spell_book": "Spell Book",
       "advancements.master_traveler.descr": "Obtain a master cubby pack, an amazing way to transport boat loads of resources in your inventory",
       "advancements.industrial_age.title": "Industrial Age",
       "advancements.not_so_fun_to_hold.descr": "Craft a Totem of the Goop",
@@ -8116,6 +8743,7 @@
       "item.stmwr.raw_totem": "Raw Totem",
       "advancements.reduce_reuse_recycle.descr": "Craft a can of pikachu, allowing for a one-time spawn!",
       "advancements.magic_writing.descr": "Get yourself a mystical page, leading you one step closer to crafting spell books!",
+      "advancements.techno_never_dies.descr": "Craft a wand of healing with a casting wandar at the spell book applicator! o7",
       "item.stmwr.steve_cow_horn": "Steve Cow Horn",
       "advancements.smash.title": "Smash",
       "advancements.i_have_too_much_already.title": "I Have Too Much Already",
@@ -8123,10 +8751,14 @@
       "advancements.i_have_too_much_already.descr": "You may have loads of copper, why not double it with the crucible though?",
       "advancements.i_need_my_payday_2.descr": "Get some noobish trial coins with things found in the first few trials!",
       "advancements.even_soulier.title": "Even... Soulier?",
+      "gui.stmwr.spell_book_applicator_gui.label_output": "Output",
       "advancements.stringy.title": "Stringy",
+      "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_finally_put_the_spell_book_in_t": "Finally, put the spell book in the",
+      "block.stmwr.apple_crate": "Apple Crate",
       "advancements.how_do_you_craft_this_again.title": "How do I craft this again!?",
       "advancements.heavy_hitters.title": "Heavy Hitters!",
       "item.stmwr.blazed_armor_helmet": "Blazed Helmet",
+      "advancements.meeza_back.descr": "Craft a healer apple, allowing you to torture people with endless life",
       "advancements.completion.descr": "Defeat the final boss, allowing you to obtain infinitite with the mold.",
       "item.stmwr.infinitite_armor_chestplate": "Infinitite Chestplate",
       "item.stmwr.steel_shovel": "Steel Shovel",
@@ -8141,6 +8773,8 @@
       "item.stmwr.can": "Can",
       "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
       "block.stmwr.transmutated_gelatin": "Transmutated Gelatin",
+      "item.stmwr.spell_book_applicator_tutorial_sheet": "Spell Book Applicator Tutorial Sheet",
+      "advancements.invincible.title": "Invincible",
       "advancements.the_final_armor.descr": "Craft infinitite armor with a godlium base, infinitite core, and all infinitite except for one ultrite placed after the core!",
       "advancements.mystical_agriculture.title": "Mystical Agriculture",
       "advancements.smells_fishy.descr": "You can cook fish with the portable oven!",
@@ -8155,20 +8789,26 @@
       "advancements.thats_tuff.title": "That\u0027s Tuff",
       "advancements.stuff_to_mess_with_remodernized.title": "Stuff To Mess With Remodernized",
       "item.stmwr.infinitite_armor_helmet": "Infinitite Helmet",
+      "gui.stmwr.spell_book_applicator_gui.label_base": "Base",
       "block.stmwr.totemic_crate": "Totemic Crate",
       "advancements.upgraded.title": "Upgraded",
       "advancements.rituals_here_i_come.title": "Rituals, Here I Come!",
       "entity.stmwr.mutant_worm": "Mutant Worm",
       "item.stmwr.canned_pikachu": "Canned Pikachu",
+      "item.stmwr.healer_apple": "Healer Apple",
       "item.stmwr.final_boss_spawn_egg": "Final Boss Spawn Egg",
       "item.stmwr.iron_spike": "Iron Spike",
       "entity.stmwr.junior_wizard": "Junior Wizard",
+      "advancements.build_a_wand.descr": "Craft a spell book applicator, the block you use to apply spell books to wands!",
       "item.stmwr.infinitite_ingot": "Infinitite",
+      "item.stmwr.spell_book_of_transmutation": "Spell Book Of Transmutation",
       "advancements.wands_but_better.title": "Wands, But Better!!!",
       "block.stmwr.upgrade_station": "Upgrade Station",
       "advancements.perfection.descr": "Get a full set of infinitite armor. You are now a god.",
       "advancements.the_final_armor.title": "The Final Armor",
+      "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_in_the_wandar_slot": "in the \"Wandar\" slot",
       "advancements.youre_a_wizard_harry.title": "You\u0027re A Wizard Harry!",
+      "advancements.techno_never_dies.title": "Technoblade Never Dies!",
       "item.stmwr.healing_totem": "Healing Totem Tier One",
       "item.stmwr.dirt_nugget": "Dirt Nugget",
       "item.stmwr.godlium_shovel": "Godlium Shovel",
@@ -8190,6 +8830,7 @@
       "advancements.stevum_gems.descr": "Obtain some Stevum",
       "item.stmwr.uglum": "Uglum",
       "item.stmwr.portable_oven": "Portable Oven",
+      "advancements.deleting_bedrock.descr": "Obtain a transmutation spell book, allowing for the destruction of any blocks!",
       "item.stmwr.land_of_the_steve_cows": "SteveCow Trial Key",
       "block.stmwr.godlium_block": "Block of Godlium",
       "item.stmwr.stevum": "Stevum",
@@ -8198,6 +8839,7 @@
       "advancements.experienced.descr": "You can craft experience bottles!",
       "block.stmwr.stevum_block": "Block of Stevum",
       "trim_material.stmwr.ultrite_trim": "Ultrite",
+      "advancements.inedible_and_incredible.descr": "Craft a magician apple, used for special apples that give OP but short buffs!",
       "item.stmwr.animal_strap": "Animal Strap",
       "advancements.crafted_magicite.title": "Crafted Magicite",
       "advancements.dirty.descr": "Obtain a dirt nugget, the single most overpowered food in the game...",
@@ -8244,6 +8886,7 @@
       "advancements.firey_armor.title": "Firey Armor",
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_put_the_main_item_in_the_middle": "Put the main item in the middle,",
       "advancements.nearly_there.title": "Nearly There",
+      "effect.stmwr.creative_flight": "Creative Flight",
       "item.stmwr.steel_ingot": "Steel",
       "advancements.stevum_gems.title": "Stevum Gems",
       "item.stmwr.blazed_hoe": "Blazed Hoe",
@@ -8261,18 +8904,21 @@
       "advancements.find_the_pieces.descr": "Craft some key pieces, used to make keys for the trials",
       "advancements.stmw_vanilla_plus.descr": "Jump into the word of QOL changes to Minecraft",
       "advancements.gimme_dat_powda.descr": "You can get loads more blaze powder when you use a creation orb!",
+      "item.stmwr.magician_apple": "Magician Apple",
       "block.stmwr.infinitite_ore": "Infinitite Ore",
       "advancements.master_miner.title": "Master Miner",
+      "advancements.oh_god.descr": "Craft an infiniboing apple... why? When could this be useful?!",
       "advancements.goopy.descr": "Find some goop from a mutant worm",
       "advancements.pets.descr": "Obtain some animal straps, which can be used for crafting horse armor!",
       "item.stmwr.mutant_whistle": "Mutant Whistle",
+      "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_put_one_of_the_two_types_of_wand": "Put one of the two types of wandars",
       "item.stmwr.mysterious_scrap": "Mysterious Scrap",
       "advancements.construction.title": "Construction",
       "advancements.the_ultimate_destruction_tool.title": "The Ultimate Destruction Tool",
       "advancements.healthy.title": "Healthy!",
       "item.stmwr.casting_wandar": "Casting Wandar",
       "advancements.man_of_steel.descr": "Get some extra steel by smelting your ore with the portable crucible",
-      "advancements.healing.descr": "You can craft the spellbook of healing! You can make a wand with it.",
+      "advancements.healing.descr": "Obtain a spellbook of healing. Use it at the spell book applicator!",
       "advancements.plastic_fantastic.descr": "Get your first plastika",
       "entity.stmwr.soldier": "Soldier",
       "advancements.discount_flight.title": "Discount Flight",
@@ -8299,6 +8945,7 @@
       "advancements.dirty.title": "Dirty!",
       "advancements.on_the_go.descr": "Craft a basic cubby pack, a handy way to carry more items with you",
       "advancements.whats_up_doc.descr": "You can cook rabbit with the portable oven!",
+      "advancements.invincible.descr": "Craft a durable apple, which makes you an immortal beast, while cutting your ability to cause harm",
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_and_where_do_you_find_recipes": "And where do you find recipes?",
       "advancements.even_soulier.descr": "Defeat the dangerous wizard to get a strong soul",
       "item.stmwr.plastika": "Plastika",
@@ -8314,6 +8961,7 @@
       "advancements.i_am_speed.descr": "Get a speed totem",
       "item.stmwr.tortilla": "Tortilla",
       "item.stmwr.raw_sausage": "Raw Sausage",
+      "advancements.build_a_wand.title": "Build-a-Wand",
       "item.stmwr.basic_cubby_pack": "Basic Cubby Pack",
       "item.stmwr.easter_egg": "Easter Egg",
       "advancements.oh_the_irony.descr": "You can craft iron horse armor!",
@@ -8329,6 +8977,7 @@
       "advancements.ugly.descr": "Kill a pikachu to obtain uglum, a useful component for magic",
       "advancements.double_the_godlium.descr": "You can craft a block of godlium with the creation orb, as long as you have some godlium already.",
       "advancements.please_the_gods.descr": "Double your godlium output using a portable crucible!",
+      "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_spell_book_slot": "\"Spell Book\" slot",
       "entity.stmwr.frost_zombie": "Frost Zombie",
       "item.stmwr.haste_totem_t_3": "Haste Totem T 3",
       "advancements.plastic_fantastic.title": "Plastic Fantastic!",
@@ -8341,6 +8990,7 @@
       "gui.stmwr.modifiers_table.tooltip_modifier": "modifier",
       "item.stmwr.spell_book_of_healing": "Spell Book Of Healing",
       "item.stmwr.building_wandar": "Building Wandar",
+      "item.stmwr.infini_boing_apple": "InfiniBoing Apple",
       "advancements.hand_it_to_me.title": "Hand It To Me",
       "advancements.upgraded.descr": "Craft an advanced cubby cube, an even more powerful version with so much more space!",
       "advancements.infinite_powah.descr": "Craft an infinitite core, the final and most powerful core!",
@@ -8360,6 +9010,8 @@
       "advancements.steel_heart.descr": "Get some steel, which is used for extremely powerful armor, and guns.",
       "advancements.teenage_mutant_ninja_turtles.title": "Teenage Mutant Ninja Turtles!",
       "advancements.inventory_beef.descr": "You can make beef without a furnace?!",
+      "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_then_hit_the_button": "Then, hit the button!",
+      "item.stmwr.booster_apple": "Booster Apple",
       "item.stmwr.blazed_shovel": "Blazed Shovel",
       "advancements.im_a_survivor.descr": "Find and kill a survivor, and get some of their mysterious scraps...",
       "advancements.second_amendment.descr": "Craft some bullets, and then a gun!",
@@ -8373,22 +9025,27 @@
       "advancements.stmw_vanilla_plus.title": "STMW: Vanilla Plus",
       "advancements.doughy.descr": "Get some dough, a key ingredient in many foods",
       "advancements.leapfrog.descr": "Craft a tier 1 jumpboost totem",
+      "advancements.stmw_triangles.title": "STMW: Triangles",
       "advancements.stmw_foods.descr": "Welcome to the foods section, which explains the basics of cooking in STMW5!",
       "advancements.ultimate_ultrite.descr": "By mixing godlium and magicite, you are able to create a mystical compound, capable of startling power...",
       "advancements.call_me.title": "Call Me!!",
       "advancements.superman.descr": "Craft a T3 Strength Totem",
+      "advancements.oh_god.title": "Oh God",
       "trim_material.stmwr.steel_trim": "Steel",
       "item.stmwr.steel_armor_helmet": "Steel Helmet",
       "advancements.toot_toot.descr": "Get a mutant whistle, to fight the boss of this dimension!",
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_you_can_look_at_advancements": "You can look at advancements,",
       "gui.stmwr.modifiers_table.tooltip_upgrade": "modifier",
       "block.stmwr.general_crate": "General Crate",
+      "advancements.was_that_herobrine.descr": "Craft a miner apple! Very useful for digging 2x2 tunnels around peoples\u0027 bases!",
       "advancements.king_midas.descr": "You can make gold with the crucible, and double output!",
+      "block.stmwr.spell_book_applicator": "Spell Book Applicator",
       "item.stmwr.health_totem_t_3": "Health Totem Tier 3",
       "advancements.call_me.descr": "Obtain a giant caller, to fight the Giant Steve Cow boss",
       "advancements.spelling_bee.descr": "Craft an empty spell book, the key to using wands!",
       "advancements.leg_day.descr": "Get a tier 3 jumpboost totem",
       "advancements.bullfighter.title": "Bullfighter",
+      "advancements.i_believe_i_can_fly.descr": "Turn that infiniboing apple into a winged apple for temporary creative flight!",
       "advancements.carrying_the_world.title": "Carrying The World",
       "advancements.anti_chest_monster.descr": "Make the master cubby cube, the ultimate solution to your chest monster problem.",
       "advancements.nearly_there.descr": "Find some infinitite scrap from some golems",
@@ -8409,6 +9066,7 @@
       "advancements.bricked_it.descr": "You can double your brick output using the portable crucible!",
       "advancements.armored.title": "Armored",
       "advancements.the_basis_of_gear.title": "The Basis Of Gear",
+      "advancements.off_to_the_races.descr": "Craft a booster apple, the ultimate source of speed!",
       "advancements.mmmmmm.title": "Mmmmmm",
       "advancements.inventory_beef.title": "Pocket Beef",
       "trim_material.stmwr.infinitite_trim": "InfinititeTrim",
@@ -8433,9 +9091,11 @@
       "advancements.bullfighter.descr": "Craft a T2 Strength Totem",
       "advancements.too_lazy_to_slay_the_dragon.title": "Too Lazy To Slay The Dragon",
       "item.stmwr.steel_axe": "Steel Axe",
+      "advancements.was_that_herobrine.title": "Was That Herobrine?",
       "advancements.shine_bright_like_a_diamond.descr": "You can craft diamond horse armor now!",
       "advancements.stmw_wizardry.title": "STMW: Wizardry",
       "advancements.maximum_health.descr": "Get the tier 3 health totem, and become a god!",
+      "advancements.i_believe_i_can_fly.title": "I Believe I Can Fly",
       "advancements.steve_cows.title": "Steve Cows",
       "advancements.oh_the_irony.title": "Oh The Irony",
       "advancements.tridention.descr": "You can craft tridents!",
@@ -8449,8 +9109,10 @@
       "advancements.ghost_busters.descr": "You can craft phantom membranes!",
       "advancements.spellcasting.descr": "Make a casting wandar, used in wands that cast powerful abilities",
       "advancements.tortillas.descr": "Make some tortillas!",
+      "advancements.off_to_the_races.title": "Off To The Races",
       "advancements.grilling.descr": "You can cook sausage with the portable oven.",
       "advancements.i_am_speed.title": "I Am Speed",
+      "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_put_an_advanced_wand_stick_in_b": "Put an advanced wand stick in \"Base\"",
       "item.stmwr.mutant_boss_spawn_egg": "Mutant Boss Spawn Egg",
       "advancements.gimme_dat_powda.title": "Gimme Dat Powda",
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_put_ingredients_on_the_left": "Put ingredients on the left,",
@@ -8478,6 +9140,7 @@
       "advancements.souls.descr": "Obtain a weak soul by killing a weak magical being",
       "advancements.pizza_time.title": "Pizza Time",
       "advancements.no_more_piggies.title": "No More Piggies",
+      "advancements.stmw_triangles.descr": "Welcome to your guide for all things sci-fi and industry!",
       "advancements.meltdown.descr": "Obtain a portable crucible, allowing for smelting on the go!",
       "gui.stmwr.upgrade_station_gui.button_fuse": "Fuse",
       "advancements.on_the_go.title": "On The Go",
