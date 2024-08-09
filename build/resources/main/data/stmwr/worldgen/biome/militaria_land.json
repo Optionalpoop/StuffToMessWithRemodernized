@@ -22,7 +22,14 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "stmwr:cyclops",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
     "ambient": [
       {

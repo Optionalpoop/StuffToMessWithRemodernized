@@ -42,6 +42,7 @@ import net.mcreator.stmwr.block.GodliumBlockBlock;
 import net.mcreator.stmwr.block.GeneralCrateBlock;
 import net.mcreator.stmwr.block.GearCrateBlock;
 import net.mcreator.stmwr.block.FoodyCrateBlock;
+import net.mcreator.stmwr.block.EmptyPlainsPortalBlock;
 import net.mcreator.stmwr.block.BlazedOreBlock;
 import net.mcreator.stmwr.block.BlazedBlockBlock;
 import net.mcreator.stmwr.block.BasicCubbyCubeBlock;
@@ -88,6 +89,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> APPLE_CRATE = REGISTRY.register("apple_crate", () -> new AppleCrateBlock());
 	public static final RegistryObject<Block> MILITARIA_TRADING_OUTPOST = REGISTRY.register("militaria_trading_outpost", () -> new MilitariaTradingOutpostBlock());
 	public static final RegistryObject<Block> MAGIC_VILLAGER_TRADING_STATION = REGISTRY.register("magic_villager_trading_station", () -> new MagicVillagerTradingStationBlock());
+	public static final RegistryObject<Block> EMPTY_PLAINS_PORTAL = REGISTRY.register("empty_plains_portal", () -> new EmptyPlainsPortalBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

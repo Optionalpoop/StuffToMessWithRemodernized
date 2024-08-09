@@ -16,18 +16,23 @@ import net.mcreator.stmwr.client.renderer.SurvivorRenderer;
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.SoldierRenderer;
 import net.mcreator.stmwr.client.renderer.SandWormRenderer;
+import net.mcreator.stmwr.client.renderer.RonaldMCDonaldRenderer;
 import net.mcreator.stmwr.client.renderer.PikachuRenderer;
 import net.mcreator.stmwr.client.renderer.MutantWormRenderer;
 import net.mcreator.stmwr.client.renderer.MutantBossRenderer;
 import net.mcreator.stmwr.client.renderer.MinorSandWormRenderer;
+import net.mcreator.stmwr.client.renderer.MCDonaldsEmployeeRenderer;
 import net.mcreator.stmwr.client.renderer.LightningFlingerRenderer;
 import net.mcreator.stmwr.client.renderer.JuniorWizardRenderer;
 import net.mcreator.stmwr.client.renderer.InfinityGolemRenderer;
+import net.mcreator.stmwr.client.renderer.HamburglerRenderer;
+import net.mcreator.stmwr.client.renderer.GrimaceRenderer;
 import net.mcreator.stmwr.client.renderer.GiantSteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.GasMaskZombieRenderer;
 import net.mcreator.stmwr.client.renderer.FrostZombieRenderer;
 import net.mcreator.stmwr.client.renderer.FinalBossRenderer;
 import net.mcreator.stmwr.client.renderer.DangerousWizardRenderer;
+import net.mcreator.stmwr.client.renderer.CyclopsRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class StmwrModEntityRenderers {
@@ -52,5 +57,10 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.SAND_WORM.get(), SandWormRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.MINOR_SAND_WORM.get(), MinorSandWormRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.ASSAULT_RIFLE_BULLET.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.HAMBURGLER.get(), HamburglerRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.MC_DONALDS_EMPLOYEE.get(), MCDonaldsEmployeeRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.RONALD_MC_DONALD.get(), RonaldMCDonaldRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.GRIMACE.get(), GrimaceRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.CYCLOPS.get(), CyclopsRenderer::new);
 	}
 }

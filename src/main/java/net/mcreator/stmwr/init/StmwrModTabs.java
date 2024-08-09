@@ -216,6 +216,18 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.SAND_WORM_CALLER.get());
 				tabData.accept(StmwrModItems.ASSAULT_RIFLE.get());
 				tabData.accept(StmwrModItems.ASSAULT_RIFLE_AMMO.get());
+				tabData.accept(StmwrModItems.SPELL_BOOK_OF_SATURATION.get());
+				tabData.accept(StmwrModItems.WAND_OF_SATURATION.get());
+				tabData.accept(StmwrModItems.CHICKEN_NUGGET.get());
+				tabData.accept(StmwrModItems.HAMBURGLER_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.MC_DONALDS_EMPLOYEE_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.RONALD_MC_DONALD_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.GRIMACE_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.EMPTY_PLAINS.get());
+				tabData.accept(StmwrModItems.SPELL_BOOK_OF_SLOWING.get());
+				tabData.accept(StmwrModItems.WAND_OF_SLOWING.get());
+				tabData.accept(StmwrModItems.TITAN_BONE.get());
+				tabData.accept(StmwrModItems.CYCLOPS_SPAWN_EGG.get());
 			})
 
 					.build());

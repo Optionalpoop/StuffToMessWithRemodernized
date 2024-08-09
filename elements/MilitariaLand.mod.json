@@ -153,6 +153,15 @@
         "maxGroup": 1,
         "weight": 10,
         "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Cyclops"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 10,
+        "spawnType": "monster"
       }
     ]
   }

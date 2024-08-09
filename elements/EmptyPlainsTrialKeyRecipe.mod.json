@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GiantSteveCowHeart"
+      },
+      {
+        "value": "Blocks.CONCRETE#7"
+      },
+      {
+        "value": "CUSTOM:GiantSteveCowHeart"
+      },
+      {
+        "value": "Blocks.CONCRETE#7"
+      },
+      {
+        "value": "CUSTOM:KeyPiece"
+      },
+      {
+        "value": "Blocks.CONCRETE#7"
+      },
+      {
+        "value": "CUSTOM:GiantSteveCowHeart"
+      },
+      {
+        "value": "Blocks.CONCRETE#7"
+      },
+      {
+        "value": "CUSTOM:GiantSteveCowHeart"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmptyPlains"
+    },
+    "name": "empty_plains_trial_key_recipe",
+    "namespace": "mod"
+  }
+}

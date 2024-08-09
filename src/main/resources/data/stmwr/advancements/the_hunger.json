@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:spell_book_of_saturation"
+    },
+    "title": {
+      "translate": "advancements.the_hunger.title"
+    },
+    "description": {
+      "translate": "advancements.the_hunger.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_hunger_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:spell_book_of_saturation"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/magician_loot_crate"
+    ]
+  },
+  "parent": "stmwr:spelling_bee"
+}

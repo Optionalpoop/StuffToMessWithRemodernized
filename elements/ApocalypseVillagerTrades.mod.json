@@ -223,6 +223,24 @@
             "maxTrades": 10,
             "xp": 5,
             "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countPrice1": 16,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:SpellBookOfSlowing"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
           }
         ]
       }

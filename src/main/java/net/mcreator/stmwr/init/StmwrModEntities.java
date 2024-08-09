@@ -21,18 +21,23 @@ import net.mcreator.stmwr.entity.SurvivorEntity;
 import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
 import net.mcreator.stmwr.entity.SandWormEntity;
+import net.mcreator.stmwr.entity.RonaldMCDonaldEntity;
 import net.mcreator.stmwr.entity.PikachuEntity;
 import net.mcreator.stmwr.entity.MutantWormEntity;
 import net.mcreator.stmwr.entity.MutantBossEntity;
 import net.mcreator.stmwr.entity.MinorSandWormEntity;
+import net.mcreator.stmwr.entity.MCDonaldsEmployeeEntity;
 import net.mcreator.stmwr.entity.LightningFlingerEntity;
 import net.mcreator.stmwr.entity.JuniorWizardEntity;
 import net.mcreator.stmwr.entity.InfinityGolemEntity;
+import net.mcreator.stmwr.entity.HamburglerEntity;
+import net.mcreator.stmwr.entity.GrimaceEntity;
 import net.mcreator.stmwr.entity.GiantSteveCowEntity;
 import net.mcreator.stmwr.entity.GasMaskZombieEntity;
 import net.mcreator.stmwr.entity.FrostZombieEntity;
 import net.mcreator.stmwr.entity.FinalBossEntity;
 import net.mcreator.stmwr.entity.DangerousWizardEntity;
+import net.mcreator.stmwr.entity.CyclopsEntity;
 import net.mcreator.stmwr.entity.BulletEntity;
 import net.mcreator.stmwr.entity.AssaultRifleBulletEntity;
 import net.mcreator.stmwr.StmwrMod;
@@ -96,6 +101,26 @@ public class StmwrModEntities {
 					.sized(0.4f, 0.3f));
 	public static final RegistryObject<EntityType<AssaultRifleBulletEntity>> ASSAULT_RIFLE_BULLET = register("assault_rifle_bullet", EntityType.Builder.<AssaultRifleBulletEntity>of(AssaultRifleBulletEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(AssaultRifleBulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<HamburglerEntity>> HAMBURGLER = register("hamburgler",
+			EntityType.Builder.<HamburglerEntity>of(HamburglerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HamburglerEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<MCDonaldsEmployeeEntity>> MC_DONALDS_EMPLOYEE = register("mc_donalds_employee",
+			EntityType.Builder.<MCDonaldsEmployeeEntity>of(MCDonaldsEmployeeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MCDonaldsEmployeeEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<RonaldMCDonaldEntity>> RONALD_MC_DONALD = register("ronald_mc_donald",
+			EntityType.Builder.<RonaldMCDonaldEntity>of(RonaldMCDonaldEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RonaldMCDonaldEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GrimaceEntity>> GRIMACE = register("grimace",
+			EntityType.Builder.<GrimaceEntity>of(GrimaceEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GrimaceEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CyclopsEntity>> CYCLOPS = register("cyclops",
+			EntityType.Builder.<CyclopsEntity>of(CyclopsEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(CyclopsEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -121,6 +146,11 @@ public class StmwrModEntities {
 			LightningFlingerEntity.init();
 			SandWormEntity.init();
 			MinorSandWormEntity.init();
+			HamburglerEntity.init();
+			MCDonaldsEmployeeEntity.init();
+			RonaldMCDonaldEntity.init();
+			GrimaceEntity.init();
+			CyclopsEntity.init();
 		});
 	}
 
@@ -143,5 +173,10 @@ public class StmwrModEntities {
 		event.put(LIGHTNING_FLINGER.get(), LightningFlingerEntity.createAttributes().build());
 		event.put(SAND_WORM.get(), SandWormEntity.createAttributes().build());
 		event.put(MINOR_SAND_WORM.get(), MinorSandWormEntity.createAttributes().build());
+		event.put(HAMBURGLER.get(), HamburglerEntity.createAttributes().build());
+		event.put(MC_DONALDS_EMPLOYEE.get(), MCDonaldsEmployeeEntity.createAttributes().build());
+		event.put(RONALD_MC_DONALD.get(), RonaldMCDonaldEntity.createAttributes().build());
+		event.put(GRIMACE.get(), GrimaceEntity.createAttributes().build());
+		event.put(CYCLOPS.get(), CyclopsEntity.createAttributes().build());
 	}
 }

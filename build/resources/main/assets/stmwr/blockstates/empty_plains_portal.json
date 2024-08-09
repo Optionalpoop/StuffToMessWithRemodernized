@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "stmwr:block/empty_plains_portal_ew"
+    },
+    "axis=x": {
+      "model": "stmwr:block/empty_plains_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:giant_steve_cow_heart"
+    },
+    "b": {
+      "item": "minecraft:gray_concrete"
+    },
+    "c": {
+      "item": "stmwr:key_piece"
+    }
+  },
+  "result": {
+    "item": "stmwr:empty_plains",
+    "count": 1
+  }
+}

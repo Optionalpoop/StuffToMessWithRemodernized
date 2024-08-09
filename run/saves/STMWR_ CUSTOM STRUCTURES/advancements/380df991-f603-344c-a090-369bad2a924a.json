@@ -10198,5 +10198,23 @@
     },
     "done": true
   },
+  "stmwr:the_hunger": {
+    "criteria": {
+      "the_hunger_0": "2024-08-09 11:52:35 -0400"
+    },
+    "done": true
+  },
+  "stmwr:famine": {
+    "criteria": {
+      "famine_0": "2024-08-09 11:52:36 -0400"
+    },
+    "done": true
+  },
+  "stmwr:nothing": {
+    "criteria": {
+      "nothing_0": "2024-08-09 14:12:45 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

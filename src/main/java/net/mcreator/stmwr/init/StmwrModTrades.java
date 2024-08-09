@@ -52,6 +52,9 @@ public class StmwrModTrades {
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 2),
 
 					new ItemStack(StmwrModItems.ASSAULT_RIFLE_AMMO.get(), 16), 10, 5, 0.05f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 16),
+
+					new ItemStack(StmwrModItems.SPELL_BOOK_OF_SLOWING.get()), 8, 5, 0.05f));
 		}
 		if (event.getType() == StmwrModVillagerProfessions.MAGIC_VILLAGER.get()) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),

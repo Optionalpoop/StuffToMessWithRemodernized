@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:pizza"
+    },
+    "b": {
+      "item": "stmwr:chicken_nugget"
+    },
+    "c": {
+      "item": "stmwr:empty_spell_book"
+    }
+  },
+  "result": {
+    "item": "stmwr:spell_book_of_saturation",
+    "count": 1
+  }
+}
