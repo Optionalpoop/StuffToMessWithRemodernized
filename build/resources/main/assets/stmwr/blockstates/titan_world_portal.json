@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "stmwr:block/titan_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "stmwr:block/titan_world_portal_ns"
+    }
+  }
+}

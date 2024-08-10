@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:titan_bone"
+    },
+    "c": {
+      "item": "stmwr:noobish_trial_coin"
+    },
+    "d": {
+      "item": "stmwr:key_piece"
+    }
+  },
+  "result": {
+    "item": "stmwr:titan_world",
+    "count": 1
+  }
+}

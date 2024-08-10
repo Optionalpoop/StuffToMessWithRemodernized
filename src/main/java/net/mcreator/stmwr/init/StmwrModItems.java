@@ -30,6 +30,8 @@ import net.mcreator.stmwr.item.TotemOfTheCowItem;
 import net.mcreator.stmwr.item.TotemOfSlowFallingItem;
 import net.mcreator.stmwr.item.TotemOfLevitationItem;
 import net.mcreator.stmwr.item.TortillaItem;
+import net.mcreator.stmwr.item.TitanicLeatherItem;
+import net.mcreator.stmwr.item.TitanWorldItem;
 import net.mcreator.stmwr.item.TitanBoneItem;
 import net.mcreator.stmwr.item.TacoItem;
 import net.mcreator.stmwr.item.StrongSoulItem;
@@ -369,6 +371,9 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> WAND_OF_SLOWING = REGISTRY.register("wand_of_slowing", () -> new WandOfSlowingItem());
 	public static final RegistryObject<Item> TITAN_BONE = REGISTRY.register("titan_bone", () -> new TitanBoneItem());
 	public static final RegistryObject<Item> CYCLOPS_SPAWN_EGG = REGISTRY.register("cyclops_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.CYCLOPS, -16738048, -16764109, new Item.Properties()));
+	public static final RegistryObject<Item> TITAN_WORLD = REGISTRY.register("titan_world", () -> new TitanWorldItem());
+	public static final RegistryObject<Item> TITANIC_COW_SPAWN_EGG = REGISTRY.register("titanic_cow_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.TITANIC_COW, -16777216, -1, new Item.Properties()));
+	public static final RegistryObject<Item> TITANIC_LEATHER = REGISTRY.register("titanic_leather", () -> new TitanicLeatherItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

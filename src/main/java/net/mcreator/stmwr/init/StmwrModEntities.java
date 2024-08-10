@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.stmwr.entity.TrappedWizardEntity;
+import net.mcreator.stmwr.entity.TitanicCowEntity;
 import net.mcreator.stmwr.entity.SurvivorEntity;
 import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
@@ -121,6 +122,10 @@ public class StmwrModEntities {
 			EntityType.Builder.<CyclopsEntity>of(CyclopsEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(256).setUpdateInterval(3).setCustomClientFactory(CyclopsEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TitanicCowEntity>> TITANIC_COW = register("titanic_cow",
+			EntityType.Builder.<TitanicCowEntity>of(TitanicCowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TitanicCowEntity::new)
+
+					.sized(0.9f, 1.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -151,6 +156,7 @@ public class StmwrModEntities {
 			RonaldMCDonaldEntity.init();
 			GrimaceEntity.init();
 			CyclopsEntity.init();
+			TitanicCowEntity.init();
 		});
 	}
 
@@ -178,5 +184,6 @@ public class StmwrModEntities {
 		event.put(RONALD_MC_DONALD.get(), RonaldMCDonaldEntity.createAttributes().build());
 		event.put(GRIMACE.get(), GrimaceEntity.createAttributes().build());
 		event.put(CYCLOPS.get(), CyclopsEntity.createAttributes().build());
+		event.put(TITANIC_COW.get(), TitanicCowEntity.createAttributes().build());
 	}
 }

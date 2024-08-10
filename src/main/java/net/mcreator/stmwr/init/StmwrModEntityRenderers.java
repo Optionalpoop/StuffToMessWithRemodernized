@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.stmwr.client.renderer.TrappedWizardRenderer;
+import net.mcreator.stmwr.client.renderer.TitanicCowRenderer;
 import net.mcreator.stmwr.client.renderer.SurvivorRenderer;
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.SoldierRenderer;
@@ -62,5 +63,6 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.RONALD_MC_DONALD.get(), RonaldMCDonaldRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.GRIMACE.get(), GrimaceRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.CYCLOPS.get(), CyclopsRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.TITANIC_COW.get(), TitanicCowRenderer::new);
 	}
 }

@@ -228,6 +228,9 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.WAND_OF_SLOWING.get());
 				tabData.accept(StmwrModItems.TITAN_BONE.get());
 				tabData.accept(StmwrModItems.CYCLOPS_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.TITAN_WORLD.get());
+				tabData.accept(StmwrModItems.TITANIC_COW_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.TITANIC_LEATHER.get());
 			})
 
 					.build());
