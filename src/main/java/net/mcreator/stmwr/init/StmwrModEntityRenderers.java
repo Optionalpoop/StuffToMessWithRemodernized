@@ -12,7 +12,10 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.stmwr.client.renderer.TrappedWizardRenderer;
+import net.mcreator.stmwr.client.renderer.TitanicZombieRenderer;
+import net.mcreator.stmwr.client.renderer.TitanicPigRenderer;
 import net.mcreator.stmwr.client.renderer.TitanicCowRenderer;
+import net.mcreator.stmwr.client.renderer.TitanKingRenderer;
 import net.mcreator.stmwr.client.renderer.SurvivorRenderer;
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.SoldierRenderer;
@@ -64,5 +67,8 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.GRIMACE.get(), GrimaceRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.CYCLOPS.get(), CyclopsRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.TITANIC_COW.get(), TitanicCowRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.TITANIC_PIG.get(), TitanicPigRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.TITANIC_ZOMBIE.get(), TitanicZombieRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.TITAN_KING.get(), TitanKingRenderer::new);
 	}
 }

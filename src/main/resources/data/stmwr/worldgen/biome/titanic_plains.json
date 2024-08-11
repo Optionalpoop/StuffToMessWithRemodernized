@@ -11,11 +11,24 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "stmwr:titanic_zombie",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
     "creature": [],
     "ambient": [
       {
         "type": "stmwr:titanic_cow",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "stmwr:titanic_pig",
         "weight": 20,
         "minCount": 1,
         "maxCount": 4

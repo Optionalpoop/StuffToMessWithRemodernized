@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:titanic_ingot"
+    },
+    "b": {
+      "item": "stmwr:titan_bone"
+    }
+  },
+  "result": {
+    "item": "stmwr:titan_summon",
+    "count": 1
+  }
+}

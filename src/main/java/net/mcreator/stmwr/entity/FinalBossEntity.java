@@ -41,6 +41,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.stmwr.procedures.FinalBossOnInitialEntitySpawnProcedure;
+import net.mcreator.stmwr.procedures.FinalBossOnEntityTickUpdateProcedure;
 import net.mcreator.stmwr.procedures.FinalBossEntityDiesProcedure;
 import net.mcreator.stmwr.init.StmwrModItems;
 import net.mcreator.stmwr.init.StmwrModEntities;
@@ -56,7 +57,7 @@ public class FinalBossEntity extends Monster {
 
 	public FinalBossEntity(EntityType<FinalBossEntity> type, Level world) {
 		super(type, world);
-		setMaxUpStep(10f);
+		setMaxUpStep(100f);
 		xpReward = 100000;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -164,6 +165,12 @@ public class FinalBossEntity extends Monster {
 		SpawnGroupData retval = super.finalizeSpawn(world, difficulty, reason, livingdata, tag);
 		FinalBossOnInitialEntitySpawnProcedure.execute(world, this.getX(), this.getY(), this.getZ());
 		return retval;
+	}
+
+	@Override
+	public void baseTick() {
+		super.baseTick();
+		FinalBossOnEntityTickUpdateProcedure.execute(this);
 	}
 
 	@Override

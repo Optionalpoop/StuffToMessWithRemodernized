@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:titanic_skull"
+    },
+    {
+      "item": "stmwr:titanic_string"
+    },
+    {
+      "item": "stmwr:titanic_leather"
+    }
+  ],
+  "result": {
+    "item": "stmwr:titanic_mix",
+    "count": 1
+  }
+}

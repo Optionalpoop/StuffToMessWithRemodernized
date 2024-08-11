@@ -23,5 +23,10 @@ public class PortalTitanWorldProcedureProcedure {
 			_setstack.setCount(1);
 			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 		}
+		if (entity instanceof Player _player) {
+			ItemStack _setstack = new ItemStack(StmwrModItems.TITAN_SUMMON.get()).copy();
+			_setstack.setCount(1);
+			ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+		}
 	}
 }

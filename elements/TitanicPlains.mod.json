@@ -117,6 +117,24 @@
         "maxGroup": 4,
         "weight": 20,
         "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:TitanicPig"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:TitanicZombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
       }
     ]
   }

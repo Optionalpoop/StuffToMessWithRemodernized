@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:titanic_shovel",
     "stmwr:steel_shovel",
     "stmwr:blazed_shovel",
     "stmwr:godlium_shovel"

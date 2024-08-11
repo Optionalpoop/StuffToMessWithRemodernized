@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:titanic_hoe",
     "stmwr:steel_hoe",
     "stmwr:blazed_hoe",
     "stmwr:godlium_hoe"

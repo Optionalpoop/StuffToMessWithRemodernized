@@ -67,7 +67,7 @@
     "attackKnockback": 1.0,
     "knockbackResistance": 100.0,
     "movementSpeed": 0.6,
-    "stepHeight": 10.0,
+    "stepHeight": 100.0,
     "armorBaseValue": 100.0,
     "trackingRange": 1000,
     "followRange": 1000,
@@ -122,6 +122,9 @@
     "entityDataEntries": [],
     "whenMobDies": {
       "name": "FinalBossEntityDies"
+    },
+    "onMobTickUpdate": {
+      "name": "FinalBossOnEntityTickUpdate"
     },
     "onInitialSpawn": {
       "name": "FinalBossOnInitialEntitySpawn"

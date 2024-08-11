@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "stmwr:titanic_plains",
+  "spawners": {
+    "type": "stmwr:titanic_zombie",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

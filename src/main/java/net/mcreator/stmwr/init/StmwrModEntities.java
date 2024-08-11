@@ -17,7 +17,10 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.stmwr.entity.TrappedWizardEntity;
+import net.mcreator.stmwr.entity.TitanicZombieEntity;
+import net.mcreator.stmwr.entity.TitanicPigEntity;
 import net.mcreator.stmwr.entity.TitanicCowEntity;
+import net.mcreator.stmwr.entity.TitanKingEntity;
 import net.mcreator.stmwr.entity.SurvivorEntity;
 import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
@@ -123,9 +126,21 @@ public class StmwrModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TitanicCowEntity>> TITANIC_COW = register("titanic_cow",
-			EntityType.Builder.<TitanicCowEntity>of(TitanicCowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TitanicCowEntity::new)
+			EntityType.Builder.<TitanicCowEntity>of(TitanicCowEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TitanicCowEntity::new)
 
 					.sized(0.9f, 1.4f));
+	public static final RegistryObject<EntityType<TitanicPigEntity>> TITANIC_PIG = register("titanic_pig",
+			EntityType.Builder.<TitanicPigEntity>of(TitanicPigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TitanicPigEntity::new)
+
+					.sized(0.9f, 0.9f));
+	public static final RegistryObject<EntityType<TitanicZombieEntity>> TITANIC_ZOMBIE = register("titanic_zombie",
+			EntityType.Builder.<TitanicZombieEntity>of(TitanicZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(128).setUpdateInterval(3).setCustomClientFactory(TitanicZombieEntity::new)
+
+					.sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<TitanKingEntity>> TITAN_KING = register("titan_king",
+			EntityType.Builder.<TitanKingEntity>of(TitanKingEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TitanKingEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -157,6 +172,9 @@ public class StmwrModEntities {
 			GrimaceEntity.init();
 			CyclopsEntity.init();
 			TitanicCowEntity.init();
+			TitanicPigEntity.init();
+			TitanicZombieEntity.init();
+			TitanKingEntity.init();
 		});
 	}
 
@@ -185,5 +203,8 @@ public class StmwrModEntities {
 		event.put(GRIMACE.get(), GrimaceEntity.createAttributes().build());
 		event.put(CYCLOPS.get(), CyclopsEntity.createAttributes().build());
 		event.put(TITANIC_COW.get(), TitanicCowEntity.createAttributes().build());
+		event.put(TITANIC_PIG.get(), TitanicPigEntity.createAttributes().build());
+		event.put(TITANIC_ZOMBIE.get(), TitanicZombieEntity.createAttributes().build());
+		event.put(TITAN_KING.get(), TitanKingEntity.createAttributes().build());
 	}
 }

@@ -30,8 +30,21 @@ import net.mcreator.stmwr.item.TotemOfTheCowItem;
 import net.mcreator.stmwr.item.TotemOfSlowFallingItem;
 import net.mcreator.stmwr.item.TotemOfLevitationItem;
 import net.mcreator.stmwr.item.TortillaItem;
+import net.mcreator.stmwr.item.TitanicSwordItem;
+import net.mcreator.stmwr.item.TitanicStringItem;
+import net.mcreator.stmwr.item.TitanicSkullItem;
+import net.mcreator.stmwr.item.TitanicShovelItem;
+import net.mcreator.stmwr.item.TitanicPickaxeItem;
+import net.mcreator.stmwr.item.TitanicMixItem;
 import net.mcreator.stmwr.item.TitanicLeatherItem;
+import net.mcreator.stmwr.item.TitanicIngotItem;
+import net.mcreator.stmwr.item.TitanicHoeItem;
+import net.mcreator.stmwr.item.TitanicEyeItem;
+import net.mcreator.stmwr.item.TitanicCoreItem;
+import net.mcreator.stmwr.item.TitanicAxeItem;
+import net.mcreator.stmwr.item.TitanicArmorItem;
 import net.mcreator.stmwr.item.TitanWorldItem;
+import net.mcreator.stmwr.item.TitanSummonItem;
 import net.mcreator.stmwr.item.TitanBoneItem;
 import net.mcreator.stmwr.item.TacoItem;
 import net.mcreator.stmwr.item.StrongSoulItem;
@@ -374,6 +387,25 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> TITAN_WORLD = REGISTRY.register("titan_world", () -> new TitanWorldItem());
 	public static final RegistryObject<Item> TITANIC_COW_SPAWN_EGG = REGISTRY.register("titanic_cow_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.TITANIC_COW, -16777216, -1, new Item.Properties()));
 	public static final RegistryObject<Item> TITANIC_LEATHER = REGISTRY.register("titanic_leather", () -> new TitanicLeatherItem());
+	public static final RegistryObject<Item> TITANIC_PIG_SPAWN_EGG = REGISTRY.register("titanic_pig_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.TITANIC_PIG, -26317, -3407821, new Item.Properties()));
+	public static final RegistryObject<Item> TITANIC_STRING = REGISTRY.register("titanic_string", () -> new TitanicStringItem());
+	public static final RegistryObject<Item> TITANIC_ZOMBIE_SPAWN_EGG = REGISTRY.register("titanic_zombie_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.TITANIC_ZOMBIE, -16751104, -1, new Item.Properties()));
+	public static final RegistryObject<Item> TITANIC_SKULL = REGISTRY.register("titanic_skull", () -> new TitanicSkullItem());
+	public static final RegistryObject<Item> TITANIC_MIX = REGISTRY.register("titanic_mix", () -> new TitanicMixItem());
+	public static final RegistryObject<Item> TITANIC_INGOT = REGISTRY.register("titanic_ingot", () -> new TitanicIngotItem());
+	public static final RegistryObject<Item> TITANIC_CORE = REGISTRY.register("titanic_core", () -> new TitanicCoreItem());
+	public static final RegistryObject<Item> TITANIC_ARMOR_HELMET = REGISTRY.register("titanic_armor_helmet", () -> new TitanicArmorItem.Helmet());
+	public static final RegistryObject<Item> TITANIC_ARMOR_CHESTPLATE = REGISTRY.register("titanic_armor_chestplate", () -> new TitanicArmorItem.Chestplate());
+	public static final RegistryObject<Item> TITANIC_ARMOR_LEGGINGS = REGISTRY.register("titanic_armor_leggings", () -> new TitanicArmorItem.Leggings());
+	public static final RegistryObject<Item> TITANIC_ARMOR_BOOTS = REGISTRY.register("titanic_armor_boots", () -> new TitanicArmorItem.Boots());
+	public static final RegistryObject<Item> TITANIC_PICKAXE = REGISTRY.register("titanic_pickaxe", () -> new TitanicPickaxeItem());
+	public static final RegistryObject<Item> TITANIC_AXE = REGISTRY.register("titanic_axe", () -> new TitanicAxeItem());
+	public static final RegistryObject<Item> TITANIC_SWORD = REGISTRY.register("titanic_sword", () -> new TitanicSwordItem());
+	public static final RegistryObject<Item> TITANIC_SHOVEL = REGISTRY.register("titanic_shovel", () -> new TitanicShovelItem());
+	public static final RegistryObject<Item> TITANIC_HOE = REGISTRY.register("titanic_hoe", () -> new TitanicHoeItem());
+	public static final RegistryObject<Item> TITAN_KING_SPAWN_EGG = REGISTRY.register("titan_king_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.TITAN_KING, -10092493, -65536, new Item.Properties()));
+	public static final RegistryObject<Item> TITANIC_EYE = REGISTRY.register("titanic_eye", () -> new TitanicEyeItem());
+	public static final RegistryObject<Item> TITAN_SUMMON = REGISTRY.register("titan_summon", () -> new TitanSummonItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -231,6 +231,25 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TITAN_WORLD.get());
 				tabData.accept(StmwrModItems.TITANIC_COW_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.TITANIC_LEATHER.get());
+				tabData.accept(StmwrModItems.TITANIC_PIG_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.TITANIC_STRING.get());
+				tabData.accept(StmwrModItems.TITANIC_ZOMBIE_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.TITANIC_SKULL.get());
+				tabData.accept(StmwrModItems.TITANIC_MIX.get());
+				tabData.accept(StmwrModItems.TITANIC_INGOT.get());
+				tabData.accept(StmwrModItems.TITANIC_CORE.get());
+				tabData.accept(StmwrModItems.TITANIC_ARMOR_HELMET.get());
+				tabData.accept(StmwrModItems.TITANIC_ARMOR_CHESTPLATE.get());
+				tabData.accept(StmwrModItems.TITANIC_ARMOR_LEGGINGS.get());
+				tabData.accept(StmwrModItems.TITANIC_ARMOR_BOOTS.get());
+				tabData.accept(StmwrModItems.TITANIC_PICKAXE.get());
+				tabData.accept(StmwrModItems.TITANIC_AXE.get());
+				tabData.accept(StmwrModItems.TITANIC_SWORD.get());
+				tabData.accept(StmwrModItems.TITANIC_SHOVEL.get());
+				tabData.accept(StmwrModItems.TITANIC_HOE.get());
+				tabData.accept(StmwrModItems.TITAN_KING_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.TITANIC_EYE.get());
+				tabData.accept(StmwrModItems.TITAN_SUMMON.get());
 			})
 
 					.build());

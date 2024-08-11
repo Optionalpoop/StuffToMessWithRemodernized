@@ -6,7 +6,7 @@
     "pools": [
       {
         "minrolls": 1,
-        "maxrolls": 2,
+        "maxrolls": 3,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -84,23 +84,9 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:KeyPiece"
-            },
-            "weight": 4,
-            "minCount": 1,
-            "maxCount": 3,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:Plastika"
             },
-            "weight": 7,
+            "weight": 5,
             "minCount": 8,
             "maxCount": 32,
             "minEnchantmentLevel": 0,

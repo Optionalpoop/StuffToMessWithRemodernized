@@ -1,0 +1,10 @@
+{
+  "_fv": 66,
+  "_type": "command",
+  "definition": {
+    "commandName": "titanickit",
+    "type": "STANDARD",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"59\" y=\"44\"><next><block type=\"call_procedure\"><field name=\"procedure\">TitanicKitProcedure</field></block></next></block></xml>"
+  }
+}
