@@ -22,7 +22,7 @@ public class StmwrModTrades {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),
 
 					new ItemStack(StmwrModItems.DURABLE_APPLE.get()), 16, 5, 0.05f));
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 8),
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get()),
 
 					new ItemStack(StmwrModItems.WINGED_APPLE.get()), 8, 5, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 2),
@@ -46,13 +46,13 @@ public class StmwrModTrades {
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 2),
 
 					new ItemStack(StmwrModItems.WEAK_SOUL.get()), 4, 5, 0.05f));
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 16),
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 2),
 
 					new ItemStack(StmwrModItems.ASSAULT_RIFLE.get()), 10, 5, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 2),
 
 					new ItemStack(StmwrModItems.ASSAULT_RIFLE_AMMO.get(), 16), 10, 5, 0.05f));
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 16),
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 2),
 
 					new ItemStack(StmwrModItems.SPELL_BOOK_OF_SLOWING.get()), 8, 5, 0.05f));
 		}
@@ -81,10 +81,10 @@ public class StmwrModTrades {
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),
 
 					new ItemStack(StmwrModItems.MYSTICAL_PAGE.get()), 16, 5, 0.05f));
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 10),
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get()),
 
 					new ItemStack(StmwrModItems.EMPTY_SPELL_BOOK.get()), 16, 5, 0.05f));
-			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 20),
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 3),
 
 					new ItemStack(StmwrModItems.SPELL_BOOK_OF_TRANSMUTATION.get()), 8, 5, 0.05f));
 		}

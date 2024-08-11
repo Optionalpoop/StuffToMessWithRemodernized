@@ -16,6 +16,8 @@ import net.mcreator.stmwr.client.renderer.TitanicZombieRenderer;
 import net.mcreator.stmwr.client.renderer.TitanicPigRenderer;
 import net.mcreator.stmwr.client.renderer.TitanicCowRenderer;
 import net.mcreator.stmwr.client.renderer.TitanKingRenderer;
+import net.mcreator.stmwr.client.renderer.TinyPigRenderer;
+import net.mcreator.stmwr.client.renderer.TinyCowRenderer;
 import net.mcreator.stmwr.client.renderer.SurvivorRenderer;
 import net.mcreator.stmwr.client.renderer.SteveCowRenderer;
 import net.mcreator.stmwr.client.renderer.SoldierRenderer;
@@ -70,5 +72,7 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.TITANIC_PIG.get(), TitanicPigRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.TITANIC_ZOMBIE.get(), TitanicZombieRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.TITAN_KING.get(), TitanKingRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.TINY_COW.get(), TinyCowRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.TINY_PIG.get(), TinyPigRenderer::new);
 	}
 }

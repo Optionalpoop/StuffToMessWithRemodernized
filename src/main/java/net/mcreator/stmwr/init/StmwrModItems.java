@@ -46,6 +46,8 @@ import net.mcreator.stmwr.item.TitanicArmorItem;
 import net.mcreator.stmwr.item.TitanWorldItem;
 import net.mcreator.stmwr.item.TitanSummonItem;
 import net.mcreator.stmwr.item.TitanBoneItem;
+import net.mcreator.stmwr.item.TinyBoneItem;
+import net.mcreator.stmwr.item.TheSmallPlaceItem;
 import net.mcreator.stmwr.item.TacoItem;
 import net.mcreator.stmwr.item.StrongSoulItem;
 import net.mcreator.stmwr.item.StrengthTotemT3Item;
@@ -89,6 +91,7 @@ import net.mcreator.stmwr.item.PikastaffItem;
 import net.mcreator.stmwr.item.PepperoniItem;
 import net.mcreator.stmwr.item.NoobishTrialCoinItem;
 import net.mcreator.stmwr.item.NightvisionTotemItem;
+import net.mcreator.stmwr.item.NeutralTrialCoinItem;
 import net.mcreator.stmwr.item.MysticalPageItem;
 import net.mcreator.stmwr.item.MysteriousScrapItem;
 import net.mcreator.stmwr.item.MutantWhistleItem;
@@ -99,6 +102,7 @@ import net.mcreator.stmwr.item.MasterCubbyPackItem;
 import net.mcreator.stmwr.item.MagiciteDustItem;
 import net.mcreator.stmwr.item.MagicianAppleItem;
 import net.mcreator.stmwr.item.MagicCarrotItem;
+import net.mcreator.stmwr.item.LittleLegItem;
 import net.mcreator.stmwr.item.LightningWandItem;
 import net.mcreator.stmwr.item.LightningFragmentItem;
 import net.mcreator.stmwr.item.LandOfTheSteveCowsItem;
@@ -406,6 +410,12 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> TITAN_KING_SPAWN_EGG = REGISTRY.register("titan_king_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.TITAN_KING, -10092493, -65536, new Item.Properties()));
 	public static final RegistryObject<Item> TITANIC_EYE = REGISTRY.register("titanic_eye", () -> new TitanicEyeItem());
 	public static final RegistryObject<Item> TITAN_SUMMON = REGISTRY.register("titan_summon", () -> new TitanSummonItem());
+	public static final RegistryObject<Item> THE_SMALL_PLACE = REGISTRY.register("the_small_place", () -> new TheSmallPlaceItem());
+	public static final RegistryObject<Item> TINY_COW_SPAWN_EGG = REGISTRY.register("tiny_cow_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.TINY_COW, -16777216, -1, new Item.Properties()));
+	public static final RegistryObject<Item> TINY_PIG_SPAWN_EGG = REGISTRY.register("tiny_pig_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.TINY_PIG, -10092544, -3381760, new Item.Properties()));
+	public static final RegistryObject<Item> TINY_BONE = REGISTRY.register("tiny_bone", () -> new TinyBoneItem());
+	public static final RegistryObject<Item> LITTLE_LEG = REGISTRY.register("little_leg", () -> new LittleLegItem());
+	public static final RegistryObject<Item> NEUTRAL_TRIAL_COIN = REGISTRY.register("neutral_trial_coin", () -> new NeutralTrialCoinItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

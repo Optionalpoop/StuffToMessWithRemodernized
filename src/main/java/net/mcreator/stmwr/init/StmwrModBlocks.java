@@ -18,6 +18,7 @@ import net.mcreator.stmwr.block.TrialBrickBlock;
 import net.mcreator.stmwr.block.TransmutatedGelatinBlock;
 import net.mcreator.stmwr.block.TotemicCrateBlock;
 import net.mcreator.stmwr.block.TitanWorldPortalBlock;
+import net.mcreator.stmwr.block.TheSmallPlacePortalBlock;
 import net.mcreator.stmwr.block.StorumOreBlock;
 import net.mcreator.stmwr.block.StorumBlockBlock;
 import net.mcreator.stmwr.block.StoringCrateBlock;
@@ -92,6 +93,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> MAGIC_VILLAGER_TRADING_STATION = REGISTRY.register("magic_villager_trading_station", () -> new MagicVillagerTradingStationBlock());
 	public static final RegistryObject<Block> EMPTY_PLAINS_PORTAL = REGISTRY.register("empty_plains_portal", () -> new EmptyPlainsPortalBlock());
 	public static final RegistryObject<Block> TITAN_WORLD_PORTAL = REGISTRY.register("titan_world_portal", () -> new TitanWorldPortalBlock());
+	public static final RegistryObject<Block> THE_SMALL_PLACE_PORTAL = REGISTRY.register("the_small_place_portal", () -> new TheSmallPlacePortalBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

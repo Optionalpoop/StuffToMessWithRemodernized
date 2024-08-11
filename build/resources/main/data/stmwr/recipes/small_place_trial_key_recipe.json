@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:titanic_skull"
+    },
+    "b": {
+      "item": "stmwr:titanic_eye"
+    },
+    "c": {
+      "item": "stmwr:titanic_leather"
+    },
+    "d": {
+      "item": "stmwr:key_piece"
+    },
+    "e": {
+      "item": "stmwr:titanic_string"
+    },
+    "f": {
+      "item": "stmwr:titanic_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:the_small_place",
+    "count": 1
+  }
+}

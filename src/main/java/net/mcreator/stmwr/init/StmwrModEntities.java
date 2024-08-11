@@ -21,6 +21,8 @@ import net.mcreator.stmwr.entity.TitanicZombieEntity;
 import net.mcreator.stmwr.entity.TitanicPigEntity;
 import net.mcreator.stmwr.entity.TitanicCowEntity;
 import net.mcreator.stmwr.entity.TitanKingEntity;
+import net.mcreator.stmwr.entity.TinyPigEntity;
+import net.mcreator.stmwr.entity.TinyCowEntity;
 import net.mcreator.stmwr.entity.SurvivorEntity;
 import net.mcreator.stmwr.entity.SteveCowEntity;
 import net.mcreator.stmwr.entity.SoldierEntity;
@@ -141,6 +143,14 @@ public class StmwrModEntities {
 			EntityType.Builder.<TitanKingEntity>of(TitanKingEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TitanKingEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<TinyCowEntity>> TINY_COW = register("tiny_cow",
+			EntityType.Builder.<TinyCowEntity>of(TinyCowEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TinyCowEntity::new)
+
+					.sized(0.9f, 1.4f));
+	public static final RegistryObject<EntityType<TinyPigEntity>> TINY_PIG = register("tiny_pig",
+			EntityType.Builder.<TinyPigEntity>of(TinyPigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TinyPigEntity::new)
+
+					.sized(0.9f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -175,6 +185,8 @@ public class StmwrModEntities {
 			TitanicPigEntity.init();
 			TitanicZombieEntity.init();
 			TitanKingEntity.init();
+			TinyCowEntity.init();
+			TinyPigEntity.init();
 		});
 	}
 
@@ -206,5 +218,7 @@ public class StmwrModEntities {
 		event.put(TITANIC_PIG.get(), TitanicPigEntity.createAttributes().build());
 		event.put(TITANIC_ZOMBIE.get(), TitanicZombieEntity.createAttributes().build());
 		event.put(TITAN_KING.get(), TitanKingEntity.createAttributes().build());
+		event.put(TINY_COW.get(), TinyCowEntity.createAttributes().build());
+		event.put(TINY_PIG.get(), TinyPigEntity.createAttributes().build());
 	}
 }

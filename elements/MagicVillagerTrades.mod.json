@@ -154,9 +154,9 @@
           },
           {
             "price1": {
-              "value": "CUSTOM:NoobishTrialCoin"
+              "value": "CUSTOM:NeutralTrialCoin"
             },
-            "countPrice1": 10,
+            "countPrice1": 1,
             "price2": {
               "value": ""
             },
@@ -172,9 +172,9 @@
           },
           {
             "price1": {
-              "value": "CUSTOM:NoobishTrialCoin"
+              "value": "CUSTOM:NeutralTrialCoin"
             },
-            "countPrice1": 20,
+            "countPrice1": 3,
             "price2": {
               "value": ""
             },

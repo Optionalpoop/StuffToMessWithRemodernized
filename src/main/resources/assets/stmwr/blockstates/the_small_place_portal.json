@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "stmwr:block/the_small_place_portal_ew"
+    },
+    "axis=x": {
+      "model": "stmwr:block/the_small_place_portal_ns"
+    }
+  }
+}

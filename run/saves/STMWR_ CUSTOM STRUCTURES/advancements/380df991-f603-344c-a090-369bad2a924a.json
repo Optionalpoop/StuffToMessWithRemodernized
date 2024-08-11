@@ -10216,5 +10216,138 @@
     },
     "done": true
   },
+  "stmwr:mixing": {
+    "criteria": {
+      "mixing_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:connection": {
+    "criteria": {
+      "connection_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:i_dont_need_a_diamond_sword": {
+    "criteria": {
+      "i_dont_need_a_diamond_sword_4": "2024-08-11 13:29:04 -0400",
+      "i_dont_need_a_diamond_sword_1": "2024-08-11 13:29:04 -0400",
+      "i_dont_need_a_diamond_sword_0": "2024-08-11 13:29:04 -0400",
+      "i_dont_need_a_diamond_sword_3": "2024-08-11 13:29:04 -0400",
+      "i_dont_need_a_diamond_sword_2": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:big_boy_armor": {
+    "criteria": {
+      "big_boy_armor_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:its_a_small_world": {
+    "criteria": {
+      "its_a_small_world_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:i_dont_want_pics": {
+    "criteria": {
+      "i_dont_want_pics_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:infinite_food": {
+    "criteria": {
+      "infinite_food_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:huge": {
+    "criteria": {
+      "huge_1": "2024-08-11 13:29:04 -0400",
+      "huge_0": "2024-08-11 13:29:04 -0400",
+      "huge_3": "2024-08-11 13:29:04 -0400",
+      "huge_2": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:super_hot": {
+    "criteria": {
+      "super_hot_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:ginormo": {
+    "criteria": {
+      "ginormo_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:neutrality": {
+    "criteria": {
+      "neutrality_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:opposite_day": {
+    "criteria": {
+      "opposite_day_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:was_that_herobrine": {
+    "criteria": {
+      "was_that_herobrine_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:old_mc_donald_had_a_farm": {
+    "criteria": {
+      "old_mc_donald_had_a_farm_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:you_cant_hide": {
+    "criteria": {
+      "you_cant_hide_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:the_king": {
+    "criteria": {
+      "the_king_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:long_live_the_king": {
+    "criteria": {
+      "long_live_the_king_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:king_of_the_monsters": {
+    "criteria": {
+      "king_of_the_monsters_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:skullll_emojiiiii": {
+    "criteria": {
+      "skullll_emojiiiii_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:a_giant_ingot": {
+    "criteria": {
+      "a_giant_ingot_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:slow_motion": {
+    "criteria": {
+      "slow_motion_0": "2024-08-11 13:29:04 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

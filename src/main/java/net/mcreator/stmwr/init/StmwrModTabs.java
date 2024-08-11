@@ -250,6 +250,12 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TITAN_KING_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.TITANIC_EYE.get());
 				tabData.accept(StmwrModItems.TITAN_SUMMON.get());
+				tabData.accept(StmwrModItems.THE_SMALL_PLACE.get());
+				tabData.accept(StmwrModItems.TINY_COW_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.TINY_PIG_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.TINY_BONE.get());
+				tabData.accept(StmwrModItems.LITTLE_LEG.get());
+				tabData.accept(StmwrModItems.NEUTRAL_TRIAL_COIN.get());
 			})
 
 					.build());
