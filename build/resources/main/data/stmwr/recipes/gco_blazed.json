@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:blazed_ingot"
+    },
+    {
+      "item": "stmwr:greater_creation_orb"
+    }
+  ],
+  "result": {
+    "item": "stmwr:blazed_block",
+    "count": 1
+  }
+}

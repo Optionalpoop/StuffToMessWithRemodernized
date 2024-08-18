@@ -256,6 +256,8 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TINY_BONE.get());
 				tabData.accept(StmwrModItems.LITTLE_LEG.get());
 				tabData.accept(StmwrModItems.NEUTRAL_TRIAL_COIN.get());
+				tabData.accept(StmwrModItems.GREATER_CREATION_ORB.get());
+				tabData.accept(StmwrModItems.THUMPER.get());
 			})
 
 					.build());

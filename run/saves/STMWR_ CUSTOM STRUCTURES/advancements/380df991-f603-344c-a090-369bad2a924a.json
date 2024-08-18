@@ -10349,5 +10349,29 @@
     },
     "done": true
   },
+  "stmwr:duping": {
+    "criteria": {
+      "duping_0": "2024-08-18 12:47:34 -0400"
+    },
+    "done": true
+  },
+  "stmwr:mwahaha": {
+    "criteria": {
+      "mwahaha_0": "2024-08-18 12:47:34 -0400"
+    },
+    "done": true
+  },
+  "stmwr:make_more_ultrite": {
+    "criteria": {
+      "make_more_ultrite_0": "2024-08-18 12:47:34 -0400"
+    },
+    "done": true
+  },
+  "stmwr:why_explore": {
+    "criteria": {
+      "why_explore_0": "2024-08-18 13:19:56 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

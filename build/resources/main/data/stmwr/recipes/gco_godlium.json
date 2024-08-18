@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:godlium_ingot"
+    },
+    {
+      "item": "stmwr:greater_creation_orb"
+    }
+  ],
+  "result": {
+    "item": "stmwr:godlium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:booster_apple"
+    },
+    "b": {
+      "item": "stmwr:assault_rifle_ammo"
+    },
+    "c": {
+      "item": "stmwr:iron_spike"
+    },
+    "d": {
+      "item": "stmwr:steel_ingot"
+    },
+    "e": {
+      "item": "stmwr:advanced_material"
+    }
+  },
+  "result": {
+    "item": "stmwr:thumper",
+    "count": 1
+  }
+}

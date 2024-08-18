@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TinyBone"
+      },
+      {
+        "value": "CUSTOM:LittleLeg"
+      },
+      {
+        "value": "CUSTOM:TinyBone"
+      },
+      {
+        "value": "CUSTOM:LittleLeg"
+      },
+      {
+        "value": "CUSTOM:CreationOrb"
+      },
+      {
+        "value": "CUSTOM:LittleLeg"
+      },
+      {
+        "value": "CUSTOM:TinyBone"
+      },
+      {
+        "value": "CUSTOM:LittleLeg"
+      },
+      {
+        "value": "CUSTOM:TinyBone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreaterCreationOrb"
+    },
+    "name": "greater_creation_orb_recipe",
+    "namespace": "mod"
+  }
+}

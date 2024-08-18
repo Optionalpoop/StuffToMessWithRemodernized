@@ -47,6 +47,7 @@ import net.mcreator.stmwr.item.TitanWorldItem;
 import net.mcreator.stmwr.item.TitanSummonItem;
 import net.mcreator.stmwr.item.TitanBoneItem;
 import net.mcreator.stmwr.item.TinyBoneItem;
+import net.mcreator.stmwr.item.ThumperItem;
 import net.mcreator.stmwr.item.TheSmallPlaceItem;
 import net.mcreator.stmwr.item.TacoItem;
 import net.mcreator.stmwr.item.StrongSoulItem;
@@ -127,6 +128,7 @@ import net.mcreator.stmwr.item.HealerAppleItem;
 import net.mcreator.stmwr.item.HasteTotemT3Item;
 import net.mcreator.stmwr.item.HasteTotemT2Item;
 import net.mcreator.stmwr.item.HasteTotemT1Item;
+import net.mcreator.stmwr.item.GreaterCreationOrbItem;
 import net.mcreator.stmwr.item.GoopItem;
 import net.mcreator.stmwr.item.GodliumSwordItem;
 import net.mcreator.stmwr.item.GodliumShovelItem;
@@ -416,6 +418,8 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> TINY_BONE = REGISTRY.register("tiny_bone", () -> new TinyBoneItem());
 	public static final RegistryObject<Item> LITTLE_LEG = REGISTRY.register("little_leg", () -> new LittleLegItem());
 	public static final RegistryObject<Item> NEUTRAL_TRIAL_COIN = REGISTRY.register("neutral_trial_coin", () -> new NeutralTrialCoinItem());
+	public static final RegistryObject<Item> GREATER_CREATION_ORB = REGISTRY.register("greater_creation_orb", () -> new GreaterCreationOrbItem());
+	public static final RegistryObject<Item> THUMPER = REGISTRY.register("thumper", () -> new ThumperItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

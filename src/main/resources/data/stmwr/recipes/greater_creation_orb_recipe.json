@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:tiny_bone"
+    },
+    "b": {
+      "item": "stmwr:little_leg"
+    },
+    "c": {
+      "item": "stmwr:creation_orb"
+    }
+  },
+  "result": {
+    "item": "stmwr:greater_creation_orb",
+    "count": 1
+  }
+}

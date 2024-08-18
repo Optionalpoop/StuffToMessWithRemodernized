@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:steel_ingot"
+    },
+    {
+      "item": "stmwr:greater_creation_orb"
+    }
+  ],
+  "result": {
+    "item": "stmwr:steel_block",
+    "count": 1
+  }
+}

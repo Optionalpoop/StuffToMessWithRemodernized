@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:magicite_dust"
+    },
+    {
+      "item": "stmwr:greater_creation_orb"
+    }
+  ],
+  "result": {
+    "item": "stmwr:magicite_block",
+    "count": 1
+  }
+}
