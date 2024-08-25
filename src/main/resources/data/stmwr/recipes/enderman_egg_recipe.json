@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "stmwr:strong_soul"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enderman_spawn_egg",
+    "count": 1
+  }
+}

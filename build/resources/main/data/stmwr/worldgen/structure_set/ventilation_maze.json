@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:ventilation_maze",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 9,
+    "separation": 8,
+    "salt": 1571407049
+  }
+}

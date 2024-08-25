@@ -12,7 +12,8 @@
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "biomes": [
     "stmwr:steve_cow_land",
-    "stmwr:frosted_oasis"
+    "stmwr:frosted_oasis",
+    "stmwr:frozen_wastes"
   ],
   "use_expansion_hack": false
 }

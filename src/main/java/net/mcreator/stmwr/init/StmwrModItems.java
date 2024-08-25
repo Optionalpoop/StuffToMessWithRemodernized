@@ -121,6 +121,7 @@ import net.mcreator.stmwr.item.InfinititeIngotItem;
 import net.mcreator.stmwr.item.InfinititeCoreItem;
 import net.mcreator.stmwr.item.InfinititeArmorItem;
 import net.mcreator.stmwr.item.InfiniBoingAppleItem;
+import net.mcreator.stmwr.item.IcicleKnifeItem;
 import net.mcreator.stmwr.item.IceShardItem;
 import net.mcreator.stmwr.item.HotDogItem;
 import net.mcreator.stmwr.item.HotDogBunItem;
@@ -441,6 +442,7 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> PATTY = REGISTRY.register("patty", () -> new PattyItem());
 	public static final RegistryObject<Item> CHEESE_BURGER = REGISTRY.register("cheese_burger", () -> new CheeseBurgerItem());
 	public static final RegistryObject<Item> BOSS_KEY = REGISTRY.register("boss_key", () -> new BossKeyItem());
+	public static final RegistryObject<Item> ICICLE_KNIFE = REGISTRY.register("icicle_knife", () -> new IcicleKnifeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

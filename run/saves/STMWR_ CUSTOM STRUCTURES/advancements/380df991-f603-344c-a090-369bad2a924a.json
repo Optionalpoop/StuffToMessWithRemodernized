@@ -10337,5 +10337,17 @@
     },
     "done": true
   },
+  "stmwr:eggs": {
+    "criteria": {
+      "eggs_0": "2024-08-25 16:04:15 -0400"
+    },
+    "done": true
+  },
+  "stmwr:sharp": {
+    "criteria": {
+      "sharp_0": "2024-08-25 16:04:47 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

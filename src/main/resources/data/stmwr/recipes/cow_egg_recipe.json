@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "stmwr:weak_soul"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cow_spawn_egg",
+    "count": 1
+  }
+}

@@ -18,6 +18,6 @@ public class RonaldMCDonaldRenderer extends HumanoidMobRenderer<RonaldMCDonaldEn
 
 	@Override
 	public ResourceLocation getTextureLocation(RonaldMCDonaldEntity entity) {
-		return new ResourceLocation("stmwr:textures/entities/ronaldmcdonald.png");
+		return new ResourceLocation("stmwr:textures/entities/ronaldmcdonald2.png");
 	}
 }

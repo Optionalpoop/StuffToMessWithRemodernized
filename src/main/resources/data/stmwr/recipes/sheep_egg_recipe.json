@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "stmwr:weak_soul"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sheep_spawn_egg",
+    "count": 1
+  }
+}

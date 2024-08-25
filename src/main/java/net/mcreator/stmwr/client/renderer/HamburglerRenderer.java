@@ -18,6 +18,6 @@ public class HamburglerRenderer extends HumanoidMobRenderer<HamburglerEntity, Hu
 
 	@Override
 	public ResourceLocation getTextureLocation(HamburglerEntity entity) {
-		return new ResourceLocation("stmwr:textures/entities/hamburgler.png");
+		return new ResourceLocation("stmwr:textures/entities/hamburglar2.png");
 	}
 }

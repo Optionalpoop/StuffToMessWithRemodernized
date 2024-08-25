@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:old_shack",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 48,
+    "separation": 16,
+    "salt": 1267889846
+  }
+}

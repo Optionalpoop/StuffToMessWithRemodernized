@@ -5,7 +5,7 @@
     "mobName": "Ronald MCDonald",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "ronaldmcdonald.png",
+    "mobModelTexture": "ronaldmcdonald2.png",
     "transparentModelCondition": {
       "fixedValue": false
     },

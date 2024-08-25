@@ -5,7 +5,7 @@
     "mobName": "Hamburgler",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "hamburgler.png",
+    "mobModelTexture": "hamburglar2.png",
     "transparentModelCondition": {
       "fixedValue": false
     },

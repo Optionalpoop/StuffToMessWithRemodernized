@@ -261,6 +261,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TITANIC_SWORD.get());
 				tabData.accept(StmwrModItems.TITANIC_SHOVEL.get());
 				tabData.accept(StmwrModItems.TITANIC_HOE.get());
+				tabData.accept(StmwrModItems.ICICLE_KNIFE.get());
 			})
 
 					.build());
