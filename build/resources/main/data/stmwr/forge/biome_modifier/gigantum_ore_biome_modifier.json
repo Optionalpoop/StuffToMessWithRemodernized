@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "stmwr:titanic_plains",
+  "features": "stmwr:gigantum_ore",
+  "step": "underground_ores"
+}

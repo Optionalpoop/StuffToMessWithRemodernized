@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Tridention",
-    "achievementDescription": "You can craft tridents!",
+    "achievementDescription": "You can craft tridents too!",
     "achievementIcon": {
       "value": "Items.TRIDENT"
     },

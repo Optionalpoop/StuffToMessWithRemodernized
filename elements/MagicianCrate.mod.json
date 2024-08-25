@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "crate",
+    "texture": "magiciancrate",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -43,7 +43,7 @@
     "isWaterloggable": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:STMW5"
+        "value": "CUSTOM:STMWRCrates"
       }
     ],
     "destroyTool": "Not specified",

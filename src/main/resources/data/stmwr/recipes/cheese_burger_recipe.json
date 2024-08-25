@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:cheese"
+    },
+    {
+      "item": "stmwr:patty"
+    },
+    {
+      "item": "stmwr:burger_bun"
+    }
+  ],
+  "result": {
+    "item": "stmwr:cheese_burger",
+    "count": 1
+  }
+}

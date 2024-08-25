@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:gigantum_ingot"
+    },
+    "title": {
+      "translate": "advancements.gigantic.title"
+    },
+    "description": {
+      "translate": "advancements.gigantic.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gigantic_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:gigantum_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/trial_loot_crate"
+    ]
+  },
+  "parent": "stmwr:king_of_the_monsters"
+}

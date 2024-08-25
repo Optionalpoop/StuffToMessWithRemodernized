@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "stmwr:block/crate",
-    "up": "stmwr:block/crate",
-    "north": "stmwr:block/crate",
-    "east": "stmwr:block/crate",
-    "south": "stmwr:block/crate",
-    "west": "stmwr:block/crate",
-    "particle": "stmwr:block/crate"
+    "down": "stmwr:block/foodycrate",
+    "up": "stmwr:block/foodycrate",
+    "north": "stmwr:block/foodycrate",
+    "east": "stmwr:block/foodycrate",
+    "south": "stmwr:block/foodycrate",
+    "west": "stmwr:block/foodycrate",
+    "particle": "stmwr:block/foodycrate"
   },
   "render_type": "solid"
 }

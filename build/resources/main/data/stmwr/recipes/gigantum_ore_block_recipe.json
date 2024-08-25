@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:gigantum_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:gigantum_block",
+    "count": 1
+  }
+}

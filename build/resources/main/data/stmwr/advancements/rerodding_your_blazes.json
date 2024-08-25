@@ -32,11 +32,5 @@
       }
     }
   },
-  "rewards": {
-    "experience": 0,
-    "loot": [
-      "stmwr:blocks/vanilla_loot_crate"
-    ]
-  },
   "parent": "stmwr:stmw_vanilla_plus"
 }

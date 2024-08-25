@@ -11,7 +11,7 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:STMW5"
+        "value": "CUSTOM:STMWRGear"
       }
     ],
     "stackSize": 1,
@@ -37,6 +37,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "LightningWandRightclicked"
+    },
     "onEntityHitWith": {
       "name": "SpellBookOfLightningLivingEntityIsHitWithItem"
     },

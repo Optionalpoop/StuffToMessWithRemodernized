@@ -12,6 +12,14 @@
     "stmwr:infinitite_armor_helmet",
     "stmwr:infinitite_armor_chestplate",
     "stmwr:infinitite_armor_leggings",
-    "stmwr:infinitite_armor_boots"
+    "stmwr:infinitite_armor_boots",
+    "stmwr:titanic_armor_helmet",
+    "stmwr:titanic_armor_chestplate",
+    "stmwr:titanic_armor_leggings",
+    "stmwr:titanic_armor_boots",
+    "stmwr:blazed_armor_helmet",
+    "stmwr:blazed_armor_chestplate",
+    "stmwr:blazed_armor_leggings",
+    "stmwr:blazed_armor_boots"
   ]
 }

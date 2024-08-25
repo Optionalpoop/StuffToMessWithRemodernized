@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Pew Pew Pew!",
-    "achievementDescription": "Obtain an assault rifle from a trader nearby!",
+    "achievementDescription": "Obtain an assault rifle from a trader nearby! They are only at the top trade level!",
     "achievementIcon": {
       "value": "CUSTOM:AssaultRifle"
     },

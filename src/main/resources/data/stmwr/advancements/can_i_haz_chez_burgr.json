@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:cheese_burger"
+    },
+    "title": {
+      "translate": "advancements.can_i_haz_chez_burgr.title"
+    },
+    "description": {
+      "translate": "advancements.can_i_haz_chez_burgr.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "can_i_haz_chez_burgr_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:cheese_burger"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/food_loot_crate"
+    ]
+  },
+  "parent": "stmwr:cooking"
+}

@@ -38,5 +38,5 @@
       "stmwr:blocks/trial_loot_crate"
     ]
   },
-  "parent": "stmwr:defeat"
+  "parent": "stmwr:gigantic"
 }

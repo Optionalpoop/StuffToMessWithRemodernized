@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:gigantum_ingot"
+    },
+    "c": {
+      "item": "stmwr:creation_orb"
+    }
+  },
+  "result": {
+    "item": "stmwr:gigantum_block",
+    "count": 1
+  }
+}

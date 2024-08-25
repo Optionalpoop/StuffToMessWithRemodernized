@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:raw_patty"
+    },
+    {
+      "item": "stmwr:portable_oven"
+    }
+  ],
+  "result": {
+    "item": "stmwr:patty",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:GigantumIngot"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:GigantumIngot"
+      },
+      {
+        "value": "CUSTOM:CreationOrb"
+      },
+      {
+        "value": "CUSTOM:GigantumIngot"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      },
+      {
+        "value": "CUSTOM:GigantumIngot"
+      },
+      {
+        "value": "CUSTOM:Ultrite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GigantumBlock"
+    },
+    "name": "gigantum_creation_orb_recipe",
+    "namespace": "mod"
+  }
+}

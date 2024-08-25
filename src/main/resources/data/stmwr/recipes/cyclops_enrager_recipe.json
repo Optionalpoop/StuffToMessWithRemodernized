@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:mysterious_scrap"
+    },
+    "b": {
+      "item": "stmwr:steel_ingot"
+    },
+    "c": {
+      "item": "stmwr:thumper"
+    }
+  },
+  "result": {
+    "item": "stmwr:cyclops_enrager",
+    "count": 1
+  }
+}

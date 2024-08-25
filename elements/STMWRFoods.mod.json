@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "STMWR: Foods",
+    "icon": {
+      "value": "CUSTOM:Pizza"
+    },
+    "showSearch": false
+  }
+}

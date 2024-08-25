@@ -80,6 +80,11 @@ public class InfinityGolemEntity extends Monster {
 		return false;
 	}
 
+	@Override
+	public double getMyRidingOffset() {
+		return -0.35D;
+	}
+
 	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
 		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
 		this.spawnAtLocation(new ItemStack(StmwrModItems.INFINITITE_SCRAP.get()));

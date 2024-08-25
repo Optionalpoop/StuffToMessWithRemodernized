@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:hot_dog"
+    },
+    "title": {
+      "translate": "advancements.dont_ask_about_the_ingredients.title"
+    },
+    "description": {
+      "translate": "advancements.dont_ask_about_the_ingredients.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dont_ask_about_the_ingredients_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:hot_dog"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/food_loot_crate"
+    ]
+  },
+  "parent": "stmwr:hot_diggity_dog"
+}

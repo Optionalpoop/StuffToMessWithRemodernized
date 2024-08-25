@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:godlium_altar",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 12,
+    "salt": 1314866000
+  }
+}

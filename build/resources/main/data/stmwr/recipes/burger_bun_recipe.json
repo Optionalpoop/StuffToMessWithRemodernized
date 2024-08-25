@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:dough"
+    },
+    "b": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "stmwr:burger_bun",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:militaria_cache_3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 16,
+    "salt": 1652893876
+  }
+}

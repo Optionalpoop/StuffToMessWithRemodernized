@@ -2,7 +2,8 @@
   "type": "forge:add_spawns",
   "biomes": [
     "stmwr:steve_cow_land",
-    "desert"
+    "desert",
+    "plains"
   ],
   "spawners": {
     "type": "stmwr:pikachu",

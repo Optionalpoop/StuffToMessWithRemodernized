@@ -41,6 +41,9 @@ import net.mcreator.stmwr.block.InfinititeOreBlock;
 import net.mcreator.stmwr.block.InfinititeBlockBlock;
 import net.mcreator.stmwr.block.GodliumOreBlock;
 import net.mcreator.stmwr.block.GodliumBlockBlock;
+import net.mcreator.stmwr.block.GigantumOreBlock;
+import net.mcreator.stmwr.block.GigantumBlockBlock;
+import net.mcreator.stmwr.block.GenericCrateBlockBlock;
 import net.mcreator.stmwr.block.GeneralCrateBlock;
 import net.mcreator.stmwr.block.GearCrateBlock;
 import net.mcreator.stmwr.block.FoodyCrateBlock;
@@ -94,6 +97,9 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> EMPTY_PLAINS_PORTAL = REGISTRY.register("empty_plains_portal", () -> new EmptyPlainsPortalBlock());
 	public static final RegistryObject<Block> TITAN_WORLD_PORTAL = REGISTRY.register("titan_world_portal", () -> new TitanWorldPortalBlock());
 	public static final RegistryObject<Block> THE_SMALL_PLACE_PORTAL = REGISTRY.register("the_small_place_portal", () -> new TheSmallPlacePortalBlock());
+	public static final RegistryObject<Block> GENERIC_CRATE_BLOCK = REGISTRY.register("generic_crate_block", () -> new GenericCrateBlockBlock());
+	public static final RegistryObject<Block> GIGANTUM_ORE = REGISTRY.register("gigantum_ore", () -> new GigantumOreBlock());
+	public static final RegistryObject<Block> GIGANTUM_BLOCK = REGISTRY.register("gigantum_block", () -> new GigantumBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

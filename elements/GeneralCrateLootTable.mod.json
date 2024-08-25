@@ -14,20 +14,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:MagiciteDust"
-            },
-            "weight": 16,
-            "minCount": 4,
-            "maxCount": 8,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:Plastika"
             },
             "weight": 14,
@@ -46,7 +32,7 @@
             },
             "weight": 6,
             "minCount": 1,
-            "maxCount": 8,
+            "maxCount": 6,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -72,35 +58,7 @@
             "item": {
               "value": "CUSTOM:Knife"
             },
-            "weight": 6,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:NoobishTrialCoin"
-            },
-            "weight": 4,
-            "minCount": 1,
-            "maxCount": 8,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:NeutralTrialCoin"
-            },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

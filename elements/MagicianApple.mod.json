@@ -11,7 +11,7 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:STMW5"
+        "value": "CUSTOM:STMWRFoods"
       }
     ],
     "stackSize": 64,
@@ -43,14 +43,14 @@
     "projectile": {
       "value": "CUSTOM:Bullet"
     },
-    "isFood": false,
+    "isFood": true,
     "nutritionalValue": 4,
     "saturation": 0.3,
     "eatResultItem": {
-      "value": ""
+      "value": "CUSTOM:MagiciteDust"
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "none"
   }
 }

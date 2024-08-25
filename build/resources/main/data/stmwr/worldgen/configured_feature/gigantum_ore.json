@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 2,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          }
+        },
+        "state": {
+          "Name": "stmwr:gigantum_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:dirt"
+        },
+        "state": {
+          "Name": "stmwr:gigantum_ore"
+        }
+      }
+    ]
+  }
+}

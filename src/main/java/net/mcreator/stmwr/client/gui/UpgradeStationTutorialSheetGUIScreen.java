@@ -31,8 +31,8 @@ public class UpgradeStationTutorialSheetGUIScreen extends AbstractContainerScree
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageWidth = 244;
+		this.imageHeight = 124;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("stmwr:textures/screens/upgrade_station_tutorial_sheet_gui.png");
@@ -64,16 +64,11 @@ public class UpgradeStationTutorialSheetGUIScreen extends AbstractContainerScree
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_how_to_use_upgrade_station"), 16, 2, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_put_ingredients_on_the_left"), 14, 16, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_put_the_main_item_in_the_middle"), 5, 26, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_push_fuse"), 57, 36, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_enjoy"), 65, 46, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_and_where_do_you_find_recipes"), 10, 55, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_you_can_guess"), 44, 65, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_you_can_look_at_advancements"), 7, 76, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_or_google_it"), 47, 86, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_youll_do_it_anyways_wont_you"), 4, 95, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_how_to_use_upgrade_station"), 49, 4, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_put_a_gear_core_in_the_first_slo"), 3, 29, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_put_ingredients_listed_in_advanc"), 4, 40, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_put_the_catalyst_in_the_center"), 46, 51, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.stmwr.upgrade_station_tutorial_sheet_gui.label_press_fuse"), 83, 61, -12829636, false);
 	}
 
 	@Override
@@ -84,7 +79,7 @@ public class UpgradeStationTutorialSheetGUIScreen extends AbstractContainerScree
 				StmwrMod.PACKET_HANDLER.sendToServer(new UpgradeStationTutorialSheetGUIButtonMessage(0, x, y, z));
 				UpgradeStationTutorialSheetGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 63, this.topPos + 109, 35, 20).build();
+		}).bounds(this.leftPos + 94, this.topPos + 79, 35, 20).build();
 		guistate.put("button:button_ok", button_ok);
 		this.addRenderableWidget(button_ok);
 	}

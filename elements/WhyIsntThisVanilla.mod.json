@@ -10,11 +10,9 @@
     "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
-    "announceToChat": true,
+    "announceToChat": false,
     "hideIfNotCompleted": false,
-    "rewardLoot": [
-      "VanillaLootCrate"
-    ],
+    "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,

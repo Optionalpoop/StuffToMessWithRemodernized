@@ -9,12 +9,10 @@
     },
     "background": "Default",
     "disableDisplay": false,
-    "showPopup": true,
-    "announceToChat": true,
+    "showPopup": false,
+    "announceToChat": false,
     "hideIfNotCompleted": false,
-    "rewardLoot": [
-      "VanillaLootCrate"
-    ],
+    "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,

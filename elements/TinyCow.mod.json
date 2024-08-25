@@ -105,16 +105,16 @@
       "value": "CUSTOM:TinyBone"
     },
     "livingSound": {
-      "value": ""
+      "value": "entity.cow.ambient"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "entity.cow.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.cow.death"
     },
     "stepSound": {
-      "value": ""
+      "value": "entity.cow.step"
     },
     "raidCelebrationSound": {
       "value": ""

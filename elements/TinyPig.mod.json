@@ -105,16 +105,16 @@
       "value": "CUSTOM:LittleLeg"
     },
     "livingSound": {
-      "value": ""
+      "value": "entity.pig.ambient"
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "entity.pig.hurt"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "entity.pig.death"
     },
     "stepSound": {
-      "value": ""
+      "value": "entity.pig.step"
     },
     "raidCelebrationSound": {
       "value": ""

@@ -151,7 +151,7 @@
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 10,
+        "weight": 15,
         "spawnType": "ambient"
       },
       {
@@ -160,8 +160,8 @@
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 10,
-        "spawnType": "monster"
+        "weight": 5,
+        "spawnType": "ambient"
       }
     ]
   }

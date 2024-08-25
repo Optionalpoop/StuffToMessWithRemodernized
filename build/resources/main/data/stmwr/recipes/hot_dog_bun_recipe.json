@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:dough"
+    },
+    {
+      "item": "stmwr:dough"
+    },
+    {
+      "item": "stmwr:dough"
+    }
+  ],
+  "result": {
+    "item": "stmwr:hot_dog_bun",
+    "count": 4
+  }
+}

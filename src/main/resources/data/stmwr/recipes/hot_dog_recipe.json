@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "stmwr:hot_dog_bun"
+    }
+  ],
+  "result": {
+    "item": "stmwr:hot_dog",
+    "count": 1
+  }
+}

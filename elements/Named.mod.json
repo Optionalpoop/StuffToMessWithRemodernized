@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Named!",
-    "achievementDescription": "You can craft name tags now!",
+    "achievementDescription": "You can craft name tags now",
     "achievementIcon": {
       "value": "Items.NAME_TAG"
     },

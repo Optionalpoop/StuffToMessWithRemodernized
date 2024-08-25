@@ -91,8 +91,8 @@ public class StmwrModEntities {
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(JuniorWizardEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<DangerousWizardEntity>> DANGEROUS_WIZARD = register("dangerous_wizard", EntityType.Builder.<DangerousWizardEntity>of(DangerousWizardEntity::new, MobCategory.AMBIENT)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DangerousWizardEntity::new).fireImmune().sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<InfinityGolemEntity>> INFINITY_GOLEM = register("infinity_golem", EntityType.Builder.<InfinityGolemEntity>of(InfinityGolemEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(500).setUpdateInterval(3).setCustomClientFactory(InfinityGolemEntity::new).fireImmune().sized(1f, 1.95f));
+	public static final RegistryObject<EntityType<InfinityGolemEntity>> INFINITY_GOLEM = register("infinity_golem", EntityType.Builder.<InfinityGolemEntity>of(InfinityGolemEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(500).setUpdateInterval(3).setCustomClientFactory(InfinityGolemEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<FinalBossEntity>> FINAL_BOSS = register("final_boss", EntityType.Builder.<FinalBossEntity>of(FinalBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(1000)
 			.setUpdateInterval(3).setCustomClientFactory(FinalBossEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<LightningFlingerEntity>> LIGHTNING_FLINGER = register("lightning_flinger", EntityType.Builder.<LightningFlingerEntity>of(LightningFlingerEntity::new, MobCategory.MONSTER)

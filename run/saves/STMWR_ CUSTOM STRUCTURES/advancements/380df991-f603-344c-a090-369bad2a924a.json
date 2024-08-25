@@ -517,12 +517,6 @@
     },
     "done": true
   },
-  "stmwr:better_than_fortune": {
-    "criteria": {
-      "better_than_fortune_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
   "minecraft:husbandry/froglights": {
     "criteria": {
       "froglights": "2024-08-05 20:35:43 -0400"
@@ -981,12 +975,6 @@
     },
     "done": true
   },
-  "stmwr:inventory_pork": {
-    "criteria": {
-      "inventory_pork_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/tinted_glass": {
     "criteria": {
       "has_amethyst_shard": "2024-08-05 20:35:43 -0400",
@@ -1285,12 +1273,6 @@
     "criteria": {
       "has_polished_blackstone_bricks": "2024-08-05 20:35:43 -0400",
       "has_the_recipe": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:please_the_gods": {
-    "criteria": {
-      "please_the_gods_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -1598,12 +1580,6 @@
     "criteria": {
       "has_the_recipe": "2024-08-05 20:35:43 -0400",
       "has_planks": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:i_have_too_much_already": {
-    "criteria": {
-      "i_have_too_much_already_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -2611,12 +2587,6 @@
     "criteria": {
       "has_diorite": "2024-08-05 20:35:43 -0400",
       "has_the_recipe": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:king_midas": {
-    "criteria": {
-      "king_midas_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -4463,12 +4433,6 @@
     },
     "done": true
   },
-  "stmwr:sheeple": {
-    "criteria": {
-      "sheeple_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lime_glazed_terracotta": {
     "criteria": {
       "has_lime_terracotta": "2024-08-05 20:35:43 -0400",
@@ -4758,12 +4722,6 @@
     "criteria": {
       "has_the_recipe": "2024-08-05 20:35:43 -0400",
       "has_light_gray_dye": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:crafted_magicite": {
-    "criteria": {
-      "crafted_magicite_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -5705,12 +5663,6 @@
     },
     "done": true
   },
-  "stmwr:iran_away_from_the_iron": {
-    "criteria": {
-      "iran_away_from_the_iron_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-08-05 20:35:43 -0400",
@@ -5796,12 +5748,6 @@
       "has_sand": "2024-08-05 20:35:43 -0400",
       "has_the_recipe": "2024-08-05 20:35:43 -0400",
       "has_gravel": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:half_an_ingot": {
-    "criteria": {
-      "half_an_ingot_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -5892,12 +5838,6 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:inventory_beef": {
-    "criteria": {
-      "inventory_beef_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -6523,12 +6463,6 @@
     },
     "done": true
   },
-  "stmwr:grilling": {
-    "criteria": {
-      "grilling_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2024-08-05 20:35:43 -0400",
@@ -6818,12 +6752,6 @@
     "criteria": {
       "has_weathered_cut_copper": "2024-08-05 20:35:43 -0400",
       "has_the_recipe": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:man_of_steel": {
-    "criteria": {
-      "man_of_steel_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -7147,12 +7075,6 @@
     "criteria": {
       "has_the_recipe": "2024-08-05 20:35:43 -0400",
       "has_deepslate_bricks": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:simple_storage": {
-    "criteria": {
-      "simple_storage_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -8282,12 +8204,6 @@
     },
     "done": true
   },
-  "stmwr:blazing_flames": {
-    "criteria": {
-      "blazing_flames_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
   "stmwr:molten_glass": {
     "criteria": {
       "molten_glass_0": "2024-08-05 20:35:43 -0400"
@@ -8663,12 +8579,6 @@
     "criteria": {
       "has_the_recipe": "2024-08-05 20:35:43 -0400",
       "has_black_dye": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:double_the_godlium": {
-    "criteria": {
-      "double_the_godlium_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -9331,12 +9241,6 @@
     },
     "done": true
   },
-  "stmwr:kfc": {
-    "criteria": {
-      "kfc_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/quartz_block": {
     "criteria": {
       "has_quartz": "2024-08-05 20:35:43 -0400",
@@ -9913,12 +9817,6 @@
     },
     "done": true
   },
-  "stmwr:whats_up_doc": {
-    "criteria": {
-      "whats_up_doc_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
   "stmwr:spelling_bee": {
     "criteria": {
       "spelling_bee_0": "2024-08-05 20:35:43 -0400"
@@ -9967,12 +9865,6 @@
   "stmwr:the_final_countdown": {
     "criteria": {
       "the_final_countdown_0": "2024-08-05 20:35:43 -0400"
-    },
-    "done": true
-  },
-  "stmwr:smells_fishy": {
-    "criteria": {
-      "smells_fishy_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -10370,6 +10262,78 @@
   "stmwr:why_explore": {
     "criteria": {
       "why_explore_0": "2024-08-18 13:19:56 -0400"
+    },
+    "done": true
+  },
+  "stmwr:meat": {
+    "criteria": {
+      "meat_0": "2024-08-25 08:50:55 -0400"
+    },
+    "done": true
+  },
+  "stmwr:spawners": {
+    "criteria": {
+      "spawners_0": "2024-08-25 08:51:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:tinky_construc": {
+    "criteria": {
+      "tinky_construc_0": "2024-08-25 08:51:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:ore_duping": {
+    "criteria": {
+      "ore_duping_0": "2024-08-25 08:51:04 -0400"
+    },
+    "done": true
+  },
+  "stmwr:can_i_haz_chez_burgr": {
+    "criteria": {
+      "can_i_haz_chez_burgr_0": "2024-08-25 10:17:25 -0400"
+    },
+    "done": true
+  },
+  "stmwr:enraged": {
+    "criteria": {
+      "enraged_0": "2024-08-25 10:17:25 -0400"
+    },
+    "done": true
+  },
+  "stmwr:cooking": {
+    "criteria": {
+      "cooking_0": "2024-08-25 10:17:25 -0400"
+    },
+    "done": true
+  },
+  "stmwr:hot_diggity_dog": {
+    "criteria": {
+      "hot_diggity_dog_0": "2024-08-25 10:17:25 -0400"
+    },
+    "done": true
+  },
+  "stmwr:dont_ask_about_the_ingredients": {
+    "criteria": {
+      "dont_ask_about_the_ingredients_0": "2024-08-25 10:17:25 -0400"
+    },
+    "done": true
+  },
+  "stmwr:gigantic": {
+    "criteria": {
+      "gigantic_0": "2024-08-25 10:17:25 -0400"
+    },
+    "done": true
+  },
+  "stmwr:raw": {
+    "criteria": {
+      "raw_0": "2024-08-25 10:17:25 -0400"
+    },
+    "done": true
+  },
+  "stmwr:borger": {
+    "criteria": {
+      "borger_0": "2024-08-25 10:17:25 -0400"
     },
     "done": true
   },

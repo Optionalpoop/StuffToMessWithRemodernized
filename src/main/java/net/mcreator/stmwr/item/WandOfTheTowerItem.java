@@ -17,7 +17,7 @@ import java.util.List;
 
 public class WandOfTheTowerItem extends Item {
 	public WandOfTheTowerItem() {
-		super(new Item.Properties().durability(4).rarity(Rarity.EPIC));
+		super(new Item.Properties().durability(1).rarity(Rarity.EPIC));
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class WandOfTheTowerItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		WandOfTheTowerRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), ar.getObject());
+		WandOfTheTowerRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 		return ar;
 	}
 }

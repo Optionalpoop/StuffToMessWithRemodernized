@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Cook On The Go!",
-    "achievementDescription": "You can craft a portable oven for easy cooking of food",
+    "achievementDescription": "You can craft a portable oven for easy cooking of food in your personal crafting grid!",
     "achievementIcon": {
       "value": "CUSTOM:PortableOven"
     },

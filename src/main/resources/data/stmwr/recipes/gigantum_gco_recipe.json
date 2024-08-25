@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:gigantum_ingot"
+    },
+    {
+      "item": "stmwr:greater_creation_orb"
+    }
+  ],
+  "result": {
+    "item": "stmwr:gigantum_block",
+    "count": 1
+  }
+}
