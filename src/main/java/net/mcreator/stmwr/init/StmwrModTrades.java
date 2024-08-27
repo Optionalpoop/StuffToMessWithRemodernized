@@ -88,5 +88,37 @@ public class StmwrModTrades {
 
 					new ItemStack(StmwrModItems.SPELL_BOOK_OF_TRANSMUTATION.get()), 8, 5, 0.05f));
 		}
+		if (event.getType() == StmwrModVillagerProfessions.ARMS_DEALER.get()) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 4),
+
+					new ItemStack(StmwrModItems.PISTOL_AMMO.get(), 4), 16, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),
+
+					new ItemStack(StmwrModItems.IRON_SPIKE.get()), 33, 5, 0.05f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),
+
+					new ItemStack(StmwrModItems.STEEL_INGOT.get()), 32, 5, 0.05f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 6),
+
+					new ItemStack(StmwrModItems.ASSAULT_RIFLE_AMMO.get(), 4), 16, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 4),
+
+					new ItemStack(StmwrModItems.STEEL_CORE.get()), 12, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 8),
+
+					new ItemStack(StmwrModItems.CANNED_PIKACHU.get()), 16, 5, 0.05f));
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get()),
+
+					new ItemStack(StmwrModItems.PISTOL.get()), 4, 5, 0.05f));
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 5),
+
+					new ItemStack(StmwrModItems.EMPTY_SPELL_BOOK.get()), 4, 5, 0.05f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 3),
+
+					new ItemStack(StmwrModItems.ASSAULT_RIFLE.get()), 4, 5, 0.05f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 2),
+
+					new ItemStack(StmwrModBlocks.GEAR_CRATE.get()), 8, 5, 0.05f));
+		}
 	}
 }

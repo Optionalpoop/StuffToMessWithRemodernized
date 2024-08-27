@@ -7,9 +7,9 @@
         "value": "CUSTOM:TitanicPlains"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "Nether like gen",
     "mainFillerBlock": {
-      "value": "Blocks.GRASS"
+      "value": "Blocks.DIRT#0"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_WATER"
@@ -20,7 +20,7 @@
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": false,
+    "imitateOverworldBehaviour": true,
     "portalFrame": {
       "value": "CUSTOM:TrialBrick"
     },

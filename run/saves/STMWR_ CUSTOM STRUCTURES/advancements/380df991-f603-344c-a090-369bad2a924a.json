@@ -10349,5 +10349,23 @@
     },
     "done": true
   },
+  "stmwr:angy": {
+    "criteria": {
+      "angy_0": "2024-08-26 17:05:57 -0400"
+    },
+    "done": true
+  },
+  "stmwr:cloaked": {
+    "criteria": {
+      "cloaked_0": "2024-08-26 21:31:10 -0400"
+    },
+    "done": true
+  },
+  "stmwr:cloaking_technology": {
+    "criteria": {
+      "cloaking_technology_0": "2024-08-26 21:31:19 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

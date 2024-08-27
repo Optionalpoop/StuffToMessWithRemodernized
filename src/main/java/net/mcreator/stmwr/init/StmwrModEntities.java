@@ -44,6 +44,7 @@ import net.mcreator.stmwr.entity.FrostZombieEntity;
 import net.mcreator.stmwr.entity.FinalBossEntity;
 import net.mcreator.stmwr.entity.DangerousWizardEntity;
 import net.mcreator.stmwr.entity.CyclopsEntity;
+import net.mcreator.stmwr.entity.CultistEntity;
 import net.mcreator.stmwr.entity.BulletEntity;
 import net.mcreator.stmwr.entity.AssaultRifleBulletEntity;
 import net.mcreator.stmwr.StmwrMod;
@@ -151,6 +152,10 @@ public class StmwrModEntities {
 			EntityType.Builder.<TinyPigEntity>of(TinyPigEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TinyPigEntity::new)
 
 					.sized(0.9f, 0.9f));
+	public static final RegistryObject<EntityType<CultistEntity>> CULTIST = register("cultist",
+			EntityType.Builder.<CultistEntity>of(CultistEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CultistEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -187,6 +192,7 @@ public class StmwrModEntities {
 			TitanKingEntity.init();
 			TinyCowEntity.init();
 			TinyPigEntity.init();
+			CultistEntity.init();
 		});
 	}
 
@@ -220,5 +226,6 @@ public class StmwrModEntities {
 		event.put(TITAN_KING.get(), TitanKingEntity.createAttributes().build());
 		event.put(TINY_COW.get(), TinyCowEntity.createAttributes().build());
 		event.put(TINY_PIG.get(), TinyPigEntity.createAttributes().build());
+		event.put(CULTIST.get(), CultistEntity.createAttributes().build());
 	}
 }

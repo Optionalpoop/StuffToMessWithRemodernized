@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "stmwr:block/arms_dealer_trading_block"
+    }
+  }
+}

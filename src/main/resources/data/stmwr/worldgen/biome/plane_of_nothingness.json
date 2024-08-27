@@ -3,6 +3,12 @@
   "temperature": 2,
   "downfall": 0,
   "effects": {
+    "music": {
+      "sound": "stmwr:emptyplainsambience",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -16777216,
     "grass_color": -16777216,
     "sky_color": -6710887,

@@ -76,6 +76,7 @@ import net.mcreator.stmwr.item.SpeedTotemT3Item;
 import net.mcreator.stmwr.item.SpeedTotemT2Item;
 import net.mcreator.stmwr.item.SpeedTotemT1Item;
 import net.mcreator.stmwr.item.ShreddedBeefItem;
+import net.mcreator.stmwr.item.ScribbleArmorTrimItem;
 import net.mcreator.stmwr.item.SausageItem;
 import net.mcreator.stmwr.item.SandWormScaleItem;
 import net.mcreator.stmwr.item.SandWormCallerItem;
@@ -157,6 +158,8 @@ import net.mcreator.stmwr.item.DirtNuggetItem;
 import net.mcreator.stmwr.item.CyclopsEnragerItem;
 import net.mcreator.stmwr.item.CreationOrbItem;
 import net.mcreator.stmwr.item.CrateTotemItem;
+import net.mcreator.stmwr.item.CloakingTotemItem;
+import net.mcreator.stmwr.item.CloakFragmentItem;
 import net.mcreator.stmwr.item.ChocolateItem;
 import net.mcreator.stmwr.item.ChickenNuggetItem;
 import net.mcreator.stmwr.item.CheeseStickItem;
@@ -443,6 +446,11 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> CHEESE_BURGER = REGISTRY.register("cheese_burger", () -> new CheeseBurgerItem());
 	public static final RegistryObject<Item> BOSS_KEY = REGISTRY.register("boss_key", () -> new BossKeyItem());
 	public static final RegistryObject<Item> ICICLE_KNIFE = REGISTRY.register("icicle_knife", () -> new IcicleKnifeItem());
+	public static final RegistryObject<Item> ARMS_DEALER_TRADING_BLOCK = block(StmwrModBlocks.ARMS_DEALER_TRADING_BLOCK);
+	public static final RegistryObject<Item> SCRIBBLE_ARMOR_TRIM = REGISTRY.register("scribble_armor_trim", () -> new ScribbleArmorTrimItem());
+	public static final RegistryObject<Item> CULTIST_SPAWN_EGG = REGISTRY.register("cultist_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.CULTIST, -16777216, -10066330, new Item.Properties()));
+	public static final RegistryObject<Item> CLOAK_FRAGMENT = REGISTRY.register("cloak_fragment", () -> new CloakFragmentItem());
+	public static final RegistryObject<Item> CLOAKING_TOTEM = REGISTRY.register("cloaking_totem", () -> new CloakingTotemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

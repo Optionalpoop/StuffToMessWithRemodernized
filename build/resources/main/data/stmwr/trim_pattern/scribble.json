@@ -1,0 +1,7 @@
+{
+  "asset_id": "stmwr:scribble",
+  "description": {
+    "translate": "trim_pattern.stmwr.scribble"
+  },
+  "template_item": "stmwr:scribble_armor_trim"
+}

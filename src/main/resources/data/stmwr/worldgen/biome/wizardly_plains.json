@@ -3,6 +3,12 @@
   "temperature": 0.6,
   "downfall": 0.6,
   "effects": {
+    "music": {
+      "sound": "stmwr:wizardworldambience",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -12983525,
     "grass_color": -12983525,
     "sky_color": 7972607,

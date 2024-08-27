@@ -37,6 +37,8 @@ public class StmwrModVillagerProfessions {
 			() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")));
 	public static final RegistryObject<VillagerProfession> MAGIC_VILLAGER = registerProfession("magic_villager", () -> StmwrModBlocks.MAGIC_VILLAGER_TRADING_STATION.get(),
 			() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.amethyst_block.chime")));
+	public static final RegistryObject<VillagerProfession> ARMS_DEALER = registerProfession("arms_dealer", () -> StmwrModBlocks.ARMS_DEALER_TRADING_BLOCK.get(),
+			() -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wandering_trader.trade")));
 
 	private static RegistryObject<VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));

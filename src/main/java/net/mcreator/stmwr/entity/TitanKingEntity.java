@@ -37,6 +37,7 @@ import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
 
 import net.mcreator.stmwr.procedures.Up15Procedure;
+import net.mcreator.stmwr.procedures.TitanKingEntityDiesProcedure;
 import net.mcreator.stmwr.init.StmwrModItems;
 import net.mcreator.stmwr.init.StmwrModEntities;
 
@@ -107,6 +108,12 @@ public class TitanKingEntity extends Monster {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		TitanKingEntityDiesProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override

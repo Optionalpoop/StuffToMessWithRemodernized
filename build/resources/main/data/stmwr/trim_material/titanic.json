@@ -1,0 +1,9 @@
+{
+  "asset_name": "titanic",
+  "description": {
+    "color": "#999999",
+    "translate": "trim_material.stmwr.titanic"
+  },
+  "ingredient": "stmwr:titanic_ingot",
+  "item_model_index": 0.0
+}

@@ -3,13 +3,8 @@
   "temperature": 1.5,
   "downfall": 0,
   "effects": {
-    "ambient_sound": "ambient.nether_wastes.loop",
-    "additions_sound": {
-      "sound": "block.anvil.fall",
-      "tick_chance": 0.0111
-    },
     "music": {
-      "sound": "block.end_portal.spawn",
+      "sound": "stmwr:militariaambience",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": true

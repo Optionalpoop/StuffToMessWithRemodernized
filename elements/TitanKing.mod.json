@@ -120,6 +120,9 @@
       "value": ""
     },
     "entityDataEntries": [],
+    "whenMobDies": {
+      "name": "TitanKingEntityDies"
+    },
     "onInitialSpawn": {
       "name": "Up15"
     },

@@ -1,0 +1,16 @@
+{
+  "_fv": 66,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Arms Dealer",
+    "pointOfInterest": {
+      "value": "CUSTOM:ArmsDealerTradingBlock"
+    },
+    "actionSound": {
+      "value": "entity.wandering_trader.trade"
+    },
+    "hat": "None",
+    "professionTextureFile": "armsdealer.png",
+    "zombifiedProfessionTextureFile": "armsdealer.png"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:ultrite"
+    },
+    "b": {
+      "item": "stmwr:cloak_fragment"
+    },
+    "c": {
+      "item": "stmwr:advanced_totem_base"
+    }
+  },
+  "result": {
+    "item": "stmwr:cloaking_totem",
+    "count": 1
+  }
+}

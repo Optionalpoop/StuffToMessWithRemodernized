@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "trimmaterial",
+  "definition": {
+    "name": "Gigantum",
+    "item": {
+      "value": "CUSTOM:GigantumIngot"
+    },
+    "color1": {
+      "value": -13395712,
+      "falpha": 0.0
+    },
+    "color2": {
+      "value": -13369549,
+      "falpha": 0.0
+    },
+    "color3": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "color4": {
+      "value": -10027264,
+      "falpha": 0.0
+    },
+    "color5": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "color6": {
+      "value": -16711885,
+      "falpha": 0.0
+    },
+    "color7": {
+      "value": -16751053,
+      "falpha": 0.0
+    },
+    "color8": {
+      "value": -6684775,
+      "falpha": 0.0
+    }
+  }
+}

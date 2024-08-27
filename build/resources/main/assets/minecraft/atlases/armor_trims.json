@@ -34,7 +34,9 @@
         "trims/models/armor/raiser",
         "trims/models/armor/raiser_leggings",
         "trims/models/armor/host",
-        "trims/models/armor/host_leggings"
+        "trims/models/armor/host_leggings",
+        "stmwr:trims/models/armor/scribble",
+        "stmwr:trims/models/armor/scribble_leggings"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
@@ -61,7 +63,9 @@
         "ultrite_trim": "trims/color_palettes/ultrite_trim",
         "infinitite_trim": "trims/color_palettes/infinitite_trim",
         "steel_trim": "trims/color_palettes/steel_trim",
-        "storalium_trim": "trims/color_palettes/storalium_trim"
+        "storalium_trim": "trims/color_palettes/storalium_trim",
+        "gigantum": "trims/color_palettes/gigantum",
+        "titanic": "trims/color_palettes/titanic"
       }
     }
   ]

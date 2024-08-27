@@ -25,13 +25,13 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "ambient.nether_wastes.loop"
+      "value": ""
     },
     "additionsSound": {
-      "value": "block.anvil.fall"
+      "value": ""
     },
     "music": {
-      "value": "block.end_portal.spawn"
+      "value": "CUSTOM:militariaambience"
     },
     "moodSound": {
       "value": ""

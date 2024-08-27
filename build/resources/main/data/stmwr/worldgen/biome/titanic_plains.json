@@ -3,6 +3,12 @@
   "temperature": 1,
   "downfall": 0.4,
   "effects": {
+    "music": {
+      "sound": "stmwr:titanworldambience",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
+    },
     "foliage_color": -16737997,
     "grass_color": -16737997,
     "sky_color": 7972607,
@@ -16,11 +22,10 @@
         "type": "stmwr:titanic_zombie",
         "weight": 10,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 2
       }
     ],
-    "creature": [],
-    "ambient": [
+    "creature": [
       {
         "type": "stmwr:titanic_cow",
         "weight": 20,
@@ -34,6 +39,7 @@
         "maxCount": 4
       }
     ],
+    "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
@@ -41,18 +47,10 @@
     "misc": []
   },
   "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
+  "carvers": {},
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground"
-    ],
+    [],
     [],
     [],
     [],

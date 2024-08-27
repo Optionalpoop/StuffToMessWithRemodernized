@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/armsdealertradingblock",
+    "up": "stmwr:block/armsdealertradingblock",
+    "north": "stmwr:block/armsdealertradingblock",
+    "east": "stmwr:block/armsdealertradingblock",
+    "south": "stmwr:block/armsdealertradingblock",
+    "west": "stmwr:block/armsdealertradingblock",
+    "particle": "stmwr:block/armsdealertradingblock"
+  },
+  "render_type": "solid"
+}

@@ -39,6 +39,7 @@ import net.mcreator.stmwr.client.renderer.FrostZombieRenderer;
 import net.mcreator.stmwr.client.renderer.FinalBossRenderer;
 import net.mcreator.stmwr.client.renderer.DangerousWizardRenderer;
 import net.mcreator.stmwr.client.renderer.CyclopsRenderer;
+import net.mcreator.stmwr.client.renderer.CultistRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class StmwrModEntityRenderers {
@@ -74,5 +75,6 @@ public class StmwrModEntityRenderers {
 		event.registerEntityRenderer(StmwrModEntities.TITAN_KING.get(), TitanKingRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.TINY_COW.get(), TinyCowRenderer::new);
 		event.registerEntityRenderer(StmwrModEntities.TINY_PIG.get(), TinyPigRenderer::new);
+		event.registerEntityRenderer(StmwrModEntities.CULTIST.get(), CultistRenderer::new);
 	}
 }

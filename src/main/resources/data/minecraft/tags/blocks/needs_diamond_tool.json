@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:arms_dealer_trading_block",
     "stmwr:gigantum_block",
     "stmwr:gigantum_ore",
     "stmwr:magic_villager_trading_station",

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "stmwr:arms_dealer_building",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 16,
+    "salt": 799002373
+  }
+}

@@ -6,5 +6,77 @@
         "stream": false
       }
     ]
+  },
+  "stevecowlandambience": {
+    "sounds": [
+      {
+        "name": "stmwr:stevecowlandambience",
+        "stream": true
+      }
+    ]
+  },
+  "stevecowbossmusic": {
+    "sounds": [
+      {
+        "name": "stmwr:stevecowbossmusic",
+        "stream": true
+      }
+    ]
+  },
+  "militariaambience": {
+    "sounds": [
+      {
+        "name": "stmwr:militariaambience",
+        "stream": true
+      }
+    ]
+  },
+  "goopboss": {
+    "sounds": [
+      {
+        "name": "stmwr:goopboss",
+        "stream": true
+      }
+    ]
+  },
+  "titankingbossmusic": {
+    "sounds": [
+      {
+        "name": "stmwr:titankingbossmusic",
+        "stream": true
+      }
+    ]
+  },
+  "wizardworldambience": {
+    "sounds": [
+      {
+        "name": "stmwr:wizardworldambience",
+        "stream": true
+      }
+    ]
+  },
+  "titanworldambience": {
+    "sounds": [
+      {
+        "name": "stmwr:titanworldambience",
+        "stream": true
+      }
+    ]
+  },
+  "smallworldambience": {
+    "sounds": [
+      {
+        "name": "stmwr:smallworldambience",
+        "stream": true
+      }
+    ]
+  },
+  "emptyplainsambience": {
+    "sounds": [
+      {
+        "name": "stmwr:emptyplainsambience",
+        "stream": true
+      }
+    ]
   }
 }

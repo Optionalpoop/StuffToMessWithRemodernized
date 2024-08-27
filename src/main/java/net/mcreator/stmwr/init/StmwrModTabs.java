@@ -156,6 +156,10 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModBlocks.GIGANTUM_ORE.get().asItem());
 				tabData.accept(StmwrModBlocks.GIGANTUM_BLOCK.get().asItem());
 				tabData.accept(StmwrModItems.BOSS_KEY.get());
+				tabData.accept(StmwrModBlocks.ARMS_DEALER_TRADING_BLOCK.get().asItem());
+				tabData.accept(StmwrModItems.SCRIBBLE_ARMOR_TRIM.get());
+				tabData.accept(StmwrModItems.CULTIST_SPAWN_EGG.get());
+				tabData.accept(StmwrModItems.CLOAK_FRAGMENT.get());
 			})
 
 					.build());
@@ -291,6 +295,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TOTEM_OF_SLOW_FALLING.get());
 				tabData.accept(StmwrModItems.TOTEM_OF_LEVITATION.get());
 				tabData.accept(StmwrModItems.CRATE_TOTEM.get());
+				tabData.accept(StmwrModItems.CLOAKING_TOTEM.get());
 			})
 
 					.build());
