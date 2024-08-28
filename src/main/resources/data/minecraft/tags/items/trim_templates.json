@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "stmwr:scribble_armor_trim",
-    "stmwr:polka_dot_armor_trim"
+    "stmwr:polka_dot_armor_trim",
+    "stmwr:icicle_armor_trim",
+    "stmwr:camo_armor_trim",
+    "stmwr:cloak_armor_trim"
   ]
 }

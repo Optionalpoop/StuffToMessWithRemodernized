@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "minecraft:sand",
+    "minecraft:smooth_sandstone",
     "minecraft:gray_concrete",
     "minecraft:mud",
     "minecraft:smooth_red_sandstone",

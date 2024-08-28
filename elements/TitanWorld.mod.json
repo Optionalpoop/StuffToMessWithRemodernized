@@ -7,7 +7,7 @@
         "value": "CUSTOM:TitanicPlains"
       }
     ],
-    "worldGenType": "Nether like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "Blocks.DIRT#0"
     },

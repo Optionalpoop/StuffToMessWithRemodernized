@@ -1,0 +1,7 @@
+{
+  "asset_id": "stmwr:cloak",
+  "description": {
+    "translate": "trim_pattern.stmwr.cloak"
+  },
+  "template_item": "stmwr:cloak_armor_trim"
+}

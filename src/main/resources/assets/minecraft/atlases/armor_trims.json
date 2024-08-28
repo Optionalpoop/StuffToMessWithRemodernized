@@ -38,7 +38,13 @@
         "stmwr:trims/models/armor/scribble",
         "stmwr:trims/models/armor/scribble_leggings",
         "stmwr:trims/models/armor/polka_dot",
-        "stmwr:trims/models/armor/polka_dot_leggings"
+        "stmwr:trims/models/armor/polka_dot_leggings",
+        "stmwr:trims/models/armor/icicle",
+        "stmwr:trims/models/armor/icicle_leggings",
+        "stmwr:trims/models/armor/camo",
+        "stmwr:trims/models/armor/camo_leggings",
+        "stmwr:trims/models/armor/cloak",
+        "stmwr:trims/models/armor/cloak_leggings"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {

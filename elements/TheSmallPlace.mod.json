@@ -5,6 +5,12 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:SmallishPlains"
+      },
+      {
+        "value": "CUSTOM:TinyForest"
+      },
+      {
+        "value": "CUSTOM:BabyDesert"
       }
     ],
     "worldGenType": "Normal world gen",

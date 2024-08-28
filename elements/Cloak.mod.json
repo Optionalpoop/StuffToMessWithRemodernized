@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "armortrim",
+  "definition": {
+    "name": "Cloak",
+    "item": {
+      "value": "CUSTOM:CloakArmorTrim"
+    },
+    "armorTextureFile": "cloak"
+  }
+}

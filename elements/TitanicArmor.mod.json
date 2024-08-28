@@ -10,6 +10,18 @@
     "textureLeggings": "titanic_leggings",
     "enableBoots": true,
     "textureBoots": "titanic_boots",
+    "onHelmetTick": {
+      "name": "TitanicArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "TitanicArmorHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "TitanicArmorHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "TitanicArmorHelmetTickEvent"
+    },
     "creativeTabs": [
       {
         "value": "CUSTOM:STMWRGear"

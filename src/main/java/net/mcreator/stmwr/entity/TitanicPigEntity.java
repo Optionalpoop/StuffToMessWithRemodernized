@@ -129,7 +129,7 @@ public class TitanicPigEntity extends Monster {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 400);
 		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 60);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 40);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 32);
 		return builder;
 	}

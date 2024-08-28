@@ -1,0 +1,7 @@
+{
+  "asset_id": "stmwr:camo",
+  "description": {
+    "translate": "trim_pattern.stmwr.camo"
+  },
+  "template_item": "stmwr:camo_armor_trim"
+}

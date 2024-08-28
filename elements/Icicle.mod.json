@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "armortrim",
+  "definition": {
+    "name": "Icicle",
+    "item": {
+      "value": "CUSTOM:IcicleArmorTrim"
+    },
+    "armorTextureFile": "icicle"
+  }
+}

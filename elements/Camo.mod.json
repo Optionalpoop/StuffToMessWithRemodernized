@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "armortrim",
+  "definition": {
+    "name": "Camo",
+    "item": {
+      "value": "CUSTOM:CamoArmorTrim"
+    },
+    "armorTextureFile": "camo"
+  }
+}

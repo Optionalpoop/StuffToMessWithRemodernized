@@ -13,7 +13,7 @@
     "separation": 12,
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:SmallishPlains"
+        "value": "CUSTOM:BabyDesert"
       }
     ],
     "terrainAdaptation": "none",

@@ -1,0 +1,7 @@
+{
+  "asset_id": "stmwr:icicle",
+  "description": {
+    "translate": "trim_pattern.stmwr.icicle"
+  },
+  "template_item": "stmwr:icicle_armor_trim"
+}
