@@ -160,6 +160,10 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.SCRIBBLE_ARMOR_TRIM.get());
 				tabData.accept(StmwrModItems.CULTIST_SPAWN_EGG.get());
 				tabData.accept(StmwrModItems.CLOAK_FRAGMENT.get());
+				tabData.accept(StmwrModItems.POLKA_DOT_ARMOR_TRIM.get());
+				tabData.accept(StmwrModItems.CLOAK_ARMOR_TRIM.get());
+				tabData.accept(StmwrModItems.CAMO_ARMOR_TRIM.get());
+				tabData.accept(StmwrModItems.ICICLE_ARMOR_TRIM.get());
 			})
 
 					.build());

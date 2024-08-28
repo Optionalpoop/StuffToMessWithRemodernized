@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "armortrim",
+  "definition": {
+    "name": "PolkaDot",
+    "item": {
+      "value": "CUSTOM:PolkaDotArmorTrim"
+    },
+    "armorTextureFile": "polkadot"
+  }
+}

@@ -9,8 +9,8 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 9,
-    "separation": 8,
+    "spacing": 32,
+    "separation": 16,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:SmallishPlains"

@@ -85,6 +85,7 @@ import net.mcreator.stmwr.item.RawSausageItem;
 import net.mcreator.stmwr.item.RawPattyItem;
 import net.mcreator.stmwr.item.PortableOvenItem;
 import net.mcreator.stmwr.item.PortableCrucibleItem;
+import net.mcreator.stmwr.item.PolkaDotArmorTrimItem;
 import net.mcreator.stmwr.item.PlastikaItem;
 import net.mcreator.stmwr.item.PizzaSliceItem;
 import net.mcreator.stmwr.item.PizzaItem;
@@ -123,6 +124,7 @@ import net.mcreator.stmwr.item.InfinititeCoreItem;
 import net.mcreator.stmwr.item.InfinititeArmorItem;
 import net.mcreator.stmwr.item.InfiniBoingAppleItem;
 import net.mcreator.stmwr.item.IcicleKnifeItem;
+import net.mcreator.stmwr.item.IcicleArmorTrimItem;
 import net.mcreator.stmwr.item.IceShardItem;
 import net.mcreator.stmwr.item.HotDogItem;
 import net.mcreator.stmwr.item.HotDogBunItem;
@@ -160,6 +162,7 @@ import net.mcreator.stmwr.item.CreationOrbItem;
 import net.mcreator.stmwr.item.CrateTotemItem;
 import net.mcreator.stmwr.item.CloakingTotemItem;
 import net.mcreator.stmwr.item.CloakFragmentItem;
+import net.mcreator.stmwr.item.CloakArmorTrimItem;
 import net.mcreator.stmwr.item.ChocolateItem;
 import net.mcreator.stmwr.item.ChickenNuggetItem;
 import net.mcreator.stmwr.item.CheeseStickItem;
@@ -168,6 +171,7 @@ import net.mcreator.stmwr.item.CheeseBurgerItem;
 import net.mcreator.stmwr.item.CastingWandarItem;
 import net.mcreator.stmwr.item.CannedPikachuItem;
 import net.mcreator.stmwr.item.CanItem;
+import net.mcreator.stmwr.item.CamoArmorTrimItem;
 import net.mcreator.stmwr.item.BurgerBunItem;
 import net.mcreator.stmwr.item.BuildingWandarItem;
 import net.mcreator.stmwr.item.BossKeyItem;
@@ -451,6 +455,10 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> CULTIST_SPAWN_EGG = REGISTRY.register("cultist_spawn_egg", () -> new ForgeSpawnEggItem(StmwrModEntities.CULTIST, -16777216, -10066330, new Item.Properties()));
 	public static final RegistryObject<Item> CLOAK_FRAGMENT = REGISTRY.register("cloak_fragment", () -> new CloakFragmentItem());
 	public static final RegistryObject<Item> CLOAKING_TOTEM = REGISTRY.register("cloaking_totem", () -> new CloakingTotemItem());
+	public static final RegistryObject<Item> POLKA_DOT_ARMOR_TRIM = REGISTRY.register("polka_dot_armor_trim", () -> new PolkaDotArmorTrimItem());
+	public static final RegistryObject<Item> CLOAK_ARMOR_TRIM = REGISTRY.register("cloak_armor_trim", () -> new CloakArmorTrimItem());
+	public static final RegistryObject<Item> CAMO_ARMOR_TRIM = REGISTRY.register("camo_armor_trim", () -> new CamoArmorTrimItem());
+	public static final RegistryObject<Item> ICICLE_ARMOR_TRIM = REGISTRY.register("icicle_armor_trim", () -> new IcicleArmorTrimItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

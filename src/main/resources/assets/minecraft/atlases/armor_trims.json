@@ -36,7 +36,9 @@
         "trims/models/armor/host",
         "trims/models/armor/host_leggings",
         "stmwr:trims/models/armor/scribble",
-        "stmwr:trims/models/armor/scribble_leggings"
+        "stmwr:trims/models/armor/scribble_leggings",
+        "stmwr:trims/models/armor/polka_dot",
+        "stmwr:trims/models/armor/polka_dot_leggings"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {
