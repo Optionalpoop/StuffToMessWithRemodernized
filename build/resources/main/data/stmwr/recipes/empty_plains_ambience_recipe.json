@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:pistol_ammo"
+    },
+    "b": {
+      "item": "stmwr:chicken_nugget"
+    }
+  },
+  "result": {
+    "item": "stmwr:empty_plains_ambience",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:infinitite_scrap"
+    },
+    "b": {
+      "item": "stmwr:iron_spike"
+    },
+    "c": {
+      "item": "stmwr:infinitite_mold"
+    }
+  },
+  "result": {
+    "item": "stmwr:final_boss_music",
+    "count": 1
+  }
+}

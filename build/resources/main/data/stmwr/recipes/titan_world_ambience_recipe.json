@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:titanic_skull"
+    },
+    "b": {
+      "item": "stmwr:titanic_leather"
+    },
+    "c": {
+      "item": "stmwr:gigantum_ingot"
+    }
+  },
+  "result": {
+    "item": "stmwr:titan_world_ambience",
+    "count": 1
+  }
+}

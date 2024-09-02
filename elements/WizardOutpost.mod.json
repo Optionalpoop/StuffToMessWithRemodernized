@@ -2,14 +2,14 @@
   "_fv": 66,
   "_type": "structure",
   "definition": {
-    "structure": "wizardjail",
+    "structure": "wizardoutpost",
     "projection": "rigid",
     "ignoredBlocks": [
       {
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 32,
+    "spacing": 24,
     "separation": 16,
     "restrictionBiomes": [
       {

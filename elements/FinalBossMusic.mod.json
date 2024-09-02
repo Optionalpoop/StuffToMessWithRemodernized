@@ -1,0 +1,26 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Final Boss Music",
+    "rarity": "COMMON",
+    "texture": "finalbossmusic",
+    "description": "Boss Music",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:STMW5"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:finalbossmusic"
+    },
+    "lengthInTicks": 10000,
+    "analogOutput": 0
+  }
+}

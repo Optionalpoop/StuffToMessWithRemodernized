@@ -10042,12 +10042,6 @@
     },
     "done": true
   },
-  "stmwr:stmw_triangles": {
-    "criteria": {
-      "stmw_triangles_0": "2024-08-05 22:32:54 -0400"
-    },
-    "done": true
-  },
   "stmwr:ka_boom": {
     "criteria": {
       "ka_boom_0": "2024-08-06 09:24:33 -0400"
@@ -10367,12 +10361,6 @@
     },
     "done": true
   },
-  "stmwr:suspicious": {
-    "criteria": {
-      "suspicious_0": "2024-09-01 22:21:59 -0400"
-    },
-    "done": true
-  },
   "stmwr:on_the_road_again": {
     "criteria": {
       "on_the_road_again_0": "2024-09-01 22:21:53 -0400"
@@ -10382,6 +10370,12 @@
   "stmwr:you_arent_alergic_right": {
     "criteria": {
       "you_arent_alergic_right_0": "2024-09-01 22:21:54 -0400"
+    },
+    "done": true
+  },
+  "stmwr:suspicious": {
+    "criteria": {
+      "suspicious_0": "2024-09-01 22:21:59 -0400"
     },
     "done": true
   },

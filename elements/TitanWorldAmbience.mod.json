@@ -1,0 +1,26 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Titan World Ambiance",
+    "rarity": "COMMON",
+    "texture": "titanworldambience",
+    "description": "Ambiance",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:STMW5"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:titanworldambience"
+    },
+    "lengthInTicks": 10000,
+    "analogOutput": 0
+  }
+}

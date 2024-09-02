@@ -164,6 +164,16 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.CLOAK_ARMOR_TRIM.get());
 				tabData.accept(StmwrModItems.CAMO_ARMOR_TRIM.get());
 				tabData.accept(StmwrModItems.ICICLE_ARMOR_TRIM.get());
+				tabData.accept(StmwrModItems.EMPTY_PLAINS_AMBIENCE.get());
+				tabData.accept(StmwrModItems.SMALL_WORLD_AMBIENCE.get());
+				tabData.accept(StmwrModItems.TITAN_WORLD_AMBIENCE.get());
+				tabData.accept(StmwrModItems.WIZARD_WORLD_AMBIENCE.get());
+				tabData.accept(StmwrModItems.STEVE_COW_LAND_AMBIENCE.get());
+				tabData.accept(StmwrModItems.FINAL_BOSS_MUSIC.get());
+				tabData.accept(StmwrModItems.GIANT_STEV_E_COW_MUSIC.get());
+				tabData.accept(StmwrModItems.MILITARIA_AMBIENCE.get());
+				tabData.accept(StmwrModItems.TITAN_KING_MUSIC.get());
+				tabData.accept(StmwrModItems.MUTANT_MUSIC.get());
 			})
 
 					.build());

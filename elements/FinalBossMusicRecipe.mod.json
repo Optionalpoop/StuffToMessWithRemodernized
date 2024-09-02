@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:InfinititeScrap"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IronSpike"
+      },
+      {
+        "value": "CUSTOM:InfinititeMold"
+      },
+      {
+        "value": "CUSTOM:IronSpike"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:InfinititeScrap"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FinalBossMusic"
+    },
+    "name": "final_boss_music_recipe",
+    "namespace": "mod"
+  }
+}

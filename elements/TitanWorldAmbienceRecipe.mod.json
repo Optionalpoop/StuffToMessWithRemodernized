@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TitanicSkull"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TitanicLeather"
+      },
+      {
+        "value": "CUSTOM:GigantumIngot"
+      },
+      {
+        "value": "CUSTOM:TitanicLeather"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TitanicSkull"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TitanWorldAmbience"
+    },
+    "name": "titan_world_ambience_recipe",
+    "namespace": "mod"
+  }
+}

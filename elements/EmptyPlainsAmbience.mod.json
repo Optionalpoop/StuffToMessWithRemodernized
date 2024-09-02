@@ -1,0 +1,26 @@
+{
+  "_fv": 66,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Empty Plains Ambiance",
+    "rarity": "COMMON",
+    "texture": "emptyplainsambience",
+    "description": "Ambiance",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:STMW5"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:emptyplainsambience"
+    },
+    "lengthInTicks": 10000,
+    "analogOutput": 0
+  }
+}

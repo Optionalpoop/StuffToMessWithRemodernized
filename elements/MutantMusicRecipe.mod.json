@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": "CUSTOM:MutantGoop"
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goop"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MutantMusic"
+    },
+    "name": "mutant_music_recipe",
+    "namespace": "mod"
+  }
+}

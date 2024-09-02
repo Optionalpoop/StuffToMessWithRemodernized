@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "stmwr:mutant_music",
+    "stmwr:titan_king_music",
+    "stmwr:militaria_ambience",
+    "stmwr:giant_stev_e_cow_music",
+    "stmwr:final_boss_music",
+    "stmwr:steve_cow_land_ambience",
+    "stmwr:wizard_world_ambience",
+    "stmwr:titan_world_ambience",
+    "stmwr:small_world_ambience",
+    "stmwr:empty_plains_ambience"
+  ]
+}

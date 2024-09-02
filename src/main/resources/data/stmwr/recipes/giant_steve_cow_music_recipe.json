@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:giant_caller"
+    },
+    "b": {
+      "item": "stmwr:ice_shard"
+    },
+    "c": {
+      "item": "stmwr:giant_steve_cow_heart"
+    }
+  },
+  "result": {
+    "item": "stmwr:giant_stev_e_cow_music",
+    "count": 1
+  }
+}
