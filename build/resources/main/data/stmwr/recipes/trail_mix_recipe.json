@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "stmwr:chocolate"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "stmwr:peanut"
+    },
+    {
+      "item": "stmwr:can"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "stmwr:trail_mix",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Chocolate"
+      },
+      {
+        "value": "Items.SWEET_BERRIES"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Peanut"
+      },
+      {
+        "value": "CUSTOM:Can"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TrailMix"
+    },
+    "name": "trail_mix_recipe",
+    "namespace": "mod"
+  }
+}

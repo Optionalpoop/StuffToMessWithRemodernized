@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:sussy_totem"
+    },
+    "title": {
+      "translate": "advancements.suspicious.title"
+    },
+    "description": {
+      "translate": "advancements.suspicious.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "suspicious_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:sussy_totem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/totemic_loot_crate"
+    ]
+  },
+  "parent": "stmwr:rituals_here_i_come"
+}

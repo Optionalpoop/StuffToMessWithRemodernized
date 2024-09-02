@@ -25,6 +25,7 @@ import net.mcreator.stmwr.item.WandOfSaturationItem;
 import net.mcreator.stmwr.item.UpgradeStationTutorialSheetItem;
 import net.mcreator.stmwr.item.UltriteItem;
 import net.mcreator.stmwr.item.UglumItem;
+import net.mcreator.stmwr.item.TrailMixItem;
 import net.mcreator.stmwr.item.TotemOfTheGoopItem;
 import net.mcreator.stmwr.item.TotemOfTheCowItem;
 import net.mcreator.stmwr.item.TotemOfSlowFallingItem;
@@ -50,6 +51,7 @@ import net.mcreator.stmwr.item.TinyBoneItem;
 import net.mcreator.stmwr.item.ThumperItem;
 import net.mcreator.stmwr.item.TheSmallPlaceItem;
 import net.mcreator.stmwr.item.TacoItem;
+import net.mcreator.stmwr.item.SussyTotemItem;
 import net.mcreator.stmwr.item.StrongSoulItem;
 import net.mcreator.stmwr.item.StrengthTotemT3Item;
 import net.mcreator.stmwr.item.StrengthTotemT2Item;
@@ -93,6 +95,7 @@ import net.mcreator.stmwr.item.PistolItem;
 import net.mcreator.stmwr.item.PistolAmmoItem;
 import net.mcreator.stmwr.item.PikastaffItem;
 import net.mcreator.stmwr.item.PepperoniItem;
+import net.mcreator.stmwr.item.PeanutItem;
 import net.mcreator.stmwr.item.PattyItem;
 import net.mcreator.stmwr.item.NoobishTrialCoinItem;
 import net.mcreator.stmwr.item.NightvisionTotemItem;
@@ -459,6 +462,10 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> CLOAK_ARMOR_TRIM = REGISTRY.register("cloak_armor_trim", () -> new CloakArmorTrimItem());
 	public static final RegistryObject<Item> CAMO_ARMOR_TRIM = REGISTRY.register("camo_armor_trim", () -> new CamoArmorTrimItem());
 	public static final RegistryObject<Item> ICICLE_ARMOR_TRIM = REGISTRY.register("icicle_armor_trim", () -> new IcicleArmorTrimItem());
+	public static final RegistryObject<Item> PEANUT = REGISTRY.register("peanut", () -> new PeanutItem());
+	public static final RegistryObject<Item> PEANUT_PLANT = block(StmwrModBlocks.PEANUT_PLANT);
+	public static final RegistryObject<Item> TRAIL_MIX = REGISTRY.register("trail_mix", () -> new TrailMixItem());
+	public static final RegistryObject<Item> SUSSY_TOTEM = REGISTRY.register("sussy_totem", () -> new SussyTotemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

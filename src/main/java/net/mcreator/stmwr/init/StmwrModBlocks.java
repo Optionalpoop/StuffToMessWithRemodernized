@@ -28,6 +28,7 @@ import net.mcreator.stmwr.block.SteelOreBlock;
 import net.mcreator.stmwr.block.SteelBlockBlock;
 import net.mcreator.stmwr.block.SpellBookApplicatorBlock;
 import net.mcreator.stmwr.block.PlasticiliaBlock;
+import net.mcreator.stmwr.block.PeanutPlantBlock;
 import net.mcreator.stmwr.block.ModifierTableBlock;
 import net.mcreator.stmwr.block.MilitariaTradingOutpostBlock;
 import net.mcreator.stmwr.block.MilitariaPortalBlock;
@@ -102,6 +103,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> GIGANTUM_ORE = REGISTRY.register("gigantum_ore", () -> new GigantumOreBlock());
 	public static final RegistryObject<Block> GIGANTUM_BLOCK = REGISTRY.register("gigantum_block", () -> new GigantumBlockBlock());
 	public static final RegistryObject<Block> ARMS_DEALER_TRADING_BLOCK = REGISTRY.register("arms_dealer_trading_block", () -> new ArmsDealerTradingBlockBlock());
+	public static final RegistryObject<Block> PEANUT_PLANT = REGISTRY.register("peanut_plant", () -> new PeanutPlantBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

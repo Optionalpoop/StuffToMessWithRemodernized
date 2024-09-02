@@ -10367,5 +10367,23 @@
     },
     "done": true
   },
+  "stmwr:suspicious": {
+    "criteria": {
+      "suspicious_0": "2024-09-01 22:21:59 -0400"
+    },
+    "done": true
+  },
+  "stmwr:on_the_road_again": {
+    "criteria": {
+      "on_the_road_again_0": "2024-09-01 22:21:53 -0400"
+    },
+    "done": true
+  },
+  "stmwr:you_arent_alergic_right": {
+    "criteria": {
+      "you_arent_alergic_right_0": "2024-09-01 22:21:54 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

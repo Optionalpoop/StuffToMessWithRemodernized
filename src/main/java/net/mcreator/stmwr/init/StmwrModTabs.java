@@ -197,6 +197,9 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.RAW_PATTY.get());
 				tabData.accept(StmwrModItems.PATTY.get());
 				tabData.accept(StmwrModItems.CHEESE_BURGER.get());
+				tabData.accept(StmwrModItems.PEANUT.get());
+				tabData.accept(StmwrModBlocks.PEANUT_PLANT.get().asItem());
+				tabData.accept(StmwrModItems.TRAIL_MIX.get());
 			})
 
 					.build());
@@ -300,6 +303,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.TOTEM_OF_LEVITATION.get());
 				tabData.accept(StmwrModItems.CRATE_TOTEM.get());
 				tabData.accept(StmwrModItems.CLOAKING_TOTEM.get());
+				tabData.accept(StmwrModItems.SUSSY_TOTEM.get());
 			})
 
 					.build());
