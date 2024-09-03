@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class PattyItem extends Item {
 	public PattyItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(3.5f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.6f).meat().build()));
 	}
 }

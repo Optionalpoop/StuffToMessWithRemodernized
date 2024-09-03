@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class RawSausageItem extends Item {
 	public RawSausageItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.5f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.25f).meat().build()));
 	}
 }

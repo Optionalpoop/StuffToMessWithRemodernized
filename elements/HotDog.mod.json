@@ -45,7 +45,7 @@
     },
     "isFood": true,
     "nutritionalValue": 5,
-    "saturation": 2.0,
+    "saturation": 1.3,
     "eatResultItem": {
       "value": ""
     },

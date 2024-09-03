@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class PeanutItem extends Item {
 	public PeanutItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.2f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(0.4f).build()));
 	}
 }

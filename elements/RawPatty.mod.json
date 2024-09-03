@@ -44,7 +44,7 @@
       "value": "CUSTOM:Bullet"
     },
     "isFood": true,
-    "nutritionalValue": 2,
+    "nutritionalValue": 4,
     "saturation": 0.5,
     "eatResultItem": {
       "value": ""

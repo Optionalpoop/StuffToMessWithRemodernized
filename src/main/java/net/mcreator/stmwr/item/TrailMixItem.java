@@ -13,7 +13,7 @@ import net.mcreator.stmwr.init.StmwrModItems;
 
 public class TrailMixItem extends Item {
 	public TrailMixItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(16).saturationMod(3f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(12).saturationMod(0.6f).build()));
 	}
 
 	@Override

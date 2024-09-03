@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class HotDogBunItem extends Item {
 	public HotDogBunItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.5f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(1f).build()));
 	}
 }
