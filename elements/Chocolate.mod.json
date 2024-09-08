@@ -37,6 +37,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "ChocolatePlayerFinishesUsingItem"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
@@ -44,8 +47,8 @@
       "value": "Arrow"
     },
     "isFood": true,
-    "nutritionalValue": 8,
-    "saturation": 0.6,
+    "nutritionalValue": 6,
+    "saturation": 0.4,
     "eatResultItem": {
       "value": ""
     },

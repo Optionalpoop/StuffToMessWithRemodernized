@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "stmwr:stevum"
+    },
+    "b": {
+      "item": "stmwr:healing_totem"
+    },
+    "c": {
+      "item": "stmwr:weak_soul"
+    },
+    "d": {
+      "item": "stmwr:raw_totem"
+    },
+    "e": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "minecraft:totem_of_undying",
+    "count": 1
+  }
+}

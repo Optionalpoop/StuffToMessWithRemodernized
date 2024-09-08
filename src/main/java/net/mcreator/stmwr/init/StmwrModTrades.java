@@ -55,6 +55,15 @@ public class StmwrModTrades {
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 2),
 
 					new ItemStack(StmwrModItems.SPELL_BOOK_OF_SLOWING.get()), 8, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.STEEL_INGOT.get(), 6),
+
+					new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()), 12, 5, 0.05f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(StmwrModItems.GOOP.get(), 3),
+
+					new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()), 8, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.ADVANCED_MATERIAL.get(), 2),
+
+					new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()), 12, 5, 0.05f));
 		}
 		if (event.getType() == StmwrModVillagerProfessions.MAGIC_VILLAGER.get()) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),
@@ -75,7 +84,7 @@ public class StmwrModTrades {
 			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 2),
 
 					new ItemStack(StmwrModItems.BUILDING_WANDAR.get(), 4), 16, 5, 0.05f));
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 3),
+			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 8),
 
 					new ItemStack(StmwrModItems.WEAK_SOUL.get()), 16, 5, 0.05f));
 			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),
@@ -87,6 +96,15 @@ public class StmwrModTrades {
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 3),
 
 					new ItemStack(StmwrModItems.SPELL_BOOK_OF_TRANSMUTATION.get()), 8, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.MYSTICAL_PAGE.get()),
+
+					new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()), 8, 5, 0.05f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(StmwrModItems.CREATION_ORB.get()),
+
+					new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 2), 8, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.CLOAK_FRAGMENT.get()),
+
+					new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()), 8, 5, 0.05f));
 		}
 		if (event.getType() == StmwrModVillagerProfessions.ARMS_DEALER.get()) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 4),
@@ -119,6 +137,27 @@ public class StmwrModTrades {
 			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 2),
 
 					new ItemStack(StmwrModBlocks.GEAR_CRATE.get()), 8, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),
+
+					new ItemStack(StmwrModItems.GEAR_CORE.get(), 4), 10, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 2),
+
+					new ItemStack(StmwrModItems.GODLIUM_CORE.get()), 10, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()),
+
+					new ItemStack(StmwrModItems.BLAZED_CORE.get()), 10, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get(), 6),
+
+					new ItemStack(StmwrModItems.TITANIC_CORE.get()), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(StmwrModItems.PISTOL_AMMO.get(), 8),
+
+					new ItemStack(StmwrModItems.NOOBISH_TRIAL_COIN.get()), 16, 5, 0.05f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(StmwrModItems.PISTOL.get()),
+
+					new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get()), 4, 5, 0.05f));
+			event.getTrades().get(3).add(new BasicItemListing(new ItemStack(StmwrModItems.MUTANT_GOOP.get()),
+
+					new ItemStack(StmwrModItems.NEUTRAL_TRIAL_COIN.get(), 2), 10, 5, 0.05f));
 		}
 	}
 }

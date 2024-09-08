@@ -10,43 +10,11 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
-      "value": ""
-    },
     "smeltingInputStack": {
       "value": "CUSTOM:MagiciteOre"
     },
     "smeltingReturnStack": {
-      "value": "CUSTOM:MagiciteDust"
+      "value": "CUSTOM:MagiciteBlock"
     },
     "name": "magicite_ore_smelting",
     "namespace": "mod"

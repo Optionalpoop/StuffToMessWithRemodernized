@@ -13,7 +13,7 @@ public class BlazedPickaxeItem extends PickaxeItem {
 	public BlazedPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 500;
 			}
 
 			public float getSpeed() {

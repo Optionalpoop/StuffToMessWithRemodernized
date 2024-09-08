@@ -9,7 +9,7 @@
       "item": "minecraft:milk_bucket"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "stmwr:dough"
     },
     {
       "item": "minecraft:milk_bucket"
@@ -17,6 +17,6 @@
   ],
   "result": {
     "item": "stmwr:cheese",
-    "count": 8
+    "count": 4
   }
 }

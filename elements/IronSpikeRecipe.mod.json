@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 3,
+    "recipeRetstackSize": 4,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -24,7 +24,7 @@
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
         "value": "Items.IRON_INGOT"
@@ -33,7 +33,7 @@
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
         "value": "Items.IRON_INGOT"

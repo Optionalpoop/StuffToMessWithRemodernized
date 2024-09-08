@@ -23,7 +23,7 @@ public abstract class BlazedArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(ArmorItem.Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 20;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 25;
 			}
 
 			@Override

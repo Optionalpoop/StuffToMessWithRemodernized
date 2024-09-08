@@ -12,7 +12,7 @@ public class NightvisionTotemRightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 99999, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 9999999, 1));
 		{
 			ItemStack _ist = itemstack;
 			if (_ist.hurt(1, RandomSource.create(), null)) {

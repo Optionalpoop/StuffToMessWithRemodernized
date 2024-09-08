@@ -12,7 +12,7 @@ public class SpeedTotemT2RightclickedProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 99999, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 999999, 3));
 		{
 			ItemStack _ist = itemstack;
 			if (_ist.hurt(1, RandomSource.create(), null)) {

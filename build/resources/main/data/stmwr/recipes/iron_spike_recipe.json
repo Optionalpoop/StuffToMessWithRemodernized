@@ -3,8 +3,8 @@
   "category": "misc",
   "pattern": [
     " a ",
-    "aaa",
-    "aaa"
+    "a a",
+    "a a"
   ],
   "key": {
     "a": {
@@ -13,6 +13,6 @@
   },
   "result": {
     "item": "stmwr:iron_spike",
-    "count": 3
+    "count": 4
   }
 }

@@ -10,7 +10,7 @@
         {
           "type": "minecraft:item",
           "name": "stmwr:magicite_dust",
-          "weight": 20,
+          "weight": 15,
           "functions": [
             {
               "function": "set_count",
@@ -38,7 +38,7 @@
         {
           "type": "minecraft:item",
           "name": "stmwr:ultrite",
-          "weight": 5,
+          "weight": 7,
           "functions": [
             {
               "function": "set_count",
@@ -52,6 +52,20 @@
         {
           "type": "minecraft:item",
           "name": "stmwr:crate_totem",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stmwr:uglum",
           "weight": 1,
           "functions": [
             {

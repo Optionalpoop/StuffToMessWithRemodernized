@@ -2,7 +2,7 @@
   "_fv": 66,
   "_type": "achievement",
   "definition": {
-    "achievementName": "You Aren't Alergic, Right?",
+    "achievementName": "You Aren't Allergic, Right?",
     "achievementDescription": "Find some peanuts in the wild!",
     "achievementIcon": {
       "value": "CUSTOM:Peanut"

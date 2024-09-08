@@ -120,7 +120,7 @@
             "price1": {
               "value": "CUSTOM:NoobishTrialCoin"
             },
-            "countPrice1": 3,
+            "countPrice1": 8,
             "price2": {
               "value": ""
             },
@@ -184,6 +184,60 @@
             },
             "countOffer": 1,
             "level": 5,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:MysticalPage"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CreationOrb"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countOffer": 2,
+            "level": 2,
+            "maxTrades": 8,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:CloakFragment"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:NoobishTrialCoin"
+            },
+            "countOffer": 1,
+            "level": 3,
             "maxTrades": 8,
             "xp": 5,
             "priceMultiplier": 0.05
