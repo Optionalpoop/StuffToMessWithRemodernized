@@ -49,6 +49,7 @@ import net.mcreator.stmwr.block.GeneralCrateBlock;
 import net.mcreator.stmwr.block.GearCrateBlock;
 import net.mcreator.stmwr.block.FoodyCrateBlock;
 import net.mcreator.stmwr.block.EmptyPlainsPortalBlock;
+import net.mcreator.stmwr.block.CoinPressBlock;
 import net.mcreator.stmwr.block.BlazedOreBlock;
 import net.mcreator.stmwr.block.BlazedBlockBlock;
 import net.mcreator.stmwr.block.BasicCubbyCubeBlock;
@@ -104,6 +105,7 @@ public class StmwrModBlocks {
 	public static final RegistryObject<Block> GIGANTUM_BLOCK = REGISTRY.register("gigantum_block", () -> new GigantumBlockBlock());
 	public static final RegistryObject<Block> ARMS_DEALER_TRADING_BLOCK = REGISTRY.register("arms_dealer_trading_block", () -> new ArmsDealerTradingBlockBlock());
 	public static final RegistryObject<Block> PEANUT_PLANT = REGISTRY.register("peanut_plant", () -> new PeanutPlantBlock());
+	public static final RegistryObject<Block> COIN_PRESS = REGISTRY.register("coin_press", () -> new CoinPressBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -9912,8 +9912,7 @@
       "tools_3": "2024-08-05 20:35:43 -0400",
       "tools_2": "2024-08-05 20:35:43 -0400",
       "tools_1": "2024-08-05 20:35:43 -0400",
-      "tools_0": "2024-08-05 20:35:43 -0400",
-      "tools_4": "2024-08-05 20:35:43 -0400"
+      "tools_0": "2024-08-05 20:35:43 -0400"
     },
     "done": true
   },
@@ -9934,7 +9933,6 @@
   },
   "stmwr:hot_to_hold": {
     "criteria": {
-      "hot_to_hold_4": "2024-08-05 20:35:43 -0400",
       "hot_to_hold_2": "2024-08-05 20:35:43 -0400",
       "hot_to_hold_3": "2024-08-05 20:35:43 -0400",
       "hot_to_hold_0": "2024-08-05 20:35:43 -0400",
@@ -9952,7 +9950,6 @@
     "criteria": {
       "industrial_age_1": "2024-08-05 20:35:43 -0400",
       "industrial_age_0": "2024-08-05 20:35:43 -0400",
-      "industrial_age_4": "2024-08-05 20:35:43 -0400",
       "industrial_age_3": "2024-08-05 20:35:43 -0400",
       "industrial_age_2": "2024-08-05 20:35:43 -0400"
     },
@@ -10116,7 +10113,6 @@
   },
   "stmwr:i_dont_need_a_diamond_sword": {
     "criteria": {
-      "i_dont_need_a_diamond_sword_4": "2024-08-11 13:29:04 -0400",
       "i_dont_need_a_diamond_sword_1": "2024-08-11 13:29:04 -0400",
       "i_dont_need_a_diamond_sword_0": "2024-08-11 13:29:04 -0400",
       "i_dont_need_a_diamond_sword_3": "2024-08-11 13:29:04 -0400",
@@ -10376,6 +10372,12 @@
   "stmwr:suspicious": {
     "criteria": {
       "suspicious_0": "2024-09-01 22:21:59 -0400"
+    },
+    "done": true
+  },
+  "stmwr:pressing": {
+    "criteria": {
+      "pressing_0": "2024-12-03 14:20:27 -0500"
     },
     "done": true
   },

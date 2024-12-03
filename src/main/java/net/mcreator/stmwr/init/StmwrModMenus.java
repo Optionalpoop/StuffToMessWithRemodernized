@@ -18,6 +18,7 @@ import net.mcreator.stmwr.world.inventory.SpellBookApplicatorGUIMenu;
 import net.mcreator.stmwr.world.inventory.ModifiersTableMenu;
 import net.mcreator.stmwr.world.inventory.MasterCubbyPackGUIMenu;
 import net.mcreator.stmwr.world.inventory.MasterCubbyCubeGUIMenu;
+import net.mcreator.stmwr.world.inventory.CoinPressGUIMenu;
 import net.mcreator.stmwr.world.inventory.BasicCubbyPackGUIMenu;
 import net.mcreator.stmwr.world.inventory.BasicCubbyCubeGUIMenu;
 import net.mcreator.stmwr.world.inventory.AdvancedCubbyPackGUIMenu;
@@ -38,4 +39,5 @@ public class StmwrModMenus {
 	public static final RegistryObject<MenuType<SpellBookApplicatorGUIMenu>> SPELL_BOOK_APPLICATOR_GUI = REGISTRY.register("spell_book_applicator_gui", () -> IForgeMenuType.create(SpellBookApplicatorGUIMenu::new));
 	public static final RegistryObject<MenuType<SpellBookApplicatorTutorialSheetGUIMenu>> SPELL_BOOK_APPLICATOR_TUTORIAL_SHEET_GUI = REGISTRY.register("spell_book_applicator_tutorial_sheet_gui",
 			() -> IForgeMenuType.create(SpellBookApplicatorTutorialSheetGUIMenu::new));
+	public static final RegistryObject<MenuType<CoinPressGUIMenu>> COIN_PRESS_GUI = REGISTRY.register("coin_press_gui", () -> IForgeMenuType.create(CoinPressGUIMenu::new));
 }

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:coin_press",
     "stmwr:spell_book_applicator",
     "stmwr:trial_brick",
     "stmwr:storum_ore",

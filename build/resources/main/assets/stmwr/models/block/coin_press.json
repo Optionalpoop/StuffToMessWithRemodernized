@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "stmwr:block/coinpressbottomandtop",
+    "up": "stmwr:block/coinpressbottomandtop",
+    "north": "stmwr:block/coinpressfront",
+    "east": "stmwr:block/coinpressside",
+    "south": "stmwr:block/coinpressside",
+    "west": "stmwr:block/coinpressside",
+    "particle": "stmwr:block/coinpressbottomandtop"
+  },
+  "render_type": "solid"
+}

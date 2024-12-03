@@ -4183,30 +4183,6 @@
       }
     },
     {
-      "name": "NoobishTrialCoinRecipe1",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "noobish_trial_coin_recipe_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/noobish_trial_coin_recipe_1.json"
-        ]
-      }
-    },
-    {
-      "name": "NoobishTrialCoinRecipe2",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "noobish_trial_coin_recipe_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/noobish_trial_coin_recipe_2.json"
-        ]
-      }
-    },
-    {
       "name": "GunpowderRecipe",
       "type": "recipe",
       "compiles": true,
@@ -5499,30 +5475,6 @@
           "src/main/resources/data/stmwr/worldgen/template_pool/wizard_pillar.json",
           "src/main/resources/data/stmwr/worldgen/structure/wizard_pillar.json",
           "src/main/resources/data/stmwr/worldgen/structure_set/wizard_pillar.json"
-        ]
-      }
-    },
-    {
-      "name": "SoulToCoinRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "soul_to_coin_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/soul_to_coin_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "StrongSoulToCoinRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "strong_soul_to_coin_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/strong_soul_to_coin_recipe.json"
         ]
       }
     },
@@ -8456,18 +8408,6 @@
       }
     },
     {
-      "name": "SandWormScaleToTrialCoinRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sand_worm_scale_to_trial_coin_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/sand_worm_scale_to_trial_coin_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "Dune",
       "type": "achievement",
       "compiles": true,
@@ -9788,42 +9728,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/stmwr/advancements/neutrality.json"
-        ]
-      }
-    },
-    {
-      "name": "NeutralTrialCoinFromTitanBone",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "neutral_trial_coin_from_titan_bone",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/neutral_trial_coin_from_titan_bone.json"
-        ]
-      }
-    },
-    {
-      "name": "SandWormScaleToNoobishTrialCoin",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sand_worm_scale_to_noobish_trial_coin",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/sand_worm_scale_to_noobish_trial_coin.json"
-        ]
-      }
-    },
-    {
-      "name": "TitanicEyeToNeutralTrialCoinRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "titanic_eye_to_neutral_trial_coin_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/stmwr/recipes/titanic_eye_to_neutral_trial_coin_recipe.json"
         ]
       }
     },
@@ -12232,6 +12136,79 @@
           "src/main/resources/data/stmwr/advancements/cheating_death.json"
         ]
       }
+    },
+    {
+      "name": "CoinPress",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_press",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stmwr/models/block/coin_press.json",
+          "src/main/resources/data/stmwr/loot_tables/blocks/coin_press.json",
+          "src/main/resources/assets/stmwr/blockstates/coin_press.json",
+          "src/main/resources/assets/stmwr/models/item/coin_press.json",
+          "src/main/java/net/mcreator/stmwr/block/entity/CoinPressBlockEntity.java",
+          "src/main/java/net/mcreator/stmwr/block/CoinPressBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CoinPressRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_press_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/recipes/coin_press_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Pressing",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pressing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/stmwr/advancements/pressing.json"
+        ]
+      }
+    },
+    {
+      "name": "CoinPressGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_press_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/world/inventory/CoinPressGUIMenu.java",
+          "src/main/java/net/mcreator/stmwr/client/gui/CoinPressGUIScreen.java",
+          "src/main/java/net/mcreator/stmwr/network/CoinPressGUIButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "CoinPressCrunchProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_press_crunch_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stmwr/procedures/CoinPressCrunchProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -12328,13 +12305,13 @@
       "~CUSTOM:TransmutatedGelatin",
       "~CUSTOM:Plasticilia"
     ],
-    "BIOMES:minecraft:has_structure/igloo": [
-      "~CUSTOM:FrozenWastes",
-      "~CUSTOM:SteveCowLand"
-    ],
     "BIOMES:minecraft:has_structure/buried_treasure": [
       "~CUSTOM:WizardlyPlains",
       "~CUSTOM:FrostedOasis"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:FrozenWastes",
+      "~CUSTOM:SteveCowLand"
     ],
     "ITEMS:minecraft:hoes": [
       "~CUSTOM:TitanicHoe",
@@ -12411,6 +12388,7 @@
       "~CUSTOM:DeadForest"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:CoinPress",
       "~CUSTOM:SpellBookApplicator",
       "~CUSTOM:TrialBrick",
       "~CUSTOM:StorumOre",
@@ -12508,6 +12486,7 @@
       "~CUSTOM:SteveCowLand"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CoinPress",
       "~CUSTOM:ArmsDealerTradingBlock",
       "~CUSTOM:GigantumBlock",
       "~CUSTOM:GigantumOre",
@@ -12548,8 +12527,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.stmwr.cyclops_enrager": "Cyclops Enrager",
       "advancements.perfection.title": "Perfection",
+      "item.stmwr.cyclops_enrager": "Cyclops Enrager",
       "block.stmwr.steel_ore": "Steel Ore",
       "advancements.meat.title": "MEAT",
       "gui.stmwr.spell_book_applicator_gui.button_make_wand": "Make Wand",
@@ -12559,10 +12538,10 @@
       "item.stmwr.mystical_page": "Mystical Page",
       "item.stmwr.titanic_armor_leggings": "Titanic Leggings",
       "advancements.saddle_up.descr": "You can craft saddles!",
-      "advancements.mystical_agriculture.descr": "Craft a magic carrot",
       "entity.minecraft.villager.stmwr.apocalypse_villager": "Apocalypse Villager",
-      "advancements.enraged.title": "Enraged",
+      "advancements.mystical_agriculture.descr": "Craft a magic carrot",
       "entity.stmwr.mc_donalds_employee": "MC Donalds Employee",
+      "advancements.enraged.title": "Enraged",
       "item.stmwr.healing_wand": "Healing Wand",
       "item_group.stmwr.stmwr_crates": "STMWR: Crates",
       "advancements.goopy.title": "Goopy?!",
@@ -12579,8 +12558,8 @@
       "item.stmwr.crate_totem": "Crate Totem",
       "block.stmwr.basic_cubby_cube": "Basic Cubby Cube",
       "item.stmwr.assault_rifle_ammo": "Assault Rifle Ammo",
-      "advancements.spelling_bee.title": "Spelling Bee",
       "advancements.leathery.descr": "You can craft leather horse armor now!",
+      "advancements.spelling_bee.title": "Spelling Bee",
       "block.stmwr.blazed_ore": "Blazed Ore",
       "advancements.magical.title": "Magical!",
       "advancements.tortillas.title": "Tortillas!!!",
@@ -12598,13 +12577,13 @@
       "advancements.speedy_gonzales.descr": "Craft a tier 2 speed totem",
       "biome.stmwr.dead_forest": "Dead Forest",
       "advancements.wandars.descr": "Craft a wandar core, an important component in wands",
-      "gui.stmwr.spell_book_applicator_gui.label_wandar": "Wandar",
       "item.stmwr.godlium_armor_leggings": "Godlium Leggings",
+      "gui.stmwr.spell_book_applicator_gui.label_wandar": "Wandar",
       "advancements.a_world_of_magic.descr": "Step into the wizard world trial, home to many useful materials!",
       "item.stmwr.wand_of_the_tower": "Wand Of The Tower",
       "item.stmwr.totem_of_the_cow": "Totem Of The Cow",
-      "item.stmwr.advanced_material": "Advanced Material",
       "advancements.find_the_pieces.title": "Find The Pieces",
+      "item.stmwr.advanced_material": "Advanced Material",
       "advancements.is_it_alive.title": "Is It Alive?",
       "advancements.bricked_it.title": "Bricked It",
       "advancements.opposite_day.title": "Opposite Day",
@@ -12614,12 +12593,12 @@
       "advancements.carrying_the_world.descr": "Make an advanced cubby pack for even more portable storage",
       "item.stmwr.empty_plains_ambience": "Empty Plains Ambiance",
       "item.stmwr.militaria_ambience.desc": "Ambiance",
-      "advancements.nothing.title": "Nothing",
       "advancements.firey_armor.descr": "Crafting blazed armor is the same as godlium, except with iron armor as the catalyst, and blazed ingots/cores",
+      "advancements.nothing.title": "Nothing",
       "advancements.big_boy_armor.descr": "Craft a titanic core",
       "advancements.ice_ice_baby.title": "Ice Ice Baby",
-      "gui.stmwr.upgrade_station_gui.label_tool": "Catalyst",
       "item.stmwr.taco": "Taco",
+      "gui.stmwr.upgrade_station_gui.label_tool": "Catalyst",
       "item.stmwr.infinity_golem_spawn_egg": "Infinity Golem Spawn Egg",
       "item.stmwr.thumper": "Thumper",
       "item.stmwr.durable_apple": "Durable Apple",
@@ -12628,16 +12607,16 @@
       "item.stmwr.storalium": "Storalium",
       "advancements.too_lazy_to_slay_the_dragon.descr": "Too lazy to kill the dragon and go to the end for godlium? It\u0027s expensive, but you can craft it with overworld materials.",
       "biome.stmwr.baby_desert": "Baby Desert",
-      "item.stmwr.godlium_core": "Godlium Core",
-      "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
       "advancements.teenage_mutant_ninja_turtles.descr": "Defeat the mutant boss and take its special goop!",
+      "item.stmwr.survivor_spawn_egg": "Survivor Spawn Egg",
+      "item.stmwr.godlium_core": "Godlium Core",
       "advancements.rerodding_your_blazes.title": "Rerodding Your Blazes",
       "advancements.off_to_see_the_wizard.title": "Off To See The Wizard",
       "item.stmwr.mutant_goop": "Mutant Goop",
       "item.stmwr.sand_worm_caller": "Sand Worm Caller",
       "item.stmwr.tiny_bone": "Tiny Bone",
-      "trim_material.stmwr.gigantum": "Gigantum",
       "advancements.not_so_fun_to_hold.title": "Not So Fun To Hold",
+      "trim_material.stmwr.gigantum": "Gigantum",
       "advancements.spellcasting.title": "Spellcasting",
       "entity.stmwr.infinity_golem": "Infinity Golem",
       "advancements.raw.descr": "Make some raw patties",
@@ -12684,12 +12663,15 @@
       "item.stmwr.infinitite_armor_chestplate": "Infinitite Chestplate",
       "item.stmwr.steel_shovel": "Steel Shovel",
       "item.stmwr.pistol_ammo": "Pistol Ammo",
+      "gui.stmwr.coin_press_gui.label_trial_coins": "Trial Coins",
       "advancements.cook_on_the_go.descr": "You can craft a portable oven for easy cooking of food in your personal crafting grid!",
       "advancements.healthy.descr": "Combining a golden apple with a totem has given you a healing totem!",
+      "advancements.pressing.title": "Pressing",
       "painting.stmwr.coopmore.author": "Rowanisreal",
       "advancements.ultimate_ultrite.title": "Ultimate Ultrite",
       "entity.stmwr.tiny_pig": "Tiny Pig",
       "block.stmwr.transmutated_gelatin": "Transmutated Gelatin",
+      "gui.stmwr.coin_press_gui.label_coin_press": "Coin Press",
       "advancements.invincible.title": "Invincible",
       "advancements.the_final_armor.descr": "Craft infinitite armor with a godlium base, infinitite core, and all infinitite except for one ultrite placed after the core!",
       "entity.stmwr.titan_king": "Titan King",
@@ -12703,17 +12685,18 @@
       "advancements.godly_potential.descr": "Obtain some godlium, an extremely powerful ore. You only find it in the end.",
       "item.stmwr.peanut": "Peanut",
       "item.stmwr.infinitite_armor_helmet": "Infinitite Helmet",
-      "advancements.king_of_the_monsters.title": "King Of The Monsters",
       "advancements.upgraded.title": "Upgraded",
+      "advancements.king_of_the_monsters.title": "King Of The Monsters",
       "advancements.rituals_here_i_come.title": "Rituals, Here I Come!",
       "subtitles.smallworldambience": "",
-      "advancements.mwahaha.descr": "Craft a greater  creation orb, used for way more over- powered recipes",
       "entity.stmwr.mutant_worm": "Mutant Worm",
+      "advancements.mwahaha.descr": "Craft a greater  creation orb, used for way more over- powered recipes",
       "item.stmwr.healer_apple": "Healer Apple",
+      "advancements.pressing.descr": "Craft a coin press",
       "item.stmwr.final_boss_spawn_egg": "Final Boss Spawn Egg",
       "item.stmwr.wand_of_slowing": "Wand Of Slowing",
-      "advancements.borger.title": "Borger",
       "advancements.build_a_wand.descr": "Craft a spell book applicator, the block you use to apply spell books to wands!",
+      "advancements.borger.title": "Borger",
       "item.stmwr.infinitite_ingot": "Infinitite",
       "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_in_the_wandar_slot": "in the \"Wandar\" slot",
       "block.stmwr.gigantum_ore": "Gigantum Ore",
@@ -12739,8 +12722,9 @@
       "block.stmwr.magic_villager_trading_station": "Magic Villager Trading Station",
       "item.stmwr.animal_strap": "Animal Strap",
       "advancements.gigantic.title": "Gigantic",
-      "advancements.angy.descr": "You can use the strong souls to make some hostile mob eggs!",
       "advancements.dirty.descr": "Obtain a dirt nugget, the single most overpowered food in the game...",
+      "advancements.angy.descr": "You can use the strong souls to make some hostile mob eggs!",
+      "gui.stmwr.coin_press_gui.button_crunch": "Crunch!",
       "advancements.master_traveler.title": "Master Traveler",
       "item.stmwr.mutant_worm_spawn_egg": "Mutant Worm Spawn Egg",
       "advancements.wands_but_better.descr": "Get an advanced wand stick. It can be used for more powerful wands.",
@@ -12795,8 +12779,8 @@
       "advancements.sharp.descr": "Put a knife in the upgrade station, and use a steel core, 2 uglum, and then 3 ice shards to make a better knife!",
       "advancements.slow_motion.title": "Slow Motion",
       "item.stmwr.cultist_spawn_egg": "Cultist Spawn Egg",
-      "advancements.plastic_fantastic.descr": "Get your first plastika",
       "entity.stmwr.soldier": "Soldier",
+      "advancements.plastic_fantastic.descr": "Get your first plastika",
       "item.stmwr.sausage": "Sausage",
       "advancements.thats_lit.descr": "Obtain a lightning spell book",
       "item.stmwr.infinitite_armor_leggings": "Infinitite Leggings",
@@ -12830,8 +12814,8 @@
       "item.stmwr.jumpboost_totem_t_3": "Jumpboost Totem Tier 3",
       "advancements.git_gud.title": "Git Gud",
       "item.stmwr.jumpboost_totem_t_2": "Jumpboost Totem Tier 2",
-      "item.stmwr.jumpboost_totem_t_1": "Jumpboost Totem Tier 1",
       "trim_pattern.stmwr.cloak": "Cloak",
+      "item.stmwr.jumpboost_totem_t_1": "Jumpboost Totem Tier 1",
       "item.stmwr.steel_hoe": "Steel Hoe",
       "advancements.leapfrog.title": "Leapfrog",
       "gui.stmwr.spell_book_applicator_tutorial_sheet_gui.label_spell_book_slot": "\"Spell Book\" slot",
@@ -12842,8 +12826,8 @@
       "item.stmwr.advanced_totem_base": "Advanced Totem Base",
       "advancements.the_final_countdown.descr": "Craft the wand of the tower, the way to summon the final boss. Good luck.",
       "item.stmwr.chicken_nugget": "Chicken Nugget",
-      "item.stmwr.spell_book_of_healing": "Spell Book Of Healing",
       "gui.stmwr.modifiers_table.tooltip_modifier": "modifier",
+      "item.stmwr.spell_book_of_healing": "Spell Book Of Healing",
       "advancements.connection.title": "Connection",
       "advancements.infinite_powah.descr": "Craft an infinitite core, the final and most powerful core!",
       "trim_pattern.stmwr.polka_dot": "PolkaDot",
@@ -12866,8 +12850,8 @@
       "advancements.doughy.descr": "Get some dough, a key ingredient in many foods",
       "advancements.leapfrog.descr": "Craft a tier 1 jumpboost totem",
       "advancements.huge.descr": "Craft up some titanic armor the same way as any armor, a gear core, and then some titanic ingots, with steel as the catalyst",
-      "advancements.superman.descr": "Craft a T3 Strength Totem",
       "advancements.ultimate_ultrite.descr": "By mixing godlium and magicite, you are able to create a mystical compound, capable of startling power...",
+      "advancements.superman.descr": "Craft a T3 Strength Totem",
       "advancements.oh_god.title": "Oh God",
       "trim_material.stmwr.steel_trim": "Steel",
       "gui.stmwr.modifiers_table.tooltip_upgrade": "modifier",
@@ -12885,9 +12869,9 @@
       "advancements.saddle_up.title": "Saddle Up!",
       "advancements.the_best_pizza_topping.title": "The Best Pizza Topping",
       "advancements.a_giant_ingot.descr": "Smelt your titanic mix to get some titanic ingots!",
-      "advancements.speedy_gonzales.title": "Speedy Gonzales",
-      "item.stmwr.blazed_armor_chestplate": "Blazed Chestplate",
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_push_fuse": "Push Fuse,",
+      "item.stmwr.blazed_armor_chestplate": "Blazed Chestplate",
+      "advancements.speedy_gonzales.title": "Speedy Gonzales",
       "item.stmwr.small_world_ambience.desc": "Ambiance",
       "advancements.hot_to_hold.title": "Hot To Hold",
       "advancements.neutrality.title": "Neutrality",
@@ -12906,8 +12890,8 @@
       "advancements.perfection_2.descr": "Obtain the atom smasher. The single greatest tool of all time.",
       "advancements.ginormo.descr": "Find and slay a cyclops for its bone",
       "item.stmwr.pikastaff": "Pikastaff",
-      "trim_material.stmwr.stevum_trim": "Stevum",
       "advancements.better_chests.title": "Better Chests",
+      "trim_material.stmwr.stevum_trim": "Stevum",
       "entity.stmwr.steve_cow": "Steve Cow",
       "trim_material.stmwr.magicite_trim": "Magicite",
       "item.stmwr.titanic_core": "Titanic Core",
@@ -13073,6 +13057,7 @@
       "advancements.reduce_reuse_recycle.descr": "Craft a can of pikachu, allowing for a one-time spawn!",
       "advancements.ka_boom.title": "Ka-Boom!",
       "advancements.techno_never_dies.descr": "Craft a wand of healing with a casting wandar at the spell book applicator! o7",
+      "gui.stmwr.coin_press_gui.label_trial_mob_drops": "Trial Boss Drops",
       "advancements.pew_pew_pew.descr": "Obtain an assault rifle from a trader nearby! They are only at the top trade level!",
       "item.stmwr.cyclops_spawn_egg": "Cyclops Spawn Egg",
       "advancements.i_need_my_payday_2.descr": "Get some noobish trial coins with things found in the first few trials!",
@@ -13147,6 +13132,7 @@
       "item.stmwr.titan_summon": "Titan Summon",
       "entity.stmwr.dangerous_wizard": "Dangerous Wizard",
       "item.stmwr.gear_core": "Gear Core",
+      "block.stmwr.coin_press": "Coin Press",
       "gui.stmwr.upgrade_station_tutorial_sheet_gui.label_how_to_use_upgrade_station": "How To Use: Upgrade Station",
       "advancements.killer.title": "Killer",
       "item.stmwr.minor_sand_worm_spawn_egg": "Minor Sand Worm Spawn Egg",

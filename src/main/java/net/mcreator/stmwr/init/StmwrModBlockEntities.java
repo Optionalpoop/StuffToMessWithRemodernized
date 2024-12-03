@@ -15,6 +15,7 @@ import net.mcreator.stmwr.block.entity.UpgradeStationBlockEntity;
 import net.mcreator.stmwr.block.entity.SpellBookApplicatorBlockEntity;
 import net.mcreator.stmwr.block.entity.ModifierTableBlockEntity;
 import net.mcreator.stmwr.block.entity.MasterCubbyCubeBlockEntity;
+import net.mcreator.stmwr.block.entity.CoinPressBlockEntity;
 import net.mcreator.stmwr.block.entity.BasicCubbyCubeBlockEntity;
 import net.mcreator.stmwr.block.entity.AdvancedCubbyCubeBlockEntity;
 import net.mcreator.stmwr.StmwrMod;
@@ -27,6 +28,7 @@ public class StmwrModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> MASTER_CUBBY_CUBE = register("master_cubby_cube", StmwrModBlocks.MASTER_CUBBY_CUBE, MasterCubbyCubeBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> UPGRADE_STATION = register("upgrade_station", StmwrModBlocks.UPGRADE_STATION, UpgradeStationBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> SPELL_BOOK_APPLICATOR = register("spell_book_applicator", StmwrModBlocks.SPELL_BOOK_APPLICATOR, SpellBookApplicatorBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> COIN_PRESS = register("coin_press", StmwrModBlocks.COIN_PRESS, CoinPressBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));

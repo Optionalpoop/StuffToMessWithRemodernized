@@ -486,6 +486,7 @@ public class StmwrModItems {
 	public static final RegistryObject<Item> MILITARIA_AMBIENCE = REGISTRY.register("militaria_ambience", () -> new MilitariaAmbienceItem());
 	public static final RegistryObject<Item> TITAN_KING_MUSIC = REGISTRY.register("titan_king_music", () -> new TitanKingMusicItem());
 	public static final RegistryObject<Item> MUTANT_MUSIC = REGISTRY.register("mutant_music", () -> new MutantMusicItem());
+	public static final RegistryObject<Item> COIN_PRESS = block(StmwrModBlocks.COIN_PRESS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

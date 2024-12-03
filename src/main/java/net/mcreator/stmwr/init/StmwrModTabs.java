@@ -174,6 +174,7 @@ public class StmwrModTabs {
 				tabData.accept(StmwrModItems.MILITARIA_AMBIENCE.get());
 				tabData.accept(StmwrModItems.TITAN_KING_MUSIC.get());
 				tabData.accept(StmwrModItems.MUTANT_MUSIC.get());
+				tabData.accept(StmwrModBlocks.COIN_PRESS.get().asItem());
 			})
 
 					.build());

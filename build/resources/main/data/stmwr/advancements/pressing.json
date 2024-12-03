@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "stmwr:coin_press"
+    },
+    "title": {
+      "translate": "advancements.pressing.title"
+    },
+    "description": {
+      "translate": "advancements.pressing.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pressing_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stmwr:coin_press"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "stmwr:blocks/general_loot_crate"
+    ]
+  },
+  "parent": "stmwr:stmw_trials"
+}

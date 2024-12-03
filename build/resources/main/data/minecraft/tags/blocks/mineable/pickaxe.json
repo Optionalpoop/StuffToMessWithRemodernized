@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "stmwr:coin_press",
     "stmwr:arms_dealer_trading_block",
     "stmwr:gigantum_block",
     "stmwr:gigantum_ore",

@@ -18,6 +18,7 @@ import net.mcreator.stmwr.client.gui.SpellBookApplicatorGUIScreen;
 import net.mcreator.stmwr.client.gui.ModifiersTableScreen;
 import net.mcreator.stmwr.client.gui.MasterCubbyPackGUIScreen;
 import net.mcreator.stmwr.client.gui.MasterCubbyCubeGUIScreen;
+import net.mcreator.stmwr.client.gui.CoinPressGUIScreen;
 import net.mcreator.stmwr.client.gui.BasicCubbyPackGUIScreen;
 import net.mcreator.stmwr.client.gui.BasicCubbyCubeGUIScreen;
 import net.mcreator.stmwr.client.gui.AdvancedCubbyPackGUIScreen;
@@ -39,6 +40,7 @@ public class StmwrModScreens {
 			MenuScreens.register(StmwrModMenus.UPGRADE_STATION_TUTORIAL_SHEET_GUI.get(), UpgradeStationTutorialSheetGUIScreen::new);
 			MenuScreens.register(StmwrModMenus.SPELL_BOOK_APPLICATOR_GUI.get(), SpellBookApplicatorGUIScreen::new);
 			MenuScreens.register(StmwrModMenus.SPELL_BOOK_APPLICATOR_TUTORIAL_SHEET_GUI.get(), SpellBookApplicatorTutorialSheetGUIScreen::new);
+			MenuScreens.register(StmwrModMenus.COIN_PRESS_GUI.get(), CoinPressGUIScreen::new);
 		});
 	}
 }
